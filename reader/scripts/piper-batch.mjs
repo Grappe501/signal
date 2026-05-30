@@ -22,7 +22,8 @@ import {
 import { join, dirname, basename } from "path";
 import { fileURLToPath } from "url";
 import { CHAPTERS } from "./chapters.mjs";
-import { chapterSpeechPayload, markdownToPlainText, readChapterMarkdown } from "./speech-text.mjs";
+import { chapterSpeechPayload } from "./speech-text.mjs";
+import { probeDuration, buildChapterTimingSidecar } from "./audio-timing.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -39,6 +40,7 @@ function parseArgs(argv) {
     piper: process.env.PIPER_BIN || "piper",
     model: process.env.PIPER_MODEL || "",
     ffmpeg: process.env.FFMPEG_BIN || "ffmpeg",
+    ffprobe: process.env.FFPROBE_BIN || "ffprobe",
   };
   for (let i = 2; i < argv.length; i++) {
     const a = argv[i];
@@ -162,7 +164,7 @@ function main() {
   if (args.limit > 0) chapters = chapters.slice(0, args.limit);
 
   const manifest = {
-    version: 1,
+    version: 2,
     generatedAt: new Date().toISOString(),
     voice: model ? basename(model).replace(/\.onnx$/, "") : "unset",
     format: ext,
@@ -190,6 +192,7 @@ function main() {
         }
         const name = `${String(si).padStart(4, "0")}.${ext}`;
         const outPath = join(segDir, name);
+        let dur = 0;
         if (!args.dryRun) {
           const wavPath = outPath.replace(/\.mp3$/, ".wav");
           runPiper(args.piper, model, block.text, wavPath.endsWith(".wav") ? wavPath : outPath);
@@ -197,12 +200,14 @@ function main() {
             wavToMp3(args.ffmpeg, wavPath, outPath);
             rmSync(wavPath, { force: true });
           }
+          dur = probeDuration(args.ffprobe, outPath);
         }
         segments.push({
           index: si++,
           kind: "speech",
           file: `${ch.id}/${name}`,
           bytes: args.dryRun ? 0 : fileSize(outPath),
+          duration: dur,
         });
         built++;
         console.log(`  ${ch.id} ¶${si} ${block.text.slice(0, 48)}…`);
@@ -211,6 +216,7 @@ function main() {
     } else {
       const name = `${ch.id}.${ext}`;
       const outPath = join(AUDIO_DIR, name);
+      let duration = 0;
       if (args.dryRun) {
         console.log(`[dry] ${ch.id} ${payload.fullText.length} chars → ${name}`);
       } else {
@@ -221,12 +227,17 @@ function main() {
           wavToMp3(args.ffmpeg, wavPath, outPath);
           rmSync(wavPath, { force: true });
         }
+        duration = probeDuration(args.ffprobe, outPath);
+        const timing = buildChapterTimingSidecar(payload.blocks, duration);
+        writeFileSync(join(AUDIO_DIR, `${ch.id}.timing.json`), JSON.stringify(timing, null, 2));
       }
       manifest.chapters[ch.id] = {
         mode: "chapter",
         file: name,
         bytes: args.dryRun ? 0 : fileSize(outPath),
         charCount: payload.fullText.length,
+        duration,
+        timing: `${ch.id}.timing.json`,
       };
       built++;
     }

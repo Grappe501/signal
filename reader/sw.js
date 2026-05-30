@@ -1,5 +1,5 @@
 /* Service worker — offline app shell + cache visited chapters */
-const CACHE_VERSION = "signal-reader-v4";
+const CACHE_VERSION = "signal-reader-v5";
 const SHELL = [
   "/",
   "/index.html",
@@ -10,6 +10,10 @@ const SHELL = [
   "/js/prefetch.js",
   "/js/touch.js",
   "/js/listen-script.js",
+  "/js/listen-presets.js",
+  "/js/audio-timeline.js",
+  "/js/hosted-audio.js",
+  "/js/audio-session.js",
   "/js/bookmarks.js",
   "/js/search.js",
   "/js/share.js",
@@ -41,6 +45,10 @@ function isChapterAsset(pathname) {
   return pathname.startsWith("/content/") && pathname.endsWith(".md");
 }
 
+function isAudioAsset(pathname) {
+  return pathname.startsWith("/audio/") && /\.(mp3|wav|json)$/i.test(pathname);
+}
+
 self.addEventListener("fetch", (event) => {
   if (event.request.method !== "GET") return;
 
@@ -48,6 +56,21 @@ self.addEventListener("fetch", (event) => {
   if (url.origin !== self.location.origin) return;
 
   if (url.pathname.startsWith("/api/")) return;
+
+  if (isAudioAsset(url.pathname)) {
+    event.respondWith(
+      fetch(event.request)
+        .then((response) => {
+          if (response.ok) {
+            const copy = response.clone();
+            caches.open(CACHE_VERSION).then((c) => c.put(event.request, copy));
+          }
+          return response;
+        })
+        .catch(() => caches.match(event.request))
+    );
+    return;
+  }
 
   if (isChapterAsset(url.pathname)) {
     event.respondWith(

@@ -73,6 +73,16 @@ Settings key: `signal-reader-v3.3` (includes `bookmarks` array).
 
 **Hosted (Piper MP3)** — optional self-hosted narration (`npm run piper:batch`); see `audio/README.md`. No API cost; deploy `reader/audio/` with your site (~2–4 GB full book).
 
+## v5 — Major audio upgrade
+
+- **Auto engine** — picks Hosted Piper when deployed, else smart device voice
+- **Audiobook player** — chapter scrubber, elapsed/remaining, ±15s skip, volume, sleep timer
+- **Sentence read-along** — highlights the active sentence inside each cue (device voice)
+- **Timing sidecars** — `audio/ch-XX.timing.json` from Piper batch (ffprobe) for tighter hosted sync
+- **Lock screen** — Media Session position, seek ±15s, prev/next **chapter** and ¶
+- **Prefetch** — next chapter hosted audio + timing when listening
+- **Offline** — service worker caches visited `/audio/` files
+
 **Character dialogue** — attributed lines (`Mara said`, etc.) use distinct rate/pitch (and a second device voice when available).
 
 **Lock screen** — Media Session shows chapter title; play/pause from Control Center on supported devices.

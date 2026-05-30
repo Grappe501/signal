@@ -21,8 +21,10 @@ npm run piper:batch    # one file per chapter → audio/ch-01.mp3, …
 
 | Mode | Command | Output | Reader sync |
 |------|---------|--------|-------------|
-| **chapter** (default) | `npm run piper:batch` | `audio/ch-01.mp3` | Read-along via weighted timeline |
-| **segment** | `npm run piper:batch -- --mode segment` | `audio/ch-01/0000.mp3` per paragraph | Plays files in order; approximate ¶ sync |
+| **chapter** (default) | `npm run piper:batch` | `audio/ch-01.mp3` + `ch-01.timing.json` | Read-along via **timing sidecar** (ffprobe duration) |
+| **segment** | `npm run piper:batch -- --mode segment` | `audio/ch-01/0000.mp3` per paragraph | Per-file duration in manifest; scrub + ¶ advance |
+
+After batch, manifest is **v2** with `duration` and `timing` paths. Re-run batch when prose changes.
 
 ## Useful flags
 

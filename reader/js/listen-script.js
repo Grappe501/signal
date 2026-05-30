@@ -346,6 +346,17 @@ const ListenScript = (() => {
       .replace(/"/g, "&quot;");
   }
 
+  function sentencesHtml(text) {
+    const parts = text.split(/(?<=[.!?…])\s+/).filter((p) => p.trim().length > 1);
+    if (parts.length < 2) return escapeHtml(text);
+    return parts
+      .map(
+        (s, i) =>
+          `<span class="tts-sentence" data-tts-sent="${i}">${escapeHtml(s.trim())}</span>`
+      )
+      .join(" ");
+  }
+
   /** Wrap each speakable cue in a span for read-along highlighting. */
   function annotateCuesInElement(el, cues) {
     if (!el || el.dataset.ttsAnnotated === "1") return;
@@ -364,7 +375,7 @@ const ListenScript = (() => {
         const speakerAttr = c.speakerLabel
           ? ` data-tts-speaker="${escapeHtml(c.speakerLabel)}"`
           : "";
-        return `<span class="tts-cue" data-tts-cue="${cueIdx}" data-tts-role="${role}"${speakerAttr}>${escapeHtml(c.text)}</span>`;
+        return `<span class="tts-cue" data-tts-cue="${cueIdx}" data-tts-role="${role}"${speakerAttr}>${sentencesHtml(c.text)}</span>`;
       })
       .filter(Boolean)
       .join(" ");
@@ -375,7 +386,21 @@ const ListenScript = (() => {
     cues.forEach((c, cueIdx) => {
       if (c.role === "sceneBreak" || !c.text?.trim()) return;
       c.spanEl = el.querySelector(`[data-tts-cue="${cueIdx}"]`);
+      const sentences = c.spanEl?.querySelectorAll(".tts-sentence");
+      c.sentenceCount = sentences?.length || 1;
     });
+  }
+
+  function highlightSentence(cueSpan, sentenceIdx) {
+    if (!cueSpan) return;
+    cueSpan.querySelectorAll(".tts-sentence-active").forEach((n) => {
+      n.classList.remove("tts-sentence-active");
+    });
+    const sent = cueSpan.querySelector(`[data-tts-sent="${sentenceIdx}"]`);
+    if (sent) {
+      sent.classList.add("tts-sentence-active");
+      sent.scrollIntoView({ block: "nearest", behavior: "smooth" });
+    }
   }
 
   function restoreElementMarkup(el) {
@@ -503,6 +528,7 @@ const ListenScript = (() => {
   return {
     buildSegments,
     annotateCuesInElement,
+    highlightSentence,
     restoreChapterMarkup,
     normalizeText,
     flattenSegmentText,

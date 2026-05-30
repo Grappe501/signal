@@ -12,6 +12,7 @@ audio/*.mp3
 audio/**/*.wav
 audio/**/*.mp3
 audio/manifest.json
+audio/*.timing.json
 !audio/.gitkeep
 !audio/README.md
 !audio/manifest.example.json

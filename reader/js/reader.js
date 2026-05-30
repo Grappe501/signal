@@ -30,6 +30,9 @@ function migrateStoredSettings(saved) {
   if (out.listenDirector === undefined) out.listenDirector = true;
   if (out.listenPacing == null) out.listenPacing = 1;
   if (!out.listenPreset) out.listenPreset = "standard";
+  if (out.audioVolume == null) out.audioVolume = 1;
+  if (out.listenSleepMin == null) out.listenSleepMin = 0;
+  if (!out.ttsEngine) out.ttsEngine = "auto";
   if (out.scrollPositions) {
     for (const key of Object.keys(out.scrollPositions)) {
       out.scrollPositions[key] = normalizeScrollPosition(out.scrollPositions[key]);
@@ -83,7 +86,9 @@ function defaults() {
     pageSpreads: {},
     speechRate: 1,
     speechVoice: "",
-    ttsEngine: "browser",
+    ttsEngine: "auto",
+    audioVolume: 1,
+    listenSleepMin: 0,
     listenDirector: true,
     listenPacing: 1,
     listenPreset: "standard",
@@ -795,6 +800,22 @@ async function init() {
     getSettings: () => settings,
     saveSettings,
     onPlayerVisibility: syncTtsPlayerLayout,
+    onPrevChapter: () => {
+      const ch = currentChapterId ? chapterIndex[currentChapterId] : null;
+      if (ch) navigateChapter("prev");
+    },
+    onNextChapter: () => {
+      const ch = currentChapterId ? chapterIndex[currentChapterId] : null;
+      if (ch) navigateChapter("next");
+    },
+    onPrefetchChapter: (id) => {
+      const ch = chapterIndex[id];
+      if (!ch) return;
+      const next = getNavChapter(ch, "next");
+      if (next && typeof HostedAudio !== "undefined") {
+        HostedAudio.prefetchChapter(next.id);
+      }
+    },
   });
 
   TouchNav.init({

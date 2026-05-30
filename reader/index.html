@@ -199,12 +199,28 @@
 
       <div id="tts-player" class="tts-player hidden" role="region" aria-label="Listen">
         <div class="tts-player-inner">
-          <p id="tts-player-title" class="tts-player-title"></p>
+          <div class="tts-player-head">
+            <p id="tts-player-title" class="tts-player-title"></p>
+            <span id="tts-status-inline" class="tts-status-inline" aria-live="polite"></span>
+          </div>
+          <div class="tts-scrub-wrap">
+            <input type="range" id="tts-scrub" class="tts-scrub" min="0" max="1000" value="0" step="1" aria-label="Chapter playback position" disabled>
+            <div class="tts-time-row">
+              <span id="tts-elapsed">0:00</span>
+              <span id="tts-remaining">0:00</span>
+            </div>
+          </div>
           <div class="tts-player-controls">
+            <button type="button" id="tts-skip-back" class="tts-player-btn" aria-label="Back 15 seconds" title="−15s">−15</button>
             <button id="tts-prev" class="tts-player-btn" aria-label="Previous paragraph" title="Previous ¶">⏮</button>
             <button id="tts-play" class="tts-player-btn tts-player-btn-play" aria-label="Play" title="Play / Pause (Space)">▶</button>
             <button id="tts-next" class="tts-player-btn" aria-label="Next paragraph" title="Next ¶">⏭</button>
+            <button type="button" id="tts-skip-fwd" class="tts-player-btn" aria-label="Forward 15 seconds" title="+15s">+15</button>
             <button id="tts-stop" class="tts-player-btn" aria-label="Stop listening" title="Stop">■</button>
+          </div>
+          <div class="tts-player-meta">
+            <span id="tts-paragraph-label" class="tts-paragraph-label">¶ —</span>
+            <span id="tts-chapter-progress-label" class="tts-chapter-progress-label"></span>
           </div>
           <button type="button" id="tts-player-settings" class="tts-player-btn tts-player-settings" aria-label="Audio settings" title="Audio settings">⚙</button>
         </div>
@@ -225,6 +241,7 @@
         <label class="tts-setting">
           <span>Engine</span>
           <select id="tts-engine" aria-label="TTS engine">
+            <option value="auto">Auto (best available)</option>
             <option value="browser">Browser (device voice)</option>
             <option value="hosted">Hosted (Piper MP3)</option>
             <option value="elevenlabs">ElevenLabs (Pro)</option>
@@ -247,6 +264,20 @@
           <span>Speed</span>
           <input type="range" id="tts-rate" min="0.7" max="1.4" step="0.05" value="1">
           <span id="tts-rate-val">1×</span>
+        </label>
+        <label class="tts-setting">
+          <span>Volume <output id="tts-volume-val">100%</output></span>
+          <input type="range" id="tts-volume" min="0" max="1" step="0.05" value="1" aria-label="Volume">
+        </label>
+        <label class="tts-setting">
+          <span>Sleep timer</span>
+          <select id="tts-sleep" aria-label="Sleep timer">
+            <option value="0">Off</option>
+            <option value="15">15 min</option>
+            <option value="30">30 min</option>
+            <option value="45">45 min</option>
+            <option value="60">60 min</option>
+          </select>
         </label>
         <div class="tts-setting tts-api-wrap hidden" id="tts-api-wrap">
           <span>API key</span>
@@ -302,7 +333,9 @@
   <script src="js/touch.js"></script>
   <script src="js/listen-script.js"></script>
   <script src="js/listen-presets.js"></script>
+  <script src="js/audio-timeline.js"></script>
   <script src="js/hosted-audio.js"></script>
+  <script src="js/audio-session.js"></script>
   <script src="js/tts.js"></script>
   <script src="js/reader.js"></script>
   <script>

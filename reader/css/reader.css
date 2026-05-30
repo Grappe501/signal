@@ -118,7 +118,7 @@
   --sidebar-width: 9.25rem;
   --toolbar-height: 3.25rem;
   --bottom-nav-height: 3.75rem;
-  --tts-player-height: 4.75rem;
+  --tts-player-height: 7.5rem;
   --page-gap: 0.65rem;
   --font-scale: 1.05;
   --page-font: 1.1rem;
@@ -1548,6 +1548,13 @@ body.layout-spread .tap-zone-right { flex: 0 0 18%; max-width: 18%; }
   border-radius: 3px;
 }
 
+.tts-sentence-active {
+  background: color-mix(in srgb, var(--signal-bright) 22%, var(--signal-dim)) !important;
+  border-radius: 2px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
 /* Block container: subtle frame; active line is the .tts-cue span */
 .tts-segment.tts-active:not(.tts-scene-break) {
   background: color-mix(in srgb, var(--signal-dim) 35%, transparent) !important;
@@ -1672,10 +1679,21 @@ body.focus-mode .tts-player { left: 0; }
 
 .tts-player-inner {
   height: 100%;
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto auto auto auto;
+  gap: 0.2rem 0.5rem;
+  padding: 0.45rem 0.85rem 0.5rem;
   align-items: center;
-  gap: 0.65rem;
-  padding: 0 1rem;
+}
+
+.tts-player-head {
+  grid-column: 1;
+  grid-row: 1;
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+  min-width: 0;
 }
 
 .tts-player-title {
@@ -1684,17 +1702,71 @@ body.focus-mode .tts-player { left: 0; }
   margin: 0;
   font-family: var(--font-sans);
   font-size: 0.68rem;
-  font-weight: 500;
+  font-weight: 600;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  opacity: 0.85;
+  opacity: 0.9;
+}
+
+.tts-status-inline {
+  font-family: var(--font-sans);
+  font-size: 0.62rem;
+  color: var(--signal-bright);
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.tts-scrub-wrap {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  width: 100%;
+}
+
+.tts-scrub {
+  width: 100%;
+  height: 4px;
+  accent-color: var(--signal-bright);
+  cursor: pointer;
+}
+
+.tts-scrub:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.tts-time-row {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font-sans);
+  font-size: 0.6rem;
+  opacity: 0.7;
+  margin-top: 0.1rem;
 }
 
 .tts-player-controls {
+  grid-column: 1;
+  grid-row: 3;
   display: flex;
   align-items: center;
-  gap: 0.4rem;
+  gap: 0.3rem;
+  flex-wrap: wrap;
+}
+
+.tts-player-meta {
+  grid-column: 1;
+  grid-row: 4;
+  display: flex;
+  gap: 0.65rem;
+  font-family: var(--font-sans);
+  font-size: 0.6rem;
+  opacity: 0.65;
+}
+
+.tts-player-settings {
+  grid-column: 2;
+  grid-row: 2 / 5;
+  align-self: center;
 }
 
 .tts-player-btn {
@@ -1730,9 +1802,14 @@ body.focus-mode .tts-player { left: 0; }
   animation: tts-pulse 0.8s ease-in-out infinite;
 }
 
-.tts-player-settings {
-  flex-shrink: 0;
-  margin-left: 0.15rem;
+#tts-skip-back,
+#tts-skip-fwd {
+  width: auto;
+  min-width: 2.1rem;
+  border-radius: 999px;
+  font-size: 0.62rem;
+  font-weight: 600;
+  padding: 0 0.35rem;
 }
 
 .bottom-btn {

@@ -4,6 +4,8 @@
 const HostedAudio = (() => {
   let manifest = null;
   let manifestPromise = null;
+  const timingCache = new Map();
+  const prefetching = new Set();
 
   async function loadManifest() {
     if (manifest) return manifest;
@@ -21,6 +23,7 @@ const HostedAudio = (() => {
   function resetManifest() {
     manifest = null;
     manifestPromise = null;
+    timingCache.clear();
   }
 
   async function isAvailable() {
@@ -33,71 +36,101 @@ const HostedAudio = (() => {
     return m?.chapters?.[chapterId] || null;
   }
 
+  async function loadChapterTiming(chapterId) {
+    if (timingCache.has(chapterId)) return timingCache.get(chapterId);
+    const url = `/audio/${chapterId}.timing.json`;
+    try {
+      const r = await fetch(url, { cache: "no-cache" });
+      if (r.ok) {
+        const data = await r.json();
+        timingCache.set(chapterId, data);
+        return data;
+      }
+    } catch {
+      /* no sidecar */
+    }
+    timingCache.set(chapterId, null);
+    return null;
+  }
+
   function audioUrl(relativeFile) {
     return `/audio/${relativeFile}`.replace(/\/+/g, "/");
   }
 
-  /** Weighted timeline for single-file chapter MP3 + read-along sync. */
-  function buildTimeline(segments) {
-    const segWeights = [];
-    let total = 0;
-
-    for (const seg of segments) {
-      let w = 0;
-      const cues = seg.cues || [{ text: seg.text, role: "narration" }];
-      for (const c of cues) {
-        if (c.role === "sceneBreak") w += 12;
-        else w += Math.max(1, (c.text || "").length);
+  function prefetchChapter(chapterId) {
+    if (!chapterId || prefetching.has(chapterId)) return;
+    loadManifest().then((m) => {
+      const entry = m?.chapters?.[chapterId];
+      if (!entry) return;
+      prefetching.add(chapterId);
+      if (entry.file) {
+        const link = document.createElement("link");
+        link.rel = "prefetch";
+        link.as = "audio";
+        link.href = audioUrl(entry.file);
+        document.head.appendChild(link);
+      } else if (entry.segments?.length) {
+        const first = entry.segments.find((s) => s.file);
+        if (first?.file) {
+          const link = document.createElement("link");
+          link.rel = "prefetch";
+          link.as = "audio";
+          link.href = audioUrl(first.file);
+          document.head.appendChild(link);
+        }
       }
-      segWeights.push(w);
-      total += w;
+      loadChapterTiming(chapterId);
+    });
+  }
+
+  /** Resolve best timeline for chapter playback + read-along. */
+  async function resolveTimeline(chapterId, entry, segments) {
+    if (typeof AudioTimeline === "undefined") {
+      return { timeline: null, duration: entry?.duration || 0 };
     }
 
-    if (!total) return { segmentAt: () => 0, cueAt: () => 0 };
-
-    const segStarts = [];
-    let acc = 0;
-    for (const w of segWeights) {
-      segStarts.push(acc / total);
-      acc += w;
-    }
-
-    function locateSegment(ratio) {
-      const r = Math.max(0, Math.min(0.9999, ratio));
-      for (let i = segStarts.length - 1; i >= 0; i--) {
-        if (r >= segStarts[i]) return i;
+    if (entry?.mode === "segment" && entry.segments?.length) {
+      const files = entry.segments.filter((s) => s.kind === "speech" && s.file);
+      if (files.some((f) => f.duration > 0)) {
+        return {
+          timeline: AudioTimeline.fromSegmentDurations(files, segments),
+          duration: files.reduce((s, f) => s + (f.duration || 0), 0),
+        };
       }
-      return 0;
     }
 
-    function cueAt(segIndex, ratio) {
-      const seg = segments[segIndex];
-      if (!seg?.cues?.length) return 0;
-      const segStart = segStarts[segIndex];
-      const segEnd = segIndex < segStarts.length - 1 ? segStarts[segIndex + 1] : 1;
-      const span = segEnd - segStart || 1;
-      const local = (ratio - segStart) / span;
+    const timing = await loadChapterTiming(chapterId);
+    const fromSidecar = AudioTimeline.fromTimingSidecar(timing, segments);
+    if (fromSidecar) {
+      return { timeline: fromSidecar, duration: fromSidecar.duration };
+    }
 
-      const cueWeights = seg.cues.map((c) =>
-        c.role === "sceneBreak" ? 12 : Math.max(1, (c.text || "").length)
+    if (entry?.duration > 0) {
+      const tl = AudioTimeline.fromTimingSidecar(
+        { duration: entry.duration, cues: timing?.cues },
+        segments
       );
-      const cueTotal = cueWeights.reduce((a, b) => a + b, 0) || 1;
-      let cAcc = 0;
-      for (let i = 0; i < cueWeights.length; i++) {
-        cAcc += cueWeights[i] / cueTotal;
-        if (local <= cAcc) return i;
-      }
-      return Math.max(0, seg.cues.length - 1);
+      if (tl) return { timeline: tl, duration: entry.duration };
     }
 
     return {
-      segmentAt(ratio) {
-        return locateSegment(ratio);
-      },
-      cueAt(segIndex, ratio) {
-        return cueAt(segIndex, ratio);
-      },
+      timeline: AudioTimeline.fromWeights(segments),
+      duration: entry?.duration || 0,
     };
+  }
+
+  function buildTimeline(segments) {
+    if (typeof AudioTimeline !== "undefined") {
+      return AudioTimeline.fromWeights(segments);
+    }
+    return null;
+  }
+
+  function pickAutoEngine(hostedOk, hasSpeech, elevenLabsOk) {
+    if (hostedOk) return "hosted";
+    if (hasSpeech) return "browser";
+    if (elevenLabsOk) return "elevenlabs";
+    return "browser";
   }
 
   return {
@@ -105,8 +138,12 @@ const HostedAudio = (() => {
     resetManifest,
     isAvailable,
     chapterEntry,
+    loadChapterTiming,
     audioUrl,
+    prefetchChapter,
+    resolveTimeline,
     buildTimeline,
+    pickAutoEngine,
   };
 })();
 

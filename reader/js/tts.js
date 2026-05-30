@@ -37,6 +37,14 @@ const TTS = (() => {
   let hostedTimeline = null;
   let hostedChapterEntry = null;
   let hostedFileIndex = 0;
+  let onPrevChapter = null;
+  let onNextChapter = null;
+  let onPrefetchChapter = null;
+  let chapterTimeline = null;
+  let scrubbing = false;
+  let sentencePulseTimer = null;
+  let sleepTimerId = null;
+  let lastTimelinePos = { segment: -1, cue: -1, sentence: -1 };
 
   const $ = (id) => document.getElementById(id);
 
@@ -121,7 +129,173 @@ const TTS = (() => {
   }
 
   function engine() {
-    return getSettings().ttsEngine || "browser";
+    const raw = getSettings().ttsEngine || "auto";
+    if (raw !== "auto") return raw;
+    if (hostedAvailable) return "hosted";
+    if ("speechSynthesis" in window) return "browser";
+    if (proxyAvailable || getSettings().elevenLabsApiKey) return "elevenlabs";
+    return "browser";
+  }
+
+  function isFilePlayback() {
+    const e = engine();
+    return (e === "hosted" || e === "elevenlabs") && !!audio;
+  }
+
+  function applyAudioVolume() {
+    if (!audio) return;
+    audio.volume = Math.min(1, Math.max(0, getSettings().audioVolume ?? 1));
+  }
+
+  function stopSentencePulse() {
+    if (sentencePulseTimer) {
+      clearInterval(sentencePulseTimer);
+      sentencePulseTimer = null;
+    }
+    document.querySelectorAll(".tts-sentence-active").forEach((el) => {
+      el.classList.remove("tts-sentence-active");
+    });
+  }
+
+  function estimateUtteranceMs(text, rate = 1) {
+    const charsPerSec = 13.5 * rate;
+    return Math.max(400, (text.length / charsPerSec) * 1000);
+  }
+
+  function startSentencePulse(cue, chunkText) {
+    stopSentencePulse();
+    if (engine() !== "browser" || !cue?.spanEl || typeof ListenScript === "undefined") return;
+    const sents = cue.spanEl.querySelectorAll(".tts-sentence");
+    if (sents.length < 2) return;
+    const rate = getSettings().speechRate || 1;
+    const ms = estimateUtteranceMs(chunkText, rate) / sents.length;
+    let si = 0;
+    ListenScript.highlightSentence(cue.spanEl, 0);
+    sentencePulseTimer = setInterval(() => {
+      si++;
+      if (si >= sents.length) {
+        stopSentencePulse();
+        return;
+      }
+      ListenScript.highlightSentence(cue.spanEl, si);
+    }, ms);
+  }
+
+  function armSleepTimer() {
+    if (sleepTimerId) {
+      clearTimeout(sleepTimerId);
+      sleepTimerId = null;
+    }
+    const min = parseInt(getSettings().listenSleepMin || "0", 10);
+    if (!min) return;
+    sleepTimerId = setTimeout(
+      () => {
+        hidePanel();
+        setStatus(`Sleep timer · stopped after ${min} min`);
+      },
+      min * 60 * 1000
+    );
+  }
+
+  function updatePlaybackUi() {
+    const scrub = $("tts-scrub");
+    const elapsed = $("tts-elapsed");
+    const remaining = $("tts-remaining");
+    const para = $("tts-paragraph-label");
+    const chProg = $("tts-chapter-progress-label");
+    const inline = $("tts-status-inline");
+
+    if (para && segments.length) {
+      para.textContent = `¶ ${index + 1} / ${segments.length}`;
+    }
+
+    if (inline) inline.textContent = statusLabel();
+
+    if (audio && audio.duration > 0 && isFilePlayback()) {
+      if (scrub && !scrubbing) {
+        scrub.disabled = false;
+        scrub.value = String(Math.round((audio.currentTime / audio.duration) * 1000));
+      }
+      if (elapsed) {
+        elapsed.textContent =
+          typeof AudioTimeline !== "undefined"
+            ? AudioTimeline.formatTime(audio.currentTime)
+            : "0:00";
+      }
+      if (remaining) {
+        const left = Math.max(0, audio.duration - audio.currentTime);
+        remaining.textContent =
+          typeof AudioTimeline !== "undefined"
+            ? `−${AudioTimeline.formatTime(left)}`
+            : "";
+      }
+      if (typeof AudioSession !== "undefined") {
+        AudioSession.setPositionState(
+          audio.duration,
+          audio.currentTime,
+          audio.playbackRate || 1
+        );
+      }
+    } else {
+      if (scrub) {
+        scrub.disabled = true;
+        if (!scrubbing) scrub.value = "0";
+      }
+      if (elapsed) elapsed.textContent = "0:00";
+      if (remaining) remaining.textContent = "";
+      const fill = $("tts-progress-fill");
+      if (fill && segments.length) {
+        fill.style.width = `${((index + 1) / segments.length) * 100}%`;
+      }
+    }
+
+    if (chProg && chapterMeta?.num != null) {
+      chProg.textContent = `Ch ${chapterMeta.num}`;
+    } else if (chProg) {
+      chProg.textContent = chapterMeta?.id === "prologue" ? "Prologue" : "";
+    }
+  }
+
+  function applyTimelinePosition(pos) {
+    if (!pos) return;
+    if (
+      pos.segment === lastTimelinePos.segment &&
+      pos.cue === lastTimelinePos.cue &&
+      pos.sentence === lastTimelinePos.sentence
+    ) {
+      return;
+    }
+    lastTimelinePos = { ...pos };
+    index = pos.segment;
+    cueIndex = pos.cue;
+    highlightCue(pos.segment, pos.cue);
+    const cue = segments[pos.segment]?.cues?.[pos.cue];
+    if (cue?.spanEl && typeof ListenScript !== "undefined") {
+      ListenScript.highlightSentence(cue.spanEl, pos.sentence || 0);
+    }
+  }
+
+  function onFileTimeUpdate() {
+    if (!audio?.duration || !chapterTimeline) return;
+    const pos = chapterTimeline.locate(audio.currentTime, audio.duration);
+    applyTimelinePosition(pos);
+    updatePlaybackUi();
+  }
+
+  function skipSeconds(delta) {
+    if (audio && audio.duration) {
+      audio.currentTime = Math.max(0, Math.min(audio.duration, audio.currentTime + delta));
+      onFileTimeUpdate();
+      return;
+    }
+    if (delta < 0) prev();
+    else next();
+  }
+
+  function seekToRatio(ratio) {
+    if (!audio?.duration) return;
+    audio.currentTime = Math.max(0, Math.min(1, ratio)) * audio.duration;
+    onFileTimeUpdate();
   }
 
   async function elevenLabsAvailable() {
@@ -154,8 +328,12 @@ const TTS = (() => {
         : "Plain device voice. Enable Smart narration below for audiobook pacing.";
     } else if (engine() === "hosted") {
       hint.textContent = hostedAvailable
-        ? "Self-hosted Piper audio — no API cost; bandwidth only (~2–4 GB full book)."
+        ? "Self-hosted Piper · timing sidecar sync when present · prefetch next chapter."
         : "No audio/manifest.json yet. Run npm run piper:batch locally, deploy reader/audio/.";
+    } else if ((getSettings().ttsEngine || "auto") === "auto") {
+      hint.textContent = hostedAvailable
+        ? "Auto → Hosted Piper (deployed). Falls back to device voice."
+        : "Auto → Device voice (smart narration). Add Piper audio for hosted upgrade.";
     } else if (proxyAvailable || s.elevenLabsApiKey) {
       hint.textContent = "ElevenLabs narration — high quality, requires API access.";
     } else {
@@ -254,46 +432,16 @@ const TTS = (() => {
   }
 
   function updateMediaSession(ch) {
-    if (!ch || !("mediaSession" in navigator)) return;
-    const label = ch.num != null ? `Chapter ${ch.num}` : "Prologue";
-    try {
-      navigator.mediaSession.metadata = new MediaMetadata({
-        title: ch.title,
-        artist: `${label} · ${ch.pov}`,
-        album: "The Second Self",
-      });
-      navigator.mediaSession.playbackState = speaking && !paused ? "playing" : "paused";
-    } catch {
-      /* MediaMetadata unsupported */
+    if (typeof AudioSession === "undefined") return;
+    if (ch) AudioSession.setMetadata(ch);
+    AudioSession.setPlaybackState(speaking && !paused);
+    if (audio?.duration) {
+      AudioSession.setPositionState(audio.duration, audio.currentTime, audio.playbackRate || 1);
     }
-
-    const safeHandler = (fn) => {
-      try {
-        navigator.mediaSession.setActionHandler(fn, () => {
-          if (fn === "play") toggle();
-          if (fn === "pause") toggle();
-          if (fn === "previoustrack") prev();
-          if (fn === "nexttrack") next();
-        });
-      } catch {
-        /* handler not supported */
-      }
-    };
-
-    safeHandler("play");
-    safeHandler("pause");
-    safeHandler("previoustrack");
-    safeHandler("nexttrack");
   }
 
   function clearMediaSession() {
-    if (!("mediaSession" in navigator)) return;
-    try {
-      navigator.mediaSession.metadata = null;
-      navigator.mediaSession.playbackState = "none";
-    } catch {
-      /* ignore */
-    }
+    if (typeof AudioSession !== "undefined") AudioSession.clear();
   }
 
   function highlightCue(segIndex, cueIdx = 0) {
@@ -336,9 +484,10 @@ const TTS = (() => {
     const segLabel = $("tts-segment");
     if (segLabel) segLabel.textContent = segments.length ? `${segIndex + 1} / ${segments.length}` : "0 / 0";
     const fill = $("tts-progress-fill");
-    if (fill && segments.length) {
+    if (fill && segments.length && !isFilePlayback()) {
       fill.style.width = `${((segIndex + 1) / segments.length) * 100}%`;
     }
+    updatePlaybackUi();
   }
 
   function highlight(i) {
@@ -348,6 +497,9 @@ const TTS = (() => {
   function setStatus(msg) {
     const el = $("tts-status");
     if (el) el.textContent = msg || "";
+    const inline = $("tts-status-inline");
+    if (inline && msg) inline.textContent = msg;
+    else if (inline && speaking) inline.textContent = statusLabel();
   }
 
   function updatePlayBtn() {
@@ -442,6 +594,7 @@ const TTS = (() => {
     audio.playsInline = true;
     audio.setAttribute("playsinline", "");
     audio.playbackRate = getSettings().speechRate || 1;
+    applyAudioVolume();
     return audio;
   }
 
@@ -454,8 +607,12 @@ const TTS = (() => {
     cueIndex = 0;
     currentCue = null;
     stopIosKeepAlive();
+    stopSentencePulse();
     releaseWakeLock();
     clearMediaSession();
+    lastTimelinePos = { segment: -1, cue: -1, sentence: -1 };
+    chapterTimeline = null;
+    updatePlaybackUi();
     if (engine() === "browser") speechSynthesis.cancel();
     releaseAudio();
     speaking = false;
@@ -582,6 +739,7 @@ const TTS = (() => {
       loading = false;
       updatePlayBtn();
       highlightCue(index, cueIndex);
+      startSentencePulse(currentCue, textChunks[chunkIndex]);
       const tag = statusLabel();
       const progress =
         seg.cues.length > 1 || textChunks.length > 1
@@ -889,6 +1047,8 @@ const TTS = (() => {
   }
 
   async function playHostedChapterFile(entry) {
+    chapterTimeline = null;
+    hostedTimeline = null;
     releaseAudio();
     clearHostedSync();
     loading = true;
@@ -901,23 +1061,17 @@ const TTS = (() => {
     audio.playsInline = true;
     audio.setAttribute("playsinline", "");
     audio.playbackRate = getSettings().speechRate || 1;
-    hostedTimeline = HostedAudio.buildTimeline(segments);
-    let lastSeg = -1;
-    let lastCue = -1;
+    applyAudioVolume();
+    const resolved = await HostedAudio.resolveTimeline(
+      chapterMeta?.id,
+      entry,
+      segments
+    );
+    chapterTimeline = resolved.timeline;
+    hostedTimeline = chapterTimeline;
+    if (entry.duration && chapterTimeline) chapterTimeline.duration = entry.duration;
 
-    audio.ontimeupdate = () => {
-      if (!audio.duration || !hostedTimeline) return;
-      const ratio = audio.currentTime / audio.duration;
-      const si = hostedTimeline.segmentAt(ratio);
-      const ci = hostedTimeline.cueAt(si, ratio);
-      if (si !== lastSeg || ci !== lastCue) {
-        lastSeg = si;
-        lastCue = ci;
-        index = si;
-        cueIndex = ci;
-        highlightCue(si, ci);
-      }
-    };
+    audio.ontimeupdate = onFileTimeUpdate;
 
     audio.onended = () => finishHostedChapter();
     audio.onerror = () => {
@@ -934,8 +1088,10 @@ const TTS = (() => {
       loading = false;
       requestWakeLock();
       if (chapterMeta) updateMediaSession(chapterMeta);
-      setStatus("Hosted");
+      setStatus(resolved.timeline?.kind === "sidecar" ? "Hosted · synced" : "Hosted");
       updatePlayBtn();
+      updatePlaybackUi();
+      armSleepTimer();
     } catch (e) {
       loading = false;
       speaking = false;
@@ -967,6 +1123,8 @@ const TTS = (() => {
     audio.playsInline = true;
     audio.setAttribute("playsinline", "");
     audio.playbackRate = getSettings().speechRate || 1;
+    applyAudioVolume();
+    chapterTimeline = null;
 
     audio.onended = () => {
       hostedFileIndex = fileIdx + 1;
@@ -1014,7 +1172,12 @@ const TTS = (() => {
     }
     hostedChapterEntry = entry;
     if (entry.mode === "segment" && hostedSpeechFiles(entry).length) {
-      hostedFileIndex = Math.min(index, hostedSpeechFiles(entry).length - 1);
+      const files = hostedSpeechFiles(entry);
+      if (typeof AudioTimeline !== "undefined") {
+        chapterTimeline = AudioTimeline.fromSegmentDurations(files, segments);
+        hostedTimeline = chapterTimeline;
+      }
+      hostedFileIndex = Math.min(index, files.length - 1);
       playHostedSegmentFile(hostedFileIndex);
       return;
     }
@@ -1117,6 +1280,7 @@ const TTS = (() => {
     }
     showPanel();
     paused = false;
+    armSleepTimer();
     speakCurrent();
   }
 
@@ -1136,6 +1300,8 @@ const TTS = (() => {
         paused = true;
       }
       updatePlayBtn();
+      updateMediaSession(chapterMeta);
+      updatePlaybackUi();
       return;
     }
 
@@ -1350,6 +1516,49 @@ const TTS = (() => {
       setStatus(s.elevenLabsApiKey ? "API key saved" : "");
     });
 
+    $("tts-skip-back")?.addEventListener("click", () => skipSeconds(-15));
+    $("tts-skip-fwd")?.addEventListener("click", () => skipSeconds(15));
+
+    const scrub = $("tts-scrub");
+    if (scrub) {
+      scrub.addEventListener("pointerdown", () => {
+        scrubbing = true;
+      });
+      scrub.addEventListener("input", (e) => {
+        const ratio = parseInt(e.target.value, 10) / 1000;
+        seekToRatio(ratio);
+      });
+      scrub.addEventListener("pointerup", () => {
+        scrubbing = false;
+      });
+    }
+
+    const vol = $("tts-volume");
+    const volVal = $("tts-volume-val");
+    if (vol) {
+      vol.value = getSettings().audioVolume ?? 1;
+      if (volVal) volVal.textContent = `${Math.round((vol.valueAsNumber || 1) * 100)}%`;
+      vol.addEventListener("input", (e) => {
+        const v = parseFloat(e.target.value);
+        const s = getSettings();
+        s.audioVolume = v;
+        saveSettings();
+        if (volVal) volVal.textContent = `${Math.round(v * 100)}%`;
+        applyAudioVolume();
+      });
+    }
+
+    const sleepSel = $("tts-sleep");
+    if (sleepSel) {
+      sleepSel.value = String(getSettings().listenSleepMin || 0);
+      sleepSel.addEventListener("change", (e) => {
+        const s = getSettings();
+        s.listenSleepMin = parseInt(e.target.value, 10) || 0;
+        saveSettings();
+        armSleepTimer();
+      });
+    }
+
     if ("speechSynthesis" in window) {
       speechSynthesis.onvoiceschanged = () => {
         if (engine() === "browser") populateBrowserVoices();
@@ -1373,11 +1582,33 @@ const TTS = (() => {
       getSettings = opts.getSettings;
       saveSettings = opts.saveSettings;
       onPlayerVisibility = opts.onPlayerVisibility || onPlayerVisibility;
+      onPrevChapter = opts.onPrevChapter || null;
+      onNextChapter = opts.onNextChapter || null;
+      onPrefetchChapter = opts.onPrefetchChapter || null;
+
+      if (typeof AudioSession !== "undefined") {
+        AudioSession.bind({
+          play: () => toggle(),
+          pause: () => toggle(),
+          prevParagraph: () => prev(),
+          nextParagraph: () => next(),
+          prevChapter: () => onPrevChapter?.(),
+          nextChapter: () => onNextChapter?.(),
+          seek: (delta) => skipSeconds(delta),
+          seekTo: (t) => {
+            if (audio?.duration) {
+              audio.currentTime = t;
+              onFileTimeUpdate();
+            }
+          },
+        });
+      }
+
       bindControls();
 
       const s = getSettings();
       const eng = $("tts-engine");
-      if (eng) eng.value = s.ttsEngine || "browser";
+      if (eng) eng.value = s.ttsEngine || "auto";
 
       const directorToggle = $("tts-director");
       if (directorToggle) directorToggle.checked = s.listenDirector !== false;
@@ -1432,6 +1663,10 @@ const TTS = (() => {
       if (listenBtn) {
         listenBtn.disabled = count === 0;
         listenBtn.title = count ? "Listen (L)" : "No readable text";
+      }
+
+      if (chapterMeta?.id && onPrefetchChapter) {
+        onPrefetchChapter(chapterMeta.id);
       }
 
       if (autoPlay && count > 0) play(0);
