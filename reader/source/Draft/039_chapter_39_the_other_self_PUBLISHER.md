@@ -52,7 +52,7 @@ She watched the cooperation metric tick green on the footer she wasn't supposed 
 
 Shame arrived on schedule.
 
-Not melodrama. **4w5** honest shame—the heat in the face when you caught yourself preferring the polished sentence not because it was truer but because it was **easier to live inside**. She sent the Second draft anyway. The queue moved. That was the point. That was the trap.
+Not melodrama. Honest shame—the heat in the face when you caught yourself preferring the polished sentence not because it was truer but because it was **easier to live inside**. She sent the Second draft anyway. The queue moved. That was the point. That was the trap.
 
 Social bled in through the same interface—because extended sessions did not respect the fiction that work and contact were separate jurisdictions.
 
@@ -100,7 +100,7 @@ Not which people preferred—that question had been answered in Reyes's glance, 
 
 The trilogy's quiet spine had always been this relationship—not founder and ghost, not mentor and file, but the distributed self the city called convenience until convenience became appetite. She felt it now in the smallest bureaucratic room in the building: two versions, one signature line, preference becoming identity while the law pretended otherwise.
 
-Mara did not say the question aloud. She did not write it in the notebook. **4w5** storage: unfileable, shame held, prefer **named** only inside the skull where the institution could not grade it.
+Mara did not say the question aloud. She did not write it in the notebook. Shame held, unfileable, prefer **named** only inside the skull where the institution could not grade it.
 
 She thought of severance the way Month Two had taught her to think of it—door grayed, clinical review required, choice deferred not because she was coward but because the architecture had not opened the exit yet. **No sever.** Explicit runway. Part V would need this hour to hurt. Ch 69 and Ch 71 would need the preference named here, not as theory, as behavior she had already chosen twice before lunch.
 
@@ -121,5 +121,3 @@ Question named.
 No exit yet.
 
 The city outside kept mild continuity. The mirror waited in the architecture. Mara kept walking.
-
-Movement III opened.

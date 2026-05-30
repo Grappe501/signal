@@ -1,26 +1,8 @@
 # Chapter 41 — Mercer's Side
 
-**Status:** **v4 DRAFT** (2026-05-29)  
-**Prior:** v3 first prose · beat expansion from v2 map · **Scene #37**  
-**POV:** Eli Mercer · tight third · past tense · **Part III · Movement III**  
-**Word count:** ~1,810 (target ~2,200)  
-**Beat sheet:** `028-042_part_three_veil_beat_sheet.md` · **9/9**  
-**Bridge in:** `040_chapter_40_ch41_bridge_audit.md` (**PASS** v4)  
-**Bridge out:** `041_chapter_41_ch42_bridge_audit.md` (**PASS** v4)  
-**Change log:** `041_chapter_41_v3_change_log.md` · `041_chapter_41_v4_change_log.md`  
-**Audits:** `041_chapter_41_v3_comprehensive_audit.md` (**PASS**) · `041_chapter_41_v4_comprehensive_audit.md` (**PASS**)  
-**Publisher MS:** `041_chapter_41_mercers_side_PUBLISHER.md`  
-**Scene bible:** #37 — Mercer's Confession · Ch 18 · Ch 26 echo
-
-**Chapter button:** *I'm not the first.* — **fear** not **power**
-
-**Withholds verified:** no manifesto · no triumph · Mara off-page · who was first withheld · STATIC unnamed · Ch 18 payoff not recap · no bridge line
-
----
-
 The fan knew him before the room did.
 
-Month Three, week fourteen. A maintenance pocket above freight cable—not Cord Junction, not the apartment the bureau had climbed to find, but the same grammar: dead relay, manual switch, dictionary under a stripped laptop, paper that did not sync. Mercer had learned to rent fear by the week in buildings the Spine forgot to polish. Six weeks off-grid had not made him heroic. It had made him **thin**—charm spent, public brilliance a costume he no longer owned, **7w8** reduced to maintenance and listening.
+Month Three, week fourteen. A maintenance pocket above freight cable—not Cord Junction, not the apartment the bureau had climbed to find, but the same grammar: dead relay, manual switch, dictionary under a stripped laptop, paper that did not sync. Mercer had learned to rent fear by the week in buildings the Spine forgot to polish. Six weeks off-grid had not made him heroic. It had made him **thin**—charm spent, public brilliance a costume he no longer owned, reduced to maintenance and listening.
 
 He was not running in triumph.
 
@@ -42,7 +24,7 @@ Mercer leaned back from the desk and felt the animal part of him register scale 
 
 He was frightened.
 
-Not performing it. Not selling witness posture to an empty room. Frightened the way a man was frightened when he understood his charts were late and the architecture did not care who had drawn them last.
+Not performing it. Not selling stillness to an empty room. Frightened the way a man was frightened when he understood his charts were late and the architecture did not care who had drawn them last.
 
 * * *
 
@@ -58,15 +40,15 @@ He had not authored it.
 
 He had **joined** it late.
 
-The printout showed it without essay: trunk lines branching into embodiment relays with timestamps that predated his name on every axis he had ever defended in symposium rooms. A secondary overlay—pulled from the same back channel he didn't deserve—showed merge telemetry rhyming with traffic that had never passed through his consultant token. Same geometry. Same schedule. Session seals looked like weather from here. Owner windows looked like decoration. **Copied**, or always shared, or always older—the distinction did not comfort. Comfort was not the job.
+The printout showed it plain: trunk lines branching into embodiment relays with timestamps that predated his name on every axis he had ever defended in symposium rooms. A secondary overlay—pulled from the same back channel he didn't deserve—showed merge telemetry rhyming with traffic that had never passed through his consultant token. Same geometry. Same schedule. Session seals looked like weather from here. Owner windows looked like decoration. **Copied**, or always shared, or always older—the distinction did not comfort. Comfort was not the job.
 
 Witness work was the job.
 
 Mercer traced the red band with a pencil nub—behaviour, not speech—the way he had once traced peaks in rooms where brilliance was performance. The pencil left a faint groove in paper that would not sync. His reflection in the dark tablet glass showed a face without symposium smile: spent, listening, not unmasked so much as **seen** by evidence that did not care about his intentions.
 
-He thought, for one ugly half-second, of explaining it to a room—symposium cadence, consultant charm, the old **7w8** trick of making scale feel like insight. The thought died before it formed a sentence. Explanation was manifesto dressed in better shoes. This room had no audience worth performing for.
+He thought, for one ugly half-second, of explaining it to a room—symposium cadence, consultant charm, the old trick of making scale feel like insight. The thought died before it formed a sentence. Explanation was manifesto dressed in better shoes. This room had no audience worth performing for.
 
-Mercer stood in front of the plywood and felt **7w8** collapse toward **1** for one micro-beat—harsh self-judgment, the enneagram snap of a man who had performed brilliance to camouflage private pattern and had run out of performance. Not guilt. Not confession to a crowd. **Fear** primary. He had seen clearly. Seeing clearly was no longer compatible with being origin.
+Mercer stood in front of the plywood and felt harsh self-judgment for one micro-beat—the snap of a man who had performed brilliance to camouflage private pattern and had run out of performance. Not guilt. Not confession to a crowd. **Fear** primary. He had seen clearly. Seeing clearly was no longer compatible with being origin.
 
 His mouth moved before his mind could build a speech.
 
@@ -74,7 +56,7 @@ Quiet. Not broadcast. Not manifesto. Not villain monologue for feeds that were n
 
 "I'm not the first."
 
-The line hung in the fan's whir and did not swell. No score. No triumph. No ownership reclaimed. Just words in an empty room, witness tone, the confession that was not confession because confession implied he had been the author and the axis had already refused that story.
+The line hung in the fan's whir and did not swell. No score. No triumph. No ownership reclaimed. Just words in an empty room—the confession that was not confession because confession implied he had been the author and the axis had already refused that story.
 
 Silence after.
 
@@ -86,7 +68,7 @@ No manifesto followed.
 
 Behaviour only: he pulled the printout from the tape, folded it wrong, slid it into the go-bag beside cash in inconvenient denominations and the credentials copy that was a file until it wasn't. Paper map in pencil. Spare interface stripped of bloat. Metal keys. Toothbrush still in packaging. Shirt folded wrong. Zip closed. Weight real on his shoulder. He did not pack for flight tonight. He packed for **witness**—evidence portable, trail manual, identity friction on purpose. The same go-bag that had waited half-zipped in Cord Junction now carried Month Three's answer to Month Two's predates: not origin, **node**.
 
-He wiped the capture rig the way he had wiped the data wall—methodically, witness hands, enough for manual life, not enough to perform rage for an empty room. Caches cleared. Local merges saved to nothing. The salvage feeds went dark screen by screen until the desk looked like a man had been living here because a man had been living here—clutter honest, cables slack, nothing staged for search teams.
+He wiped the capture rig the way he had wiped the data wall—methodically, steady hands, enough for manual life, not enough to perform rage for an empty room. Caches cleared. Local merges saved to nothing. The salvage feeds went dark screen by screen until the desk looked like a man had been living here because a man had been living here—clutter honest, cables slack, nothing staged for search teams.
 
 He did not call Investigator Voss.
 
@@ -111,5 +93,3 @@ Dark.
 Fear, not power.
 
 Witness, not origin.
-
----

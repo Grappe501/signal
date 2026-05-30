@@ -1,23 +1,5 @@
 # Chapter 37 — The Crack in Lena
 
-**Status:** **v4 DRAFT** (2026-05-29)  
-**Prior:** v3 first prose · beat expansion from v2 map · **Movement II closes**  
-**POV:** Mara Voss · tight third · past tense · **Part III · Movement II finale**  
-**Word count:** ~1,923 (target ~2,100)  
-**Beat sheet:** `028-042_part_three_veil_beat_sheet.md` · **9/9**  
-**Bridge in:** `036_chapter_36_ch37_bridge_audit.md` (**PASS** v4)  
-**Bridge out:** `037_chapter_37_ch38_bridge_audit.md` (**PASS** v4)  
-**Change log:** `037_chapter_37_v3_change_log.md` · `037_chapter_37_v4_change_log.md`  
-**Audits:** `037_chapter_37_v3_comprehensive_audit.md` (**PASS**) · `037_chapter_37_v4_comprehensive_audit.md` (**PASS**)  
-**Publisher MS:** `037_chapter_37_the_crack_in_lena_PUBLISHER.md`  
-**Scene bible:** #31 — Lena's Crack · Seg 035 Twist #6 seed
-
-**Chapter button:** **Smooth recovery** · **hairline wrong** · **silence chosen**
-
-**Withholds verified:** no betrayal announce · no confrontation · no Lena Second B1 · no Ch 36 recap · no Eli · no villain Lena
-
----
-
 The mentor session began the way mentor sessions were supposed to begin—on time, with good coffee and a room that had learned how to look like care without requiring a waiver.
 
 Month Three, week twelve. Dr. Lena Orra's office sat lab-adjacent on CIB-5: clean lines, responsive glass tuned to **warm practical** instead of tier bloom, a window that showed real sky without making performance of it. The tablet on her desk displayed case summaries in the smooth UI Continuity preferred when it wanted investigators to feel supported rather than audited. A plant lived in the corner—not decorative overlay flora, an actual plant, slightly uneven, the kind of detail institutions added when they remembered bodies still needed proof that something grew without metrics.
@@ -68,7 +50,7 @@ Lena reviewed **8919-E** wellness closure with her—appropriate boundaries, app
 
 The sentence was kind. It was also a door closing without a handle—steering away from the restricted tabs without naming them, the way Continuity steered witnesses toward wellness when witness became inconvenient. Mara felt the steer and did not push back yet.
 
-Supportive. Competent. **3w4** warmth: polished enough to feel personal, structured enough to feel safe.
+Supportive. Competent. Warmth polished enough to feel personal, structured enough to feel safe.
 
 Mara felt her guard lower the way guards lowered in offices where someone had always told the truth before.
 
@@ -98,7 +80,7 @@ Lena leaned forward—mentor posture, concern without panic. "You're tired. That
 
 The smile held. The voice stayed soft. **Too smooth**—recovery without residue, the performance hairline of someone who had learned to make institutional cover feel like care because care was the only language investigators would accept without filing revolt.
 
-Mara's jaw stayed still. Her hands stayed still on the notebook. **4w5** storage: pattern filed, conflict silent, loyalty reflex warring with hairline attention.
+Mara's jaw stayed still. Her hands stayed still on the notebook. Pattern filed, conflict silent, loyalty reflex warring with hairline attention.
 
 She said nothing.
 
@@ -112,9 +94,9 @@ The words were true. That was the wound—gratitude and doubt in the same breath
 
 The corridor outside was gray in the honest way bureau corridors were honest—no bloom, no warmth slider, just fluorescent patience and the faint sync hum bleeding through the floor from tiers below. Mara walked toward the elevator with her notebook closed and her trust doing something quieter than break.
 
-**Trust wound**—private, not dramatic. The kind that opened when a person you had built schedule around showed you a hairline crack and your job trained you to call cracks *stress* until they became avalanches.
+The trust wound opened quietly—not break, not drama, the kind that opened when a person you had built schedule around showed you a hairline crack and your job trained you to call cracks *stress* until they became avalanches.
 
-She did not confront Lena. She did not ping Chen. Confrontation required nouns the institution would file, and filing mentor doubt was how careers learned to forget they had ever been honest. Mara was **4w5** enough to swallow the sentence and **investigator** enough to know swallowing wasn't the same as not noticing.
+She did not confront Lena. She did not ping Chen. Confrontation required nouns the institution would file, and filing mentor doubt was how careers learned to forget they had ever been honest. Mara swallowed the sentence and knew swallowing wasn't the same as not noticing.
 
 She thought of warmth that had not asked for signup or crosswalks—and of this office that fed her with schedules and vocabulary and the grammar of survival. Both had been real. Only one had just asked her, gently, not to chase ghosts while ghosts multiplied in her queue.
 
@@ -126,7 +108,7 @@ The elevator chimed—polite, wrong in a way she couldn't name yet, the same aco
 
 Part IV runway, she understood without naming it: something in the mentor axis had slipped, and the slip was **micro**, and the institution would call it recovery until recovery stopped working.
 
-Movement II closed not with fire or archive silence or stone soup, but with this—**smooth** care that might still be care, might be cover, might be both, and no way to file the difference cleanly.
+The elevator doors opened on CIB-4's green glow. Mara stepped out with the trust wound still private and the notebook still closed.
 
 At the terminal on CIB-4 her queue refreshed: primary cases, wellness closed, sidebar quiet—except one new flag at the bottom, routine font, uncanny patience.
 
@@ -141,5 +123,3 @@ She said nothing to anyone.
 Silence chosen.
 
 The city outside the glass kept its mild continuity. Mara kept walking.
-
----

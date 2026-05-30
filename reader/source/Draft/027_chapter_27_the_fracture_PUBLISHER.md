@@ -50,7 +50,7 @@ Chen's eyes moved to the merge chart—three lines, one overlap, hypothesis fiel
 
 "He fits the order," Mara said. "He doesn't fit the shape."
 
-"He fits budget," Chen replied—the old rhyme from Month One's basement, cross-ref is noise, cross-ref is budget. This time her voice carried the smallest edge of something private failing beneath contained language. Not panic. Not confession. The hairline where **1w9** authority admitted the story was good enough for paperwork and not good enough for sleep.
+"He fits budget," Chen replied—the old rhyme from Month One's basement, cross-ref is noise, cross-ref is budget. This time her voice carried the smallest edge of something private failing beneath contained language. Not panic. Not confession. The hairline where authority admitted the story was good enough for paperwork and not good enough for sleep.
 
 Chen nodded once. "Keep tangent off feeds. Sidebar summary by morning. I want a noun that survives briefing even if it isn't Mercer."
 
@@ -84,7 +84,7 @@ Three bodies implied in case files and witness accounts and guest chairs and own
 
 One consciousness hypothesis—unverified, unbearably precise—suggested in the margin like the system itself was embarrassed to finish the sentence.
 
-Mara stared until the board stopped being a collection of Month Two fractures and became a single picture: **impossible normalizing**. Not thesis. **Felt**—the lean in her chest from the basement lab, fascination cleaner and worse than fear, proof that clarified nothing and scaled to a civilization anyway. She was not afraid. She had been intrigued at Part I's end and she was intrigued now, paranoia peaked into curiosity, dread sharpened into compulsion. Store first. Meltdown never. Notebook active.
+Mara stared until the board stopped being a collection of Month Two fractures and became a single picture she could not file. The lean in her chest from the basement lab returned—fascination cleaner and worse than fear, proof that clarified nothing and scaled anyway. She had been intrigued since the Hush District and she was intrigued now, paranoia peaked into curiosity, dread sharpened into compulsion. Store first. Meltdown never. Notebook active.
 
 At the center she let the merge chart hold—three peaks, three cities' grammar, one overlap window—while the hypothesis field pulsed **ONE CONSCIOUSNESS (UNVERIFIED)** like the system itself was embarrassed to finish the sentence. Three signatures. Three bodies implied in files and chairs and owner-elsewhere seals. One consciousness suggested in data the law refused to carry. The image held without resolving, the way **Impossible.** had held in the basement without becoming a door she could walk through yet.
 

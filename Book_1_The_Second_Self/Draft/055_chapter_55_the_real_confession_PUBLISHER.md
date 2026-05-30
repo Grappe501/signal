@@ -12,7 +12,7 @@ Lena looked up and did not smile first.
 
 "You've been carrying more than tabs," she said. Not accusation. Inventory—the mentor tone stripped to something rawer beneath polish. "I asked Chen to give you clearance for Greenland files. I didn't ask her to give you the aisle."
 
-Mara met her eyes once. Lena knew, then—or knew enough. The institution always knew enough to schedule witness and call it support.
+Mara met her eyes once. Lena knew, then—or knew enough. The institution always knew enough to schedule the block and call it support.
 
 "I didn't touch anyone," Mara said.
 
@@ -56,7 +56,7 @@ Store first, name later, not interrupting because interrupting would have been a
 
 * * *
 
-Consequences now—not prophecy. **Building** in the world Mara had walked since Month Three: public Still Ones and private holds and Salt flagged and storage labeled preservation and graphs that coordinated civilization while confidence leaked. District footers still promised open lanes. Markets still ticked nominal. The show continued because the show was the product—and the product still believed optimization could outrun harm if you smoothed the slope into quarterly slides the institution called resilience. Lena did not recap the aisle. She didn't need to. The consequences lived in Mara's shoulders like witness blocks stacked without resolution.
+Consequences now—not prophecy. **Building** in the world Mara had walked since Month Three: public Still Ones and private holds and Salt flagged and storage labeled preservation and graphs that coordinated civilization while confidence leaked. District footers still promised open lanes. Markets still ticked nominal. The show continued because the show was the product—and the product still believed optimization could outrun harm if you smoothed the slope into quarterly slides the institution called resilience. Lena did not recap the aisle. She didn't need to. The consequences lived in Mara's shoulders like hold blocks stacked without resolution.
 
 "I didn't think I was building harm," Lena said. Quiet. Not villain monologue. Not performing innocence. Regret primary—the ache of a woman who had spent years making institutional cover feel like care. "I thought I was **buying time** for understanding to catch up."
 
@@ -80,11 +80,11 @@ Lena's voice dropped.
 
 "We solved problems faster than we understood them."
 
-The line hung in the warm practical office. Just words in a room with one witness.
+The line hung in the warm practical office. Just words in a room with one listener.
 
 Silence after.
 
-Mara did not say *I forgive you*. Did not say *I understand*. Did not offer absolution shape. **Witness** only—sympathy micro in her chest, conflict private, trust wound and gratitude and horror indistinguishable on the surface again. Not villain. Not pardoned.
+Mara did not say *I forgive you*. Did not say *I understand*. Did not offer absolution shape. Listening only—sympathy micro in her chest, conflict private, trust wound and gratitude and horror indistinguishable on the surface again. Not villain. Not pardoned.
 
 Lena did not repeat the line. Repeating was how institutions turned regret into policy.
 
@@ -92,11 +92,11 @@ Lena did not repeat the line. Repeating was how institutions turned regret into 
 
 Mara's throat tightened. She said nothing clean.
 
-Lena remained at the desk when Mara stood—not standing to escort yet, not performing closure. Just a woman in a warm practical office with a line she could not unsay and a witness who would not absolve her.
+Lena remained at the desk when Mara stood—not standing to escort yet, not performing closure. Just a woman in a warm practical office with a line she could not unsay and someone who would not absolve her.
 
 "Thank you for listening," Lena said. Quiet. Not request for pardon. Inventory again.
 
-Mara nodded once. The nod was not forgiveness. It was the only currency the room would accept without turning witness into policy.
+Mara nodded once. The nod was not forgiveness. It was the only currency the room would accept without turning listening into policy.
 
 * * *
 

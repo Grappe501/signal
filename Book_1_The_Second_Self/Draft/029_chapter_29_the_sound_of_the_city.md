@@ -1,7 +1,7 @@
 # Chapter 29 — The Sound of the City
 
-**Status:** **v4 DRAFT** (2026-05-29)  
-**Prior:** v3 first prose · beat expansion from v2 map · **direct continuation Ch 28**  
+**Status:** **v5 · LOCKED · PRINT READY (Part III) · Veil Reveal Elevation** (2026-05-30)
+**Prior:** v4 close-read · **priority override pass · Veil Reveal block**
 **POV:** Mara Voss · tight third · past tense  
 **Word count:** ~1,980 (target ~2,200)  
 **Beat sheet:** `028-042_part_three_veil_beat_sheet.md` · **9/9**  
@@ -37,19 +37,27 @@ Others walked too—some quickly, as if distance could outrun perception; some s
 
 * * *
 
-The ambient was harsh and honest—not misophonia spectacle, not post-apocalypse soundtrack, just a city heard without the mix board civilization had been running underneath public life.
+The sound map rebuilt itself without permission.
+
+**Layer one — infrastructure.**
+
+HVAC groaned through vent grilles she'd never heard above the harmonic welcome—long breath in, long breath out, the building exhaling without asking whether anyone wanted to listen. Maintenance drones corrected on a freight tier with a buzz too honest for feeds; one clipped a tower seam and sparked once, apology in metal. Construction hammered three blocks east—irregular rhythm, no sweetening—while a jackhammer found a frequency that made her teeth ache.
+
+**Layer two — civic.**
 
 Sirens with edges. Horns that did not land soft. A transit announcement stuttering through a speaker whose sweetening layer had died—flat voice, flat grammar, **DELAY · MANUAL CHECK · STAND CLEAR**—the kind of language the Veil used to translate into weather so bodies wouldn't tense. Wind found gaps between tired facades and made noise the overlays usually folded into background calm. Somewhere below, a warning klaxon held too long before cutting off as if someone upstream remembered embarrassment too late.
+
+**Layer three — bodies.**
+
+Footsteps sounded like footsteps—not the softened cadence of a commute designed to feel like gift. Conversations carried without the overlay trimming sharp consonants into civic harmony. A man cleared his throat and the sound was ugly and human. A woman sneezed. Someone coughed twice in an open window—wet, unfiltered, the kind of sound public health overlays used to fold into *seasonal mild*. Someone dropped a cup and the plastic clatter was obscene in its specificity. None of it was catastrophe. All of it was **honest**.
+
+**Layer four — absence.**
+
+The optimization hum was gone—that was the loneliness, not silence this time, but **negative space** where a constant polite bed had lived so long people called it quiet. Mara heard the absence the way she heard merge equipment in basements when three lines held overlap: proof the system had been doing work you weren't meant to notice. Connected infrastructure still ran. Transit still moved. Bodies still shared tiers. But the layer that made proximity feel like care had stopped doing its job.
 
 Buildings looked older without responsive light pretending they were rested—gray stone honest, scaffold patches visible, water stains on acoustic tile, commerce tiers that had lost their gold and kept standing anyway. Not ruin porn. Not catastrophe tourism. **Tired**—the way honest things looked when nobody was being protected from their age.
 
 Drain and add still lived in the same eyeblink from the cascade: puddle color too vivid, gum on pavement too specific, rust at a bolt seam too truthful, sky flat where bloom had made it infinite. The **VEL** mark on a transit bezel stayed visible between cars, two curved strokes and a gap, a scar the city had forgotten to hide.
-
-Footsteps sounded like footsteps—not the softened cadence of a commute designed to feel like gift. Conversations carried without the overlay trimming sharp consonants into civic harmony. A man cleared his throat and the sound was ugly and human. A woman sneezed. Someone dropped a cup and the plastic clatter was obscene in its specificity. None of it was catastrophe. All of it was **honest**.
-
-The optimization hum was gone.
-
-That was the loneliness—not silence this time, but **negative space** where a constant polite bed had lived so long people called it quiet. Mara heard the absence the way she heard merge equipment in basements when three lines held overlap: proof the system had been doing work you weren't meant to notice. Connected infrastructure still ran. Transit still moved. Bodies still shared tiers. But the layer that made proximity feel like care had stopped doing its job.
 
 She thought of an archive voice from Month Two—not a quote, a **shape** in her chest—throughput measured, links maintained, seconds billed as intimacy, **alone** treated like diagnostic error. The question had landed in a room with fire warmth while the city outside kept mild weather. Mara heard the inverse in her body now: if the world was this audible without the filter, how long had **connection** been a performance the infrastructure maintained so people wouldn't notice the cost?
 
@@ -89,7 +97,7 @@ At the corner, life continued on human scale.
 
 The laugh came from a stoop three buildings down—not performance, not feed content, not a lattice show laugh track smoothed into delight.
 
-A child. Small. Anonymous. Ordinary. Playing some game that required running and stopping and running again while an adult watched from a doorway with an unfiltered face tired in the way adults got tired when they were responsible for small bodies in a city that had forgotten how to soften the afternoon. The game had rules only children understood—footsteps on concrete, a handclap, a spin, joy without audience metrics.
+A child. Small. Anonymous. Ordinary. Playing some game that required running and stopping and running again while an adult watched from a doorway with an unfiltered face tired in the way adults got tired when they were responsible for small bodies in a city that had forgotten how to soften the afternoon.
 
 The child laughed.
 
@@ -97,21 +105,11 @@ Unfiltered.
 
 Raw.
 
-The sound hit Mara harder than the cascade had—harder than gold draining off tier brows, harder than strangers' pores appearing without permission, harder than the silence that had cut after the noise peak. Because laughter was not horror. Laughter was **hope's native frequency** without the mix board, and her body recognized it the way bodies recognized warmth after cold—not comfort yet, not relief complete, but **proof** that unfiltered life could still contain joy that wasn't purchased by bandwidth.
-
-More real than anything.
-
-More real than filtered years.
-
-More real than shopping-tier bread steam cinematic.
-
-More real than artificial togetherness on a day off when honest cops were allowed one afternoon.
+The sound hit Mara harder than the cascade—not horror, not hope's speech, just **authentic** in a way the filtered years had trained her to distrust. Her chest loosened a fraction. Enough to know she was still human inside the overwhelm. Not enough to call it healing.
 
 Mara watched from the corner edge frame—witness only, not savior, not approach, not the investigator inserting herself into a grammar that wasn't hers to fix. She did not smile. Smiling would have been performance. She did not cry. Crying would have been relief, and relief was not authorized yet.
 
 She watched.
-
-Micro-softening in the chest—the smallest loosening around the hairline cracks the overlay used to polish—enough to know she was still human inside the overwhelm, not enough to call it healing.
 
 The laugh faded into ordinary afternoon—the city under it still harsh, still honest, still tired, still standing. An adult called a name Mara didn't need to know. The child ran. A second laugh followed, smaller, breathless, the kind that meant the game was still worth playing even when the world had changed its face.
 
@@ -132,5 +130,3 @@ The sound of the city continued—unmixed, unoptimized, unkind in places, **real
 Week nine continued.
 
 The laugh stayed in her body longer than the silence had.
-
----

@@ -1,23 +1,5 @@
 # Chapter 45 — The Salt Report
 
-**Status:** **v4 DRAFT** (2026-05-29)  
-**Prior:** v3 first prose · beat expansion from v2 map · **Scene #34 setup**  
-**POV:** Mara Voss · tight third · past tense · **Part IV · Movement I**  
-**Word count:** ~1,610 (target ~2,200)  
-**Beat sheet:** `043-057_part_four_ghost_beat_sheet.md` · **9/9**  
-**Bridge in:** `044_chapter_44_ch45_bridge_audit.md` (**PASS** v4)  
-**Bridge out:** `045_chapter_45_ch46_bridge_audit.md` (**PASS** v4)  
-**Change log:** `045_chapter_45_v3_change_log.md` · `045_chapter_45_v4_change_log.md`  
-**Audits:** `045_chapter_45_v3_comprehensive_audit.md` (**PASS**) · `045_chapter_45_v4_comprehensive_audit.md` (**PASS**)  
-**Publisher MS:** `045_chapter_45_the_salt_report_PUBLISHER.md`  
-**Scene bible:** #34 — Salt Revelation (setup · partial) · Ch 43 · Ch 44 echo
-
-**Chapter button:** **Memo** · **guidance withheld** · **horror without name complete**
-
-**Withholds verified:** full mechanism · awareness thesis · Ch 44 recap · physics lecture · cure · bridge line
-
----
-
 The classified terminal did not apologize for existing.
 
 Month Four, week sixteen. CIB secure intake—three levels below the polished floors where briefings sold weather and LATTICE dashboards pretended green was the same thing as safe. Gray room. Honest air. Red classification band on the fragment viewer: **CONTINUITY INTERNAL · FRAGMENT · NEED-TO-KNOW · NOT FOR DISTRIBUTION.** The grammar Mara had learned to read since Month Two—partial on purpose, authority implied, liability deferred.
@@ -52,7 +34,7 @@ Still One family hint—not mechanism, not biochemistry, not the word *awareness
 
 Mara's pen stopped above the notebook.
 
-Pattern mind disease—the investigator reflex that found signal in noise and couldn't always tell whether that was virtue or appetite. **4w5** focus: store first, name later, shame at arriving late only after the file agreed to carry what your body already knew.
+The investigator reflex that found signal in noise and couldn't always tell whether that was virtue or appetite. Store first, name later, shame at arriving late only after the file agreed to carry what your body already knew.
 
 * * *
 
@@ -70,7 +52,7 @@ Connection unclear.
 
 Locked.
 
-Dubai relay trace and Harbor sync anomaly and a third site code she didn't recognize at first glance—**G-009-ADJACENT · EDUCATIONAL BAND · SAMPLE WITHHELD**—suggested without proving, rhymed without merging, the way partial reports protected liability while still letting pattern minds bleed. The educational band note sat wrong in her chest—not because she knew what G-009 meant on-page, but because **withheld** beside **adjacent** was how institutions said *close enough to compare, far enough to deny.*
+Dubai relay trace and Harbor sync anomaly and a third site code she didn't recognize at first glance—**G-009-ADJACENT · EDUCATIONAL BAND · SAMPLE WITHHELD**—suggested without proving, rhymed without merging, the way partial reports protected liability while still letting correlations bleed. The educational band note sat wrong in her chest—not because she knew what G-009 meant on-page, but because **withheld** beside **adjacent** was how institutions said *close enough to compare, far enough to deny.*
 
 No proof chain complete. No mechanism rescue. No physics lecture about quantum disruption or embodiment layers or consciousness persistence probability. Just labels on gray UI and a crystallography abstract thumbnail that looked like geology pretending to be medicine—pretty lattice, meaningless caption, **almost** enough to make horror feel like data entry until your body refused the alibi.
 
@@ -78,7 +60,7 @@ She zoomed the thumbnail once. Salt geometry in false color. Scan match percenta
 
 Mara horror.
 
-Body first. Throat tight. Stomach drop. Professional mask micro-crack—the same hairline fracture Month One had taught her in Hush Spire when eyes tracked with patience that felt personal. Not scream. Not meltdown. **4w5** swallow: witness work at institutional scale, horror honest and private in a room that did not sweeten its outputs.
+Body first. Throat tight. Stomach drop. Professional mask micro-crack—the same hairline fracture Month One had taught her in Hush Spire when eyes tracked with patience that felt personal. Not scream. Not meltdown. She swallowed it: witness work at institutional scale, horror honest and private in a room that did not sweeten its outputs.
 
 She thought of static on a public lip without naming the week. She thought of a kitchen somewhere where a child had asked why officials looked scared while anchors said recovery. She thought of secret reviews that continued where continuing meant quietly. Different registers. Same family. Connection **unclear**—and that unclear worse than any single answer because unclear meant the institution knew enough to compare sites and not enough—or not willing—to tell civilians what comparison implied.
 
@@ -107,7 +89,7 @@ Mara captured the memo header—not synced, not admissible, private folder paral
 
 **Salt · flagged · connection unclear · guidance withheld.**
 
-She saved it beside Harbor static and LATTICE micro-blink and the refusal logged in a wellness partition she could not unchoose. Not theology. **Pattern**—the investigator disease Lena had named and the queue kept rewarding. Evidence without authority. Horror without mechanism complete. Naming partial worse than silence.
+She saved it beside Harbor static and LATTICE micro-blink and the refusal logged in a wellness partition she could not unchoose. Evidence without authority. Horror without mechanism complete. Naming partial worse than silence.
 
 The terminal fan whirred. The red band held. Outside the secure room, feeds would keep selling Dubai recovering and Harbor resolved and markets steady in footers most people wouldn't scroll to.
 
@@ -130,5 +112,3 @@ Memo.
 Guidance withheld.
 
 Horror without the name complete.
-
----

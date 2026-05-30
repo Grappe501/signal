@@ -1,5 +1,5 @@
 /**
- * Text-to-speech — ElevenLabs (primary) + Web Speech API (fallback).
+ * Text-to-speech — Browser/device voice (default) + ElevenLabs (optional upgrade).
  * Production: Netlify functions proxy the API key.
  * Local: paste your ElevenLabs API key in the reader settings.
  */
@@ -13,6 +13,8 @@ const TTS = (() => {
   let onEndCallback = null;
   let getSettings = () => ({});
   let saveSettings = () => {};
+  let onPlayerVisibility = () => {};
+  let playerOpen = false;
   let continuousListen = false;
   let chapterAdvancing = false;
 
@@ -22,17 +24,46 @@ const TTS = (() => {
   let prefetchCache = new Map();
   let voices = [];
   let proxyAvailable = null;
+  let elevenLabsReady = null;
 
   const $ = (id) => document.getElementById(id);
 
   function supported() {
-    const s = getSettings();
-    if (s.ttsEngine === "browser") return "speechSynthesis" in window;
-    return true;
+    if ("speechSynthesis" in window) return true;
+    return proxyAvailable === true || !!getSettings().elevenLabsApiKey;
   }
 
   function engine() {
-    return getSettings().ttsEngine || "elevenlabs";
+    return getSettings().ttsEngine || "browser";
+  }
+
+  async function elevenLabsAvailable() {
+    if (engine() !== "elevenlabs") return false;
+    if (elevenLabsReady !== null) return elevenLabsReady;
+    const s = getSettings();
+    const hasProxy = await checkProxy();
+    elevenLabsReady = hasProxy || !!s.elevenLabsApiKey;
+    return elevenLabsReady;
+  }
+
+  function resetElevenLabsReady() {
+    elevenLabsReady = null;
+    proxyAvailable = null;
+  }
+
+  function updateEngineHint() {
+    const hint = $("tts-upgrade-hint");
+    if (!hint) return;
+    const s = getSettings();
+    if (engine() === "browser") {
+      hint.textContent =
+        "Using your device voice — free and instant. Choose ElevenLabs (Pro) for studio narration.";
+    } else if (proxyAvailable || s.elevenLabsApiKey) {
+      hint.textContent = "ElevenLabs narration — high quality, requires API access.";
+    } else {
+      hint.textContent =
+        "ElevenLabs needs an API key below, or switch to Browser (device voice).";
+    }
   }
 
   function stripMarkdown(html) {
@@ -63,7 +94,11 @@ const TTS = (() => {
     document.querySelectorAll(".tts-active").forEach((el) => el.classList.remove("tts-active"));
     if (segments[i]?.el) {
       segments[i].el.classList.add("tts-active");
-      if (window.BookPages) BookPages.showSpreadContaining(segments[i].el);
+      if (document.body.classList.contains("layout-scroll")) {
+        segments[i].el.scrollIntoView({ block: "center", behavior: "smooth" });
+      } else if (window.BookPages) {
+        BookPages.showSpreadContaining(segments[i].el);
+      }
     }
     const seg = $("tts-segment");
     if (seg) seg.textContent = segments.length ? `${i + 1} / ${segments.length}` : "0 / 0";
@@ -91,14 +126,31 @@ const TTS = (() => {
     btn.classList.toggle("tts-loading", loading);
   }
 
+  function setPlayerOpen(open) {
+    playerOpen = !!open;
+    document.body.classList.toggle("tts-active", playerOpen);
+    document.body.classList.toggle("tts-player-open", playerOpen);
+    const player = $("tts-player");
+    if (player) player.classList.toggle("hidden", !playerOpen);
+    onPlayerVisibility(playerOpen);
+  }
+
   function showPanel() {
-    document.body.classList.add("tts-active");
+    setPlayerOpen(true);
+  }
+
+  function openPlayer() {
+    setPlayerOpen(true);
   }
 
   function hidePanel() {
     stop(true);
-    document.body.classList.remove("tts-active");
+    setPlayerOpen(false);
     document.getElementById("listen-toggle")?.classList.remove("active");
+  }
+
+  function isPlayerOpen() {
+    return playerOpen;
   }
 
   function updateContinuousUi() {
@@ -207,7 +259,7 @@ const TTS = (() => {
       loading = false;
       updatePlayBtn();
       highlight(index);
-      setStatus("Browser voice");
+      setStatus("Device voice");
     };
 
     utt.onend = () => onSegmentEnd();
@@ -229,7 +281,9 @@ const TTS = (() => {
     } catch {
       proxyAvailable = false;
     }
+    elevenLabsReady = null;
     updateApiKeyVisibility();
+    updateEngineHint();
     return proxyAvailable;
   }
 
@@ -394,7 +448,12 @@ const TTS = (() => {
       loading = false;
       speaking = false;
       updatePlayBtn();
-      setStatus("TTS error — check API key");
+      if ("speechSynthesis" in window) {
+        setStatus("ElevenLabs error — using device voice");
+        speakBrowser();
+      } else {
+        setStatus("TTS error — check API key");
+      }
       console.error("ElevenLabs TTS:", e);
     }
   }
@@ -417,21 +476,36 @@ const TTS = (() => {
     setStatus("");
   }
 
-  function speakCurrent() {
+  async function speakCurrent() {
     if (engine() === "browser") {
+      if (!("speechSynthesis" in window)) {
+        setStatus("Device voice not supported in this browser");
+        return;
+      }
       speakBrowser();
-    } else {
-      speakElevenLabs();
+      return;
     }
+    if (await elevenLabsAvailable()) {
+      speakElevenLabs();
+      return;
+    }
+    if ("speechSynthesis" in window) {
+      setStatus("ElevenLabs unavailable — using device voice");
+      speakBrowser();
+      return;
+    }
+    setStatus("Add ElevenLabs API key or use a browser with speech");
   }
 
   function play(fromIndex) {
-    if (engine() === "browser" && !("speechSynthesis" in window)) {
-      alert("Browser TTS not supported here. Switch to ElevenLabs.");
-      return;
-    }
     if (fromIndex != null) index = fromIndex;
     if (!segments.length) return;
+    if (!supported()) {
+      alert(
+        "Listening is not available here. Try Chrome or Edge, or configure ElevenLabs in audio settings."
+      );
+      return;
+    }
     showPanel();
     paused = false;
     speakCurrent();
@@ -490,6 +564,24 @@ const TTS = (() => {
   }
 
   function findSegmentFromScroll() {
+    const scroller = document.getElementById("chapter-scroll");
+    if (scroller && document.body.classList.contains("layout-scroll")) {
+      const mid = scroller.scrollTop + scroller.clientHeight * 0.3;
+      let best = 0;
+      let bestDist = Infinity;
+      for (let i = 0; i < segments.length; i++) {
+        const el = segments[i].el;
+        if (!el?.isConnected) continue;
+        const top = el.offsetTop;
+        const dist = Math.abs(top - mid);
+        if (dist < bestDist) {
+          bestDist = dist;
+          best = i;
+        }
+      }
+      return best;
+    }
+
     for (let i = 0; i < segments.length; i++) {
       const el = segments[i].el;
       if (!el?.isConnected) continue;
@@ -511,8 +603,10 @@ const TTS = (() => {
     saveSettings();
     stop();
     prefetchCache.clear();
+    resetElevenLabsReady();
     updateApiKeyVisibility();
     refreshVoiceList();
+    updateEngineHint();
   }
 
   async function refreshVoiceList() {
@@ -525,7 +619,7 @@ const TTS = (() => {
 
   function bindControls() {
     $("tts-play")?.addEventListener("click", toggle);
-    $("tts-stop")?.addEventListener("click", () => stop());
+    $("tts-stop")?.addEventListener("click", () => hidePanel());
     $("tts-prev")?.addEventListener("click", prev);
     $("tts-next")?.addEventListener("click", next);
 
@@ -559,9 +653,10 @@ const TTS = (() => {
       const s = getSettings();
       s.elevenLabsApiKey = e.target.value.trim();
       saveSettings();
-      proxyAvailable = null;
+      resetElevenLabsReady();
       prefetchCache.clear();
       if (s.elevenLabsApiKey) fetchVoices();
+      updateEngineHint();
     });
 
     $("tts-api-save")?.addEventListener("click", () => {
@@ -570,10 +665,11 @@ const TTS = (() => {
       const s = getSettings();
       s.elevenLabsApiKey = input.value.trim();
       saveSettings();
-      proxyAvailable = null;
+      resetElevenLabsReady();
       prefetchCache.clear();
       updateApiKeyVisibility();
       fetchVoices();
+      updateEngineHint();
       setStatus(s.elevenLabsApiKey ? "API key saved" : "");
     });
 
@@ -584,27 +680,40 @@ const TTS = (() => {
     }
   }
 
+  async function bootstrapEngine() {
+    if (engine() === "browser") {
+      populateBrowserVoices();
+    } else {
+      await refreshVoiceList();
+    }
+    await checkProxy();
+    updateEngineHint();
+  }
+
   return {
     init(opts) {
       getSettings = opts.getSettings;
       saveSettings = opts.saveSettings;
+      onPlayerVisibility = opts.onPlayerVisibility || onPlayerVisibility;
       bindControls();
 
       const s = getSettings();
       const eng = $("tts-engine");
-      if (eng) eng.value = s.ttsEngine || "elevenlabs";
+      if (eng) eng.value = s.ttsEngine || "browser";
 
       const keyInput = $("tts-api-key");
       if (keyInput && s.elevenLabsApiKey) {
         keyInput.value = s.elevenLabsApiKey;
       }
 
-      refreshVoiceList();
+      bootstrapEngine();
       updateContinuousUi();
     },
 
     supported,
     hidePanel,
+    openPlayer,
+    isPlayerOpen,
 
     onChapterLoaded(ch, bodyEl, autoPlay = false) {
       stop();
@@ -630,6 +739,7 @@ const TTS = (() => {
 
     startListening(fromScroll = true) {
       if (!segments.length) return;
+      setPlayerOpen(true);
       index = fromScroll ? findSegmentFromScroll() : 0;
       play(index);
     },

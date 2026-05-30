@@ -81,7 +81,7 @@ Cross-book tracking. Updated: Segment 016.
 | "It was not artificial. It was us." | Seg 023 | Convergence key line | **Locked** |
 | Connection without individuality | Seg 023 | Final thematic lesson | **Locked** |
 | Long game seeds LG-001–006 | Seg 024 | B2/B3 payoffs | **Open** |
-| Mara infant shelter pause | Seg 024 / LG-006 | Cael retroactive reveal | **Open** |
+| Mara infant shelter pause | Seg 024 / LG-006 | Cael retroactive reveal | **Closed** — Ch 73 overflow corridor · v9 |
 | Character lusts (7 primary) | Seg 024 | Drive collapse machinery | **Locked** |
 | Trilogy world map / three-layer settings | Seg 025 | B1–B3 geography | **Locked structure** |
 | New Manhattan primary B1 | Seg 025 | Arcology One, Underways, Union District | **Open** |

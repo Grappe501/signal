@@ -10,7 +10,9 @@ Mara had requested a cross-reference on prior Continuity counseling because drif
 
 Not the public myth tier. Not the training montage she'd watched in Month One while **8841-A** pulsed in the corner of her screen. A restricted partition labeled **Early Research · Post-Farshore** — access flagged **sidebar approved** in Chen's voice from two days prior, the bureaucratic equivalent of *don't ask again on feeds.*
 
-Mara stared at the approval line longer than it deserved. Part Two had widened her reach without widening her explanations. Month Two. Week three. The coffee in her mug was cold. **8853-M** still sat below **SIG-MERGE-01** on her board like a wrongness that passed tests and failed the world. She did not open that file. She opened Vale's.
+Mara stared at the approval line longer than it deserved. She had not finished typing the cross-reference before **sidebar approved** appeared—access moving faster than request, the way doors opened when something upstream wanted you inside without asking why.
+
+Part Two had widened her reach without widening her explanations. Month Two. Week three. The coffee in her mug was cold. **8853-M** still sat below **SIG-MERGE-01** on her board like a wrongness that passed tests and failed the world. She did not open that file. She opened Vale's.
 
 The secure archive terminal on CIB-4 was the same green glow as the verification suite two floors up—bureau honesty, no Veil bloom, fans humming the way servers hummed when they expected to outlive the humans reading them. Mara logged in with investigator clearance and told herself this was spillover, not obsession. Embodiment bled into identity bled into the city's founding ghost. The chain was professional enough to file.
 
@@ -102,11 +104,11 @@ Chen pinged optional—she let it go to message. *Archive access logged. Sidebar
 
 Mara walked back to her desk through a corridor that smelled like policy and coffee. Colleagues passed with tablets and the neutral hurry of people whose wrong feelings had not yet learned their names. She nodded. They nodded. The institution continued—competent, pretty, insufficient.
 
-She was not afraid. She was fascinated in the old way—the basement way—the lean toward a sentence that arrived before evidence agreed to carry it.
+She was not afraid. She was fascinated—the basement lean toward a sentence that arrived before evidence agreed to carry it.
 
 *What if consciousness is not produced by the brain?*
 
-The sentence did not accept *not relevant*. Mara filed the clip closed anyway. Drawers, not locks—the institution's favorite grammar.
+The sentence did not accept *not relevant*. Mara filed the clip closed anyway. Drawers, not locks.
 
 She did not write the line in the notebook. The notebook had learned which questions became cases and which became hauntings.
 
@@ -122,8 +124,8 @@ Mara opened **8921-E**'s completion packet and signed her name where the system 
 
 Outside the glass, New Manhattan kept its lanes open. The city performed continuity the way it always had—lanes, scores, polite sidebars drafting recoverable stories. Mara had no obligation to connect every wrongness on her board. She had a queue.
 
-She went back to work and let the locked line sit unanswered—because answering was not her job, and because some jobs were how civilization kept from drowning in questions it wasn't ready to survive.
+In the corridor two analysts laughed at something mild on a shared feed. Mara did not join. She went back to work and let the locked line sit unanswered in the green glow of a suite that had already decided what counted as finished thinking.
 
 The fan hum faded when she left the archive terminal behind. She shut down the undertone without naming it. She wasn't ready for another noun.
 
-Month Two continued without asking whether continue was enough.
+The Rawist contact file loaded on her desk—no name yet, just a corridor address and a category the bureau called *friction*. Mara opened it before the suite could talk her out of curiosity.

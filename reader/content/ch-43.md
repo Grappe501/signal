@@ -6,7 +6,7 @@ Month Four, week fifteen. Harbor Stack transit lip—rush hour density, Spine de
 
 Mara was in it.
 
-Not undercover—badge visible, coat open, **8841-A** and **8853-M** still breathing in her bag tabs the way cases breathed when you couldn't close them without closing part of yourself. She had kept the filter off since the wellness partition logged **RESTORATION DECLINED**—not performance, not prophet arc, **4w5** discipline: if she was going to witness wrongness, she would not pay the overlay to hide the cost. Week fifteen. Raw had become habit. Her eyes worked harder. Her shoulders did not drop. She told herself that was information.
+Not undercover—badge visible, coat open, **8841-A** and **8853-M** still breathing in her bag tabs the way cases breathed when you couldn't close them without closing part of yourself. She had kept the filter off since the wellness partition logged **RESTORATION DECLINED**—not performance, not prophet arc, discipline: if she was going to witness wrongness, she would not pay the overlay to hide the cost. Week fifteen. Raw had become habit. Her eyes worked harder. Her shoulders did not drop. She told herself that was information.
 
 The queue moved the way queues moved when civilization still believed scheduling was mercy—bodies inching, wrists syncing, banner loops selling mild weather above a lip where treated glass met honest concrete. A tutor-class Second near the railing ran lesson prompts in silence while its primary scrolled case mail. A courier frame ahead carried tier routing tags bright enough for cameras. Normal. Dense. **Employable.**
 
@@ -40,13 +40,13 @@ Case grammar. Badge up. Voice level—the investigator tone that said *I am here
 
 Containment arrived before she finished identifying herself.
 
-Not field teams in armor—**Continuity response**, yellow perimeter tape deploying from a wall slot, smooth UI overlay on the hub glass translating panic into **INCIDENT CONTAINED · DO NOT APPROACH · MEDICAL EVALUATION IN PROGRESS**. Polite. Wrong calm. A containment officer with the flat kindness of **1w9** procedure nodded at her badge and did not ask her name.
+Not field teams in armor—**Continuity response**, yellow perimeter tape deploying from a wall slot, smooth UI overlay on the hub glass translating panic into **INCIDENT CONTAINED · DO NOT APPROACH · MEDICAL EVALUATION IN PROGRESS**. Polite. Wrong calm. A containment officer with the flat kindness of procedure nodded at her badge and did not ask her name.
 
 "Perimeter in thirty," he said into his radio. "Public tier. Second unit hold. Primary extracted to counseling lane."
 
 Counseling lane. The phrase was already a story.
 
-Mara stayed inside the tape because leaving would have been consent to the story. **4w5** observe: perimeter set, crowd pushed back, feeds framing **service interruption** while phones kept recording at angles the overlay couldn't fully sanitize. Not competence porn—no heroic saves, no clean resolution grammar—just procedure masking horror at the speed the city had learned since the failure taught it what unfiltered fear looked like.
+Mara stayed inside the tape because leaving would have been consent to the story. Perimeter set, crowd pushed back, feeds framing **service interruption** while phones kept recording at angles the overlay couldn't fully sanitize. Not competence porn—no heroic saves, no clean resolution grammar—just procedure masking horror at the speed the city had learned since the failure taught it what unfiltered fear looked like.
 
 Two containment techs wheeled a privacy screen that didn't hide anything important—the eyes, the wrong balance, the frozen foot. A continuity medic spoke to the primary in the counseling lane with voice low enough to be kindness and loud enough to be policy. **Breathing exercises. Temporary sync pause. We'll update your tier benefits.** Benefits. The word landed obscene.
 
@@ -112,7 +112,7 @@ Not as relief. As obligation—the same obligation that had kept her from toggli
 
 Mara stayed until perimeter cleared.
 
-Witness. **4w5**. Dread private in a public body.
+Witness. Dread private in a public body.
 
 They wheeled the Second behind the tape—still balance wrong, still eyes tracking nothing and everything, still mouth closed on static the clip would play on loop until official calm learned its script.
 

@@ -36,7 +36,7 @@ The place shifted without transition.
 
 
 
-Corridor. Low ceiling. Cable trays. Concrete that had never learned to perform beauty. She had never walked here—she was certain the way investigators were certain about alibis that didn't exist yet. The geometry felt mapped by need instead of planners: doors where maintenance wanted them, windows where heat escaped, a turn that opened onto a platform overlooking—
+Corridor. Low ceiling. Cable trays. Concrete that had never learned to perform beauty. She had never walked here—she was certain in the way dream certainty arrived, whole and wrong. The geometry felt mapped by need instead of planners: doors where maintenance wanted them, windows where heat escaped, a turn that opened onto a platform overlooking—
 
 
 
@@ -228,7 +228,7 @@ The file icon showed **closed** in green.
 
 
 
-The question did not close. It never had—not since Month Two's archive terminal, not since the waveform peaks, not since the dream borrowed hands and white horizons and voices that cut mid-sentence. Seg 022 held: never confirm, never deny, never rescue with exposition. Ambiguity was the only honest jurisdiction left when perception, records, and sleep all failed on different schedules.
+The question did not close. It never had—not since Month Two's archive terminal, not since the waveform peaks, not since the dream borrowed hands and white horizons and voices that cut mid-sentence. Perception, records, and sleep failed on different schedules, and no jurisdiction left could make them agree.
 
 
 
@@ -242,12 +242,10 @@ The wrong feeling returned anyway—not fear, not dread. **Recognition** without
 
 File closed.
 
-
-
 Wrong feeling open.
 
+The next queue item blinked—**Heritage archive · Vale supplemental · restricted view**.
 
+Mara stared at the title until her reflection in the screen looked like someone else's witness.
 
-She worked.
-
-
+She opened it anyway.

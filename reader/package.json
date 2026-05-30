@@ -4,9 +4,13 @@
   "type": "module",
   "scripts": {
     "setup": "node scripts/setup-source.mjs",
+    "vendor": "node scripts/vendor-marked.mjs",
     "manifest": "node scripts/build-manifest.mjs",
-    "build": "node scripts/setup-source.mjs && node scripts/build-book.mjs",
-    "dev": "npx serve .",
+    "build": "node scripts/vendor-marked.mjs && node scripts/setup-source.mjs && node scripts/build-book.mjs",
+    "dev": "npx serve . -c serve.json",
     "ingest-key": "node scripts/ingest-api-key.mjs"
+  },
+  "devDependencies": {
+    "marked": "^15.0.12"
   }
 }

@@ -8,7 +8,7 @@ Mara stood at the ops rail with her bureau badge clipped high and her tablet sho
 
 Transit security had cordoned the upper lip with soft barriers that looked temporary and permanent at once. A tier screen on the far wall still advertised mild weather and open lanes, as if the city could not stop selling continuity while continuity failed. Mara kept her overlay minimal—feeds, band readouts, ops channel—because full bloom would have smoothed the crowd into statistics and she needed bodies today, not summaries.
 
-She had seen HVI used in a hundred investigations without feeling anything about it—gravity, transit priority, sorting lives into bands the way weather sorted seasons. Good scores meant stable neighborhoods, faster queues, fewer questions at the door. Bad scores meant friction you learned to navigate or learned to drown in. The system did not pretend otherwise. It just made otherwise expensive.
+On every wrist a band color appeared before anyone asked who could turn a wrench.
 
 Today the expensive part was visible.
 
@@ -104,10 +104,10 @@ She closed the notebook without closing the feeling.
 
 The terminal hummed. The HVI column on a random profile widget still glowed green in the corner of her screen like a promise the world kept making to people it did not know how to save when the valves were real.
 
-Mara did not call Cass. She did not file a philosophical detour. She wrote one more line—*hands before bands*—and opened the next assignment because work was how investigators stayed employed when doubt had no case number yet.
+Mara did not call Cass. She did not file a philosophical detour. She wrote one more line—*hands before bands*—and checked the time.
+
+Thursday was **tonight**. Ember Hall waited in the service corridor network like a question the bureau couldn't score.
 
 The card stayed in her pocket.
 
-Week five continued outside the glass with mild weather and calm markets and routing icons recovering their faith.
-
-She held the crack quietly and did not look up when the perfect city resumed.
+She held the crack quietly and did not look up when the perfect city resumed—but her feet were already planning the route.

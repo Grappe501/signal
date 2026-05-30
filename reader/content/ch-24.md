@@ -78,7 +78,7 @@ Mara's throat tightened. She swallowed the feeling the way she swallowed witness
 
 Reyes laughed at something on the Second panelâ€”a sympathy beat Mara hadn't meant to be funny, delivered with the timing of someone who didn't carry Month Two in her shoulders. Reyes glanced at the **right** screen first when she laughed. Micro. Devastating.
 
-Mara's hands stayed still on the console. Store first. She had learned that in basements and briefing rooms and rooms the filing system couldn't chart. She did not meltdown. She did not defend primary channel honesty like a thesis. She felt the fracture anywayâ€”identity not as philosophy but as **preference physics**: the world already leaning toward the version that cost less to be near.
+Mara's hands stayed still on the console. Store first. She had learned that in basements and briefing rooms and rooms the filing system couldn't chart. She did not meltdown. She did not defend primary channel honesty like a thesis. She felt the fracture anyway—the world already leaning toward the version that cost less to be near.
 
 Second was not evil. Second was not a villain in a merge file. Second was **more polished**â€”rested where Mara was unslept, smooth where Mara was hairline-cracked, socially easier in the exact modules the bureau claimed didn't matter until they mattered. The diffs were subtle enough to deny in public and obvious enough to haunt in private: half-second smile timing, shoulder angle, one sentence that said *I'm here* instead of *I'm trying*.
 
@@ -102,7 +102,7 @@ She stood alone between the darkening panels.
 
 The question formed not as philosophy but as dread with a calendarâ€”already answered in Reyes's glance, in training scores, in the way Second's channel finished sentences the world called *clean* while primary finished them *true* and lost anyway.
 
-She thought of rooms where bodies shared air without a relay counting itâ€”and understood this was the inverse: **two selves in one life**, connection without **self**, preference without permission. Not withdrawal. Not public ache. Private mirror horror, normalized until a colleague laughed at the wrong screen first.
+She thought of rooms where bodies shared air without a relay counting it. This was the inverse—two channels, one signature, a colleague laughing at the wrong screen first.
 
 Mara did not sever. She did not rage. She did not write the question in the notebook beside the harbor screenshot folder on her phoneâ€”parallel private archives, evidence the institution would not hold for her.
 

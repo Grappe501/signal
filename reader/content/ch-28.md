@@ -18,6 +18,18 @@ She almost managed peace this morning.
 
 Almost.
 
+Before the wrong thing, the commute offered **almosts**—small betrayals the tired mind could swallow.
+
+A man two seats over chewed with mechanical patience while his jaw moved a half-second ahead of the audio sweetening, as if the overlay had lost lip-sync on a body that had vacated its channel. Mara looked away first—the reflex from Month One mornings when she'd watched couples laugh on separate feeds and refused to follow the thought further.
+
+In the transit glass her face arrived doubled: overlay-softened cheekbone, scar above the brow left alone by any filter—the only unedited surface in the reflection, same as the descending car in Month One when she'd trusted mornings because systems peaked before people performed. For one frame both versions of her mouth smiled. The next frame only one did. She blamed bandwidth.
+
+Rain began on the outer pane—real streaks, not decorative—while the interior still showed meadow horizon on the inner treated layer. Two weathers at once. A child on a Second's shoulders pressed a palm to the window the way a school pod child had flattened hers to glass three tiers down in a city Mara had investigated before she knew what **idle** meant on a screen that lied.
+
+The Spine descent chimed harmonic welcome—the sound designed to mean *welcome*—and beneath it, for a breath, she heard her own heel strike from the platform memory: error in the mix, human percussion the building had deleted in wealth districts.
+
+She filed all of it as fatigue.
+
 * * *
 
 The first wrong thing was small enough to dismiss.
@@ -32,7 +44,7 @@ She almost dismissed this the same way.
 
 Then the panel stuttered again and did not recover.
 
-The gold drained off the tier brow like water leaving a tub—not darkness, **absence**. Color pulled out of facades until concrete showed through the way concrete showed on maintenance strips when you knew where to look: gray, honest, tired. The meadow on the transit glass vanished. Treated window. Another tower's flank. No gift.
+The tower ahead **grew** in her overlay by a story—perspective wrong, geometry insisting on a kindness the bones did not support—then snapped back to honest height when the gold drained off the tier brow like water leaving a tub—not darkness, **absence**. Color pulled out of facades until concrete showed through the way concrete showed on maintenance strips when you knew where to look: gray, honest, tired. The meadow on the transit glass vanished. Treated window. Another tower's flank. No gift.
 
 Inside the transit car, frost melted off the glass in a breath. Someone gasped—the small sound the overlay would have softened into nothing. The pod mascot on a ceiling screen froze mid-bow. Responsive light on handrails died to ordinary plastic.
 
@@ -67,6 +79,8 @@ It did not resume.
 The cascade spread down-tier like a wave leaving color behind it wrong—some hues too dull, some too sharp, as if the filter had not only removed edits but **overcorrected** in its death. A scarf on a vendor cart became the exact orange it had always been without the overlay making the weave look like weather she remembered from childhood trips upstate. A food stall's *raw option available* line in small type almost no one selected suddenly mattered because the tomatoes looked like tomatoes, not cinema.
 
 Color memory inverted: Month One's shopping tier had bloomed gold and white until beauty felt like gift—frost on glass, meadow horizon, tomatoes brighter, bread steam cinematic. Month Three's commute **drained** the gift and **added** what the filter had been hiding—rust at a bolt seam, a water stain on acoustic tile, the yellow of a caution stripe too honest to be kind. Before/after happened in the same eyeblink on the same street, not as memory but as **correction**, the city showing her the invoice for every smooth morning she had ridden without resenting the ride.
+
+**Memory shock** arrived without permission: she could not remember which city she had grown up in—the loud corners of childhood, or the pre-mixed mornings she had leaned into since the overlay pass, or the archive clips that might have replaced both. Three versions stacked in her chest like bad evidence. The scar above her brow pulled when she swallowed—a small proof of unedited skin—and she still could not say which skyline behind it had ever been real.
 
 On a transit bezel between cars, a symbol flickered she had never noticed while the overlay worked—two curved strokes and a gap, old register, **VEL** if you knew where to look. Veil. Not monster. The thing that had made kindness feel like weather.
 

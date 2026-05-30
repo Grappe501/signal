@@ -6,9 +6,19 @@ Month Three, week nine—the same week the overlay stuttered in cities that had 
 
 She badged the artist lane at the maintenance walk—not the promenade entrance tourists photographed, but the service spine where the city kept its real body while the face smiled upstairs. The gate chimed *welcome* in twelve languages at once. The harmonic still lived in her wrist bones. The corridor beyond did not bother with responsive light. Concrete. Cable tray. HVAC that sounded like effort.
 
+At the junction she paused at a maintenance viewport tourists never used.
+
+**Left glass — Veil layer on:** the promenade above ran gold and rose, water arc holding its curve, crowd faces lifted with the unhurried appetite of people who trusted schedules. Aspiration. The city as it wanted to be remembered.
+
+**Right glass — public bloom disabled for crew:** the same promenade in sodium and sun strike, relay harnesses visible, a technician adjusting a tolerance while the arc borrowed three milliseconds from a handoff two blocks east. Reality. The city as it paid to continue.
+
+Neither pane lied. That was the wound.
+
 Real gold here—not Veil bloom, not overlay kindness applied at scale, just sodium and sun strike on metal that had been polished because polish was cheaper than replacement. Through a mesh panel she watched a sync net crew reroute a trunk line while the water arc on the promenade above held its curve for a crowd that would never know the arc's timing had borrowed three milliseconds from a Relay handoff two blocks east. Beauty as infrastructure. Infrastructure as dependency. The togetherness strangers felt on the promenade when the lattice inhaled on beat had always been cables and schedules and people in harnesses adjusting tolerances while the sunset arrived on cue.
 
 Down the spine, a Relay cabinet door stood open for cooling—fans audible, status strip pulsing **SYNC · NOMINAL · LOAD 81%** in a language no tourist learned on purpose. A second crew checked harness points on the upper scaffold while a dispatcher voice counted down a handoff window in the corridor's public address layer, flat and unbeautiful and essential. Dubai did not hide the work tonight because hiding had become harder globally and because Dubai's brand had always been competence more than innocence. The spectacle still sold wonder. The maintenance tier sold the receipt.
+
+On the scheduling tablet bolted to the wall, a footer she'd never screenshot for feeds: **SALT THRESHOLD · ADVISORY ONLY · DO NOT SURFACE PUBLIC**—green, buried, the kind of line that would mean nothing until a memo in another city said *do not release public guidance* and the world learned a new word for what **81% load** had been measuring all along.
 
 She had helped design three blocks of the responsive lattice when she was young enough to believe responsiveness was the same as listening. She was older now and still loved it. Love was not naivety. It was the only honest way to stand inside something you had built and admit you wanted it to last—even when the thing you wanted to last was visibly held up by other people's labor and other people's faith in green icons.
 
@@ -86,9 +96,9 @@ Nadia passed her a chilled bottle at the rail. "Clean run. Told you. Ghosts."
 
 She liked all of it. That was the complication.
 
-The promenade at evening was a product photograph of continuity—facades glowing, transit perfect, strangers' faces lifted toward responsive light with the unhurried appetite of people who trusted schedules again because Dubai had given them something to trust when other cities had only given them stutter memes and optional overlays and the exhausted honesty of a world remembering its seams. Gold first—deep, almost metallic—then rose bleeding into the theater skin until the whole district looked lit from within. Honest material doing honest work. Not magic. Still beautiful.
+The promenade at evening was a product photograph of continuity—facades glowing, transit perfect, strangers' faces lifted toward responsive light with the unhurried appetite of people who trusted schedules again because Dubai had given them something to trust when other cities had only given them stutter memes and optional overlays and the exhausted honesty of a world remembering its seams. Gold first—deep, almost metallic—then rose bleeding into the theater skin until the whole district looked lit from within, the way a cup held wine: transparent, intentional, slightly obscene in its perfection. Honest material doing honest work. Not magic. Still beautiful.
 
-She caught her own face in a panel reflection and did not recognize the worry in it immediately, as if doubt were a filter the city had not approved for public display. Behind her the dream theater still glowed. Ahead the skyline held its solved shape against the dark. Beautiful enough to sell. Beautiful enough to believe. Beautiful enough to hurt when you knew how many milliseconds and harnesses and recovery chimes stood between the crowd's joy and the word **failure**.
+She caught her own face in a panel reflection and did not recognize the worry in it immediately, as if doubt were a filter the city had not approved for public display. Behind her the dream theater still glowed. Ahead the skyline held its solved shape against the dark—**two cities in one glass**, aspiration and receipt stacked, beautiful enough to sell, beautiful enough to believe, beautiful enough to hurt when you knew how many milliseconds and harnesses and recovery chimes and **SALT advisories** stood between the crowd's joy and the word **failure**.
 
 Somewhere under her feet the crack remained. Somewhere in the scheduling layer a one-frame drop had been filed as success. Somewhere in the world people were choosing comfort again because comfort was reflex and infrastructure was expensive to see clearly. She knew the cost in milliseconds and harnesses and recovery chimes. She did not have permission to speak it as testimony.
 

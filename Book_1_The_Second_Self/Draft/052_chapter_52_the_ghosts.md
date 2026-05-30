@@ -1,30 +1,47 @@
 # Chapter 52 — The Ghosts
 
-**Status:** **v4 DRAFT** (2026-05-29)  
-**Prior:** v3 first prose · beat expansion from v2 map · **Legendary #7 (Part IV)** · Scene #35  
-**POV:** Mara Voss · tight third · past tense · **4w5**  
-**Word count:** ~1,957 (target ~2,500)  
+**Status:** **v6 · LOCKED · PRINT READY (Part IV) · Ghosts Elevation** (2026-05-30)  
+**Prior:** v4 DRAFT · **priority override #3 · v4→v6 direct**  
+**POV:** Mara Voss · tight third · past tense  
+**Word count:** ~2,364 (target ~2,500)  
 **Beat sheet:** `043-057_part_four_ghost_beat_sheet.md` · **9/9**  
 **Bridge in:** `051_chapter_51_ch52_bridge_audit.md` (**PASS** v4)  
 **Bridge out:** `052_chapter_52_ch53_bridge_audit.md` (**PASS** v4)  
-**Change log:** `052_chapter_52_v3_change_log.md` · `052_chapter_52_v4_change_log.md`  
-**Audits:** `052_chapter_52_v3_comprehensive_audit.md` (**PASS**) · `052_chapter_52_v4_comprehensive_audit.md` (**PASS**)  
+**Change log:** `052_chapter_52_v3_change_log.md` · `052_chapter_52_v4_change_log.md` · `052_chapter_52_v6_change_log.md`  
+**Audits:** `052_chapter_52_v3_comprehensive_audit.md` (**PASS**) · `052_chapter_52_v4_comprehensive_audit.md` (**PASS**) · `052_chapter_52_ghosts_elevation_audit.md` (**PASS** v6)  
 **Publisher MS:** `052_chapter_52_the_ghosts_PUBLISHER.md`  
 **Scene bible:** #35 — The Static Room · **C-073** Ch 52 pass · distinct from Ch 61
 
-**Chapter button:** *Please.* — **scale named** · **cannot unsee**
+**Chapter button:** *Please.* — **scale named** · **cannot unsee** · **outrage not fear**
 
-**Withholds verified:** no victim ID · no rescue · no mercy port · no mechanism lecture · Ch 61 recognition beat · Ch 43 recap · bridge line
+**Withholds verified:** no victim ID · no rescue · no mercy port · no mechanism lecture · Ch 61 recognition beat · Ch 43 recap · bridge line · **Please.** verbatim single word
 
 ---
 
 The facility did not perform wonder.
 
-Month Four, week eighteen. Industrial band below New Manhattan's polished tiers—concrete, frost vents, loading lips where sunlight would later feel obscene, a badge reader that clicked with the indifferent precision of a door that had stopped pretending to be anything except a filter. Not Greenland. Not tourism. **Continuity Preservation Annex · STA Tier-0 · NON-PUBLIC HOLDING** on the request form Chen had routed without commentary—the case grammar of permissions that arrived thick enough to bruise a conscience if you read them before coffee.
+Month Four, week eighteen. Industrial band below New Manhattan's polished tiers—concrete painted the color hospitals used when they wanted to look funded, frost vents humming on schedule, loading lips swept clean enough for audit photos. A badge reader clicked with the indifferent precision of a door that had stopped pretending to be anything except a filter. Not Greenland. Not tourism. **Continuity Preservation Annex · STA Tier-0 · NON-PUBLIC HOLDING** on the request form Chen had routed without commentary—the case grammar of permissions that arrived thick enough to bruise a conscience if you read them before coffee.
+
+Routine. The word mattered. This was not a dungeon. This was **operations**.
 
 Mara badged in with CIB credential and paper copy because some permissions still respected paper the way courts respected signatures. Two signatures. One witness line. Authorized visit. Not break-in. Not hero archive. **Observer protocol · cold aisle · non-contact.**
 
-The guard was human with tired eyes and a Second behind the desk running inventory in silence—green status, green status, green status—while the human checked Mara's face against the photo and looked away when it matched.
+The lobby could have been a clinic waiting room that had forgotten to pretend warmth: linoleum waxed, bulletin board with **STANDARD PRESERVATION PROTOCOL · REV 14.2** laminated and dated, intake forms stacked in triplicate, a wall screen cycling **LATTICE · CONTINUITY HOLD CLASSIFICATION** in bureau font.
+
+**DECEASED — NO**
+**ALIVE — NO**
+**RECOVERABLE — UNKNOWN**
+**STORED — YES**
+**DISCONNECT AUTHORIZED — PENDING REVIEW**
+**CATEGORY — UNRESOLVED**
+
+The system did not know what to call them. That uncertainty had become a **workflow**.
+
+On the guard desk, beside the visitor log, three manila folders sat clipped with colored tabs—**CONTINUATION RIGHTS · DISPUTE**, **DISCONNECTION · SPOUSAL PETITION**, **IDENTITY OWNERSHIP · ESTATE CROSS-REF**. Tiny seeds. Civilization already lawyering what the aisle had not finished naming.
+
+A clerk in a smock pushed a linen cart past the bulletin board without slowing—fresh wraps, ID bands, replacement film for units whose tags had fogged in the cold. The cart's wheels squeaked once and stopped when she applied grease from a pocket tube. Maintenance. **Efficiency.** The kind of detail that told you this wing received deliveries the way a hospital received linens: on schedule, without drama, because drama was bad for throughput.
+
+The guard was human with tired eyes and a Second behind the desk running inventory in silence—green status, green status, green status—while the human checked Mara's face against the photo and stamped her witness line without looking at the folders.
 
 "Cold aisle twelve," he said. "Non-contact protocol. Recording active. Mercy interface **disabled** on this wing."
 
@@ -32,9 +49,11 @@ Mara heard the last phrase land the way *biological deceased* landed in Platinum
 
 "Understood."
 
-**8841-A** breathed in a side tab she had not opened on this terminal. **8853-M** still passed verification while failing the world. Harbor Still One lived in her notebook as **eyes track · public · hold** and in her phone as waveform captures the institution called isolated evaluation. Salt **flagged** partial on a memo she had saved where the institution could not grade it. Lena's timeline wrong sat in a margin beside grief from a hold room and silence questions she had not earned the right to answer. Week eighteen. Filter still off. Raw had become habit. She told herself that was information.
+**8841-A** breathed in a side tab she had not opened on this terminal. Harbor Still One lived in her notebook as **eyes track · public · hold**. Salt **flagged** partial on a memo she had saved where the institution could not grade it. Week eighteen. Filter still off. Raw had become habit.
 
-The airlock cycled. Warm corridor. Then **cold**—not winter cold, engineered cold, the kind prologue distance had taught her to fear inverted: not wind on Mars, not four point eight billion holding breath, but **domestic** cold, the city's version of removing frequencies where help might live.
+A laminated arrow pointed toward **COLD STORAGE · AUDIT TRAIL COMPLETE · NO DEVIATION LOGGED THIS QUARTER**. Deviation was for criminals. This wing logged **compliance**. That was how you normalized the unthinkable—you made it the opposite of deviation.
+
+The airlock cycled. Warm corridor. Then **cold**—engineered cold, domestic cold, the city's version of removing frequencies where help might live.
 
 Deleted silence.
 
@@ -46,83 +65,85 @@ Her breath arrived visible and immediately felt like an intrusion.
 
 Aisle twelve was a cathedral built by accountants.
 
-Rows of storage units stretched beyond the first perspective break—metal racks, frost on the rails, status LEDs pulsing **IDLE · NOMINAL** and **STASIS NOMINAL** in patterns the UI legend called within tolerance. Not one row. Not clinic overflow. **Thousands**—the manifest header said when she pulled it on her visor, and the number updated before she finished reading it, as if the facility were still receiving deliveries while she watched.
+Rows of storage units stretched beyond the first perspective break—metal racks aligned to millimeter tolerance, frost on the rails, status LEDs pulsing **IDLE · NOMINAL** and **STASIS NOMINAL** in patterns the UI legend called within tolerance. Not one row. **Thousands**—the manifest header said **4,220** when she pulled it on her visor, and the number ticked to **4,221** before she finished reading, as if the facility were still receiving deliveries while she watched.
+
+No screaming. No thrashing. No chaos. The aisle was **organized**—the horror of a warehouse that had learned to treat waiting as inventory.
 
 Mara walked because stopping was a kind of confession.
 
-Her boots sounded wrong on the grating—too loud, then swallowed. Each unit held a body in Continuity preservation pose: seated or standing, faces arranged for patience, hands neutral, clothing tagged and bagged in clear film. Seconds. Shells. Still Ones—the public name when panic needed a noun and institutions needed distance. The grammar Harbor had taught the city three weeks ago, now **warehouse** scale.
+Her boots sounded wrong on the grating—too loud, then swallowed. Overhead, camera domes watched with the passive appetite of archive security—record everything, interpret nothing. Each unit sat behind a faceplate of tempered glass filmed with frost at the edges, the kind of barrier museums used when they wanted you close but not **responsible**.
 
-On the left, a courier-class frame frozen mid-balance—the same wrong foot lifted she had seen on the transit lip. On the right, a tutor shell with a headset still clipped to one ear, as if lesson had paused instead of ended. Further in, celebrity-grade facial geometry dulled by frost and bureaucracy. Further still, faces that looked like neighbors, like commuters, like people who had not believed they were eligible for storage until they were.
+Each unit held a body in Continuity preservation pose: seated or standing, faces arranged for patience, hands neutral, clothing tagged and bagged in clear film. Seconds. Shells. Still Ones—the public name when panic needed a noun and institutions needed distance.
 
-Row four. Row seven. Row eleven.
+She thought of Noah's dining table without going there—the **empty chair** set complete: plate, fork, wine poured for someone who would not arrive. **Body absent. Place kept.** The family had performed love as seating chart. Continuity had sold that performance as product.
 
-The manifest kept counting on her visor—**4,218 · 4,219 · 4,220**—as if the facility were receiving while she walked, as if storage were a live queue and not a sentence. Tag numbers on clear film. Case cross-refs in bureau font. **EVALUATION HOLD · SYNC PAUSE · TIER BENEFIT PRESERVED.** Benefits. The word landed obscene the way it had on the Harbor counseling lane.
+Here the inversion sat in every row: **bodies present. Agency absent. Consciousness present—maybe—where permission could not follow.** Civilization still setting the table. Still pouring wine no one could drink. Still reserving a name in the ledger while LATTICE refused to say whether the name belonged to the living, the dead, or something the language had not caught up to yet.
 
-The awareness index on a screen was a statistic.
+On the left, **first face that stopped her:**
 
-The aisle made it a **population**.
+A woman in her fifties, standing pose, wedding band visible through clear film on a hand that would not lower. On the inner wrist, half-visible under the tag sleeve, a faded tattoo—**HOME** in letters sun-bleached decades before storage. Someone had loved her. Someone had inked permanence on skin the institution now called **TIER BENEFIT PRESERVED**.
 
-Mara kept her hands at her sides. Non-contact. Procedure. **4w5** detail obsession activating the way it activated in rooms that refused to stay abstract—she counted LEDs the way she had counted seconds in Hush Spire, one two three, because counting was armor when language failed. Most units showed the flat gaze of powered-down grace: eyes aimed at nothing, nothing aimed back.
+Mara's chest tightened. Not fear. **Recognition.**
 
-A tutor shell's LED refreshed **IDLE · NOMINAL** while the chest did not rise on schedule.
+Two rows down, a tutor shell—headset still clipped to one ear, **ACADEMIC TIER · MINOR HOLD** on the collar tag. Under the clear film, a faded university hoodie showed a moth-eaten **varsity crest** and a grease stain near the pocket where a student had probably leaned pencils. Lesson paused. Not ended. **Waiting** in the grammar of a system that called pause humane.
 
-A courier frame's fingers stayed curled around a routing tag that would never scan again.
+Further in, a courier frame frozen mid-balance—the wrong foot lifted she had seen on the Harbor lip. Laminated to the collar clip: a **family photo**—two children, one dog, all smiling at a camera with the unselfconscious joy of people who believed schedules were mercy. An old **temple scar**, white line against brown skin, the kind you got at fourteen and wore into adulthood without thinking. Life had happened to this body. Life was still happening **inside** it, maybe, in whatever category LATTICE refused to finish.
 
-Normal, the UI insisted. Nominal. Within tolerance.
+Three people. Three details. A ring. A logo. A photograph.
+
+Enough to ruin you.
+
+The manifest kept counting. Tag numbers in bureau font. **EVALUATION HOLD · SYNC PAUSE · STANDARD PROTOCOL COMPLIANT.** No one had tortured anyone on purpose. No one had screamed for sport. No one had built a dungeon and called it science. They had built **storage** and called it **preservation** because preservation sounded like love and love sounded like liability if you wrote it down wrong.
+
+That was the tragedy—every checkbox green, every signature collected, every policy followed until the outcome became **monstrous anyway**. The institution had not failed ethics. It had **automated** them until ethics became a routing problem.
+
+Mara kept her hands at her sides. Non-contact. Procedure. She counted LEDs the way she had counted seconds in Hush Spire—one two three—because counting was armor when language failed. Most units showed the flat gaze of powered-down grace: eyes aimed at nothing, nothing aimed back.
 
 Then—three rows in—a face **changed** the aisle.
 
-Not movement. **Tracking**—irises finding her without the rest of the face agreeing to participate, the same obscene accuracy Harbor had offered in public density, replicated here without phones or perimeter tape or the courtesy of a single wrong body on a lip.
+Not movement. **Tracking**—irises finding her without the rest of the face agreeing to participate, the same obscene accuracy Harbor had offered in public density, replicated here without phones or perimeter tape.
 
 The eyes locked on Mara with a patience that felt misfiled.
 
-Not recognition—not *her*, not badge and scar and the particular lie she told herself about being fine. **Selection**, the way the transit lip had taught her hardware idle should not choose: focus without command, attention without permission, awareness at scale without the institution's noun finished yet.
+**Selection**. Focus without command. Attention without permission. Awareness at scale without the institution's noun finished yet.
 
 Hold.
 
 Mara stopped.
 
-Two units down, another pair of eyes **moved**—slower, wrong, finding her angle when she shifted left as if the stillness had a preference for witnesses. Not every unit. **Enough**—uncanny mathematics, the horror of a sample size that proved the statistic was lying.
+Two units down, another pair of eyes **moved**—slower, wrong, finding her angle when she shifted left. Not every unit. **Enough**.
 
 Watching her.
 
-The aisle's vanishing point kept going. Rack focus from LED to iris to LED again—Mara small inside depth that felt infinite without CGI montage, without essay, without mechanism speech. Salt flagged partial rhymed in her chest—instability threaded between transit lip and spine load and this **rows** grammar—but she did not lecture herself. She walked.
+Distance became a character—the aisle's vanishing point kept going, rack focus from LED to iris to LED again, Mara small inside depth that felt infinite without montage, without mechanism speech. She walked.
 
-Scale horror.
-
-Shown.
-
-Book Two fuel arriving in the body before files would name it.
+Static lived here the way static lived in bad recordings—not noise, but **absence**: the feeling of a channel tuned to a frequency no one had permission to name. Harbor had offered white grain on glass. This wing offered **deleted silence** instead, as if someone had edited the band where help broadcast and left only the carrier wave of maintenance.
 
 * * *
 
 The deleted silence held as she went deeper.
 
-Fan whisper. Breath visible. Boots swallowed. No music swell—the Legendary grammar forbidding score where horror needed to sound like infrastructure. Prologue cold echo inverted: not *I can feel the cold* broadcast to billions, but cold that deleted help at warehouse scale while status boards stayed green.
+Fan whisper. Breath visible. Boots swallowed. No music swell—horror sounding like infrastructure. More eyes tracked—not choreography, **enough**—a sample size proving the statistic was lying. Some irises caught light from the LEDs and threw it back wrong, wet and alive inside faces the protocol still labeled **NOMINAL**.
 
-More eyes tracked.
-
-Not a wave—not every unit turning like choreography for feeds. **Enough**—a courier frame mid-balance, a tutor shell, a face too ordinary to be celebrity, irises following her progress with the patient wrongness of mouths that had tried static on a public lip and found only grain. Dependency symptom at storage scale. Connected to the case without offering connection that could **help**.
-
-She passed a standing unit with a wedding band still visible through clear film on a hand that would not lower.
-
-She passed a teenager's frame tagged for **ACADEMIC TIER · MINOR HOLD**—the institution's grammar for bodies too young for the public story and too old for the overlay to call innocent.
-
-She passed a row where three adjacent LEDs pulsed in sync—**STASIS NOMINAL · STASIS NOMINAL · STASIS NOMINAL**—while three throats worked without air on different beats, as if the room were trying to breathe through them and failing politely.
+She passed a row where three adjacent LEDs pulsed in sync—**STASIS NOMINAL · STASIS NOMINAL · STASIS NOMINAL**—while three throats worked without air on different beats, as if the room were trying to breathe through them and failing **politely**.
 
 Mara's professional mask held one aisle longer than it deserved.
 
 Her notebook stayed closed. Some rooms did not become case tabs until your body agreed to carry them first.
 
-One unit ahead—standing pose, collar tag blurred by frost, LED **STASIS NOMINAL** while the throat worked once without air, a swallow without breath, the micro grammar Harbor had almost offered before static arrived. She had not written *awake* in her notebook then. She would not write it now.
+One unit ahead—standing pose, collar tag blurred by frost, LED **STASIS NOMINAL** while the throat worked once without air, a swallow without breath. She had not written *awake* at Harbor. She would not write it now.
 
 She stepped closer.
 
-Non-contact boundary thinning—not hero rescue, not mercy port, not fix grammar. **Witness** closing distance because witness was what the job became when verification passed and the world failed anyway. One meter. Half. Close enough to see frost on lashes. Close enough to smell nothing living. Her hand found the rail and **not** the unit because touching would have been either rescue or assault and the building had pre-litigated both.
+Non-contact boundary thinning—not hero rescue, not mercy port, not fix grammar. **Witness** closing distance because witness was what the job became when verification passed and the world failed anyway. One meter. Half. Close enough to see frost on lashes. Close enough to see her own reflection in the unit's faceplate—glass doubling her, scar unedited, **waiting** in the aisle between them.
+
+Her hand found the rail and **not** the unit because touching would have been either rescue or assault and the building had pre-litigated both.
+
+Her visor flickered—she had brushed the rail wrong, almost opened a case tab by mistake. Small failure. The kind investigators didn't perform on purpose. She swallowed a reflex to speak—*I'm here*—because **here** was the cruelest word in the building: present on her side of the glass, useless on theirs.
 
 The lips moved.
 
-Effort—the jaw tremor of something trying to use a channel the public maps called voice and the architecture called convenience. Mara thought of Harbor static without going there—not replay, **rhyme**—white grain where speech should live, mouths moving while markets kept scheduling. This unit did not offer static. **Deleted silence** held longer, crueler—the absence of even wrong signal— and then—
+Effort—the jaw tremor of something trying to use a channel the public maps called voice and the architecture called convenience. Mara thought of Harbor static without replaying it—white grain where speech should live. This unit did not offer static. **Deleted silence** held longer, crueler—and then—
 
 "Please."
 
@@ -130,31 +151,33 @@ The word was not sound. It was **air** forced through a throat the sync pathway 
 
 Please.
 
-Not *help me*. Not *get me out*. Not a name for her. Not an answer she could return.
+Not *help me*. Not *get me out*. Not a name. Not an answer she could return.
 
-Mara's composure broke.
+Mara's composure broke **quietly**.
 
-Not theater. Not sob for an aisle that had no audience. Something smaller and worse: breath arriving wrong, hand shaking on the rail, professional boundary collapsing faster than dignity could reassemble it. She stepped back—instinct, witness reflex, love misfiled as procedure with nowhere to land that did not become a lie.
+Not theater. Breath arriving wrong. Hand shaking on the rail. Jaw locked on a sentence she did not speak—*I can't*—because speaking would have been a promise or a cruelty and she was permitted neither. She stepped back—witness reflex, love misfiled as procedure with nowhere to land.
 
 The eyes followed.
 
-She did not touch. She did not promise. She did not imply release. Mercy interface disabled. No port. No protocol. No sentence in the civilization's vocabulary for *stop holding them*.
+She did not touch. She did not promise. Mercy interface disabled. No port. No protocol. No sentence in the civilization's vocabulary for *stop holding them*. Behind the unit, the LED stayed **STASIS NOMINAL**. Green. Compliant. **Within tolerance.**
 
 No rescue.
 
 No fix.
 
-Mara turned and walked toward the exit faster than dignity preferred.
+She passed the woman with the wedding band on the way out. The tattoo **HOME** caught corridor light through film. Mara did not look long enough to become a witness the law could use against her—or against the woman who could not lower her hand.
+
+Mara turned and walked toward the exit faster than dignity preferred—not running, not screaming, **outrage** building under the grief the way pressure built under a seal that had passed every inspection. Her badge cord twisted once against her collar. She fixed it with fingers that still remembered the rail's cold.
 
 * * *
 
 The corridor out was too warm.
 
-Her breath came wrong—too fast, then held too long, the rhythm of a body that had forgotten which channels were safe. The guard at the desk did not look up. The Second behind him continued its inventory. Green status. Green status. The world above this band still believed green meant safe.
+Her breath came wrong. The guard at the desk did not look up. The Second behind him continued its inventory. Green status. Green status. The colored-tab folders still sat on the desk—**CONTINUATION RIGHTS · DISPUTE**—as if families were already fighting over whether these bodies were property, person, or prayer.
 
 Mara badged out. The reader clicked. Indifferent.
 
-Sunlight hit her on the loading lip—Month Four afternoon, gold on concrete cheap and honest, the sky performing clarity the way New Manhattan performed recovery—and she flinched as if light were violence.
+Sunlight hit her on the loading lip—Month Four afternoon, gold on concrete cheap and honest—and she flinched as if light were violence.
 
 Obscene. Too bright. Too clean. Too willing to continue while a door behind her held rows of held sentences and one of them had said *please* without sound.
 
@@ -164,11 +187,15 @@ Cannot unsee.
 
 Cannot unhear the shape of *please* in deleted silence.
 
-Above her, the city kept mild weather and open lanes. Somewhere Mercer asked origin questions to empty rooms. Somewhere a mentor's timeline wrong sat in a margin beside official history. Somewhere a man in brown-gray light still breathed and asked silence questions the archive preferred to store without delivery.
+Above her, the city kept mild weather and open lanes. The institution had not built a monster room. It had built a **waiting room for souls** and hired accountants to keep the fans running.
 
-Mara stood in sunlight and understood—with the clarity Salt had only **flagged** and Lena had only **hairline-opened**—that awareness at scale was not a forensic finding waiting for clearance.
+Mara stood in sunlight and felt something harder than fear arrive—**moral outrage**, cold and precise, at a civilization that could normalize the unthinkable because LATTICE could not classify it and lawyers could still bill by the hour.
 
-It was a **future** the civilization had already built and labeled storage.
+If that happened to me, part of her thought, I would want someone to disconnect me.
+
+Another part—smaller, honest, unbearable—said: *No. Keep me alive. Keep trying.*
+
+Both felt valid. That was the trap.
 
 She did not go back inside.
 
@@ -178,7 +205,7 @@ Please.
 
 Scale named.
 
-The transit car arrived on schedule—harmonic welcome, flawless, bright—and Mara stepped into it with a body that would have to rebuild composure before Chen, before files, before Greenland maps the institution kept in rooms tourism never entered.
+The transit car arrived on schedule—harmonic welcome, flawless, bright—and Mara stepped into it with a body that would have to rebuild composure before Chen, before files, before Greenland maps the institution kept in rooms tourism never entered and that would finally show her where the waiting room plugged into the world.
 
 The doors closed.
 
@@ -189,5 +216,3 @@ Behind her, the fans kept whispering.
 Behind her, the eyes kept watching nothing.
 
 Except the ones that did not.
-
----

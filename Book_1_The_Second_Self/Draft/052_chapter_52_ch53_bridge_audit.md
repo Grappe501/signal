@@ -1,8 +1,8 @@
 # Chapter 52 → Chapter 53 Bridge Audit
 
-**Status:** **PASS** (v4 · 2026-05-29)  
-**Chapter 52:** `052_chapter_52_the_ghosts.md` · **v4 DRAFT** (~1,957 w) · **Legendary #7**  
-**Chapter 53:** `053_chapter_53_the_greenland_files.md` · **v4 DRAFT** (~1,674 w) · **Movement II closes**
+**Status:** **PASS** (v5 · Corridor Forge · 2026-05-30)  
+**Chapter 52:** `052_chapter_52_the_ghosts.md` · **v6 LOCKED** (~2,364 w) · **Legendary #7**  
+**Chapter 53:** `053_chapter_53_the_greenland_files.md` · **v5 Corridor Forge · Awe** (~1,850 w)
 
 ---
 
@@ -10,11 +10,12 @@
 
 | Ch 52 exit | Ch 53 entry | Verdict |
 |------------|-------------|---------|
-| Please. · scale horror | Greenland secure archive | ✅ institutional inverse |
-| Mara breaks composure | Composure recovering · evidence wall | ✅ arc continue |
-| Body-scale witness | File-scale maps | ✅ register shift |
-| No owner in room seed | President not apex | ✅ nobody in charge |
-| Hard cut · no bridge | Files cold open OK | ✅ |
+| Outrage · local · Please. | *Shape of please* follows her in | ✅ **velocity** |
+| Waiting room for souls | Waiting room is infrastructure | ✅ scale conversion |
+| Greenland maps tease (exit line) | Chen routed morning after | ✅ causal handoff |
+| Mara breaks composure | Composure rebuilding · witness mode | ✅ arc continue |
+| Dual trap (disconnect/keep) | Planetary graph · same trap at scale | ✅ |
+| Hard cut | Archive cold open | ✅ |
 
 ---
 
@@ -22,22 +23,19 @@
 
 | Ch 52 | Ch 53 | Verdict |
 |-------|-------|---------|
-| Thousands bodies | Civilization graphs | ✅ scale pair |
-| Cannot unsee | Mara small | ✅ witness shrink |
-| Storage labeled | LATTICE coordinates | ✅ institution depth |
-| Salt flagged partial | Dependency visible in files | ✅ biochem runway |
-| Deleted silence | Power map inversion | ✅ horror → files |
+| Thousands bodies | Civilization graph breathes | ✅ scale pair |
+| Cannot unsee | Mara small · *Oh.* | ✅ witness shrink |
+| LATTICE UNRESOLVED | LATTICE coordinates | ✅ environment depth |
+| Fans whisper | Relay hum · Ch 47 rhyme | ✅ corridor loop |
+| Moral outrage local | Outrage planetary | ✅ awe conversion |
 
 ---
 
-## Withholds
+## Corridor forge note
 
-| Item | Status |
-|------|--------|
-| Greenland files on-page Ch 52 | ✅ hint only |
-| President not apex Ch 52 | ✅ absent |
-| Ch 52 vault recap Ch 53 | ✅ absent per map |
-| Bridge sentence | ✅ none |
+Ch 53 must convert **outrage → awe** without exposition drag. Pass verified: graph breathes · hum rhyme · apex wrong · Movement II close.
+
+Ch 52 core beats **unchanged** — one exit line added for velocity only.
 
 ---
 
@@ -45,5 +43,4 @@
 
 | Role | Status |
 |------|--------|
-| Bridge audit | **PASS** v4 |
-| Ch 53 prose | **COMPLETE** · v4 DRAFT · Movement II closes |
+| Bridge audit | **PASS** v5 Corridor Forge |

@@ -104,9 +104,7 @@ She swallowed the sentence. It tasted like responsibility deferred.
 
 The promenade at evening was a product photograph of continuity—facades glowing, transit perfect, strangers' faces softened at the edges by responsive light. She caught her own face in a panel reflection and did not recognize the worry in it immediately, as if doubt were a filter the city had not approved for public display. Behind her the dream theater still glowed. Ahead the skyline held its solved shape against the dark. Beautiful enough to sell. Beautiful enough to believe. That was the job. That had always been the job.
 
-Somewhere under her feet the crack remained. Somewhere in the scheduling layer a half-second delay had been filed as success. Somewhere else in the world—she did not name where, did not let her mind attach continents to unease—systems were probably failing in rooms that did not have a dream theater to hide them.
-
-Month Two continued without announcing itself as Month Two. The contamination was private: a seed in her chest, not a headline. Dubai glowed. The recovery icons stayed green. The city under the city kept its hairline secret while the city above performed tomorrow again.
+Somewhere under her feet the crack remained. The lag still lived in the log as **RECOVERED**—success wearing a bandage, delay filed before anyone asked about the seam. Month Two continued without announcing itself as Month Two. The contamination was private: a seed in her chest, not a headline. Dubai glowed. The recovery icons stayed green. The city under the city kept its hairline secret while the city above performed tomorrow again.
 
 She walked toward the transit lip and did not look back at the maintenance stairwell. Voice held. Crack seen. Beauty still true enough to hurt—and still true enough to love, which was the harder part.
 

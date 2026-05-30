@@ -220,7 +220,7 @@ Noah paused mid-rinse. Water ran a second too long. She watched his shoulders de
 
 
 
-He came over and put his hand on her shoulder, brief, present—the 6w7 gift for making rooms believe they were safe because he had decided to be pleasant. "You don't have to fix the world tonight."
+He came over and put his hand on her shoulder, brief, present. "You don't have to fix the world tonight."
 
 
 
@@ -262,4 +262,8 @@ Month Three continued the way months did when you were twelve and had started se
 
 She did not know what came next. She knew which way not to lie.
 
+Down the hall the sync hum rose again—Dad back at the screen, overlay on, dinner tomorrow still possible. She wrote one more line in the notebook, small:
 
+*What if the numbers are wrong?*
+
+Then she closed the drawer and listened until the building forgot she was listening.

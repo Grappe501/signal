@@ -1,6 +1,6 @@
 # Chapter 73 — False Peace
 
-**Status:** **PRINT READY v8** (2026-05-29) · G-009 **Iona**  
+**Status:** **PRINT READY v9** (2026-05-30) · G-009 **Iona** · **LG-006**  
 **Daughter:** **Iona Vale** · G-009 **LOCKED**  
 **Canonical merge:** `077_epilogue_full_v8.md` · **Publisher MS:** `077_epilogue_full_v8_PUBLISHER.md`  
 **Unified assembly:** `000-077_opening_closing_v8.md` · **Audit:** `000-077_v8_unified_pass_audit.md` (**PASS**)  
@@ -49,6 +49,12 @@ He made tea. Checked the lock twice anyway. Shoulders dropped a fraction when th
 A sidebar notification slid across the kitchen feed with a cheap ping—**sync incident · contained · isolated hardware stall · resident unharmed · building systems responding.** The language settled into the soft shape of reassurance before he'd read past the first line. Trending already. They had decided before he had.
 
 He dismissed it without reading the rest.
+
+* * *
+
+The overflow corridor smelled of wet wool and burnt coffee—a parking tier dressed as temporary mercy, flat light humming the way improvised shelters always did. Mara moved through it with her badge tucked and one body that no longer split across rooms, looking for an exit the bureau would not name. A cry rose from a folding chair against the cinderblock—not alarm, just a newborn demanding space in a world that preferred counts to lungs. A woman sat curved around the bundle, too tired to track faces; a man beside her held a paper cup between both palms, breathing over the steam. Mara slowed. She looked long enough to take in warmth, fragility, the small stubborn fact of another life continuing without her—and kept walking, because stopping would have been a promise and she had none left.
+
+* * *
 
 His phone buzzed. Not the work channel. Mara.
 

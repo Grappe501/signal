@@ -1,7 +1,7 @@
 # Monorepo deploy — Netlify builds from reader/
 [build]
   base = "reader"
-  command = "echo Source committed — skip build"
+  command = "npm install && npm run build"
   publish = "."
 
 [build.environment]

@@ -1,24 +1,5 @@
 # Chapter 55 — The Real Confession
 
-**Status:** **PRINT READY v7** (2026-05-29)  
-**Prior:** v3–v6 · Scene #42 partial · Ch 50 escalation · Part IV v7 unified  
-**Unified:** `054-057_part_iv_v7_unified_pass_audit.md` (**PASS**)  
-**POV:** Mara Voss · tight third · past tense · **4w5**  
-**Word count:** ~1,440 (target ~2,300)  
-**Beat sheet:** `043-057_part_four_ghost_beat_sheet.md` · **9/9**  
-**Bridge in:** `054_chapter_54_ch55_bridge_audit.md` (**PASS** v5)  
-**Bridge out:** `055_chapter_55_ch56_bridge_audit.md` (**PASS** v5)  
-**Change log:** `055_chapter_55_v7_change_log.md` · prior v3–v6 logs retained  
-**Audits:** `055_chapter_55_v3_comprehensive_audit.md` (**PASS**) · `055_chapter_55_v4_comprehensive_audit.md` (**PASS**) · `055_chapter_55_v5_final_polish_audit.md` (**PASS**) · `055_chapter_55_v5_pair_read_audit.md` (**PASS**) · `055_chapter_55_v6_enneagram_symbol_arc_audit.md` (**PASS**)  
-**Publisher MS:** `055_chapter_55_the_real_confession_PUBLISHER.md`  
-**Scene bible:** #42 partial · Seg 035 Twist #6 · Seg 044 sympathy · Ch 64 runway · **C-072**
-
-**Chapter button:** *We solved problems faster than we understood them.* — **regret not pardon**
-
-**Withholds verified:** no full betrayal · no Eli named · no forgiveness · no Ch 64 cage line · no arrest on-page · no Ch 54 recap · bridge line
-
----
-
 The mentor session did not begin with coffee this time.
 
 Month Four, week nineteen. Dr. Lena Orra's office sat lab-adjacent on CIB-5—the same warm practical glass, the same uneven plant, the same smooth UI Continuity preferred when it wanted investigators to feel supported rather than audited. But the coffee stayed on the warmer. The door closed with a latch sound that felt like a decision.
@@ -31,7 +12,7 @@ Lena looked up and did not smile first.
 
 "You've been carrying more than tabs," she said. Not accusation. Inventory—the mentor tone stripped to something rawer beneath polish. "I asked Chen to give you clearance for Greenland files. I didn't ask her to give you the aisle."
 
-Mara met her eyes once. Lena knew, then—or knew enough. The institution always knew enough to schedule witness and call it support.
+Mara met her eyes once. Lena knew, then—or knew enough. The institution always knew enough to schedule the block and call it support.
 
 "I didn't touch anyone," Mara said.
 
@@ -75,7 +56,7 @@ Store first, name later, not interrupting because interrupting would have been a
 
 * * *
 
-Consequences now—not prophecy. **Building** in the world Mara had walked since Month Three: public Still Ones and private holds and Salt flagged and storage labeled preservation and graphs that coordinated civilization while confidence leaked. District footers still promised open lanes. Markets still ticked nominal. The show continued because the show was the product—and the product still believed optimization could outrun harm if you smoothed the slope into quarterly slides the institution called resilience. Lena did not recap the aisle. She didn't need to. The consequences lived in Mara's shoulders like witness blocks stacked without resolution.
+Consequences now—not prophecy. **Building** in the world Mara had walked since Month Three: public Still Ones and private holds and Salt flagged and storage labeled preservation and graphs that coordinated civilization while confidence leaked. District footers still promised open lanes. Markets still ticked nominal. The show continued because the show was the product—and the product still believed optimization could outrun harm if you smoothed the slope into quarterly slides the institution called resilience. Lena did not recap the aisle. She didn't need to. The consequences lived in Mara's shoulders like hold blocks stacked without resolution.
 
 "I didn't think I was building harm," Lena said. Quiet. Not villain monologue. Not performing innocence. Regret primary—the ache of a woman who had spent years making institutional cover feel like care. "I thought I was **buying time** for understanding to catch up."
 
@@ -99,11 +80,11 @@ Lena's voice dropped.
 
 "We solved problems faster than we understood them."
 
-The line hung in the warm practical office. Just words in a room with one witness.
+The line hung in the warm practical office. Just words in a room with one listener.
 
 Silence after.
 
-Mara did not say *I forgive you*. Did not say *I understand*. Did not offer absolution shape. **Witness** only—sympathy micro in her chest, conflict private, trust wound and gratitude and horror indistinguishable on the surface again. Not villain. Not pardoned.
+Mara did not say *I forgive you*. Did not say *I understand*. Did not offer absolution shape. Listening only—sympathy micro in her chest, conflict private, trust wound and gratitude and horror indistinguishable on the surface again. Not villain. Not pardoned.
 
 Lena did not repeat the line. Repeating was how institutions turned regret into policy.
 
@@ -111,11 +92,11 @@ Lena did not repeat the line. Repeating was how institutions turned regret into 
 
 Mara's throat tightened. She said nothing clean.
 
-Lena remained at the desk when Mara stood—not standing to escort yet, not performing closure. Just a woman in a warm practical office with a line she could not unsay and a witness who would not absolve her.
+Lena remained at the desk when Mara stood—not standing to escort yet, not performing closure. Just a woman in a warm practical office with a line she could not unsay and someone who would not absolve her.
 
 "Thank you for listening," Lena said. Quiet. Not request for pardon. Inventory again.
 
-Mara nodded once. The nod was not forgiveness. It was the only currency the room would accept without turning witness into policy.
+Mara nodded once. The nod was not forgiveness. It was the only currency the room would accept without turning listening into policy.
 
 * * *
 

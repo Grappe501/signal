@@ -20,7 +20,7 @@
 
 The feed found them at dinner.
 
-Month Four, week fifteen. Noah had cleared the plates and left the kitchen panel open the way you left a window cracked when the building promised mild weather—habit, not anxiety, the **6w7** reflex that said *look once, confirm normal, return to the table.* Gold warmed the laminate where it always warmed on cheap surfaces that didn't pretend to be stone. Through the window wall, New Manhattan performed recovery: tier brows lit, pod lanes harmonized, the city he'd re-enabled after the honest week because grief was expensive and attention was finite and parenting inside unfiltered gray had tired him in ways virtue could not refund.
+Month Four, week fifteen. Noah had cleared the plates and left the kitchen panel open the way you left a window cracked when the building promised mild weather—habit, not anxiety, the reflex that said *look once, confirm normal, return to the table.* Gold warmed the laminate where it always warmed on cheap surfaces that didn't pretend to be stone. Through the window wall, New Manhattan performed recovery: tier brows lit, pod lanes harmonized, the city he'd re-enabled after the honest week because grief was expensive and attention was finite and parenting inside unfiltered gray had tired him in ways virtue could not refund.
 
 The sync hum settled in its old bed beneath everything. Iona's homework tile had closed green. The Second dock muted and respectful. Everything working. That was the part he still couldn't make peace with—not failure, but success this quiet after failure had been loud.
 
@@ -30,7 +30,7 @@ Not alarm. **Update**—the polite tone institutions used when they wanted kitch
 
 Iona watched too.
 
-Twelve. Quiet. **4w3** precise—not frightened, not performing wonder, the way she went quiet when she stored something in a drawer he wasn't supposed to open yet. She had kept her overlay off for morning block since the failure and turned it back on for homework because, she'd said, *equations looked mean without it.* Noah had not argued. Difference allowed. Not optimized into a lesson.
+Twelve. Quiet. Precise—not frightened, not performing wonder, the way she went quiet when she stored something in a drawer he wasn't supposed to open yet. She had kept her overlay off for morning block since the failure and turned it back on for homework because, she'd said, *equations looked mean without it.* Noah had not argued. Difference allowed. Not optimized into a lesson.
 
 On screen, the narrative arrived contained.
 
@@ -60,7 +60,7 @@ Deputy continuity director—name smooth, face familiar in the way public faces 
 
 A sidebar ticker ran beneath the anchor: **MARKETS STEADY · TRANSIT NOMINAL · NO TIER ESCALATION.** Recovery in numbers because numbers were how adults preferred fear to dress when it went out in public.
 
-Noah rinsed a pan he had already rinsed. Hands busy. **6w7** gift for making rooms believe they were safe because he had decided to be pleasant. Iona stayed at the table with her chin on her hand and watched the screen the way she watched adults who thought children only listened when you used their names.
+Noah rinsed a pan he had already rinsed. Hands busy. Hands busy, making safety out of motion when words would have been performance. Iona stayed at the table with her chin on her hand and watched the screen the way she watched adults who thought children only listened when you used their names.
 
 The camera cut to officials flanking the director.
 
@@ -136,7 +136,7 @@ Noah stood at the window wall one beat with the mug and the chip at the rim and 
 
 He was unhappy anyway.
 
-Not storm unhappy. **Hairline** unhappy—the wrong shape inside a perfect container. He did not re-enable honesty tonight. He did not disable the Veil to prove bravery. He held Iona's question the way you held a stone in a pocket you chose not to shift—warm deflect spent, **6w7** silence, trust fraying domestic where institutional reassurance had failed to reach a twelve-year-old who watched hands more closely than scripts.
+Not storm unhappy. **Hairline** unhappy—the wrong shape inside a perfect container. He did not re-enable honesty tonight. He did not disable the Veil to prove bravery. He held Iona's question the way you held a stone in a pocket you chose not to shift—warm deflect spent, silence, trust fraying domestic where institutional reassurance had failed to reach a twelve-year-old who watched hands more closely than scripts.
 
 Iona's door closed down the hall—soft, not slammed, the sound of a child choosing privacy over argument because argument required answers adults didn't have.
 

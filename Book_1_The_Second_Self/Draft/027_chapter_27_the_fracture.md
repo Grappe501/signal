@@ -1,24 +1,5 @@
 # Chapter 27 — The Fracture
 
-**Status:** **v4 DRAFT** (2026-05-29)  
-**Prior:** v3 first prose · beat expansion from v2 map · **Act II finale**  
-**POV:** Mara Voss · tight third · past tense · **Part II closes**  
-**Word count:** ~2,236 (target ~2,600)  
-**Beat sheet:** `013-027_act_two_beat_sheet.md` · **9/9**  
-**Bridge in:** `026_chapter_26_ch27_bridge_audit.md` (**PASS** v4)  
-**Bridge out:** `027_chapter_27_ch28_bridge_audit.md` (**PASS** v4)  
-**Change log:** `027_chapter_27_v3_change_log.md` · `027_chapter_27_v4_change_log.md`  
-**Audits:** `027_chapter_27_v3_comprehensive_audit.md` (**PASS**) · `027_chapter_27_v4_comprehensive_audit.md` (**PASS**)  
-**Publisher MS:** `027_chapter_27_the_fracture_PUBLISHER.md`  
-**Scene bible:** Part II collage · three signatures · Part III door
-
-**Chapter button:** *Answers multiplying* · Veil **filters** · **floor** **next**
-
-**Locked line verified:** *"The answers were multiplying faster than the questions."* — verbatim  
-**Withholds verified:** no Veil failure · no predates · no Ch 26 fear · no Part I recap essay
-
----
-
 Nothing fit.
 
 Month Two, week nine. CIB case room, upper tier—the evidence wall that had offered mercy on a Tuesday and called it **CHAIN COMPLETE**. Mara stood in front of it with her paper notebook and the particular silence of an investigator who had watched relief die without ceremony.
@@ -69,7 +50,7 @@ Chen's eyes moved to the merge chart—three lines, one overlap, hypothesis fiel
 
 "He fits the order," Mara said. "He doesn't fit the shape."
 
-"He fits budget," Chen replied—the old rhyme from Month One's basement, cross-ref is noise, cross-ref is budget. This time her voice carried the smallest edge of something private failing beneath contained language. Not panic. Not confession. The hairline where **1w9** authority admitted the story was good enough for paperwork and not good enough for sleep.
+"He fits budget," Chen replied—the old rhyme from Month One's basement, cross-ref is noise, cross-ref is budget. This time her voice carried the smallest edge of something private failing beneath contained language. Not panic. Not confession. The hairline where authority admitted the story was good enough for paperwork and not good enough for sleep.
 
 Chen nodded once. "Keep tangent off feeds. Sidebar summary by morning. I want a noun that survives briefing even if it isn't Mercer."
 
@@ -103,7 +84,7 @@ Three bodies implied in case files and witness accounts and guest chairs and own
 
 One consciousness hypothesis—unverified, unbearably precise—suggested in the margin like the system itself was embarrassed to finish the sentence.
 
-Mara stared until the board stopped being a collection of Month Two fractures and became a single picture: **impossible normalizing**. Not thesis. **Felt**—the lean in her chest from the basement lab, fascination cleaner and worse than fear, proof that clarified nothing and scaled to a civilization anyway. She was not afraid. She had been intrigued at Part I's end and she was intrigued now, paranoia peaked into curiosity, dread sharpened into compulsion. Store first. Meltdown never. Notebook active.
+Mara stared until the board stopped being a collection of Month Two fractures and became a single picture she could not file. The lean in her chest from the basement lab returned—fascination cleaner and worse than fear, proof that clarified nothing and scaled anyway. She had been intrigued since the Hush District and she was intrigued now, paranoia peaked into curiosity, dread sharpened into compulsion. Store first. Meltdown never. Notebook active.
 
 At the center she let the merge chart hold—three peaks, three cities' grammar, one overlap window—while the hypothesis field pulsed **ONE CONSCIOUSNESS (UNVERIFIED)** like the system itself was embarrassed to finish the sentence. Three signatures. Three bodies implied in files and chairs and owner-elsewhere seals. One consciousness suggested in data the law refused to carry. The image held without resolving, the way **Impossible.** had held in the basement without becoming a door she could walk through yet.
 
@@ -146,5 +127,3 @@ Mara gathered her coat and checked the dock status out of habit—body where it 
 The commute would be normal.
 
 That was the last mercy the filtered world would offer.
-
----

@@ -34,7 +34,7 @@ The control edge sat one tier down from the party—artist booth, district map, 
 
 Tourism continued upstairs. Applause when a facade sequence recovered from a half-second lag. The ordinary joy of strangers trusting beauty to arrive on schedule even when the world's other cities had learned to mute reassurance and scroll past footers.
 
-Smiling while dying—not a speech, not a manifesto. **4w3** performance exhaust: the smile she gave Nadia when the board said clean, the smile she gave sponsors when the water obeyed, the smile that stayed on while her pocket interface showed district tiles refreshing **STALE** in a column the public font didn't show. Civilization performing health while substrate failed—embodied in her jaw, not labeled on a slide. She felt it where Month Three had stored the one-frame drop and the crack that did not care about continuity faith—only now the feeling had company. Failures everywhere. Recovery chimes polite and satisfied. Success as weather while the map underneath stopped keeping honest time.
+Smiling while dying—not a speech, not a manifesto. Performance exhaust: the smile she gave Nadia when the board said clean, the smile she gave sponsors when the water obeyed, the smile that stayed on while her pocket interface showed district tiles refreshing **STALE** in a column the public font didn't show. Civilization performing health while substrate failed—embodied in her jaw, not labeled on a slide. She felt it where Month Three had stored the one-frame drop and the crack that did not care about continuity faith—only now the feeling had company. Failures everywhere. Recovery chimes polite and satisfied. Success as weather while the map underneath stopped keeping honest time.
 
 District update lag.
 

@@ -1,23 +1,5 @@
 # Chapter 17 — The City Under the City
 
-**Status:** **v4 DRAFT** (2026-05-29)  
-**Prior:** v3 first prose · beat expansion from v2 map  
-**POV:** Dubai Artist · tight third · past tense · **name withheld** `[G-046]`  
-**Word count:** ~2,094 (target ~2,100)  
-**Beat sheet:** `013-027_act_two_beat_sheet.md` · **9/9**  
-**Bridge in:** `016_chapter_16_ch17_bridge_audit.md` (**PASS** v4)  
-**Bridge out:** `017_chapter_17_ch18_bridge_audit.md` (**PASS** v4)  
-**Change log:** `017_chapter_17_v3_change_log.md` · `017_chapter_17_v4_change_log.md`  
-**Audits:** `017_chapter_17_v3_comprehensive_audit.md` (**PASS**) · `017_chapter_17_v4_comprehensive_audit.md` (**PASS**)  
-**Publisher MS:** `017_chapter_17_the_city_under_the_city_PUBLISHER.md`  
-**Scene bible:** #5 Dubai Sunset · #16 Dubai Artist
-
-**Chapter button:** Crack **seen** · voice **held** · city **still beautiful**
-
-**Withholds verified:** no Ch 16 recap · no Mara · no Mercer · no collapse preview · artist name withheld · Seg 046 unnamed
-
----
-
 Dubai did not arrive. It remembered her.
 
 Month Two. Week four. Golden hour—the cue she had timed a hundred times—and the promenade still performed welcome the way a host performed welcome for guests who never stopped coming. Facades along the transit lip shifted color in a slow breath. Water followed foot traffic. Light pooled where density thickened. Beauty as infrastructure, still true, still hers in the way craft belonged to the hands that had learned its grammar.
@@ -122,9 +104,7 @@ She swallowed the sentence. It tasted like responsibility deferred.
 
 The promenade at evening was a product photograph of continuity—facades glowing, transit perfect, strangers' faces softened at the edges by responsive light. She caught her own face in a panel reflection and did not recognize the worry in it immediately, as if doubt were a filter the city had not approved for public display. Behind her the dream theater still glowed. Ahead the skyline held its solved shape against the dark. Beautiful enough to sell. Beautiful enough to believe. That was the job. That had always been the job.
 
-Somewhere under her feet the crack remained. Somewhere in the scheduling layer a half-second delay had been filed as success. Somewhere else in the world—she did not name where, did not let her mind attach continents to unease—systems were probably failing in rooms that did not have a dream theater to hide them.
-
-Month Two continued without announcing itself as Month Two. The contamination was private: a seed in her chest, not a headline. Dubai glowed. The recovery icons stayed green. The city under the city kept its hairline secret while the city above performed tomorrow again.
+Somewhere under her feet the crack remained. The lag still lived in the log as **RECOVERED**—success wearing a bandage, delay filed before anyone asked about the seam. Month Two continued without announcing itself as Month Two. The contamination was private: a seed in her chest, not a headline. Dubai glowed. The recovery icons stayed green. The city under the city kept its hairline secret while the city above performed tomorrow again.
 
 She walked toward the transit lip and did not look back at the maintenance stairwell. Voice held. Crack seen. Beauty still true enough to hurt—and still true enough to love, which was the harder part.
 

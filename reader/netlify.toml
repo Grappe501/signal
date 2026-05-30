@@ -1,5 +1,5 @@
 [build]
-  command = "echo Source committed — skip build"
+  command = "npm install && npm run build"
   publish = "."
 
 [build.environment]
@@ -18,4 +18,13 @@
   to = "/.netlify/functions/elevenlabs-voices"
   status = 200
 
-# Hash-based routing — no SPA catch-all needed (it breaks book.json & chapter fetches)
+# Chapter URLs — serve index.html for /read/* (static assets unchanged)
+[[redirects]]
+  from = "/read"
+  to = "/index.html"
+  status = 200
+
+[[redirects]]
+  from = "/read/*"
+  to = "/index.html"
+  status = 200

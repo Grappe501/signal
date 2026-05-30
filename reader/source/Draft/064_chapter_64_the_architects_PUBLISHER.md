@@ -36,7 +36,7 @@ Mara sat. Opened the notebook. Did not activate the overlay recorder until Chen 
 
 "Go," Mara said.
 
-No *I'm listening* performance. No *take your time*. Witness grammar.
+No *I'm listening* performance. No *take your time*. Store first. Name later.
 
 Lena breathed once and began.
 
@@ -52,7 +52,7 @@ Third: **Salt**—not the name at first, only a compound class in a restricted l
 
 She was not proud. She was not surprised. Surprise was a luxury for people who still believed the system was a person who could be shamed into stopping.
 
-"Mara hung up on me when I told her to wait," Lena said, and saw Mara's jaw tighten a fraction—not anger, recognition. "You were right to. *Wait* was the tool we used when witness became inconvenient."
+"Mara hung up on me when I told her to wait," Lena said, and saw Mara's jaw tighten a fraction—not anger, recognition. "You were right to. *Wait* was the tool we used when the room became inconvenient."
 
 Salt sat on the table between them without a vial—only language, only the word finally spoken in a room gray enough to carry it.
 
@@ -86,7 +86,7 @@ No applause. No feed. No billions. Four people and gray air and a sentence the c
 
 Mara wrote it down.
 
-Lena watched the ink and felt something like grief and refused to call it redemption. Witness only. That was the bargain.
+Lena watched the ink and felt something like grief and refused to call it redemption. Listening only. That was the bargain.
 
 "I didn't come to destroy Relay," Lena said—almost smiled at the echo she knew Mara had heard from Vale hours ago, then did not smile. "I came to stop pretending the defaults were accidents."
 
@@ -108,7 +108,7 @@ Mara's pen tapped once against paper—a small violence.
 
 "It's the only honest one left."
 
-Silence. Witness completing its job.
+Silence. The room completing its job.
 
 * * *
 
@@ -118,7 +118,7 @@ Two security officers entered without rushing. Badges. Neutral faces. The choreo
 
 Lena stood when they told her to stand. Turned her badge face-up on the table because procedure required it.
 
-Mara did not stand to stop them. Chen did not speak. Witness, not rescue.
+Mara did not stand to stop them. Chen did not speak. Not rescue.
 
 "Lena," Mara said once—not *Orra*, not *doctor*, the name of a mentor before mentors became files.
 

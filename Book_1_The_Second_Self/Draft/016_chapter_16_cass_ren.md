@@ -1,7 +1,7 @@
 # Chapter 16 — Cass Ren
 
-**Status:** **v4 DRAFT** (2026-05-29)  
-**Prior:** v3 first prose · beat expansion from v2 map  
+**Status:** **v5 · LOCKED · PRINT READY (Part II)** (2026-05-30)  
+**Prior:** v4 close-read · **middle book elevation pass batch 1**  
 **POV:** Mara Voss · tight third · past tense · **Part II · Movement I**  
 **Word count:** ~2,328 (target ~2,300)  
 **Beat sheet:** `013-027_act_two_beat_sheet.md` · **9/9**  
@@ -39,6 +39,8 @@ Thirty-something, sharp without trying, coat practical, hands empty. She paused 
 "You weren't late."
 
 "I was on time. There's a difference." Cass pulled out the chair across from Mara without asking, sat like the table belonged to both of them, and nodded at the flickering sign. "Coffee here's terrible. That's how you know it's real."
+
+Cass flagged the server without looking, ordered two cups, and slid one across when they arrived. "You'll need it. Bureau hours are a personality disorder."
 
 Mara did not smile. "You're the Rawist contact."
 
@@ -162,22 +164,18 @@ Cass left through the alley mouth without looking back. No chase. No hard sell. 
 
 Mara stayed long enough to finish the bad coffee. It tasted like burnt beans and honesty. The word **subscription** sat in her mouth like a flavor the overlay couldn't autocorrect. She thought of optimized rain on glass. Closed files. PASS banners. The Veil on a day off, beautiful and heavy in her bag beside tabs she refused to close.
 
-She watched the café after Cass left—the paper book reader turning a page with his thumb, the teenager laughing at something unpolished on the window. Normal life, if normal meant choosing friction on purpose. Mara had spent Month Two learning that friction could mean fraud or truth and the suite couldn't always tell which. Cass had not offered a new suite. She had offered a mirror with worse manners and better lighting.
+She watched the café after Cass left—the paper book reader turning a page with his thumb, the teenager laughing at something unpolished on the window. Normal life, if normal meant choosing friction on purpose.
 
 She was irritated. She was impressed. Both true. Neither admissible.
 
-She walked back toward CIB-4 through a corridor where the city's hum returned by degrees—transit perfect, weather mild, strangers' faces softened at the edges. A vendor's overlay stuttered once and recovered before most pedestrians noticed; Mara noticed because she couldn't stop noticing now, and hated Cass for that too.
+She walked back toward CIB-4 through a corridor where the city's hum returned by degrees. A vendor's overlay stuttered once and recovered; Mara noticed because she couldn't stop noticing now.
 
-The skyline at distance looked solved, a product photograph of continuity. In her pocket the card pressed against her badge like a second credential she hadn't applied for. She could feel the bureau layer reasserting itself block by block—transit schedules smoothing, faces defaulting to pleasant, the hum of infrastructure that sounded like reassurance if you didn't listen for the lag.
+On a wall near the tier lip, half-hidden under a maintenance poster, someone had tagged a small flame in chalk—**EMBER** in letters the cleanup drones hadn't prioritized yet.
 
-On a wall near the tier lip, half-hidden under a maintenance poster, someone had tagged a small flame in chalk—**EMBER** in letters the cleanup drones hadn't prioritized yet. Seed, not event. Fire in the name, not on the page. Mara did not photograph it. Evidence had limits. Some things you kept because throwing them away would mean admitting why you'd picked them up.
+Mara did not throw the card away. She told herself that was evidence retention.
 
-Mara did not throw the card away. She told herself that was evidence retention. She told herself the lie in the voice she used for *not relevant*.
+The word **subscription** followed her into the elevator and onto her desk beside tabs she pretended were closed.
 
-**Subscription.**
+**Thursday. Ember Hall. Ask for Cass.**
 
-The word followed her into the elevator, into the green glow of her desk, into the ordinary queue that scrolled embodiment drift and fraud flags like the world still made sense if you stayed inside the right folder.
-
-She opened the next assignment and did not look up when the perfect city continued outside the glass.
-
-Month Two continued without asking whether continue was enough.
+The card wasn't evidence anymore—it was a door. Mara closed the assignment queue and opened the alley map.

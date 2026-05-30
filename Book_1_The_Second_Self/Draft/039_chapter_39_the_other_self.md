@@ -1,23 +1,5 @@
 # Chapter 39 — The Other Self
 
-**Status:** **v4 DRAFT** (2026-05-29)  
-**Prior:** v3 first prose · beat expansion from v2 map · **Movement III opens** · prose priority **High**  
-**POV:** Mara Voss · tight third · past tense · **Part III · Movement III · personal spine**  
-**Word count:** ~2,103 (target ~2,400)  
-**Beat sheet:** `028-042_part_three_veil_beat_sheet.md` · **9/9**  
-**Bridge in:** `038_chapter_38_ch39_bridge_audit.md` (**PASS** v4)  
-**Bridge out:** `039_chapter_39_ch40_bridge_audit.md` (**PASS** v4)  
-**Change log:** `039_chapter_39_v3_change_log.md` · `039_chapter_39_v4_change_log.md`  
-**Audits:** `039_chapter_39_v3_comprehensive_audit.md` (**PASS**) · `039_chapter_39_v4_comprehensive_audit.md` (**PASS**)  
-**Publisher MS:** `039_chapter_39_the_other_self_PUBLISHER.md`  
-**Scene bible:** #15 extended — Mirror Room · extended Second session
-
-**Chapter button:** **Prefer Second** · **which is her?** · **no sever** · **no exit yet**
-
-**Withholds verified:** no sever on-page · no Ch 24 replay · no Ch 38 recap · no evil twin · no Second agency thesis · no MIR label
-
----
-
 The extended block had been authorized before she decided she wanted it.
 
 Month Three, week fourteen. CIB-4, upper tier—the **Second interface** suite where identity was still bureaucratic enough to schedule and dangerous enough to schedule anyway. The calendar line from yesterday had read **extended session · authorized · comparison slot available**; the intake form this morning read **extended immersion · investigator overload · post-stutter policy window**. Same room. Different permission. Longer leash.
@@ -70,7 +52,7 @@ She watched the cooperation metric tick green on the footer she wasn't supposed 
 
 Shame arrived on schedule.
 
-Not melodrama. **4w5** honest shame—the heat in the face when you caught yourself preferring the polished sentence not because it was truer but because it was **easier to live inside**. She sent the Second draft anyway. The queue moved. That was the point. That was the trap.
+Not melodrama. Honest shame—the heat in the face when you caught yourself preferring the polished sentence not because it was truer but because it was **easier to live inside**. She sent the Second draft anyway. The queue moved. That was the point. That was the trap.
 
 Social bled in through the same interface—because extended sessions did not respect the fiction that work and contact were separate jurisdictions.
 
@@ -118,7 +100,7 @@ Not which people preferred—that question had been answered in Reyes's glance, 
 
 The trilogy's quiet spine had always been this relationship—not founder and ghost, not mentor and file, but the distributed self the city called convenience until convenience became appetite. She felt it now in the smallest bureaucratic room in the building: two versions, one signature line, preference becoming identity while the law pretended otherwise.
 
-Mara did not say the question aloud. She did not write it in the notebook. **4w5** storage: unfileable, shame held, prefer **named** only inside the skull where the institution could not grade it.
+Mara did not say the question aloud. She did not write it in the notebook. Shame held, unfileable, prefer **named** only inside the skull where the institution could not grade it.
 
 She thought of severance the way Month Two had taught her to think of it—door grayed, clinical review required, choice deferred not because she was coward but because the architecture had not opened the exit yet. **No sever.** Explicit runway. Part V would need this hour to hurt. Ch 69 and Ch 71 would need the preference named here, not as theory, as behavior she had already chosen twice before lunch.
 
@@ -139,7 +121,3 @@ Question named.
 No exit yet.
 
 The city outside kept mild continuity. The mirror waited in the architecture. Mara kept walking.
-
-Movement III opened.
-
----

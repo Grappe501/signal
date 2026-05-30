@@ -1,7 +1,7 @@
 # Chapter 14 — The Storm
 
-**Status:** **v4 DRAFT** (2026-05-29)  
-**Prior:** v3 first prose · beat expansion from v2 map  
+**Status:** **v5 · LOCKED · PRINT READY (Part II)** (2026-05-30)  
+**Prior:** v4 close-read · **middle book elevation pass batch 1**  
 **POV:** Noah Vale · tight third · past tense · **Part II · Movement I**  
 **Word count:** ~1,870 (target ~2,000)  
 **Beat sheet:** `013-027_act_two_beat_sheet.md` · **9/9**  
@@ -74,7 +74,7 @@ Iona watched a pod abort its lane and slide sideways on the wind, correction alg
 
 She considered that with the seriousness of someone who had already learned that adults often called smoothing *care*.
 
-The thunder peaked—a crack close enough to rattle the pane—and Iona flinched once, then leaned closer, as if proximity to the glass could keep the honest thing from leaving. Noah did not pull her back. Presence was the job here. Not explanation. Not fixing the sky.
+The thunder peaked—a crack close enough to rattle the pane—and Iona flinched once, then leaned closer, as if proximity to the glass could keep the honest thing from leaving. Her fingers found the cuff of his sleeve and stayed there—not asking to be moved back, asking to share the same weather as him. Noah did not pull her back. Presence was the job here. Not explanation. Not fixing the sky.
 
 Below them a tier screen flickered out and stayed dark for three breaths before rebooting with mild weather and calm markets, as if the storm had been a brief disagreement the city preferred not to archive. Noah watched the reboot and felt nothing as clean as fear. Something closer to recognition—the same unnamed absence he'd walked home with after parent observation morning, when *Books.* had fallen into the room with the wrong texture and he'd followed his daughter upstairs without fixing what she'd named.
 
@@ -122,4 +122,10 @@ Unsettled—not afraid, not grieving, not yet in denial—the way he'd been unse
 
 The real things question stayed in the room after the thunder ended.
 
-Noah did not call anyone who might have had an answer for that. He let the overlay show him mild weather and stable scores and went to finish the apples before they browned—ordinary, miraculous, insufficient—while Month Two continued outside the glass without asking whether continue was enough.
+Noah did not call anyone who might have had an answer for that. He finished the apples at the counter—one slice sweet on his tongue, browning at the edges, a fruit that didn't know about overlays—then threw the rest away because tomorrow could bring another afternoon that pretended to be the only kind worth having.
+
+Running Double could resume. The amber flag still blinked on his queue.
+
+He toggled the link on and felt the split begin—present enough for the institution, absent enough to wonder what *real things* cost when you could afford both. Iona's *Books.* stayed in the room longer than the thunder had.
+
+Something was coming for families like his. He couldn't name it yet. He chose the split anyway.

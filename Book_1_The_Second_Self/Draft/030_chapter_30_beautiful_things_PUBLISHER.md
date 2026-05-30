@@ -26,7 +26,9 @@ Relief arrived before he could name it.
 
 Not triumph. Not ideology. Just the body exhaling when someone else carried the weight you'd been pretending you preferred to carry because virtue had a social score and fatigue did not.
 
-Noah drank. Bitter. Real chip at the rim. The overlay made the steam look more cinematic than physics required, and he noticed that the way you noticed a friend exaggerating a story for your benefit—and did not stop them.
+Noah remembered the gray mornings with a grief that surprised him—not regret for choosing comfort, **mourning** for the honest layer he was already forgetting. His neighbor on the floor below had posted in the building thread: *I turned mine back on too. I would have used it too.* Noah had liked the comment. The honesty of it hurt.
+
+He drank. Bitter. Real chip at the rim. The overlay made the steam look more cinematic than physics required, and he noticed that the way you noticed a friend exaggerating a story for your benefit—and did not stop them, because the exaggeration was part of the care.
 
 Outside the glass, a school pod slid into its lane on schedule. White hull. Clean arc. The kind of morning that used to feel like proof the world had agreed to continue. For three days the proof had been gray and loud and honest. He had not enjoyed it. He had not hated it either. He had simply been tired of holding both truths in one body: that the city could fail in public and keep running, and that his apartment could fail to soften and keep asking him to parent inside the failure.
 
@@ -43,6 +45,8 @@ Iona came in sleep-mussed, one sock on, braid fighting overnight—the domestic 
 "Morning, ghost," she said.
 
 Noah laughed on time. Both channels aligned. The joke landed in the room and in his mouth at once—a small mercy he had missed without cataloguing the missing.
+
+The homework tile met her with the assistance she'd grown up inside—soft fonts, friction filed down, the kind of help that genuinely made hard problems survivable for a twelve-year-old who still pressed her palm to paper when the lesson tried to skip past weight. Noah had not hated that help for three days. He hated that he could feel it working again and still miss the storm.
 
 "Pod's in eighteen," he said.
 
@@ -72,7 +76,7 @@ Once, between flags, he caught himself remembering a sound he couldn't place—h
 
 Happiness, he noticed, had a correct shape.
 
-Smiles arriving on schedule. Voice warm at the right beats. Performance so seamless it felt like character instead of costume—the 6w7 gift for making rooms believe they were safe because you had decided to be pleasant. He was good at it. He had always been good at it. The overlay didn't invent the skill. It just made the skill cheaper to spend.
+Smiles arriving on schedule. Voice warm at the right beats. Performance so seamless it felt like character instead of costume—a gift for making rooms believe they were safe because you had decided to be pleasant. He was good at it. He had always been good at it. The overlay didn't invent the skill. It just made the skill cheaper to spend.
 
 Underneath, something held its breath.
 
@@ -98,7 +102,9 @@ Dinner plates clean. Homework closed. Iona's pod schedule green for tomorrow. Th
 
 Everything worked.
 
-That was the part he couldn't make peace with—not because anything failed, but because failure had been loud for three days and success was this quiet. Work effortless. Parenting handled. Score stable. Overlay polite. The optimization hum back under public life like a mix board restored after a brief, honest outage. He should have been grateful. Gratitude was the correct response. He had enabled the filter himself. No one had forced him. The community thread was full of people saying *thank god* in languages the translation layer smoothed into unity.
+That was the part he couldn't make peace with—not because anything failed, but because failure had been loud for three days and success was this quiet. Work effortless. Parenting handled. Score stable. Overlay polite. The optimization hum back under public life like a mix board restored after a brief, honest outage. The Veil had kept his daughter's school open, his valves turning, his grief manageable enough to function. **He would have used it too.** He had used it. The tragedy was not that the tool was evil. The tragedy was that the tool was **good enough** to make you miss what it removed.
+
+He should have been grateful. Gratitude was the correct response. He had enabled the filter himself. No one had forced him. The community thread was full of people saying *thank god* in languages the translation layer smoothed into unity.
 
 He was unhappy anyway.
 

@@ -1,28 +1,10 @@
 # Chapter 40 — The System Blinks
 
-**Status:** **v4 DRAFT** (2026-05-29)  
-**Prior:** v3 first prose · beat expansion from v2 map · **Scene #25 echo**  
-**POV:** Mara Voss · tight third · past tense · **Part III · Movement III**  
-**Word count:** ~1,750 (target ~2,100)  
-**Beat sheet:** `028-042_part_three_veil_beat_sheet.md` · **9/9**  
-**Bridge in:** `039_chapter_39_ch40_bridge_audit.md` (**PASS** v4)  
-**Bridge out:** `040_chapter_40_ch41_bridge_audit.md` (**PASS** v4)  
-**Change log:** `040_chapter_40_v3_change_log.md` · `040_chapter_40_v4_change_log.md`  
-**Audits:** `040_chapter_40_v3_comprehensive_audit.md` (**PASS**) · `040_chapter_40_v4_comprehensive_audit.md` (**PASS**)  
-**Publisher MS:** `040_chapter_40_the_system_blinks_PUBLISHER.md`  
-**Scene bible:** #25 — Prediction Failure · Ch 23 echo
+She opened the anomaly rollup because the institution called it recommended and because investigators learned to open those before the institution decided it hadn't meant it.
 
-**Chapter button:** **Blink again** · **review hidden** · **certainty leaking**
+Month Three, week fourteen. CIB-4, lower tier—the **LATTICE** ops floor, green glow replacing the map wall's weather confidence. Center screen. District bands. Deployment calendar in the footer like furniture nobody moved anymore. Mara had a private folder on her phone that called it something else.
 
-**Withholds verified:** Greenland not named · no Ch 39 recap · no Ch 23 replay · no panic room · B2 thesis not speech · Mercer off-page
-
----
-
-She opened the anomaly rollup because Ch 40 owned the grammar and because investigators learned to open things the institution called recommended before the institution decided they hadn't meant it.
-
-Month Three, week fourteen. CIB-4, lower tier—the **LATTICE** ops floor adjacent to briefing rooms Mara had stood in since Month One, green terminal glow replacing the map wall's weather confidence. **LATTICE** still occupied center screen the way it had in Month Two at Harbor District: not a product you questioned, a layer you stood inside until it rained. Public feeds still called it neutral. Civic copy still called it continuity. Mara had a private folder on her phone that called it something else.
-
-Yesterday's extended Second block still lived in her shoulders—rested jaw in the afterimage, primary latency in the hands—but this room did not care about preference physics. This room cared about aggregate confidence and deployment calendars and the fiction that civilization could be scheduled. Scale shift. That was the design job. Personal dread one day, institutional dread the next, same wrong feeling in different fonts.
+Yesterday's extended Second block still lived in her shoulders. This room did not care.
 
 The rollup loaded in polite font: **TIER DASHBOARD · ANOMALY REVIEW · OBSERVER ELIGIBLE**.
 
@@ -46,7 +28,7 @@ Investigator Reyes—three years up the ladder, sympathy-module pragmatist—lea
 
 "Logged," Chen said without turning. "Tier review."
 
-Reyes subsided. The subsidence was the disturbance—professionals trained to treat LATTICE as weather learning to flinch.
+Reyes subsided. The subsidence was the disturbance—people who had stopped treating the dashboard as weather learning to flinch.
 
 The room disturbed the way briefing rooms disturbed when professionals felt the floor shift half an inch: not panic, not shouting—breath held, eyes on Chen, procedure waiting to learn whether it still applied.
 
@@ -58,9 +40,9 @@ By mid-afternoon the pattern had a shape without a name.
 
 A Sync Day prep node in the Spine showed **HOLD SECONDARY** for eleven seconds, then **NO ACTIVE RECOMMENDATION**, then green again—as if the recommendation had never existed long enough to require explanation. A tier compression reading in Pacific Six flickered **0.44 · 0.46 · empty slot · 0.45** while the live feed showed bodies moving on stairs the model hadn't credited as nodes. A civic stress window in Atlantic Enclave offered **CIVIC RESILIENCE ELEVATED** copy while a sidebar tile flashed **RECALCULATING · ANOMALY SOURCE · UNRESOLVED** and cleared before the civic officer could screenshot it for public layer.
 
-Not one harbor wrong at **94.7%**. **Hairline** wrong everywhere at once—worse in the body, Mara thought, because tiny repeated errors felt like a system **blinking** rather than breaking, like certainty leaking through seams the UI patched faster than humans could articulate doubt. Month Two had taught her one big impossible future could be filed as variance. Month Three was teaching her **variance could become rhythm**, and rhythm was harder to dismiss because it never crossed the threshold that forced memos.
+Not one harbor wrong at **94.7%**. **Hairline** wrong everywhere at once—empty slots, withdrawn recommendations, green again before her notebook caught the timestamp. Month Two had taught her one impossible future could be filed as variance. Month Three was teaching her **rhythm**.
 
-Chen's jaw tightened once. Micro. Contained. **1w9** procedure resumed before spin arrived—liaison confirmations, sidebar tags, muted replay loops that would be edited before anyone outside CIB saw them.
+Chen's jaw tightened once. Micro. Contained. Procedure resumed before spin arrived—liaison confirmations, sidebar tags, muted replay loops that would be edited before anyone outside CIB saw them.
 
 "Log micro-divergences under tier review," Chen said. "No public layer change. Observer notes to sidebar only."
 
@@ -70,7 +52,7 @@ The **retraction pattern** returned with Month Two grammar: recommendation field
 
 Mara recognized the grammar. Harbor. Harbor in miniature, repeated until repetition became its own kind of evidence.
 
-Civilization **losing certainty** showed in faces, not essays—the civic officer nodding too quickly and then stopping; a transit liaison refreshing a node map three times in one minute; Chen's containment reflex forming off-screen like weather building over a city that would still need mild copy tomorrow. Prediction as civilization's skin, and the skin twitching.
+The civic officer nodded too quickly and then stopped. A transit liaison refreshed a node map three times in one minute. Chen's containment reflex forming off-screen.
 
 On a corner tile Mara wasn't assigned to watch, a sensor feed flashed high-latitude numbers and an out-of-band coupling signature tagged **discard**, then scrubbed before expand. Not named. Not hers. A glance only—the kind the system offered when something larger moved in rooms the briefing hadn't scheduled. Greenland withheld on-page, echo without label, same family as Month Two's eleven-second overlap she had captured before the scrub finished pretending the glance had never been offered.
 
@@ -118,9 +100,9 @@ Her hand found her phone.
 
 She saved it beside Month Two's harbor frame: **LATTICE · tier micro · no memo · blink again**.
 
-Two blinks now. Two silences. One folder growing on her phone like a private bureau the institution couldn't grade—harbor afternoon, tier rollup, identity mirror nights if she counted honestly, child art she had not synced, mentor timestamps she could not yet file. Not theology. **Pattern**—the investigator disease Lena had named and the queue kept rewarding.
+Two blinks now. Two silences. One folder growing on her phone like a private bureau the institution couldn't grade—harbor afternoon, tier rollup, identity mirror nights if she counted honestly, child art she had not synced, mentor timestamps she could not yet file.
 
-Not synced. Not sidebar. Not admissible. **4w5** discipline—evidence without authority, pattern mind storing what the filing system would call refinement until refinement stopped pretending it wasn't fear.
+Not synced. Not sidebar. Not admissible. Evidence without authority, stored where the filing system would call it refinement until refinement stopped pretending it wasn't fear.
 
 **8853-M** pulsed once below **SIG-MERGE-01** on her board—background weather, verification pass, world fail—then went quiet. The queue offered primary casework. The city outside the glass kept mild continuity and open lanes and routing icons recovering faith.
 
@@ -130,12 +112,10 @@ Review **hidden**.
 
 Certainty **leaking**.
 
-Mara did not write *impossible* in the notebook. She did not ping Chen with the screenshot. She sat with the second institutional silence in as many months and understood—deeper now, institutional scale after personal scale—that prediction was another subscription the city paid for because admitting uncertainty was expensive, and the subscription was starting to show renewal terms she couldn't read.
+Mara did not write *impossible* in the notebook. She did not ping Chen with the screenshot. She sat with the second institutional silence in as many months while the footer went green again and her notebook still held the empty slots.
 
 The terminal chimed for the next item in a queue she hadn't opened yet—something flagged at the edge of embodiment architecture, manual life, a name the public myth still treated as solved.
 
 Mercer's side waited in another register entirely.
 
 Mara closed the LATTICE packet, kept the screenshot local, and did not look up when the perfect UI resumed.
-
----

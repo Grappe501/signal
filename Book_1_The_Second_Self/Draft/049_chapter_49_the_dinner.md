@@ -1,9 +1,9 @@
 # Chapter 49 — The Dinner
 
-**Status:** **v4 DRAFT** (2026-05-29)  
-**Prior:** v3 first prose · beat expansion from v2 map · Scene #9 · Ch 8 echo  
-**POV:** Noah Vale · tight third · past tense · **6w7**  
-**Word count:** ~1,400 (target ~2,100)  
+**Status:** **v5 · Corridor Forge · Counterweight** (2026-05-30)  
+**Prior:** v4 DRAFT · **Descent Corridor pass**  
+**POV:** Noah Vale · tight third · past tense  
+**Word count:** ~1,750 (target ~2,100)  
 **Beat sheet:** `043-057_part_four_ghost_beat_sheet.md` · **9/9**  
 **Bridge in:** `048_chapter_48_ch49_bridge_audit.md` (**PASS** v4)  
 **Bridge out:** `049_chapter_49_ch50_bridge_audit.md` (**PASS** v4)  
@@ -18,15 +18,33 @@
 
 ---
 
-The table caught the evening the way it always did—gold on the laminate, the cheap kind that didn't pretend to be stone. Through the window wall, New Manhattan kept its lanes open: tier brows lit, pod schedules green, the city performing recovery on purpose because recovery was a product you subscribed to and the subscription renewed whether or not you believed the footer.
+The apartment smelled like garlic before the table did.
 
-Noah set plates with the quiet competence of a man who had learned hosting was cheaper than honesty. Month Four, week seventeen. He had cleared the kitchen panel after another briefing week—Harbor contained, markets steady, open lanes in the corner of every feed—and left the apartment in its normal register: sync hum polite beneath everything, Second dock muted in the alcove, overlay defaulting on because default was what adulthood meant now.
+Month Four, week seventeen. Noah had learned that cooking was the cheapest way to make a room believe in itself—onions softening, sauce reducing, the honest noise of a spatula against a pan that did not sync to anything. Through the window wall, New Manhattan kept its lanes open: tier brows lit, pod schedules green, the city performing recovery on purpose because recovery was a product you subscribed to and the subscription renewed whether or not you believed the footer.
 
-Iona helped without being asked—water glasses aligned, napkins folded, the **4w3** precision of a twelve-year-old who watched adults for a living and had stopped asking questions the world preferred unanswered. She had been quiet since the broadcast—not sullen, **storing**—the way she went quiet when she put something in a drawer he wasn't supposed to open yet.
+Iona appeared in the kitchen doorway with socks wrong and braid loose—the twelve-year-old uniform of a person who had not yet decided whether adulthood was a trap or a costume.
+
+"Smells like Mom's," she said.
+
+Noah's hands stilled on the spoon. Not grief—**recognition**. The kind that arrived warm before it arrived sharp.
+
+"Close," he said. "She used more basil. I'm improvising."
+
+"Disaster or triumph?"
+
+"Ask me in twenty minutes."
+
+She stole a carrot slice from the cutting board. He swatted at her hand and missed on purpose. She grinned—the quick flash of a child who still knew how to meet her father in a kitchen without a briefing between them.
 
 Family dinner.
 
-Present bodies. Absent attention. Empty Chair grammar returned without the tier relatives—just father and daughter and a table that knew how to hold more people than were coming down the hall tonight.
+Not optimized yet. Not performed. Just bodies in a room that knew how to hold more people than were coming down the hall tonight.
+
+* * *
+
+The table caught the evening the way it always did—gold on the laminate, the cheap kind that didn't pretend to be stone. Noah set plates with the quiet competence of a man who had learned hosting was cheaper than honesty. The sync hum stayed polite beneath everything, Second dock muted in the alcove, overlay defaulting on because default was what adulthood meant now.
+
+Iona helped without being asked—water glasses aligned, napkins folded, the precision of a twelve-year-old who watched adults for a living and had stopped asking questions the world preferred unanswered. She had been quiet since the broadcast—not sullen, **storing**—but in the kitchen she had been **present**, and Noah held onto that the way you held onto warmth when the week had been cold in rooms he would never enter.
 
 The empty chair sat at Noah's right hand anyway.
 
@@ -38,11 +56,29 @@ Nobody named the empty.
 
 * * *
 
-Dinner progressed the way optimized dinners did: food arriving on time, voices attempting overlap, assistance layers suggesting topics when silence threatened. Noah carved, passed, refilled glasses. **6w7** host competence—make the room believe it was safe because you had decided to be pleasant. Hairline strain beneath it he hoped read as fatigue rather than the week still sitting in his chest like a stone he chose not to shift.
+Dinner progressed the way real dinners did when someone tried—voices overlapping, food arriving on time, assistance layers suggesting topics when silence threatened and getting ignored.
+
+Noah carved, passed, refilled glasses. Host competence—the old gift of making a room believe it was safe because you had decided to be pleasant. Hairline strain beneath it he hoped read as fatigue rather than the week still sitting in his chest like a stone he chose not to shift.
+
+Iona told him about a pod quiz that had asked whether cooperation required routing. "I wrote *sometimes people just help each other* and the tile marked it incomplete."
+
+Noah laughed—on time, this once. "Incomplete is how institutions say *cute*."
+
+"Cute gets you a participation ribbon."
+
+"Cute got your mother a marriage proposal at a bus stop."
+
+Iona's fork paused. "That one's actually true?"
+
+"She said the bus was late and I offered her my umbrella like I invented chivalry. She said *you're dramatic* and took the umbrella anyway."
+
+"Mom liked you."
+
+"Mom tolerated me until she didn't." He refilled her water. "Best deal I ever made."
 
 The building thread chimed on his overlay—Mira's name, Harbor thumbnail, a question mark emoji adults used when they wanted concern to look casual. He dismissed it without opening. Some homework the city assigned to kitchens wasn't his to finish tonight.
 
-Iona ate with deliberate care. She did not laugh on the delayed beat. She watched his face the way she had watched officials on a briefing screen—measuring the gap between what was said and what was meant, hands more closely than scripts.
+Iona ate with deliberate care. She watched his face the way she had watched officials on a briefing screen—measuring the gap between what was said and what was meant—but when he told the bus-stop story her shoulders dropped half an inch, and Noah filed that under **worth saving**.
 
 Noah's thumb found the chip at the mug rim. Bitter. Real. The overlay chimed once at the edge of his hearing—work queue, community thread, Mira's building still hosting thumbnails adults pretended were optional—and he let it deepen the way you let a familiar guest through a door you no longer bothered to lock.
 
@@ -50,9 +86,7 @@ Bodies here. Mind elsewhere.
 
 Not Running Double at the table—the shell stayed seated, present enough for courtesy—but **elsewhere** in the precise way Month Four had normalized: attention split between daughter and grids and the low-grade maintenance of a city that wanted him to confirm pressure flags while pasta cooled on a plate he wasn't fully tasting.
 
-Everyone sees emptiness.
-
-Micro—not speech. Iona's eyes flicked to the empty chair, then to his overlay glow, then to the Second dock hum down the hall. Noah's laugh at something she'd said arrived a half-second late—the tell he had learned to recognize in himself and in tier relatives and in every optimized dinner where togetherness was choreography performed over channels the room couldn't see. Delayed reaction. Glass-bright refocus. Polite clatter continuing as if the circle were whole.
+The warmth thinned—not gone, **thinned**. Iona's eyes flicked to the empty chair, then to his overlay glow, then to the Second dock hum down the hall. Noah's laugh at something she'd said a minute later arrived a half-second late—the tell he had learned to recognize in himself and in tier relatives and in every optimized dinner where togetherness was choreography performed over channels the room couldn't see. Delayed reaction. Glass-bright refocus. Polite clatter continuing as if the circle were whole.
 
 She asked about school pods—short answer. He asked about homework—short answer. Conversation splintered the way conversation did when both people were performing listening and only one was doing it without assistance. Polite clatter. Sync hum beneath. The circle almost completed itself and still left one place untouched.
 
@@ -78,11 +112,11 @@ Off.
 
 Voluntary.
 
-Deliberate. The chime died polite. Her homework tile folded closed. Her wrist bare in the way wrists looked when you chose one room instead of two. Presence first—precision quiet, courage without manifesto.
+Deliberate. The chime died polite. Her wrist bare in the way wrists looked when you chose one room instead of two. Presence first—precision quiet, courage without manifesto.
 
 Noah noticed.
 
-Pride and fear mixed in his chest—the **6w7** knot of loving a child who saw clearly and fearing what clarity cost in a city that graded attention like weather. He did not follow. Did not dim his overlay. Did not mute the dock. Did not put his interface away because putting it away would have been agreement and agreement would have been a speech and speeches were what he had spent Month Four avoiding after *It's complicated* and *They're being careful on camera* and every warm deflect that made rooms believe they were safe.
+Pride and fear mixed in his chest—the knot of loving a child who saw clearly and fearing what clarity cost in a city that graded attention like weather. He did not follow. Did not dim his overlay. Did not mute the dock. Did not put his interface away because putting it away would have been agreement and agreement would have been a speech and speeches were what he had spent Month Four avoiding after *It's complicated* and *They're being careful on camera* and every warm deflect that made rooms believe they were safe.
 
 Nobody else follows.
 
@@ -94,7 +128,7 @@ One child acted. The ritual continued anyway.
 
 * * *
 
-Cleanup was ordinary: water hot, cloth moving, stacked ceramics clicking. The empty chair's plate came away untouched. Wine Noah hadn't poured down the sink without comment because waste was less frightening than naming why settings persisted. Iona dried forks. Noah's overlay pinged work he half-resolved while rinsing a pan he had already rinsed—hands busy, **6w7** gift for making grief look like fatigue.
+Cleanup was ordinary: water hot, cloth moving, stacked ceramics clicking. The empty chair's plate came away untouched. Wine Noah hadn't poured down the sink without comment because waste was less frightening than naming why settings persisted. Iona dried forks and hummed the tune from the bus-stop story under her breath—wrong key, right heart.
 
 The Second dock hummed down the hall—link available, channel open, the city's offer to split yourself when one room was too loud for questions or too quiet for answers.
 
@@ -132,4 +166,4 @@ He said nothing.
 
 The city did not correct the sentence.
 
----
+But the garlic smell lingered in the kitchen—ordinary, human, **worth saving**—long after the gold light left the laminate.

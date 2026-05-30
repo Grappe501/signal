@@ -74,11 +74,11 @@ A child dropped a spoon. An adult picked it up without making a lesson. An elder
 
 Mara felt something loosen in her chest she had not authorized.
 
-Not conversion. Not belief. **Surprise**—the 4w5 kind, sharp and embarrassed: she had expected performance saints or manifesto cosplay. Instead she got awkward realness—a joke that landed wrong and was forgiven without a moderation flag, a pause in serving while someone found the ladle, a believer saying grace while a Rawist waited with patient boredom and nobody treated either as victory.
+Not conversion. Not belief. **Surprise**—sharp and embarrassed: she had expected performance saints or manifesto cosplay. Instead she got awkward realness—a joke that landed wrong and was forgiven without a moderation flag, a pause in serving while someone found the ladle, a believer saying grace while a Rawist waited with patient boredom and nobody treated either as victory.
 
 They seemed **happier**.
 
-She did not say the word. She did not trust it yet. But she saw it the way investigators saw patterns before they had language: in faces unfiltered by bloom, in the absence of the small frantic check people did when tiers were watching—in shoulders that had dropped half an inch since the stutter taught the city how much it had been charging for relief.
+She did not say the word. She did not trust it yet. But she saw it in faces unfiltered by bloom—in the absence of the small frantic check people did when tiers were watching—in shoulders that had dropped half an inch since the stutter taught the city how much it had been charging for relief.
 
 Not utopia. Not proof. A room that had decided contact was not the same as connection and had built a **meal** around the difference while the polished city still called both success—the same grammar Ember Hall had taught her by fire, different scale, stone instead of orange, **shared dishes** instead of a ring, but the same refusal to let infrastructure measure whether you had shown up.
 
@@ -108,7 +108,7 @@ She wanted to sit one more hour where presence was default and nobody called it 
 
 She did not go back inside.
 
-Shame micro—4w5 swallow, no speech. She was not Rawist. She was not believer. She was not quit. She was bureau, tired, softened in the small way that mattered and angry at the softening because softness without infrastructure felt like a trap even when it tasted like soup.
+Shame micro—swallowed, no speech. She was not Rawist. She was not believer. She was not quit. She was bureau, tired, softened in the small way that mattered and angry at the softening because softness without infrastructure felt like a trap even when it tasted like soup.
 
 Mara turned the badge relay on.
 

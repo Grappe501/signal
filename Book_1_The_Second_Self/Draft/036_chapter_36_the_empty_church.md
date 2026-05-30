@@ -1,23 +1,5 @@
 # Chapter 36 — The Empty Church
 
-**Status:** **v4 DRAFT** (2026-05-29)  
-**Prior:** v3 first prose · beat expansion from v2 map · **Scene #26**  
-**POV:** Mara Voss · tight third · past tense · **Part III · Movement II**  
-**Word count:** ~2,164 (target ~2,200)  
-**Beat sheet:** `028-042_part_three_veil_beat_sheet.md` · **9/9**  
-**Bridge in:** `035_chapter_35_ch36_bridge_audit.md` (**PASS** v4)  
-**Bridge out:** `036_chapter_36_ch37_bridge_audit.md` (**PASS** v4)  
-**Change log:** `036_chapter_36_v3_change_log.md` · `036_chapter_36_v4_change_log.md`  
-**Audits:** `036_chapter_36_v3_comprehensive_audit.md` (**PASS**) · `036_chapter_36_v4_comprehensive_audit.md` (**PASS**)  
-**Publisher MS:** `036_chapter_36_the_empty_church_PUBLISHER.md`  
-**Scene bible:** #26 — The Old Church · B2 Phase 6 seed
-
-**Chapter button:** **Happier?** · **envy** · **no conversion**
-
-**Withholds verified:** Covenant not named · no Ch 35 recap · no doctrine lecture · Mercer off-page · no triumph · mixed convictions
-
----
-
 The sidebar item had no case number worth defending in daylight.
 
 Month Three, week twelve—the same week kindness scores were being debated in feeds Mara refused to open before coffee and the bureau still called exhaustion *fit for duty* because duty kept queues moving. **Community gathering · off-feed edge · old religious site · attendance rising · no optimization flag.** Chen had attached one line: *Map only. Not infiltration.* The phrasing was familiar from Month Two, when community mapping had been a lie polite enough to file. After Ember Hall, after orange fire living behind eyelids longer than any overlay should allow, after a restricted file she had watched without tagging and a dream that had closed green while the wrong feeling stayed open—Mara drove toward the edge because her body had learned to treat unannotated rooms as evidence even when the forms called them tangents.
@@ -92,11 +74,11 @@ A child dropped a spoon. An adult picked it up without making a lesson. An elder
 
 Mara felt something loosen in her chest she had not authorized.
 
-Not conversion. Not belief. **Surprise**—the 4w5 kind, sharp and embarrassed: she had expected performance saints or manifesto cosplay. Instead she got awkward realness—a joke that landed wrong and was forgiven without a moderation flag, a pause in serving while someone found the ladle, a believer saying grace while a Rawist waited with patient boredom and nobody treated either as victory.
+Not conversion. Not belief. **Surprise**—sharp and embarrassed: she had expected performance saints or manifesto cosplay. Instead she got awkward realness—a joke that landed wrong and was forgiven without a moderation flag, a pause in serving while someone found the ladle, a believer saying grace while a Rawist waited with patient boredom and nobody treated either as victory.
 
 They seemed **happier**.
 
-She did not say the word. She did not trust it yet. But she saw it the way investigators saw patterns before they had language: in faces unfiltered by bloom, in the absence of the small frantic check people did when tiers were watching—in shoulders that had dropped half an inch since the stutter taught the city how much it had been charging for relief.
+She did not say the word. She did not trust it yet. But she saw it in faces unfiltered by bloom—in the absence of the small frantic check people did when tiers were watching—in shoulders that had dropped half an inch since the stutter taught the city how much it had been charging for relief.
 
 Not utopia. Not proof. A room that had decided contact was not the same as connection and had built a **meal** around the difference while the polished city still called both success—the same grammar Ember Hall had taught her by fire, different scale, stone instead of orange, **shared dishes** instead of a ring, but the same refusal to let infrastructure measure whether you had shown up.
 
@@ -126,7 +108,7 @@ She wanted to sit one more hour where presence was default and nobody called it 
 
 She did not go back inside.
 
-Shame micro—4w5 swallow, no speech. She was not Rawist. She was not believer. She was not quit. She was bureau, tired, softened in the small way that mattered and angry at the softening because softness without infrastructure felt like a trap even when it tasted like soup.
+Shame micro—swallowed, no speech. She was not Rawist. She was not believer. She was not quit. She was bureau, tired, softened in the small way that mattered and angry at the softening because softness without infrastructure felt like a trap even when it tasted like soup.
 
 Mara turned the badge relay on.
 
@@ -145,5 +127,3 @@ Mara did not know. She knew she envied people who looked like they did, and she 
 The city resumed around her—polite, optimized, still useful, no longer sufficient.
 
 She kept walking.
-
----

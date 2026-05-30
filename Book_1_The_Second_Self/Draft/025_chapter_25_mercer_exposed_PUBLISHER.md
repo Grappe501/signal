@@ -58,7 +58,7 @@ Chen listened the way Chen listened to everything—dry, complete, already draft
 
 Mara looked at the green icon. Looked at the third peak ghosting behind it. "I trust it enough to move."
 
-Chen nodded once—the **1w9** nod that meant *good enough for order* not *good enough for sleep*. "Media?"
+Chen nodded once—the nod that meant *good enough for order* not *good enough for sleep*. "Media?"
 
 "Contained." Chen pulled up a preview tile—not riot, not circus, not Sync Day. **CONTINUITY SECURES INVESTIGATION · CONSULTANT LINK IDENTIFIED · PUBLIC REASSURED.** Mild language. Open lanes in the footer. The city's habit of selling calm while it moved bodies through procedure.
 

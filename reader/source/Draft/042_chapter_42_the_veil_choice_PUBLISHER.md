@@ -28,7 +28,7 @@ Gold warmed tier brows whether the sun earned it or not. Frost on treated glass.
 
 Temptation real.
 
-Not conversion. Not surrender dressed as virtue. **Relief**—the animal pull of a body that had stood in unfiltered silence once and had spent weeks since carrying preference physics and institutional blinks and a question named *prefer Second* in a skull the bureau couldn't grade. Exhausted **4w5** honesty: she felt the pull and did not perform contempt for it. Prophets were exhausting. She was tired in the particular way investigators got tired when answers multiplied faster than questions and the city still wanted nouns that survived briefing.
+Not conversion. Not surrender dressed as virtue. **Relief**—the animal pull of a body that had stood in unfiltered silence once and had spent weeks since carrying mirror nights and institutional blinks and a question named *prefer Second* in a skull the bureau couldn't grade. She felt the pull and did not perform contempt for it. She was tired in the way tired people got when the city kept offering filters and her body remembered what unfiltered air had cost.
 
 The officer waited with the patience of a system that expected yes.
 
@@ -50,7 +50,7 @@ Hesitate.
 
 Hold.
 
-Mara looked at the green UI and saw two futures micro—**4w5** storage opening without permission: filtered commute home, rested jaw in the afterimage without shame, cooperation metrics green, Chen nodding *good tone*, the extended session preference buried under enhancement until enhancement felt like self. Or: raw walk, tired skyline, faces without courtesy edits, Second channel still compliant in the architecture but **primary** unbuffered, the cost visible in shoulders that didn't drop, the question *which version is actually her* still unanswered but at least asked in a body that wasn't paying someone else to hide it.
+Mara looked at the green UI and saw two futures micro—opening without permission: filtered commute home, rested jaw in the afterimage without shame, cooperation metrics green, Chen nodding *good tone*, the extended session preference buried under enhancement until enhancement felt like self. Or: raw walk, tired skyline, faces without courtesy edits, Second channel still compliant in the architecture but **primary** unbuffered, the cost visible in shoulders that didn't drop, the question *which version is actually her* still unanswered but at least asked in a body that wasn't paying someone else to hide it.
 
 She thought of the silence hold without naming the week—the VEL mark on a transit bezel, the first true quiet in years, the optimization hum gone and the harmonic welcome gone and her hands visible on the rail without overlay polish. She thought of Noah's window wall performing infinite river. She thought of preferring what lived on the other side of the glass and refusing to sever because the exit wasn't open yet.
 
@@ -98,7 +98,7 @@ Somehow more alive.
 
 Body before mind. Breath deeper than it had been in the wellness partition. Wind on the lip between tiers without the overlay turning it into weather she remembered from childhood trips upstate. A child laughed with a sound more real than anything the filtered years had offered—not on a Second's shoulders in a preview pane, on the platform, unoptimized, present.
 
-Mara did not smile at it performatively. She felt it register in her chest anyway—the fascination that had always been half her disease, the pattern mind that found signal in noise and couldn't always tell whether that was virtue or appetite. Exposed. Betrayed by civilization's offer and by her own preference physics and by weeks of institutional blinks that leaked certainty without memos. Vulnerable without armor. Not triumph. **Cost** visible in tired legs and unfiltered sky and the understanding that she had not refused because she was better than Noah.
+Mara did not smile at it performatively. She felt it register in her chest anyway—the fascination that had always been half her problem, the habit that found signal in noise and couldn't always tell whether that was virtue or appetite. Exposed. Betrayed by civilization's offer and by her own easier channel and by weeks of institutional blinks that leaked certainty without memos. Vulnerable without armor. Not triumph. **Cost** visible in tired legs and unfiltered sky and the understanding that she had not refused because she was better than Noah.
 
 She had refused because once, briefly, the edit had failed and she had stood in silence and learned her body remembered the filter the way bodies remembered cold after warm rooms.
 

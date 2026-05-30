@@ -1,29 +1,5 @@
 # Chapter 64 — The Architects
 
-**Status:** **PRINT READY v8** (2026-05-29)
-**Prior:** v3 FIRST PROSE  
-**Unified:** `000-077_written_full_v8_unified_pass_audit.md` (**PASS**)
-**POV:** Lena Orra · tight third · past tense · **C-072** only Lena POV in B1  
-**Part:** V — Convergence · **Movement II · Truth at scale**  
-**Location:** CIB-7 containment interview · `[GAP confirm]`  
-**Word count:** ~1,455 (target ~2,200)  
-**Beat sheet:** `058-071_act_three_beat_sheet.md` · **8/8**  
-**Bridge in:** `063_chapter_63_ch64_bridge_audit.md` (**PASS** v5)  
-**Bridge out:** `064_chapter_64_ch65_bridge_audit.md` (**PASS** v5)  
-**Change log:** `058-071_part_v_v8_unified_change_log.md` · prior v5/v6/v7 logs retained
-**v5 audit:** `064_chapter_64_v5_final_polish_audit.md` · `064_chapter_64_v5_pair_read_audit.md`  
-**Publisher MS:** `064_chapter_64_the_architects_PUBLISHER.md`  
-**Scene bible:** #42 — Lena's Truth  
-**Distinction:** Ch 55 Mara hears regret · Ch 64 Lena **owns** thesis
-
-**Locked line:** *"Nobody built a cage. We built conveniences."*
-
-**Chapter button:** Door sound · Lena **contained** · theme **sealed**
-
-**Withholds verified:** no redemption arc · no martyr speech · Salt not proud · no Ch 63 recap montage
-
----
-
 The room had been designed for argument.
 
 Gray walls. Verification terminals bolted to the table. No Veil bloom. No overlay hooks—the same honest ugliness Mara had preferred for witness intake on CIB-4. Lena had chosen it because gray made confession harder to dress as performance.
@@ -60,7 +36,7 @@ Mara sat. Opened the notebook. Did not activate the overlay recorder until Chen 
 
 "Go," Mara said.
 
-No *I'm listening* performance. No *take your time*. Witness grammar.
+No *I'm listening* performance. No *take your time*. Store first. Name later.
 
 Lena breathed once and began.
 
@@ -76,7 +52,7 @@ Third: **Salt**—not the name at first, only a compound class in a restricted l
 
 She was not proud. She was not surprised. Surprise was a luxury for people who still believed the system was a person who could be shamed into stopping.
 
-"Mara hung up on me when I told her to wait," Lena said, and saw Mara's jaw tighten a fraction—not anger, recognition. "You were right to. *Wait* was the tool we used when witness became inconvenient."
+"Mara hung up on me when I told her to wait," Lena said, and saw Mara's jaw tighten a fraction—not anger, recognition. "You were right to. *Wait* was the tool we used when the room became inconvenient."
 
 Salt sat on the table between them without a vial—only language, only the word finally spoken in a room gray enough to carry it.
 
@@ -110,7 +86,7 @@ No applause. No feed. No billions. Four people and gray air and a sentence the c
 
 Mara wrote it down.
 
-Lena watched the ink and felt something like grief and refused to call it redemption. Witness only. That was the bargain.
+Lena watched the ink and felt something like grief and refused to call it redemption. Listening only. That was the bargain.
 
 "I didn't come to destroy Relay," Lena said—almost smiled at the echo she knew Mara had heard from Vale hours ago, then did not smile. "I came to stop pretending the defaults were accidents."
 
@@ -132,7 +108,7 @@ Mara's pen tapped once against paper—a small violence.
 
 "It's the only honest one left."
 
-Silence. Witness completing its job.
+Silence. The room completing its job.
 
 * * *
 
@@ -142,7 +118,7 @@ Two security officers entered without rushing. Badges. Neutral faces. The choreo
 
 Lena stood when they told her to stand. Turned her badge face-up on the table because procedure required it.
 
-Mara did not stand to stop them. Chen did not speak. Witness, not rescue.
+Mara did not stand to stop them. Chen did not speak. Not rescue.
 
 "Lena," Mara said once—not *Orra*, not *doctor*, the name of a mentor before mentors became files.
 

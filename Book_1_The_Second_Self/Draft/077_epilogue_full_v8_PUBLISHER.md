@@ -84,6 +84,12 @@ A sidebar notification slid across the kitchen feed with a cheap ping—**sync i
 
 He dismissed it without reading the rest.
 
+* * *
+
+The overflow corridor smelled of wet wool and burnt coffee—a parking tier dressed as temporary mercy, flat light humming the way improvised shelters always did. Mara moved through it with her badge tucked and one body that no longer split across rooms, looking for an exit the bureau would not name. A cry rose from a folding chair against the cinderblock—not alarm, just a newborn demanding space in a world that preferred counts to lungs. A woman sat curved around the bundle, too tired to track faces; a man beside her held a paper cup between both palms, breathing over the steam. Mara slowed. She looked long enough to take in warmth, fragility, the small stubborn fact of another life continuing without her—and kept walking, because stopping would have been a promise and she had none left.
+
+* * *
+
 His phone buzzed. Not the work channel. Mara.
 
 **Alive. Don't reply on work channel.**

@@ -2,18 +2,61 @@
 
 Book-style reading and listening for **Book 1: The Second Self** (*The Signal Cycle*).
 
+## v3.5 — Find, mark, offline (P4)
+
+- **Bookmarks** — ★ toolbar or **M** saves scroll/spread position; list in sidebar; tap to jump back
+- **Full-book search** — sidebar “Search in book…” (idle-built index; 2+ characters)
+- **Share chapter** — ⎘ uses Web Share API or copies `/read/ch-…` link; OG meta updates per chapter
+- **Offline / install** — service worker caches app shell + chapters you open; `manifest.json` for Add to Home Screen
+
+Settings key: `signal-reader-v3.3` (includes `bookmarks` array).
+
+## v3.4 — Listen & performance (P3)
+
+- **Browser voice default** — Listen works immediately; ElevenLabs is optional (Pro) in audio settings
+- **ElevenLabs fallback** — if Pro is selected but unavailable, falls back to device voice
+- **Bundled `marked`** — `vendor/marked.min.js` (no CDN); run `npm run vendor` after `npm install`
+- **Idle chapter prefetch** — next 2 + previous chapter markdown prefetched when the browser is idle
+
+## v3.3 — Shareable URLs & typography (P2)
+
+- **Chapter URLs** — `/read/ch-14`, `/read/prologue` (shareable; legacy `#ch-14` redirects)
+- **Smarter resume** — scroll position + % through chapter + paragraph anchor (`data-read-id`)
+- **Reading preferences** (sidebar) — serif/sans, line height, column width, paragraph spacing
+- Local dev: `npx serve . -c serve.json` (SPA rewrites for `/read/*`)
+
+## v3.2 — Reader UX (P1)
+
+- **Reader mode** (default) — hides draft badges, TOC phase dots, prose-only; enable **Draft tools** in sidebar
+- **Simpler bottom bar** — previous · progress · next (chapters in scroll, pages in spread)
+- **TTS slide-over** — listen controls move to a bottom player panel (not the reading bar)
+- **Touch** — tap left/right 20% edges; swipe back/forward; scroll mode changes chapter at top/bottom
+
+## v3.1 — Scroll reading (default)
+
+- **Scroll layout** — continuous column (`max-width: 40rem`), natural scrolling, resume by scroll position
+- **Book spread layout** — optional two-page spread (toolbar **▤** / sidebar toggle / **B**)
+- Scroll mode: **Prev ch / Next ch** in bottom bar; spread mode: page controls unchanged
+
 ## v3 — Design + Listen
 
-### Visual redesign
+### Visual redesign (v4)
+- **Fraunces** display · **Newsreader** body · **Outfit** UI
+- Signal-noir palette, film grain, floating reading chrome
+- Paper column with elevated card in scroll mode
+
+### Earlier (v3)
 - **Source Serif 4** + **Instrument Sans** typography
 - Editorial cover frame with signal-teal accents
 - Ambient gradient background, glass toolbar, refined sidebar
 - Part banners with depth, improved chapter nav cards
 - Toggle switches, stat labels, mobile-optimized layout
 
-### Text-to-speech — ElevenLabs + browser fallback
+### Text-to-speech — device voice + optional ElevenLabs
 
-**ElevenLabs** (default) — high-quality neural narration, paragraph-by-paragraph with highlight sync.
+**Browser (device voice)** (default) — free, works offline via Web Speech API.
+
+**ElevenLabs (Pro)** — high-quality neural narration when an API key or Netlify proxy is configured.
 
 - **Listen · Prologue** on cover, or **L** / microphone toolbar button
 - Play / pause (**Space**), stop, prev/next paragraph
@@ -45,33 +88,40 @@ Paste your key when prompted. The script validates it, saves to `.env`, and can 
 If you run `npx serve .` without Netlify functions, open the audio panel and paste your API key under **Engine → ElevenLabs**. The key stays in your browser’s localStorage only.
 
 ### Carried from v2.1
-Scroll-position resume · prose-only mode · print styling · themes · focus mode · keyboard shortcuts
+Chapter scroll resume · prose-only mode · print styling · themes · focus mode · keyboard shortcuts
 
 ## Quick start
 
 ```powershell
 cd H:\THE_SIGNAL_CYCLE\reader
-npx serve .
+npm install
+npm run vendor
+npx serve . -c serve.json
 ```
 
 ## Keyboard shortcuts
 
 | Key | Action |
 |-----|--------|
+| B | Scroll ↔ book spread layout |
+| Tap / swipe | Back / forward (edges; chapter at scroll ends) |
 | L | Listen to chapter |
 | Space | Play / pause audio |
-| ← / → · J / K | Prev / next chapter |
+| ← / → | Prev / next page (spread only) |
+| J / K | Next / previous chapter |
+| M | Toggle bookmark |
 | P | Prose-only mode |
 | T | Contents · F focus · ? help |
 
 ## Content
 
-| Phase | Chapters |
-|-------|----------|
-| **v8 prose** | Prologue, Ch 1–13, Ch 72–77 |
-| **v6 prose** | Ch 62, 66 |
-| **v5 prose** | Ch 58–61, 63–65, 67–71 |
-| **Outline** | Ch 14–57 |
+**78 chapters — full novel (prologue + Ch 1–77)** — all publisher prose, read and listen end-to-end.
+
+Rebuild from manuscript:
+
+```powershell
+npm run build
+```
 
 ## Deploy
 

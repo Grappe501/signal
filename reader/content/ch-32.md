@@ -82,7 +82,7 @@ Mara looked at the fire. "The city broke in public. People laughed on corners. P
 
 "I didn't come for philosophy."
 
-"You came because your body couldn't keep driving past the path down." Cass's voice stayed level—sharp, kind, the 8w9 gift for hosting without recruiting. "Eat if you're hungry. Stay if you're staying. Don't perform investigator for my people tonight."
+"You came because your body couldn't keep driving past the path down." Cass's voice stayed level—sharp, kind, the kind of voice that hosted without recruiting. "Eat if you're hungry. Stay if you're staying. Don't perform investigator for my people tonight."
 
 "I'm not—"
 
