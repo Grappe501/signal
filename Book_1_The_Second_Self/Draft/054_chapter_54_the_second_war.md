@@ -1,5 +1,22 @@
-# Chapter 54
+# Chapter 54 — The Second War
 
+**Status:** **v6 DRAFT** (2026-05-29)  
+**Prior:** v3 revision · v4 close-read · v5 final polish · v6 enneagram · symbol · arc · B2 seed · **Movement III opens**  
+**POV:** Greenland Researcher · tight third · past tense · **no name**  
+**Word count:** ~1,429 (target ~2,000)  
+**Beat sheet:** `043-057_part_four_ghost_beat_sheet.md` · **9/9**  
+**Bridge in:** `053_chapter_53_ch54_bridge_audit.md` (**PASS** v5)  
+**Bridge out:** `054_chapter_54_ch55_bridge_audit.md` (**PASS** v5)  
+**Change log:** `054_chapter_54_v3_change_log.md` · `054_chapter_54_v4_change_log.md` · `054_chapter_54_v5_change_log.md` · `054_chapter_54_v6_change_log.md`  
+**Audits:** `054_chapter_54_v3_comprehensive_audit.md` (**PASS**) · `054_chapter_54_v4_comprehensive_audit.md` (**PASS**) · `054_chapter_54_v5_final_polish_audit.md` (**PASS**) · `054_chapter_54_v5_pair_read_audit.md` (**PASS**) · `054_chapter_54_v6_enneagram_symbol_arc_audit.md` (**PASS**)  
+**Publisher MS:** `054_chapter_54_the_second_war_PUBLISHER.md`  
+**Scene bible:** B2 Realignment War seed · Seg 048 · Ch 47 echo
+
+**Chapter button:** **Preparing** · **not fighting** · **curve up**
+
+**Withholds verified:** no on-page war · no combat · no gunfire · no politics lecture · no Ch 53 recap · researcher name withheld · bridge line
+
+---
 
 The simulation suite did not perform awe.
 
@@ -94,3 +111,5 @@ Curve up.
 The suite fans whirred. The posture maps refreshed green at the edges where green still meant continue. Outside this white room, districts still performed recovery and markets still ticked nominal and the show continued because the show was the product and the product still believed confidence bands could rise again if you filed the slope politely enough.
 
 She badged out into a corridor where the light stayed white and the air stayed cold and the hum beneath the floor continued.
+
+---

@@ -52,6 +52,11 @@
 | **Ch 51** | **v4 DRAFT** · v3/v4 comprehensive **PASS** · *Who started this?* · network not his |
 | **Ch 52** | **v4 DRAFT** · v3/v4 comprehensive **PASS** · **Legendary #7** · *Please.* |
 | **Ch 53** | **v4 DRAFT** · v3/v4 comprehensive **PASS** · Movement II closes · LATTICE coordinates |
+| **Ch 54** | **v6 DRAFT** · v3–v6 **PASS** · B2 seed · Movement III opens |
+| **Ch 55** | **v6 DRAFT** · v3–v6 **PASS** · locked Lena line · sympathy seed · **C-072** |
+| **Ch 56** | **v6 DRAFT** · v3–v6 **PASS** · architecture escaped · prophet not master |
+| **Ch 57** | **v6 DRAFT** · v3–v6 **PASS** · **Part IV finale** · locked lines |
+| **Part IV prose (54–57)** | **v6 batch COMPLETE** |
 | **Act I v6** | `000-012_act_one_v6_enneagram_symbol_arc_audit.md` (**COMPLETE**) |
 
 ---
@@ -81,4 +86,4 @@
 
 ## Next authorized
 
-1. **Ch 54 v3 prose** (*The Second War* · Greenland Researcher POV · Movement III opens) · or **Ch 28–53 v5** pair-read
+1. **Part V** continuous read · or **Ch 54–57 v4** batch close-read

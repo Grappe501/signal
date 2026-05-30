@@ -116,11 +116,12 @@
 | 52 | Ghosts | Mara | `052_chapter_52_the_ghosts.md` | **v4 DRAFT** · **Legendary #7** · *Please.* |
 | — | Part IV v2 Batch 13 | — | `../050-052_part_four_v2_batch_thirteen_audit.md` | **COMPLETE** · Ch 50–52 |
 | 53 | Greenland Files | Mara | `053_chapter_53_the_greenland_files.md` | **v4 DRAFT** · Movement II closes · LATTICE coordinates |
-| 54 | Second War | Greenland Researcher | `054_chapter_54_the_second_war.md` | **v2 FULL DEPTH** · B2 seed |
-| 55 | Real Confession | Mara | `055_chapter_55_the_real_confession.md` | **v2 FULL DEPTH** · Lena locked line |
+| 54 | Second War | Greenland Researcher | `054_chapter_54_the_second_war.md` | **v4 DRAFT** · B2 seed · Movement III opens |
+| 55 | Real Confession | Mara | `055_chapter_55_the_real_confession.md` | **v4 DRAFT** · locked Lena line · Ch 64 runway |
 | — | Part IV v2 Batch 14 | — | `../050-055_part_four_v2_batch_fourteen_audit.md` | **COMPLETE** · Ch 53–55 |
-| 56 | Mercer Warning | Mercer | `056_chapter_56_mercers_warning.md` | **v1 FULL DEPTH** |
-| 57 | Ghost in the System | Mara | `057_chapter_57_the_ghost_in_the_system.md` | **v1 FULL DEPTH** · **Part V door** |
+| — | Part IV v2 Batch 15 | — | `../056-057_part_four_v2_batch_fifteen_audit.md` | **COMPLETE** · Ch 56–57 · **Part IV maps DONE** |
+| 56 | Mercer Warning | Mercer | `056_chapter_56_mercers_warning.md` | **v3 DRAFT** · Scene #37 continues |
+| 57 | Ghost in the System | Mara | `057_chapter_57_the_ghost_in_the_system.md` | **v3 DRAFT** · **Part IV finale** · Part V door |
 | — | **Act III macro + beats** | — | `../058-071_act_three_v1_macro_outline.md` | **v1 FULL DEPTH** · Ch 58–71 |
 | — | Act III beat sheet | — | `../058-071_act_three_beat_sheet.md` | **112 beats · ~27,500 w** |
 | 58 | First Fall | Dubai Artist | `058_chapter_58_the_first_fall.md` | **v1 FULL DEPTH** · **PRINT READY v5** · Legendary #6 |
@@ -205,6 +206,6 @@
 | **Color continuity** | `056_color_symbolism_chapter_continuity_map.md` | **v1 FULL DEPTH** · palette + matrix |
 | **Part II prose** | Ch **13 v8** · Ch **14–27 v4** · **Act II COMPLETE** |
 | **Part III prose** | Ch **28–29 v4** · Ch 30 v3 next |
-| **Part IV prose** | Ch **43–53 v4** · priority Ch **54** · 52 |
+| **Part IV prose** | Ch **43–57 COMPLETE** · v3/v4 mix |
 | **Part V prose** | **Act III v8 unified (58–71)** ✅ · Ch 72–77 **v8** · gap **14–57** sequential |
 | **Epilogue maps** | ✅ **complete** (75–77) |

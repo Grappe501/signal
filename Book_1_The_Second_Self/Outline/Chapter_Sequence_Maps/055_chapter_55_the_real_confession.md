@@ -1,7 +1,7 @@
 # Chapter 55 — The Real Confession
 
 **Segment:** 054 · Part IV v2  
-**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29)  
+**Status:** **v6 DRAFT** — sequence map · prose complete (2026-05-29)  
 **POV:** Mara Voss · tight third · past tense  
 **Part:** IV — **Movement III · Inevitability**
 
@@ -63,8 +63,8 @@
 
 **Transition:** **Hard cut** Ch 56 · **Mercer** **frightened** · **inverse** POV.
 
-**Bridge in:** `Draft/054_chapter_54_ch55_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/055_chapter_55_ch56_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/054_chapter_54_ch55_bridge_audit.md` (**PASS** v5 · Ch 54 v6 DRAFT)  
+**Bridge out:** `Draft/055_chapter_55_ch56_bridge_audit.md` (**PASS** v5 · Ch 55 v6 DRAFT)
 
 ---
 
@@ -306,10 +306,13 @@
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · bridge chain **PENDING**
+**v6 DRAFT** — prose complete · **9/9 beats** · bridge chain **PASS**
+
+**Prose:** `Draft/055_chapter_55_the_real_confession.md` · ~1,440 w  
+**Audits:** v3/v4/v5/v6 **PASS**
 
 ---
 
 ## Next
 
-**Ch 55 v3 prose** when authorized · Batch 15: **Ch 56–57 v2** · **Part IV finale**
+**Ch 56 v3 prose** (*Mercer's Warning* · Mercer POV) when authorized

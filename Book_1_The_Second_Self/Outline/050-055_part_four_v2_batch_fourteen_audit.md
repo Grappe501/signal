@@ -12,8 +12,8 @@
 | Ch | Title | POV | Beats | Map status |
 |----|-------|-----|-------|------------|
 | 53 | The Greenland Files | Mara | 9/9 | **v4 DRAFT** · Movement II closes |
-| 54 | The Second War | Greenland Researcher | 9/9 | **v2 FULL DEPTH** · B2 seed · **Movement III opens** |
-| 55 | The Real Confession | Mara | 9/9 | **v2 FULL DEPTH** · locked Lena line · Ch 64 runway |
+| 54 | The Second War | Greenland Researcher | 9/9 | **v4 DRAFT** · B2 seed |
+| 55 | The Real Confession | Mara | 9/9 | **v4 DRAFT** · locked Lena line |
 
 ---
 
@@ -65,9 +65,9 @@
 | Bridge | Status |
 |--------|--------|
 | Ch 52 → 53 | **PASS** v4 · Ch 53 v4 DRAFT |
-| Ch 53 → 54 | **PASS** v4 · Ch 53 v4 DRAFT |
-| Ch 54 → 55 | **PENDING** |
-| Ch 55 → 56 | **PENDING** |
+| Ch 53 → 54 | **PASS** v4 · Ch 54 v4 DRAFT |
+| Ch 54 → 55 | **PASS** v4 · Ch 55 v4 DRAFT |
+| Ch 55 → 56 | **PASS** v4 · Ch 55 v4 DRAFT |
 
 ---
 
@@ -77,12 +77,12 @@
 |-------|--------|
 | Movement I (Ch 43–46) | **v2 COMPLETE** |
 | Movement II (Ch 47–53) | **v2 COMPLETE** |
-| Movement III (Ch 54–57) | **54–55 v2** · 56–57 v1 |
+| Movement III (Ch 54–57) | **v2 COMPLETE** |
 
-**Remaining Part IV v2:** Ch **56–57** (2 chapters) · **Part IV maps nearly complete**
+**Part IV sequence maps:** **COMPLETE** (15/15)
 
 ---
 
 ## Next authorized
 
-**Ch 54 v3 prose** (*The Second War* · Greenland Researcher POV · Movement III opens) · or **Batch 15** Ch **56–57** v2
+**Ch 56 v3 prose** (*Mercer's Warning* · Mercer POV) · **Ch 57 v3 prose** (*The Ghost in the System*)

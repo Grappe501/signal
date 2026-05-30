@@ -1,7 +1,7 @@
 # Chapter 54 — The Second War
 
 **Segment:** 054 · Part IV v2  
-**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29)  
+**Status:** **v6 DRAFT** — sequence map · prose complete (2026-05-29) · **Movement III opens**  
 **POV:** Greenland Researcher · tight third · past tense · **no name**  
 **Part:** IV — **Movement III · Inevitability** opens
 
@@ -61,8 +61,8 @@
 
 **Transition:** **Hard cut** Ch 55 · **Lena** **confession** · **personal** **inverse**.
 
-**Bridge in:** `Draft/053_chapter_53_ch54_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/054_chapter_54_ch55_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/053_chapter_53_ch54_bridge_audit.md` (**PASS** v5 · Ch 53 v4 DRAFT)  
+**Bridge out:** `Draft/054_chapter_54_ch55_bridge_audit.md` (**PASS** v5 · Ch 54 v6 DRAFT)
 
 ---
 
@@ -292,10 +292,13 @@
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · **Movement III opens** · bridge chain **PENDING**
+**v6 DRAFT** — prose complete · **9/9 beats** · bridge chain **PASS**
+
+**Prose:** `Draft/054_chapter_54_the_second_war.md` · ~1,429 w  
+**Audits:** v3/v4/v5/v6 **PASS**
 
 ---
 
 ## Next
 
-**Ch 54 v3 prose** when authorized · **Ch 55 v2** batch complete
+**Ch 55 v3 prose** complete · **Ch 56** next authorized

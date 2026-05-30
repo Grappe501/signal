@@ -1,5 +1,22 @@
-# Chapter 56
+# Chapter 56 — Mercer's Warning
 
+**Status:** **v6 DRAFT** (2026-05-29)  
+**Prior:** v3 first prose · v4 close-read · v5 final polish · v6 enneagram · symbol · arc · Scene #37 continues · Ch 41 · Ch 51 escalation  
+**POV:** Eli Mercer · tight third · past tense · **7w8**  
+**Word count:** ~1,371 (target ~2,200)  
+**Beat sheet:** `043-057_part_four_ghost_beat_sheet.md` · **9/9**  
+**Bridge in:** `055_chapter_55_ch56_bridge_audit.md` (**PASS** v5)  
+**Bridge out:** `056_chapter_56_ch57_bridge_audit.md` (**PASS** v5)  
+**Change log:** `056_chapter_56_v3_change_log.md` · `056_chapter_56_v4_change_log.md` · `056_chapter_56_v5_change_log.md` · `056_chapter_56_v6_change_log.md`  
+**Audits:** `056_chapter_56_v3_comprehensive_audit.md` (**PASS**) · `056_chapter_56_v4_comprehensive_audit.md` (**PASS**) · `056_chapter_56_v5_final_polish_audit.md` (**PASS**) · `056_chapter_56_v5_pair_read_audit.md` (**PASS**) · `056_chapter_56_v6_enneagram_symbol_arc_audit.md` (**PASS**)  
+**Publisher MS:** `056_chapter_56_mercers_warning_PUBLISHER.md`  
+**Scene bible:** #37 · Seg 046 · Ch 67 runway
+
+**Chapter button:** **Time almost gone** — **prophet** **not** **master**
+
+**Withholds verified:** no manifesto · no triumph · no Mara contact · message withheld · rogue never real threat · Ch 51 locked line not repeated · STATIC unnamed · zip withheld · no bridge line
+
+---
 
 The stairwell knew him before the room did.
 
@@ -96,3 +113,5 @@ Warning without delivery.
 He did not look back at the desk where the deleted message was already memory.
 
 Dark held. The city did not reply.
+
+---

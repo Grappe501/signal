@@ -1,8 +1,8 @@
 # Chapter 53 → Chapter 54 Bridge Audit
 
-**Status:** **PASS** (v4 · 2026-05-29)  
+**Status:** **PASS** (v5 · 2026-05-29)  
 **Chapter 53:** `053_chapter_53_the_greenland_files.md` · **v4 DRAFT** (~1,674 w) · **Movement II closes**  
-**Chapter 54:** `054_chapter_54_the_second_war.md` · **v2 FULL DEPTH** · pre-prose
+**Chapter 54:** `054_chapter_54_the_second_war.md` · **v6 DRAFT** (~1,429 w)
 
 ---
 
@@ -46,5 +46,5 @@
 
 | Role | Status |
 |------|--------|
-| Bridge audit | **PASS** v4 |
-| Ch 54 prose | **Next** · v3 · Greenland Researcher POV |
+| Bridge audit | **PASS** v5 |
+| Ch 54 prose | **COMPLETE** · v6 DRAFT |

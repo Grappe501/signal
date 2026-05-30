@@ -1,8 +1,8 @@
 # Chapter 57 → Chapter 58 Bridge Audit
 
 **Status:** **PASS** (v5 · 2026-05-29)  
-**Chapter 57:** `057_chapter_57_the_ghost_in_the_system.md` · **v1 FULL DEPTH** · pre-prose  
-**Chapter 58:** `058_chapter_58_the_first_fall.md` · **LOCKED · PRINT READY v5** (~1,835 w)
+**Chapter 57:** `057_chapter_57_the_ghost_in_the_system.md` · **v6 DRAFT** (~1,346 w)  
+**Chapter 58:** `058_chapter_58_the_first_fall.md` · **PRINT READY v8** (~1,835 w)
 
 ---
 
