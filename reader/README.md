@@ -73,6 +73,14 @@ Settings key: `signal-reader-v3.3` (includes `bookmarks` array).
 
 **Hosted (Piper MP3)** — optional self-hosted narration (`npm run piper:batch`); see `audio/README.md`. No API cost; deploy `reader/audio/` with your site (~2–4 GB full book).
 
+## v7 — Listen Studio (major audio upgrade)
+
+- **Listen Studio** — immersive layer: waveform chapter map, live quote strip, chapter rail
+- **Stable `syncId`** — manifest cues lock to DOM (`audio-sync.js`)
+- **IndexedDB audio cache** — re-listen hosted cues offline
+- **Parallel Piper batch** — `--parallel 4`, optional male/female models
+- **Book listen** — continuous from current chapter (settings)
+
 ## v6 — Dialogue-perfect audio (cue + word sync)
 
 - **Piper per-cue** — `npm run piper:batch:cues` renders every narration/dialogue beat (`--mode cue`, manifest v3)

@@ -269,6 +269,10 @@ const TTS = (() => {
     } else if (chProg) {
       chProg.textContent = chapterMeta?.id === "prologue" ? "Prologue" : "";
     }
+
+    if (typeof ListenStudio !== "undefined" && ListenStudio.isOpen()) {
+      ListenStudio.updateOverlay(getStudioPlaybackState());
+    }
   }
 
   function applyTimelinePosition(pos) {
@@ -318,12 +322,42 @@ const TTS = (() => {
 
   function findPlaylistIndex(seg, cue) {
     if (!cuePlaylist) return 0;
+    const sid = segments[seg]?.cues?.[cue]?.syncId;
+    if (sid) {
+      const bySync = cuePlaylist.findIndex((item) => item.syncId === sid);
+      if (bySync >= 0) return bySync;
+    }
     const idx = cuePlaylist.findIndex(
       (item) => item.segment === seg && item.cue === cue && item.type === "speech"
     );
     if (idx >= 0) return idx;
     const fallback = cuePlaylist.findIndex((item) => item.type === "speech");
     return fallback >= 0 ? fallback : 0;
+  }
+
+  function getStudioPlaybackState() {
+    const item = cuePlaylist?.[cuePlaylistIndex];
+    const total =
+      cuePlaylist?.length && typeof HostedAudio !== "undefined"
+        ? HostedAudio.playlistDuration(cuePlaylist)
+        : audio?.duration || 0;
+    const pos =
+      cuePlaylist?.length && typeof HostedAudio !== "undefined"
+        ? HostedAudio.playlistPosition(cuePlaylist, cuePlaylistIndex, audio?.currentTime || 0)
+        : audio?.currentTime || 0;
+    const ratio = total > 0 ? pos / total : audio?.duration ? audio.currentTime / audio.duration : 0;
+    return {
+      chapterTitle: chapterMeta?.title || chapterTitle,
+      chapterLabel:
+        chapterMeta?.num != null ? `Chapter ${chapterMeta.num}` : chapterMeta?.id === "prologue" ? "Prologue" : "",
+      status: statusLabel(),
+      speaker: currentCue?.speakerLabel || item?.speakerLabel || "",
+      role: currentCue?.role || item?.role || "narration",
+      activeText: currentCue?.text || item?.text || "",
+      playlist: cuePlaylist || [],
+      playlistIndex: cuePlaylistIndex,
+      positionRatio: ratio,
+    };
   }
 
   async function playCuePlaylistItem(pi) {
@@ -351,7 +385,17 @@ const TTS = (() => {
     loading = true;
     updatePlayBtn();
 
-    const url = HostedAudio.audioUrl(item.file);
+    const path = HostedAudio.audioUrl(item.file);
+    let url = path;
+    try {
+      if (typeof AudioCache !== "undefined" && AudioCache.enabled(getSettings)) {
+        url = await AudioCache.resolvePlayableUrl(path, true);
+      }
+    } catch {
+      setStatus("Cue load failed — skipping");
+      playCuePlaylistItem(pi + 1);
+      return;
+    }
     audio = new Audio(url);
     audio.preload = "auto";
     audio.playsInline = true;
@@ -667,6 +711,15 @@ const TTS = (() => {
     const player = $("tts-player");
     if (player) player.classList.toggle("hidden", !playerOpen);
     onPlayerVisibility(playerOpen);
+    if (
+      playerOpen &&
+      getSettings().listenStudio !== false &&
+      typeof ListenStudio !== "undefined"
+    ) {
+      ListenStudio.setOpen(true, getStudioPlaybackState());
+    } else if (!playerOpen && typeof ListenStudio !== "undefined") {
+      ListenStudio.setOpen(false);
+    }
   }
 
   function showPanel() {
@@ -680,6 +733,7 @@ const TTS = (() => {
   function hidePanel() {
     stop(true);
     setPlayerOpen(false);
+    if (typeof AudioCache !== "undefined") AudioCache.clearObjectUrls();
     document.getElementById("listen-toggle")?.classList.remove("active");
   }
 
@@ -761,6 +815,7 @@ const TTS = (() => {
     cuePlaylistIndex = 0;
     currentPlaylistItem = null;
     cueSpokenWordOffset = 0;
+    if (typeof AudioCache !== "undefined") AudioCache.clearObjectUrls();
     updatePlaybackUi();
     if (engine() === "browser") speechSynthesis.cancel();
     releaseAudio();
@@ -1326,7 +1381,7 @@ const TTS = (() => {
     hostedChapterEntry = entry;
 
     if (entry.mode === "cue" && entry.cues?.length) {
-      cuePlaylist = HostedAudio.buildCuePlaylist(entry, segments);
+      cuePlaylist = HostedAudio.buildCuePlaylist(entry, segments, chapterMeta?.id);
       if (!cuePlaylist?.length) {
         setStatus("Cue manifest mismatch — rebatch or use browser");
         if ("speechSynthesis" in window) speakBrowser();
@@ -1762,6 +1817,16 @@ const TTS = (() => {
       onNextChapter = opts.onNextChapter || null;
       onPrefetchChapter = opts.onPrefetchChapter || null;
 
+      if (typeof ListenStudio !== "undefined") {
+        ListenStudio.bind({
+          onSeekRatio: (r) => seekToRatio(r),
+          onPrevChapter: () => onPrevChapter?.(),
+          onNextChapter: () => onNextChapter?.(),
+          onClose: () => hidePanel(),
+          getPlayback: () => getStudioPlaybackState(),
+        });
+      }
+
       if (typeof AudioSession !== "undefined") {
         AudioSession.bind({
           play: () => toggle(),
@@ -1815,6 +1880,35 @@ const TTS = (() => {
         keyInput.value = s.elevenLabsApiKey;
       }
 
+      const bookToggle = $("tts-book-mode");
+      if (bookToggle) {
+        bookToggle.checked = s.bookListen !== false;
+        bookToggle.addEventListener("change", (e) => {
+          getSettings().bookListen = e.target.checked;
+          saveSettings();
+          if (e.target.checked) setContinuousListen(true);
+        });
+      }
+
+      const studioToggle = $("tts-studio");
+      if (studioToggle) {
+        studioToggle.checked = s.listenStudio !== false;
+        studioToggle.addEventListener("change", (e) => {
+          getSettings().listenStudio = e.target.checked;
+          saveSettings();
+          if (!e.target.checked) ListenStudio?.setOpen(false);
+        });
+      }
+
+      const cacheToggle = $("tts-audio-cache");
+      if (cacheToggle) {
+        cacheToggle.checked = s.audioCache !== false;
+        cacheToggle.addEventListener("change", (e) => {
+          getSettings().audioCache = e.target.checked;
+          saveSettings();
+        });
+      }
+
       bootstrapEngine();
       refreshHostedAvailability();
       updateContinuousUi();
@@ -1857,11 +1951,22 @@ const TTS = (() => {
       }
     },
 
-    startListening(fromScroll = true) {
+    startListening(fromScroll = true, enableContinuous = false) {
       if (!segments.length) return;
+      if (enableContinuous || getSettings().bookListen !== false) {
+        setContinuousListen(true);
+      }
       setPlayerOpen(true);
       index = fromScroll ? findSegmentFromScroll() : 0;
       play(index);
+    },
+
+    startBookListen(fromScroll = true) {
+      const s = getSettings();
+      s.bookListen = true;
+      saveSettings();
+      setContinuousListen(true);
+      startListening(fromScroll, true);
     },
 
     toggle,

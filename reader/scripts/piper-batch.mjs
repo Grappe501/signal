@@ -26,6 +26,8 @@ import { CHAPTERS } from "./chapters.mjs";
 import { chapterSpeechPayload } from "./speech-text.mjs";
 import { buildChapterCuePlan } from "./listen-director.mjs";
 import { probeDuration, buildChapterTimingSidecar, buildWordTimings } from "./audio-timing.mjs";
+import { pickModelForCue, resolveModels } from "./piper-voices.mjs";
+import { cueSyncId } from "./sync-ids.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -43,11 +45,13 @@ function parseArgs(argv) {
     model: process.env.PIPER_MODEL || "",
     ffmpeg: process.env.FFMPEG_BIN || "ffmpeg",
     ffprobe: process.env.FFPROBE_BIN || "ffprobe",
+    parallel: parseInt(process.env.PIPER_PARALLEL || "3", 10) || 3,
   };
   for (let i = 2; i < argv.length; i++) {
     const a = argv[i];
     if (a === "--dry-run") out.dryRun = true;
     else if (a === "--force") out.force = true;
+    else if (a === "--parallel" && argv[i + 1]) out.parallel = parseInt(argv[++i], 10) || 3;
     else if (a === "--mode" && argv[i + 1]) out.mode = argv[++i];
     else if (a === "--chapter" && argv[i + 1]) out.chapter = argv[++i];
     else if (a === "--limit" && argv[i + 1]) out.limit = parseInt(argv[++i], 10) || 0;
@@ -131,9 +135,24 @@ function fileSize(path) {
   }
 }
 
-function main() {
+async function mapPool(items, limit, fn) {
+  const out = new Array(items.length);
+  let next = 0;
+  async function worker() {
+    while (next < items.length) {
+      const i = next++;
+      out[i] = await fn(items[i], i);
+    }
+  }
+  const n = Math.max(1, Math.min(limit, items.length || 1));
+  await Promise.all(Array.from({ length: n }, worker));
+  return out;
+}
+
+async function main() {
   const args = parseArgs(process.argv);
   const model = args.model || findDefaultModel();
+  const voiceModels = resolveModels(process.env);
 
   if (process.argv.includes("--check")) {
     const piperOk = hasCmd(args.piper);
@@ -186,66 +205,79 @@ function main() {
       const plan = buildChapterCuePlan(ch.pov, payload.blocks);
       const cueDir = join(AUDIO_DIR, ch.id, "cues");
       if (!args.dryRun) mkdirSync(cueDir, { recursive: true });
-      const manifestCues = [];
-      let totalDur = 0;
 
+      const jobs = [];
       for (const block of plan) {
         for (let ci = 0; ci < block.cues.length; ci++) {
-          const cue = block.cues[ci];
-          if (cue.role === "sceneBreak") {
-            const pause = cue.pauseAfter / 1000;
-            manifestCues.push({
-              segment: block.segment,
-              cue: ci,
-              kind: "break",
-              pauseAfter: pause,
-              text: "",
-            });
-            totalDur += pause;
-            continue;
-          }
-
-          const fname = `s${String(block.segment).padStart(4, "0")}-c${String(ci).padStart(2, "0")}.${ext}`;
-          const rel = `${ch.id}/cues/${fname}`;
-          const outPath = join(AUDIO_DIR, rel);
-          let dur = 0;
-          let words = [];
-
-          if (!args.dryRun) {
-            const wavPath = outPath.replace(/\.mp3$/, ".wav");
-            runPiper(args.piper, model, cue.text, wavPath.endsWith(".wav") ? wavPath : outPath);
-            if (useMp3) {
-              wavToMp3(args.ffmpeg, wavPath, outPath);
-              rmSync(wavPath, { force: true });
-            }
-            dur = probeDuration(args.ffprobe, outPath);
-            words = buildWordTimings(cue.text, dur);
-          }
-
-          totalDur += dur + cue.pauseAfter / 1000;
-          manifestCues.push({
-            segment: block.segment,
-            cue: ci,
-            kind: "speech",
-            role: cue.role,
-            file: rel,
-            duration: dur,
-            bytes: args.dryRun ? 0 : fileSize(outPath),
-            text: cue.text,
-            speakerLabel: cue.speakerLabel || null,
-            words,
-            pauseAfter: cue.pauseAfter / 1000,
-          });
-          built++;
-          console.log(
-            `  ${ch.id} s${block.segment} c${ci} [${cue.role}] ${cue.text.slice(0, 44)}…`
-          );
+          jobs.push({ block, ci, cue: block.cues[ci] });
         }
       }
+
+      const results = await mapPool(jobs, args.parallel, async (job) => {
+        const { block, ci, cue } = job;
+        const sid = cueSyncId(ch.id, block.segment, ci);
+
+        if (cue.role === "sceneBreak") {
+          return {
+            syncId: sid,
+            segment: block.segment,
+            cue: ci,
+            kind: "break",
+            pauseAfter: cue.pauseAfter / 1000,
+            text: "",
+          };
+        }
+
+        const fname = `s${String(block.segment).padStart(4, "0")}-c${String(ci).padStart(2, "0")}.${ext}`;
+        const rel = `${ch.id}/cues/${fname}`;
+        const outPath = join(AUDIO_DIR, rel);
+        let dur = 0;
+        let words = [];
+        const modelPath = pickModelForCue(cue, voiceModels);
+
+        if (!args.dryRun) {
+          const wavPath = outPath.replace(/\.mp3$/, ".wav");
+          runPiper(args.piper, modelPath, cue.text, wavPath.endsWith(".wav") ? wavPath : outPath);
+          if (useMp3) {
+            wavToMp3(args.ffmpeg, wavPath, outPath);
+            rmSync(wavPath, { force: true });
+          }
+          dur = probeDuration(args.ffprobe, outPath);
+          words = buildWordTimings(cue.text, dur);
+        }
+
+        console.log(`  ${sid} [${cue.role}] ${cue.text.slice(0, 40)}…`);
+        built++;
+
+        return {
+          syncId: sid,
+          segment: block.segment,
+          cue: ci,
+          kind: "speech",
+          role: cue.role,
+          file: rel,
+          duration: dur,
+          bytes: args.dryRun ? 0 : fileSize(outPath),
+          text: cue.text,
+          speakerLabel: cue.speakerLabel || null,
+          speakerKey: cue.speakerKey || null,
+          voice: basename(modelPath).replace(/\.onnx$/, ""),
+          words,
+          pauseAfter: cue.pauseAfter / 1000,
+        };
+      });
+
+      const manifestCues = results.filter(Boolean);
+      const totalDur = manifestCues.reduce(
+        (s, c) =>
+          s + (c.kind === "break" ? c.pauseAfter || 0 : (c.duration || 0) + (c.pauseAfter || 0)),
+        0
+      );
 
       manifest.version = 3;
       manifest.chapters[ch.id] = {
         mode: "cue",
+        sync: "v1",
         cues: manifestCues,
         duration: totalDur,
         cueCount: manifestCues.filter((c) => c.file).length,
@@ -323,4 +355,7 @@ function main() {
   console.log(`Done. ${built} audio unit(s)${args.dryRun ? " (dry run)" : ""}.`);
 }
 
-main();
+main().catch((e) => {
+  console.error(e);
+  process.exit(1);
+});

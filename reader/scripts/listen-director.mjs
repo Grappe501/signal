@@ -148,12 +148,13 @@ function buildCue(rawText, role, blockKind, speaker = null, pacingMul = 1) {
     speakerLabel = CHARACTER_CAST[speaker].label;
   }
 
-  return {
-    text: normalizeSpeechText(rawText),
-    role: blockKey === "dialogue" ? "dialogue" : blockKey,
-    pauseAfter: Math.round(style.pauseAfter * pacingMul),
-    speakerLabel,
-  };
+    return {
+      text: normalizeSpeechText(rawText),
+      role: blockKey === "dialogue" ? "dialogue" : blockKey,
+      pauseAfter: Math.round(style.pauseAfter * pacingMul),
+      speakerLabel,
+      speakerKey: speaker || null,
+    };
 }
 
 export function buildCuesForBlock(text, blockKind, pov, pacingMul = 1) {

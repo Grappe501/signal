@@ -1,5 +1,5 @@
 /* Service worker — offline app shell + cache visited chapters */
-const CACHE_VERSION = "signal-reader-v6";
+const CACHE_VERSION = "signal-reader-v7";
 const SHELL = [
   "/",
   "/index.html",
@@ -11,9 +11,12 @@ const SHELL = [
   "/js/touch.js",
   "/js/listen-script.js",
   "/js/listen-presets.js",
+  "/js/audio-sync.js",
+  "/js/audio-cache.js",
   "/js/audio-timeline.js",
   "/js/hosted-audio.js",
   "/js/audio-session.js",
+  "/js/listen-studio.js",
   "/js/bookmarks.js",
   "/js/search.js",
   "/js/share.js",

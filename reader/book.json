@@ -3543,8 +3543,25 @@
       "source": "source/Book2/Notes/023_book_two_act_six_micro_outline.md",
       "noteFile": "023_book_two_act_six_micro_outline.md",
       "prev": "b2-note-022",
-      "next": "b2-note-025",
+      "next": "b2-note-024",
       "file": "b2-note-023.md"
+    },
+    {
+      "id": "b2-note-024",
+      "num": null,
+      "title": "THE SIGNAL CYCLE",
+      "pov": "Architecture",
+      "phase": "b2-arch",
+      "phaseLabel": "Architecture note",
+      "part": "b2-architecture",
+      "prose": false,
+      "book": 2,
+      "kind": "architecture",
+      "source": "source/Book2/Notes/024_trilogy_reader_test_and_scene_design_gate.md",
+      "noteFile": "024_trilogy_reader_test_and_scene_design_gate.md",
+      "prev": "b2-note-023",
+      "next": "b2-note-025",
+      "file": "b2-note-024.md"
     },
     {
       "id": "b2-note-025",
@@ -3559,7 +3576,7 @@
       "kind": "architecture",
       "source": "source/Book2/Notes/025_settings_evolution.md",
       "noteFile": "025_settings_evolution.md",
-      "prev": "b2-note-023",
+      "prev": "b2-note-024",
       "next": "b2-note-026",
       "file": "b2-note-025.md"
     },

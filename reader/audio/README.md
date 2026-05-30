@@ -27,6 +27,21 @@ npm run piper:batch    # one file per chapter → audio/ch-01.mp3, …
 
 **Cue mode** uses the same dialogue splitter as the reader (`listen-director.mjs` ↔ `listen-script.js`). Each quoted line and narration beat gets its own Piper file. `words` in the manifest carry per-word timings (from ffprobe duration).
 
+Each cue has a stable **`syncId`** (`ch-01-s0005-c02`) matching the reader DOM — no text matching.
+
+### Multi-voice (optional)
+
+```bash
+set PIPER_MODEL=F:/voices/lessac-medium.onnx
+set PIPER_MODEL_FEMALE=F:/voices/lessac-medium.onnx
+set PIPER_MODEL_MALE=F:/voices/ryan-medium.onnx
+npm run piper:batch -- --parallel 4
+```
+
+### Parallel batch
+
+`--parallel 4` (default 3) runs multiple Piper processes at once.
+
 Manifest **v3** for cue mode. Re-run batch when prose changes.
 
 ## Useful flags

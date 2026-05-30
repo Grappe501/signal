@@ -8,7 +8,7 @@
     "manifest": "node scripts/build-manifest.mjs",
     "build": "node scripts/vendor-marked.mjs && node scripts/setup-source.mjs && node scripts/build-book.mjs",
     "piper:check": "node scripts/piper-batch.mjs --check",
-    "piper:batch": "node scripts/piper-batch.mjs --mode cue",
+    "piper:batch": "node scripts/piper-batch.mjs --mode cue --parallel 3",
     "piper:batch:chapter": "node scripts/piper-batch.mjs --mode chapter",
     "piper:batch:cues": "node scripts/piper-batch.mjs --mode cue",
     "piper:batch:dry": "node scripts/piper-batch.mjs --dry-run --limit 1 --mode cue",

@@ -391,7 +391,8 @@ const ListenScript = (() => {
         const speakerAttr = c.speakerLabel
           ? ` data-tts-speaker="${escapeHtml(c.speakerLabel)}"`
           : "";
-        return `<span class="tts-cue" data-tts-cue="${cueIdx}" data-tts-role="${role}"${speakerAttr}>${sentencesHtml(c.text)}</span>`;
+        const syncAttr = c.syncId ? ` data-tts-sync-id="${c.syncId}"` : "";
+        return `<span class="tts-cue" data-tts-cue="${cueIdx}" data-tts-role="${role}"${speakerAttr}${syncAttr}>${sentencesHtml(c.text)}</span>`;
       })
       .filter(Boolean)
       .join(" ");
@@ -561,6 +562,10 @@ const ListenScript = (() => {
         blockKind,
       });
     });
+
+    if (typeof AudioSync !== "undefined" && chapter?.id) {
+      AudioSync.assignCueIds(chapter.id, segments);
+    }
 
     return segments;
   }

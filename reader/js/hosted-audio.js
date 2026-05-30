@@ -96,8 +96,13 @@ const HostedAudio = (() => {
   }
 
   /** Align manifest cue files to live DOM segments by spoken text. */
-  function buildCuePlaylist(entry, segments) {
+  function buildCuePlaylist(entry, segments, chapterId) {
     if (entry?.mode !== "cue" || !entry.cues?.length) return null;
+
+    if (typeof AudioSync !== "undefined" && chapterId) {
+      const synced = AudioSync.buildPlaylistFromManifest(entry, segments, chapterId);
+      if (synced?.length) return synced;
+    }
 
     const playlist = [];
     for (const mc of entry.cues) {
@@ -159,6 +164,12 @@ const HostedAudio = (() => {
       if (entry.mode === "cue" && entry.cues?.length) {
         for (const c of entry.cues) {
           if (c.file) urls.push(audioUrl(c.file));
+        }
+        if (typeof AudioCache !== "undefined") {
+          AudioCache.prefetch(
+            entry.cues.filter((c) => c.file).map((c) => audioUrl(c.file)),
+            true
+          );
         }
       } else if (entry.file) {
         urls.push(audioUrl(entry.file));
