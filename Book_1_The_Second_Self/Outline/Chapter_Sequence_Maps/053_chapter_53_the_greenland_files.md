@@ -1,7 +1,7 @@
 # Chapter 53 — The Greenland Files
 
 **Segment:** 054 · Part IV v2  
-**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29)  
+**Status:** **v4 DRAFT** — sequence map · prose complete (2026-05-29) · **Movement II closes**  
 **POV:** Mara Voss · tight third · past tense  
 **Part:** IV — **Movement II · Scale & vault** · **Movement II finale**
 
@@ -61,8 +61,8 @@
 
 **Transition:** **Hard cut** Ch 54 · **simulations** · **inverse** POV.
 
-**Bridge in:** `Draft/052_chapter_52_ch53_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/053_chapter_53_ch54_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/052_chapter_52_ch53_bridge_audit.md` (**PASS** v4 · Ch 52 v4 DRAFT)  
+**Bridge out:** `Draft/053_chapter_53_ch54_bridge_audit.md` (**PASS** v4 · Ch 53 v4 DRAFT)
 
 ---
 
@@ -295,10 +295,13 @@
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · **Movement II closes** · bridge chain **PENDING**
+**v4 DRAFT** — prose complete · **9/9 beats** · **Movement II closes** · bridge chain **PASS** (Ch 52→53 · Ch 53→54)
+
+**Prose:** `Draft/053_chapter_53_the_greenland_files.md` · ~1,674 w  
+**Audits:** v3/v4 comprehensive **PASS**
 
 ---
 
 ## Next
 
-**Ch 53 v3 prose** when authorized · **Ch 54 v2** · **Movement III** opens
+**Ch 54 v3 prose** (*The Second War* · Greenland Researcher POV · Movement III opens) when authorized

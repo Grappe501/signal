@@ -11,9 +11,9 @@
 
 | Ch | Title | POV | Beats | Map status |
 |----|-------|-----|-------|------------|
-| 50 | Lena's First Confession | Mara | 9/9 | **v2 FULL DEPTH** · Scene #31 · timeline wrong |
-| 51 | The Third Body | Mercer | 9/9 | **v2 FULL DEPTH** · *Who started this?* |
-| 52 | The Ghosts | Mara | 9/9 | **v2 FULL DEPTH** · **Legendary #7** · *Please.* |
+| 50 | Lena's First Confession | Mara | 9/9 | **v4 DRAFT** · Scene #31 · timeline wrong |
+| 51 | The Third Body | Mercer | 9/9 | **v4 DRAFT** · *Who started this?* |
+| 52 | The Ghosts | Mara | 9/9 | **v4 DRAFT** · **Legendary #7** · *Please.* |
 
 ---
 
@@ -66,10 +66,10 @@
 
 | Bridge | Status |
 |--------|--------|
-| Ch 49 → 50 | **PENDING** |
-| Ch 50 → 51 | **PENDING** |
-| Ch 51 → 52 | **PENDING** |
-| Ch 52 → 53 | **PENDING** |
+| Ch 49 → 50 | **PASS** v4 · Ch 50 v4 DRAFT |
+| Ch 50 → 51 | **PASS** v4 · Ch 51 v4 DRAFT |
+| Ch 51 → 52 | **PASS** v4 · Ch 52 v4 DRAFT |
+| Ch 52 → 53 | **PASS** v4 · Ch 52 v4 DRAFT |
 
 ---
 
@@ -87,4 +87,4 @@
 
 ## Next authorized
 
-**Batch 15:** Ch **56–57** v2 · see `050-055_part_four_v2_batch_fourteen_audit.md`
+**Ch 53 v3 prose** (*Greenland Files* · Movement II closes) · or **Batch 14** Ch **53–55** v2

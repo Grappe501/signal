@@ -63,7 +63,7 @@ Deliver **Legendary #5 Rawist Fire** — Mara at settlement · **real fire** · 
 
 **Transition:** **Hard cut** Ch 22 · **no** Vale preview · **no** HVI recap.
 
-**Bridge in:** `Draft/020_chapter_20_ch21_bridge_audit.md` (**PENDING** · map v2)  
+**Bridge in:** `Draft/020_chapter_20_ch21_bridge_audit.md` (**PASS** v4)  
 **Bridge out:** `Draft/021_chapter_21_ch22_bridge_audit.md` (**PENDING** · map v2)
 
 ---

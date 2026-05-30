@@ -63,8 +63,8 @@
 
 **Transition:** **Hard cut** Ch 50 · **Lena** **crack** **deepens** · **inverse** POV.
 
-**Bridge in:** `Draft/048_chapter_48_ch49_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/049_chapter_49_ch50_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/048_chapter_48_ch49_bridge_audit.md` (**PASS** v4 · Ch 48 v4 DRAFT)  
+**Bridge out:** `Draft/049_chapter_49_ch50_bridge_audit.md` (**PASS** v4 · Ch 49 v4 DRAFT)
 
 ---
 
@@ -297,10 +297,10 @@
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · bridge chain **PENDING**
+**v4 DRAFT** — prose complete · **9/9 beats** · bridge chain **PASS** Ch 50
 
 ---
 
 ## Next
 
-**Ch 49 v3 prose** when authorized · Batch 13: **Ch 50–52 v2** · **Legendary #7** Ch 52 next block
+**Ch 50 v3 prose** when authorized · Mara POV · Lena first confession

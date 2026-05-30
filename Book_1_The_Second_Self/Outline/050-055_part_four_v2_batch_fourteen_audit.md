@@ -11,7 +11,7 @@
 
 | Ch | Title | POV | Beats | Map status |
 |----|-------|-----|-------|------------|
-| 53 | The Greenland Files | Mara | 9/9 | **v2 FULL DEPTH** · Scene #32 · **Movement II finale** |
+| 53 | The Greenland Files | Mara | 9/9 | **v4 DRAFT** · Movement II closes |
 | 54 | The Second War | Greenland Researcher | 9/9 | **v2 FULL DEPTH** · B2 seed · **Movement III opens** |
 | 55 | The Real Confession | Mara | 9/9 | **v2 FULL DEPTH** · locked Lena line · Ch 64 runway |
 
@@ -64,8 +64,8 @@
 
 | Bridge | Status |
 |--------|--------|
-| Ch 52 → 53 | **PENDING** |
-| Ch 53 → 54 | **PENDING** |
+| Ch 52 → 53 | **PASS** v4 · Ch 53 v4 DRAFT |
+| Ch 53 → 54 | **PASS** v4 · Ch 53 v4 DRAFT |
 | Ch 54 → 55 | **PENDING** |
 | Ch 55 → 56 | **PENDING** |
 
@@ -85,4 +85,4 @@
 
 ## Next authorized
 
-**Batch 15:** Ch **56–57** v2 (*Mercer's Warning* · *Ghost in the System* · **Part IV finale**) · or **Ch 52 v3 prose** when author chooses prose-first.
+**Ch 54 v3 prose** (*The Second War* · Greenland Researcher POV · Movement III opens) · or **Batch 15** Ch **56–57** v2

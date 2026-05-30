@@ -61,7 +61,7 @@
 
 **Transition:** **Hard cut** Ch 30 · **no** Noah preview · **scale** domestic.
 
-**Bridge in:** `Draft/028_chapter_28_ch29_bridge_audit.md` (**PENDING** · map v2)  
+**Bridge in:** `Draft/028_chapter_28_ch29_bridge_audit.md` (**PASS** v4)  
 **Bridge out:** `Draft/029_chapter_29_ch30_bridge_audit.md` (**PENDING** · map v2)
 
 ---

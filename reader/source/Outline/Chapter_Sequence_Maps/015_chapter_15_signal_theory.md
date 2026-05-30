@@ -1,7 +1,7 @@
 # Chapter 15 — Signal Theory
 
 **Segment:** 054 · Act II v2  
-**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29)  
+**Status:** **v2 FULL DEPTH** — sequence map · **v4 DRAFT** (2026-05-29)  
 **POV:** Mara Voss · tight third · past tense  
 **Part:** II — **Movement I · Epistemic cracks**
 

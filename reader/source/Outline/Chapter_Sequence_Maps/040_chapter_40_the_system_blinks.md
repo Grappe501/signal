@@ -63,7 +63,7 @@
 
 **Transition:** **Hard cut** Ch 41 · **Mercer** **frightened** · **inverse** POV.
 
-**Bridge in:** `Draft/039_chapter_39_ch40_bridge_audit.md` (**PENDING** · map v2)  
+**Bridge in:** `Draft/039_chapter_39_ch40_bridge_audit.md` (**PASS** v4)  
 **Bridge out:** `Draft/040_chapter_40_ch41_bridge_audit.md` (**PENDING** · map v2)
 
 ---

@@ -62,7 +62,7 @@
 
 **Transition:** **Hard cut** Ch 38 · **case** **tangent** · **Movement III** opens next block at Ch 39.
 
-**Bridge in:** `Draft/036_chapter_36_ch37_bridge_audit.md` (**PENDING** · map v2)  
+**Bridge in:** `Draft/036_chapter_36_ch37_bridge_audit.md` (**PASS** v4)  
 **Bridge out:** `Draft/037_chapter_37_ch38_bridge_audit.md` (**PENDING** · map v2)
 
 ---

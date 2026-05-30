@@ -58,7 +58,8 @@
 | **47** | Prediction gap · Greenland opens | **v2** |
 | **48** | Empty Man · Legendary #8 | **v2** |
 | **49** | Dinner · domestic echo | **v2** |
-| 50–53 | Lena · Mercer · Ghosts · Greenland files | v1 |
+| **50** | Lena first confession · timeline wrong | **v4 DRAFT** |
+| 51–53 | Mercer · Ghosts · Greenland files | v1 / v2 maps |
 
 ---
 
@@ -66,10 +67,11 @@
 
 | Bridge | Status |
 |--------|--------|
-| Ch 46 → 47 | **PENDING** |
-| Ch 47 → 48 | **PENDING** |
-| Ch 48 → 49 | **PENDING** |
-| Ch 49 → 50 | **PENDING** |
+| Ch 46 → 47 | **PASS** v4 · Ch 47 v4 DRAFT |
+| Ch 47 → 48 | **PASS** v4 · Ch 47 v4 DRAFT |
+| Ch 48 → 49 | **PASS** v4 · Ch 48 v4 DRAFT |
+| Ch 49 → 50 | **PASS** v4 · Ch 49 v4 DRAFT |
+| Ch 50 → 51 | **PASS** v4 · Ch 50 v4 DRAFT |
 
 ---
 
@@ -87,4 +89,4 @@
 
 ## Next authorized
 
-**Batch 15:** Ch **56–57** v2 · see `050-055_part_four_v2_batch_fourteen_audit.md`
+**Ch 51 v3 prose** (*The Third Body* · Mercer POV) · or **Ch 28–50 v5** pair-read · or **Batch 13** Ch 51–52 v2.

@@ -1,7 +1,7 @@
 # Chapter 52 — The Ghosts
 
 **Segment:** 054 · Part IV v2  
-**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29)  
+**Status:** **v4 DRAFT** — sequence map · prose complete (2026-05-29) · **Legendary #7**  
 **POV:** Mara Voss · tight third · past tense · **Legendary #7 (Part IV pass)**  
 **Part:** IV — **Movement II · Scale & vault** · **trilogy horror peak**
 
@@ -62,8 +62,8 @@
 
 **Transition:** **Hard cut** Ch 53 · **files** · **institutional** **scale** **inverse**.
 
-**Bridge in:** `Draft/051_chapter_51_ch52_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/052_chapter_52_ch53_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/051_chapter_51_ch52_bridge_audit.md` (**PASS** v4 · Ch 51 v4 DRAFT)  
+**Bridge out:** `Draft/052_chapter_52_ch53_bridge_audit.md` (**PASS** v4 · Ch 52 v4 DRAFT)
 
 ---
 
@@ -299,10 +299,13 @@
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · **Legendary #7** · bridge chain **PENDING**
+**v4 DRAFT** — prose complete · **9/9 beats** · **Legendary #7** · bridge chain **PASS** (Ch 51→52 · Ch 52→53)
+
+**Prose:** `Draft/052_chapter_52_the_ghosts.md` · ~1,957 w  
+**Audits:** v3/v4 comprehensive **PASS**
 
 ---
 
 ## Next
 
-**Ch 52 v3 prose** when authorized (**HIGHEST Part IV**) · Batch 14: **Ch 53–55 v2** · Movement II closes / III opens
+**Ch 53 v3 prose** (*Greenland Files* · Movement II closes) when authorized

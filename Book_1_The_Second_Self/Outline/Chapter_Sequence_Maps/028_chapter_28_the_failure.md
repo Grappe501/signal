@@ -1,7 +1,7 @@
 # Chapter 28 — The Failure
 
 **Segment:** 054 · Part III v2  
-**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29)  
+**Status:** **v4 DRAFT** — prose complete (2026-05-29) · **Legendary #4** · Part III opens  
 **POV:** Mara Voss · tight third · past tense  
 **Part:** III — **Movement I · Floor drops** · **Legendary #4**
 
@@ -65,8 +65,8 @@
 
 **Transition:** **Direct continuation** Ch 29 · **no** time skip · **no** recap.
 
-**Bridge in:** `Draft/027_chapter_27_ch28_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/028_chapter_28_ch29_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/027_chapter_27_ch28_bridge_audit.md` (**PASS** v4)  
+**Bridge out:** `Draft/028_chapter_28_ch29_bridge_audit.md` (**PASS** v4)
 
 ---
 
@@ -287,10 +287,10 @@
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · **Legendary #4** · **prose HIGHEST Part III** · bridge chain **PENDING**
+**v4 DRAFT** — prose complete · **9/9 beats** · **Legendary #4** · bridge chain **PASS** v4
 
 ---
 
 ## Next
 
-**Ch 28 v3 prose** · **HIGHEST Part III priority** when authorized · **Ch 29 v2** when Part III batch continues
+**Ch 29 v3 prose** (*The Sound of the City* · same-day continuation) · Part III batch continues

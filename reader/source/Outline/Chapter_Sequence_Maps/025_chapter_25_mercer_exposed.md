@@ -65,7 +65,7 @@ Deliver **false midpoint** — evidence links Mercer to **illegal embodiment** �
 
 **Transition:** **Hard cut** Ch 26 · **no** vanish preview · **Mercer** **center** next.
 
-**Bridge in:** `Draft/024_chapter_24_ch25_bridge_audit.md` (**PENDING** · map v2)  
+**Bridge in:** `Draft/024_chapter_24_ch25_bridge_audit.md` (**PASS** v4)  
 **Bridge out:** `Draft/025_chapter_25_ch26_bridge_audit.md` (**PENDING** · map v2)
 
 ---

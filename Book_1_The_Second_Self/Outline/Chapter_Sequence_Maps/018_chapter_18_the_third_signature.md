@@ -1,7 +1,7 @@
 # Chapter 18 — The Third Signature
 
 **Segment:** 054 · Act II v2  
-**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29)  
+**Status:** **v4 DRAFT** — prose · comprehensive audit · **PASS** (2026-05-29) · **Movement I closes**  
 **POV:** Eli Mercer · tight third · past tense  
 **Part:** II — **Movement I · Epistemic cracks** · Mercer return
 
@@ -62,8 +62,8 @@ Mercer **reviews** Ch 11 discovery · timeline tools prove third signature **pre
 
 **Transition:** **Hard cut** Ch 19 · **no** Iona preview · **no** Dubai recap.
 
-**Bridge in:** `Draft/017_chapter_17_ch18_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/018_chapter_18_ch19_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/017_chapter_17_ch18_bridge_audit.md` (**PASS** v4)  
+**Bridge out:** `Draft/018_chapter_18_ch19_bridge_audit.md` (**PASS** v4)
 
 ---
 
@@ -295,10 +295,14 @@ Mercer **reviews** Ch 11 discovery · timeline tools prove third signature **pre
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · bridge chain **PENDING** · **Movement I closes**
+**v4 DRAFT** — prose **~2,013 w** · **9/9 beats** · bridge chain **PASS** · **Movement I closes**
+
+**Manuscript:** `Draft/018_chapter_18_the_third_signature.md`  
+**Publisher:** `Draft/018_chapter_18_the_third_signature_PUBLISHER.md`  
+**Audits:** v3 + v4 comprehensive **PASS**
 
 ---
 
 ## Next
 
-**Ch 18 v3 prose** when authorized · **Movement II opens** Ch 19 · **Ch 19 v2** batch complete
+**Ch 19 v3 prose** when authorized · **Movement II opens** · Batch 2 maps complete

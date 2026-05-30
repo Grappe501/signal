@@ -65,7 +65,7 @@
 
 **Transition:** **Direct continuation** Ch 29 · **no** time skip · **no** recap.
 
-**Bridge in:** `Draft/027_chapter_27_ch28_bridge_audit.md` (**PENDING** · map v2)  
+**Bridge in:** `Draft/027_chapter_27_ch28_bridge_audit.md` (**PASS** v4)  
 **Bridge out:** `Draft/028_chapter_28_ch29_bridge_audit.md` (**PENDING** · map v2)
 
 ---

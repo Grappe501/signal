@@ -13,9 +13,9 @@
 |----|-------|-----|-------|------------|
 | 14 | The Storm | Noah | 9/9 | **v2 FULL DEPTH** |
 | 15 | Signal Theory | Mara | 9/9 | **v2 FULL DEPTH** |
-| 16 | Cass Ren | Mara | 9/9 | **v2 FULL DEPTH** |
+| 16 | Cass Ren | Mara | 9/9 | **v4 DRAFT** |
 
-**Prose:** pre-prose · **v3 authorized next** on Ch 14 per `013-027_part_ii_v6_roadmap.md`
+**Prose:** Ch **14–16 v4 DRAFT** · **v3 authorized next** on Ch 17 per `013-027_part_ii_v6_roadmap.md`
 
 ---
 
@@ -53,9 +53,9 @@
 | Bridge | Status |
 |--------|--------|
 | Ch 13 → 14 | **PASS** v5 (prose locked) |
-| Ch 14 → 15 | **PENDING** · draft when Ch 14 prose starts |
-| Ch 15 → 16 | **PENDING** |
-| Ch 16 → 17 | **PENDING** |
+| Ch 14 → 15 | **PASS** v4 |
+| Ch 15 → 16 | **PASS** v4 |
+| Ch 16 → 17 | **PASS** v4 · Ch 17 **v4 DRAFT** |
 
 ---
 

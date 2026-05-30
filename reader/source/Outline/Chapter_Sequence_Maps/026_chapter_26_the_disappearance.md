@@ -62,7 +62,7 @@ Mercer **off-grid** — **erase trails** · witness **larger mover** · **archit
 
 **Transition:** **Hard cut** Ch 27 · **no** case board preview.
 
-**Bridge in:** `Draft/025_chapter_25_ch26_bridge_audit.md` (**PENDING** · map v2)  
+**Bridge in:** `Draft/025_chapter_25_ch26_bridge_audit.md` (**PASS** v4)  
 **Bridge out:** `Draft/026_chapter_26_ch27_bridge_audit.md` (**PENDING** · map v2)
 
 ---

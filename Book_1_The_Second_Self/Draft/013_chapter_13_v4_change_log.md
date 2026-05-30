@@ -1,12 +1,12 @@
 # Chapter 13 v4 Change Log — Close-Read · Part II Opens
 
-**Pass:** v4 · rhythm polish · repetition audit · bridge bump · publisher export  
+**Pass:** v4 · rhythm polish · repetition audit · bridge bump · publisher export · **comprehensive re-pass**  
 **Date:** 2026-05-29  
 **Base:** v3 (~2,185 w)  
-**Output:** `013_chapter_13_memory_of_a_thing_that_never_happened.md` · **v4 DRAFT**  
+**Output:** `013_chapter_13_memory_of_a_thing_that_never_happened.md` · **v4 DRAFT** → absorbed **PRINT READY v8**  
 **Publisher export:** `013_chapter_13_memory_of_a_thing_that_never_happened_PUBLISHER.md`
 
-**Audits:** `013_chapter_13_ch12_bridge_audit.md` (**PASS** v4) · `013_chapter_13_ch14_bridge_audit.md` (**PASS** v4)
+**Audits:** `013_chapter_13_ch12_bridge_audit.md` (**PASS** v4) · `013_chapter_13_ch14_bridge_audit.md` (**PASS** v4) · `013_chapter_13_v4_comprehensive_audit.md` (**PASS**)
 
 ---
 
@@ -14,8 +14,8 @@
 
 | Metric | v3 | v4 |
 |--------|-----|-----|
-| Words | ~2,185 | **~2,175** |
-| Edits | — | **7** surgical |
+| Words | ~2,185 | **~2,150** |
+| Edits | — | **9** surgical (7 original + 2 comprehensive) |
 | Beats | 9/9 | **9/9** |
 
 **Locked line:** *"Why does everyone keep telling me I'm wrong?"* — unchanged
@@ -33,6 +33,8 @@
 | 5 | Compassion beat | Compress definition to one line | v4 show-over-tell |
 | 6 | Terminal chime | *polite* → *soft* | *Polite* kept once (bureau name) · dedupe |
 | 7 | Closing lean | *dressed as mercy* → *as comfort* | Ch 7/Ch 10 mercy cluster · proof rhyme kept |
+| 8 | Verification UI | Remove *built for a world where truth was supposed to be engineering* | Comprehensive · UI shows trust · cut lecture |
+| 9 | Crosswalk | **Mercy Tier 6** → **Mercy Tier Clinic 6** | Comprehensive · harmonize L25 witness recall |
 
 ---
 
@@ -67,5 +69,6 @@
 | Role | Status |
 |------|--------|
 | v4 close-read | **PASS** |
+| **v4 comprehensive audit** | **PASS** · `013_chapter_13_v4_comprehensive_audit.md` |
 | Bridge audits | **PASS** v4 |
-| v5 pair-read · LOCKED (Part II) | **Next**
+| v5 pair-read · LOCKED (Part II) | **PASS** · absorbed |

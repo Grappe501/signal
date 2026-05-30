@@ -1,7 +1,7 @@
 # Chapter 14 — The Storm
 
 **Segment:** 054 · Act II v2  
-**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29)  
+**Status:** **v2 FULL DEPTH** — sequence map · **v4 DRAFT** (2026-05-29)  
 **POV:** Noah Vale · tight third · past tense  
 **Part:** II — **Movement I · Epistemic cracks** · **B3 seed**
 
@@ -61,8 +61,14 @@ Emotional anchor — **real weather** as honest counterweight to optimized world
 
 **Transition:** **Hard cut** Ch 15 · **no** Mara named · **no** archive preview.
 
-**Bridge in:** `Draft/013_chapter_13_ch14_bridge_audit.md` (**PASS** v5)  
-**Bridge out:** `Draft/014_chapter_14_ch15_bridge_audit.md` (**PENDING** · map v2)
+**Transition:** **Hard cut** from Ch 13 · **cut** to Ch 15 Mara · **no bridge line**
+
+**Prose:** `Draft/014_chapter_14_the_storm.md` · **v4 DRAFT** · ~1,870 w  
+**Publisher MS:** `Draft/014_chapter_14_the_storm_PUBLISHER.md`  
+**Bridge in:** `Draft/013_chapter_13_ch14_bridge_audit.md` (**PASS** v4)  
+**Bridge out:** `Draft/014_chapter_14_ch15_bridge_audit.md` (**PASS** v4)  
+**Change log:** `Draft/014_chapter_14_v3_change_log.md` · `Draft/014_chapter_14_v4_change_log.md`  
+**Audits:** `014_chapter_14_v3_comprehensive_audit.md` (**PASS**) · `014_chapter_14_v4_comprehensive_audit.md` (**PASS**)
 
 ---
 
@@ -285,10 +291,10 @@ Emotional anchor — **real weather** as honest counterweight to optimized world
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · bridge in **PASS** v5 · bridge out **PENDING**
+**v2 FULL DEPTH** — prose **v4 DRAFT** · **9/9 beats** · bridge in **PASS** v4 · bridge out **PASS** v4
 
 ---
 
 ## Next
 
-**Ch 14 v3 prose** when authorized · **Ch 15 v2** batch complete · bridge audit `014_chapter_14_ch15_bridge_audit.md`
+**Ch 14 v5** pair-read when authorized · **Ch 15 v3 prose** next on manuscript ladder

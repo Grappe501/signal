@@ -1,7 +1,7 @@
 # Chapter 34 — Signal Dreams
 
 **Segment:** 054 · Part III v2  
-**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29)  
+**Status:** **v4 DRAFT** (2026-05-29) · prose complete  
 **POV:** Mara Voss · tight third · past tense  
 **Part:** III — **Movement II · Alternatives & haunts**
 
@@ -62,8 +62,8 @@
 
 **Transition:** **Hard cut** Ch 35 · **no** Vale preview line.
 
-**Bridge in:** `Draft/033_chapter_33_ch34_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/034_chapter_34_ch35_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/033_chapter_33_ch34_bridge_audit.md` (**PASS** v4)  
+**Bridge out:** `Draft/034_chapter_34_ch35_bridge_audit.md` (**PASS** v4)
 
 ---
 
@@ -279,10 +279,10 @@
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · bridge chain **PENDING**
+**v4 DRAFT** — prose complete · **9/9 beats** · bridge chain **PASS**
 
 ---
 
 ## Next
 
-**Ch 34 v3 prose** when authorized · Batch 8: **Ch 35–37 v2** · **Movement II** continues
+**Ch 35 v3 prose** (*Ghost of Vale* · Archive POV) · or **Ch 28–34 v5** pair-read.

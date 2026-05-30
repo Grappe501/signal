@@ -1,7 +1,7 @@
 # Chapter 43 — The Still One
 
 **Segment:** 054 · Part IV v2  
-**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29)  
+**Status:** **v2 FULL DEPTH** — sequence map · **v4 DRAFT prose** (2026-05-29)  
 **POV:** Mara Voss · tight third · past tense  
 **Part:** IV — **Movement I · Public horror** opens · **Civilizational horror on-page**
 
@@ -64,8 +64,8 @@
 
 **Transition:** **Hard cut** Ch 44 · **denial** **broadcast** · **inverse** POV.
 
-**Bridge in:** `Draft/042_chapter_42_ch43_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/043_chapter_43_ch44_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/042_chapter_42_ch43_bridge_audit.md` (**PASS** v4 · Ch 42 v4 DRAFT)  
+**Bridge out:** `Draft/043_chapter_43_ch44_bridge_audit.md` (**PASS** v4)
 
 ---
 
@@ -299,10 +299,10 @@
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · **Part IV opens** · bridge chain **PENDING**
+**v2 FULL DEPTH** — **v4 DRAFT** · **9/9 beats** · **Part IV opens** · bridge chain **PASS** Ch 43→44
 
 ---
 
 ## Next
 
-**Ch 43 v3 prose** when authorized (**Part IV priority**) · Batch 11: **Ch 44–46 v2** · Movement I continues
+**Ch 43 v4 DRAFT** complete · **Ch 44 v3** when authorized · Movement I continues

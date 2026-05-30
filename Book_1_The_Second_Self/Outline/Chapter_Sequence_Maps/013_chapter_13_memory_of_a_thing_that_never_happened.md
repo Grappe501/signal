@@ -61,15 +61,15 @@ Open Part II **epistemic horror** — trusted verification vs human certainty ·
 
 **Transition:** **Hard cut** Ch 14 · **no** storm preview · **no** Noah named.
 
-**Prose:** `Draft/013_chapter_13_memory_of_a_thing_that_never_happened.md` · **PRINT READY v8** · ~2,168 w  
+**Prose:** `Draft/013_chapter_13_memory_of_a_thing_that_never_happened.md` · **PRINT READY v8** · ~2,150 w  
 **Unified:** `000-013_written_continuous_v7_unified_pass_audit.md` (**PASS**)  
 **Publisher MS:** `Draft/013_chapter_13_memory_of_a_thing_that_never_happened_PUBLISHER.md`  
 **Bridge in:** `Draft/013_chapter_13_ch12_bridge_audit.md` (**PASS** v5)  
 **Bridge out:** `Draft/013_chapter_13_ch14_bridge_audit.md` (**PASS** v5)  
 **Act transition:** `Draft/012_chapter_12_ch13_act_transition_audit.md` (**PASS** v5)  
-**Change log:** `Draft/013_chapter_13_v5_change_log.md`  
-**Audits:** `013_chapter_13_v5_final_polish_audit.md` · `013_chapter_13_v5_pair_read_audit.md`  
-**Catch-up:** v4 → v5 → **v6 when matched to Ch 3–12** · see `013-027_part_ii_v6_roadmap.md`
+**Change log:** `Draft/013_chapter_13_v3_change_log.md` · `Draft/013_chapter_13_v4_change_log.md` · `Draft/013_chapter_13_v5_change_log.md`  
+**Audits:** `013_chapter_13_v3_comprehensive_audit.md` (**PASS**) · `013_chapter_13_v4_comprehensive_audit.md` (**PASS**) · `013_chapter_13_v5_final_polish_audit.md` · `013_chapter_13_v5_pair_read_audit.md`  
+**Catch-up:** v3/v4 comprehensive **COMPLETE** · v5–v8 absorbed · see `013-027_part_ii_v6_roadmap.md`
 
 ---
 

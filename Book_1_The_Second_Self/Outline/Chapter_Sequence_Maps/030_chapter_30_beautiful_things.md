@@ -1,7 +1,7 @@
 # Chapter 30 — Beautiful Things
 
 **Segment:** 054 · Part III v2  
-**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29)  
+**Status:** **v4 DRAFT** (2026-05-29) · prose complete  
 **POV:** Noah Vale · tight third · past tense  
 **Part:** III — **Movement I · Floor drops** · moral complexity
 
@@ -62,8 +62,8 @@ Ask **great question** implicitly — *If a lie makes people happier, should it 
 
 **Transition:** **Hard cut** Ch 31 · **no** Dubai preview.
 
-**Bridge in:** `Draft/029_chapter_29_ch30_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/030_chapter_30_ch31_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/029_chapter_29_ch30_bridge_audit.md` (**PASS** v4)  
+**Bridge out:** `Draft/030_chapter_30_ch31_bridge_audit.md` (**PASS** v4)
 
 ---
 
@@ -283,10 +283,10 @@ Ask **great question** implicitly — *If a lie makes people happier, should it 
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · bridge chain **PENDING**
+**v4 DRAFT** — prose complete · **9/9 beats** · bridge chain **PASS**
 
 ---
 
 ## Next
 
-**Ch 30 v3 prose** when authorized · **Ch 31 v2** · **Movement I closes**
+**Ch 31 v3 prose** (*Real Dubai* · Dubai Artist POV) · or **Ch 28–30 v5** pair-read.

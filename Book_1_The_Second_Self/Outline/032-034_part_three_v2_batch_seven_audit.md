@@ -11,9 +11,9 @@
 
 | Ch | Title | POV | Beats | Map status |
 |----|-------|-----|-------|------------|
-| 32 | The Fire Circle | Mara | 9/9 | **v2 FULL DEPTH** · post-Veil Cass return |
-| 33 | The Children | Iona Vale | 9/9 | **v2 FULL DEPTH** · second child POV |
-| 34 | Signal Dreams | Mara | 9/9 | **v2 FULL DEPTH** · Seg 022 enforced |
+| 32 | The Fire Circle | Mara | 9/9 | **v4 DRAFT** · post-Veil Cass return |
+| 33 | The Children | Iona Vale | 9/9 | **v4 DRAFT** · second child POV |
+| 34 | Signal Dreams | Mara | 9/9 | **v4 DRAFT** · Seg 022 enforced |
 
 ---
 
@@ -52,10 +52,10 @@
 
 | Bridge | Status |
 |--------|--------|
-| Ch 31 → 32 | **PENDING** |
-| Ch 32 → 33 | **PENDING** |
-| Ch 33 → 34 | **PENDING** |
-| Ch 34 → 35 | **PENDING** |
+| Ch 31 → 32 | **PASS** v4 |
+| Ch 32 → 33 | **PASS** v4 |
+| Ch 33 → 34 | **PASS** v4 |
+| Ch 34 → 35 | **PASS** v4 |
 
 ---
 
@@ -73,4 +73,4 @@
 
 ## Next authorized
 
-**Batch 9:** Ch **38–40** v2 (*Impossible Children* · *Other Self* · *System Blinks*) · or **Ch 14 v3 prose** when author chooses prose-first.
+**Ch 41 v3 prose** (*Mercer's Side* · Mercer POV) · or **Ch 28–40 v5** pair-read · or **Batch 10** Ch 42 v2.

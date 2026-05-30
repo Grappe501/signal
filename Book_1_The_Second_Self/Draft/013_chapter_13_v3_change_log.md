@@ -6,7 +6,9 @@
 **Output:** `013_chapter_13_memory_of_a_thing_that_never_happened.md`
 
 **Bridge in:** `013_chapter_13_ch12_bridge_audit.md` (**PASS** v3)  
-**Bridge out:** `013_chapter_13_ch14_bridge_audit.md` (**PASS** v3)
+**Bridge out:** `013_chapter_13_ch14_bridge_audit.md` (**PASS** v5)
+
+**Comprehensive audits:** `013_chapter_13_v3_comprehensive_audit.md` (**PASS**) · `013_chapter_13_v4_comprehensive_audit.md` (**PASS**)
 
 ---
 
@@ -102,6 +104,7 @@ When Ch 13 completes **v5 LOCKED** tier (matching Ch 3–12), Part II block auth
 |------|--------|
 | v3 first prose | **PASS** |
 | v3 package | **COMPLETE** |
+| **v3 comprehensive audit** | **PASS** · `013_chapter_13_v3_comprehensive_audit.md` |
 | Bridge Ch 12→13 | **PASS** |
 | Bridge Ch 13→14 | **PASS** |
-| v4 polish | **Next**
+| v4 polish | **PASS** · comprehensive · see v4 audit |

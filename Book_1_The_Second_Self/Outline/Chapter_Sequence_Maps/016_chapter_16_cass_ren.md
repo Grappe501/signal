@@ -1,7 +1,7 @@
 # Chapter 16 — Cass Ren
 
 **Segment:** 054 · Act II v2  
-**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29)  
+**Status:** **v4 DRAFT** — prose · comprehensive audit · **PASS** (2026-05-29)  
 **POV:** Mara Voss · tight third · past tense  
 **Part:** II — **Movement I · Epistemic cracks** · Rawist intro
 
@@ -62,8 +62,8 @@ Introduce **Cass Ren** as **credible alternative** — debate **subscription rea
 
 **Transition:** **Hard cut** Ch 17 · **no** Dubai preview · **no** Mercer.
 
-**Bridge in:** `Draft/015_chapter_15_ch16_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/016_chapter_16_ch17_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/015_chapter_15_ch16_bridge_audit.md` (**PASS** v4)  
+**Bridge out:** `Draft/016_chapter_16_ch17_bridge_audit.md` (**PASS** v4)
 
 ---
 
@@ -287,10 +287,14 @@ Introduce **Cass Ren** as **credible alternative** — debate **subscription rea
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · bridge chain **PENDING**
+**v4 DRAFT** — prose **~2,328 w** · **9/9 beats** · bridge chain **PASS**
+
+**Manuscript:** `Draft/016_chapter_16_cass_ren.md`  
+**Publisher:** `Draft/016_chapter_16_cass_ren_PUBLISHER.md`  
+**Audits:** v3 + v4 comprehensive **PASS**
 
 ---
 
 ## Next
 
-**Ch 16 v3 prose** when authorized · **Movement I** maps 14–16 **v2 complete** · Batch 2: **Ch 17–19 v2**
+**Ch 17 v3 prose** when authorized · **Movement I** prose **14–16 complete** · Batch 2: **Ch 17–19 v2**

@@ -61,7 +61,7 @@ On-page **HVI failure** — emergency proves high scores **least useful** · low
 
 **Transition:** **Hard cut** Ch 21 · **no** Cass preview · **no** Iona recap.
 
-**Bridge in:** `Draft/019_chapter_19_ch20_bridge_audit.md` (**PENDING** · map v2)  
+**Bridge in:** `Draft/019_chapter_19_ch20_bridge_audit.md` (**PASS** v4)  
 **Bridge out:** `Draft/020_chapter_20_ch21_bridge_audit.md` (**PENDING** · map v2)
 
 ---

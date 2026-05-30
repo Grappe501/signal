@@ -38,7 +38,7 @@ Mara wrote *11:47 · bay three · coat on · correcting* and kept her face in th
 
 "I know."
 
-Mara turned the tablet so Tessa could see the interface—clean, bureau gray, the Continuity Verification Suite built for a world where truth was supposed to be engineering.
+Mara turned the tablet so Tessa could see the interface—clean, bureau gray, the Continuity Verification Suite.
 
 **Phase one:** episodic recall alignment. Tessa closed her eyes. The room's speakers played nothing; the system read sync markers from her implant band and compared narrative cadence to stored physiological tells. Green bars climbed. **Coherence: 94%.**
 
@@ -62,7 +62,7 @@ The world did not agree.
 
 Mara ran crosswalk herself. She no longer trusted a pass banner to close a room.
 
-Clinic intake logs for **Mercy Tier 6** on the flagged night: **empty after 9:30 PM.** Security badge read for Tessa Rowe: **exit 9:41 PM.** Transit tap home: **10:08 PM.** Apartment building entry: **10:19 PM.** Biometric sleep onset estimate: **10:52 PM.**
+Clinic intake logs for **Mercy Tier Clinic 6** on the flagged night: **empty after 9:30 PM.** Security badge read for Tessa Rowe: **exit 9:41 PM.** Transit tap home: **10:08 PM.** Apartment building entry: **10:19 PM.** Biometric sleep onset estimate: **10:52 PM.**
 
 No bay three guest. No **Alina Ward** signature event. No late intake overlay record—not deleted, not hidden, **never created.**
 

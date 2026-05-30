@@ -62,7 +62,7 @@
 
 **Transition:** **Hard cut** Ch 34 · **no** dream preview.
 
-**Bridge in:** `Draft/032_chapter_32_ch33_bridge_audit.md` (**PENDING** · map v2)  
+**Bridge in:** `Draft/032_chapter_32_ch33_bridge_audit.md` (**PASS** v4)  
 **Bridge out:** `Draft/033_chapter_33_ch34_bridge_audit.md` (**PENDING** · map v2)
 
 ---

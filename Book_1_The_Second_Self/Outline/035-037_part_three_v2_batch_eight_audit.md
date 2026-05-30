@@ -11,9 +11,9 @@
 
 | Ch | Title | POV | Beats | Map status |
 |----|-------|-----|-------|------------|
-| 35 | The Ghost of Vale | Archive | 9/9 | **v2 FULL DEPTH** · Ch 22 echo · Ch 62 runway |
-| 36 | The Empty Church | Mara | 9/9 | **v2 FULL DEPTH** · Covenant B2 Phase 6 seed |
-| 37 | The Crack in Lena | Mara | 9/9 | **v2 FULL DEPTH** · Twist #6 · Movement II finale |
+| 35 | The Ghost of Vale | Archive | 9/9 | **v4 DRAFT** · Ch 22 echo · Ch 62 runway |
+| 36 | The Empty Church | Mara | 9/9 | **v4 DRAFT** · Covenant B2 Phase 6 seed |
+| 37 | The Crack in Lena | Mara | 9/9 | **v4 DRAFT** · Twist #6 seed · Movement II closes |
 
 ---
 
@@ -77,10 +77,10 @@
 
 | Bridge | Status |
 |--------|--------|
-| Ch 34 → 35 | **PENDING** |
-| Ch 35 → 36 | **PENDING** |
-| Ch 36 → 37 | **PENDING** |
-| Ch 37 → 38 | **PENDING** |
+| Ch 34 → 35 | **PASS** v4 |
+| Ch 35 → 36 | **PASS** v4 |
+| Ch 36 → 37 | **PASS** v4 |
+| Ch 37 → 38 | **PASS** v4 |
 
 ---
 
@@ -98,4 +98,4 @@
 
 ## Next authorized
 
-**Batch 10:** Ch **41–42** v2 (*Mercer's Side* · *The Veil Choice* · Part III finale) · or **Ch 14 v3 prose** when author chooses prose-first.
+**Ch 38 v3 prose** (*Impossible Children*) · or **Ch 28–37 v5** pair-read · or **Batch 10** Ch 41–42 v2.

@@ -11,9 +11,9 @@
 
 | Ch | Title | POV | Beats | Map status |
 |----|-------|-----|-------|------------|
-| 17 | City Under the City | Dubai Artist | 9/9 | **v2 FULL DEPTH** |
-| 18 | Third Signature | Mercer | 9/9 | **v2 FULL DEPTH** |
-| 19 | The Book | Iona Vale | 9/9 | **v2 FULL DEPTH** |
+| 17 | City Under the City | Dubai Artist | 9/9 | **v4 DRAFT** |
+| 18 | Third Signature | Mercer | 9/9 | **v4 DRAFT** |
+| 19 | The Book | Iona Vale | 9/9 | **v4 DRAFT** |
 
 **Movement:** Ch 17–18 **Movement I** · Ch 19 **opens Movement II**
 
@@ -54,10 +54,10 @@
 
 | Bridge | Status |
 |--------|--------|
-| Ch 16 → 17 | **PENDING** |
-| Ch 17 → 18 | **PENDING** |
-| Ch 18 → 19 | **PENDING** |
-| Ch 19 → 20 | **PENDING** |
+| Ch 16 → 17 | **PASS** v4 |
+| Ch 17 → 18 | **PASS** v4 · Ch 18 **v4 DRAFT** · Movement I closes |
+| Ch 18 → 19 | **PASS** v4 · Ch 19 **v4 DRAFT** · Movement II opens |
+| Ch 19 → 20 | **PASS** v4 |
 
 ---
 

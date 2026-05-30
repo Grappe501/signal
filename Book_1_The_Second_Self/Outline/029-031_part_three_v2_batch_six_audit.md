@@ -12,8 +12,8 @@
 | Ch | Title | POV | Beats | Map status |
 |----|-------|-----|-------|------------|
 | 29 | The Sound of the City | Mara | 9/9 | **v2 FULL DEPTH** · **continues Ch 28** |
-| 30 | Beautiful Things | Noah | 9/9 | **v2 FULL DEPTH** · great question seed |
-| 31 | The Real Dubai | Dubai Artist | 9/9 | **v2 FULL DEPTH** · **Movement I closes** |
+| 30 | Beautiful Things | Noah | 9/9 | **v4 DRAFT** · great question seed |
+| 31 | The Real Dubai | Dubai Artist | 9/9 | **v4 DRAFT** · **Movement I closes** |
 
 ---
 
@@ -53,10 +53,10 @@
 
 | Bridge | Status |
 |--------|--------|
-| Ch 28 → 29 | **PENDING** · **direct continuation** |
-| Ch 29 → 30 | **PENDING** |
-| Ch 30 → 31 | **PENDING** |
-| Ch 31 → 32 | **PENDING** · Movement II opens |
+| Ch 28 → 29 | **PASS** v4 · direct continuation |
+| Ch 29 → 30 | **PASS** v4 |
+| Ch 30 → 31 | **PASS** v4 |
+| Ch 31 → 32 | **PASS** v4 · Movement II opens |
 
 ---
 
@@ -74,4 +74,4 @@
 
 ## Next authorized
 
-**Batch 7:** Ch **32–34** v2 (*Fire Circle* · *The Children* · *Signal Dreams*) · or **Ch 14 v3 prose** when author chooses prose-first.
+**Ch 32 v3 prose** (*Fire Circle* · Mara POV · Movement II opens) · or **Ch 28–31 v5** pair-read · or **Batch 7** Ch 32–34 v2.

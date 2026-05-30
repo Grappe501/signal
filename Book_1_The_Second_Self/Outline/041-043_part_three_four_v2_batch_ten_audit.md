@@ -11,9 +11,9 @@
 
 | Ch | Title | POV | Beats | Map status |
 |----|-------|-----|-------|------------|
-| 41 | Mercer's Side | Mercer | 9/9 | **v2 FULL DEPTH** · Scene #37 · locked line |
-| 42 | The Veil Choice | Mara | 9/9 | **v2 FULL DEPTH** · **Part III finale** |
-| 43 | The Still One | Mara | 9/9 | **v2 FULL DEPTH** · Scene #28 · **Part IV opens** |
+| 41 | Mercer's Side | Mercer | 9/9 | **v4 DRAFT** · locked line |
+| 42 | The Veil Choice | Mara | 9/9 | **v4 DRAFT** · Part III finale |
+| 43 | The Still One | Mara | 9/9 | **v4 DRAFT** · Part IV opens |
 
 ---
 
@@ -87,13 +87,13 @@
 
 | Bridge | Status |
 |--------|--------|
-| Ch 40 → 41 | **PENDING** |
-| Ch 41 → 42 | **PENDING** |
-| Ch 42 → 43 | **PENDING** |
-| Ch 43 → 44 | **PENDING** |
+| Ch 40 → 41 | **PASS** v4 · Ch 41 v4 DRAFT |
+| Ch 41 → 42 | **PASS** v4 · Ch 42 v4 DRAFT |
+| Ch 42 → 43 | **PASS** v4 |
+| Ch 43 → 44 | **PASS** v4 |
 
 ---
 
 ## Next authorized
 
-**Batch 11:** Ch **44–46** v2 (*Broadcast* · *Salt Report* · *City of Mirrors*) · or **Ch 28 v3 prose** (Legendary #4) / **Ch 42 v3** (Part III finale) when author chooses prose-first.
+**Ch 50 v3 prose** (*Lena's First Confession* · Mara POV) · or **Ch 28–49 v5** pair-read.

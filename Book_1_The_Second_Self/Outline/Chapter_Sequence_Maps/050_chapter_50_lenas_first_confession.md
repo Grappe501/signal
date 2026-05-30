@@ -1,7 +1,7 @@
 # Chapter 50 — Lena's First Confession
 
 **Segment:** 054 · Part IV v2  
-**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29)  
+**Status:** **v4 DRAFT** — sequence map · prose complete (2026-05-29)  
 **POV:** Mara Voss · tight third · past tense  
 **Part:** IV — **Movement II · Scale & vault**
 
@@ -62,8 +62,8 @@
 
 **Transition:** **Hard cut** Ch 51 · **Mercer** **dig** · **inverse** POV.
 
-**Bridge in:** `Draft/049_chapter_49_ch50_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/050_chapter_50_ch51_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/049_chapter_49_ch50_bridge_audit.md` (**PASS** v4 · Ch 49 v4 DRAFT)  
+**Bridge out:** `Draft/050_chapter_50_ch51_bridge_audit.md` (**PASS** v4 · Ch 50 v4 DRAFT)
 
 ---
 
@@ -294,10 +294,13 @@
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · bridge chain **PENDING**
+**v4 DRAFT** — prose complete · **9/9 beats** · bridge chain **PASS** (Ch 49→50 · Ch 50→51)
+
+**Prose:** `Draft/050_chapter_50_lenas_first_confession.md` · ~1,901 w  
+**Audits:** v3/v4 comprehensive **PASS**
 
 ---
 
 ## Next
 
-**Ch 50 v3 prose** when authorized · **Ch 51 v2** batch complete
+**Ch 51 v3 prose** (*The Third Body* · Mercer POV) when authorized

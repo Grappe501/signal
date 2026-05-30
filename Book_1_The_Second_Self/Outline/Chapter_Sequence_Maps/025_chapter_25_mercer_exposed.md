@@ -1,7 +1,7 @@
 # Chapter 25 — Mercer Exposed
 
 **Segment:** 054 · Act II v2  
-**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29)  
+**Status:** **v4 DRAFT** — prose complete (2026-05-29)  
 **POV:** Mara Voss · tight third · past tense  
 **Part:** II — **Movement III · False solve & fracture** opens · **False midpoint**
 
@@ -65,8 +65,8 @@ Deliver **false midpoint** — evidence links Mercer to **illegal embodiment** �
 
 **Transition:** **Hard cut** Ch 26 · **no** vanish preview · **Mercer** **center** next.
 
-**Bridge in:** `Draft/024_chapter_24_ch25_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/025_chapter_25_ch26_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/024_chapter_24_ch25_bridge_audit.md` (**PASS** v4)  
+**Bridge out:** `Draft/025_chapter_25_ch26_bridge_audit.md` (**PASS** v4)
 
 ---
 
@@ -301,10 +301,10 @@ Deliver **false midpoint** — evidence links Mercer to **illegal embodiment** �
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · **false midpoint** · **prose HIGH priority** · bridge chain **PENDING**
+**v4 DRAFT** — prose complete · **9/9 beats** · **false midpoint** · bridge chain **PASS** v4
 
 ---
 
 ## Next
 
-**Ch 25 v3 prose** · **HIGH priority** when authorized · Batch 5: **Ch 26–27 v2** · Part II **finale**
+**Ch 26 v3 prose** (*The Disappearance* · Mercer POV) · Batch 5: **Ch 26–27 v2** · Part II **finale**

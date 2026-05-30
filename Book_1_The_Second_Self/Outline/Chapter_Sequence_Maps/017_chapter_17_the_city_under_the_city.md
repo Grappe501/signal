@@ -1,7 +1,7 @@
 # Chapter 17 — The City Under the City
 
 **Segment:** 054 · Act II v2  
-**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29)  
+**Status:** **v4 DRAFT** — prose · comprehensive audit · **PASS** (2026-05-29)  
 **POV:** Dubai Artist · tight third · past tense · **name withhold OK** `[G-046]`  
 **Part:** II — **Movement I · Epistemic cracks** · Dubai return
 
@@ -62,8 +62,8 @@ Show Dubai cracks **invisible to public** — micro glitches **recovered** · un
 
 **Transition:** **Hard cut** Ch 18 · **no** Mercer preview · **no** Mara.
 
-**Bridge in:** `Draft/016_chapter_16_ch17_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/017_chapter_17_ch18_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/016_chapter_16_ch17_bridge_audit.md` (**PASS** v4)  
+**Bridge out:** `Draft/017_chapter_17_ch18_bridge_audit.md` (**PASS** v4)
 
 ---
 
@@ -283,10 +283,14 @@ Show Dubai cracks **invisible to public** — micro glitches **recovered** · un
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · bridge chain **PENDING**
+**v4 DRAFT** — prose **~2,094 w** · **9/9 beats** · bridge chain **PASS**
+
+**Manuscript:** `Draft/017_chapter_17_the_city_under_the_city.md`  
+**Publisher:** `Draft/017_chapter_17_the_city_under_the_city_PUBLISHER.md`  
+**Audits:** v3 + v4 comprehensive **PASS**
 
 ---
 
 ## Next
 
-**Ch 17 v3 prose** when authorized · **Ch 18 v2** batch complete · Movement I closes Ch 18
+**Ch 18 v3 prose** when authorized · **Batch 2** maps 17–19 · Movement I closes Ch 18

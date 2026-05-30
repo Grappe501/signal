@@ -1,7 +1,7 @@
 # Chapter 15 — Signal Theory
 
 **Segment:** 054 · Act II v2  
-**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29)  
+**Status:** **v2 FULL DEPTH** — sequence map · **v4 DRAFT** (2026-05-29)  
 **POV:** Mara Voss · tight third · past tense  
 **Part:** II — **Movement I · Epistemic cracks**
 
@@ -60,8 +60,14 @@ Plant Signal Theory haunt — Vale archive **fragments** that **pass** verificat
 
 **Transition:** **Cut** Ch 16 · **no** Cass preview · **no** Noah recap.
 
-**Bridge in:** `Draft/014_chapter_14_ch15_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/015_chapter_15_ch16_bridge_audit.md` (**PENDING** · map v2)
+**Prose:** `Draft/015_chapter_15_signal_theory.md` · **v4 DRAFT** · ~1,860 w  
+**Publisher MS:** `Draft/015_chapter_15_signal_theory_PUBLISHER.md`  
+**Bridge in:** `Draft/014_chapter_14_ch15_bridge_audit.md` (**PASS** v4)  
+**Bridge out:** `Draft/015_chapter_15_ch16_bridge_audit.md` (**PASS** v4)  
+**Change log:** `Draft/015_chapter_15_v3_change_log.md` · `Draft/015_chapter_15_v4_change_log.md`  
+**Audits:** `015_chapter_15_v3_comprehensive_audit.md` (**PASS**) · `015_chapter_15_v4_comprehensive_audit.md` (**PASS**)
+
+**Transition:** **Cut** Ch 16 · **no** Cass preview · **no** Noah recap.
 
 ---
 
@@ -285,10 +291,10 @@ Plant Signal Theory haunt — Vale archive **fragments** that **pass** verificat
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · bridge chain **PENDING**
+**v2 FULL DEPTH** — prose **v4 DRAFT** · **9/9 beats** · bridge chain **PASS** v4
 
 ---
 
 ## Next
 
-**Ch 15 v3 prose** when authorized · bridge audits 14→15 · 15→16 · **Ch 16 v2** batch complete
+**Ch 15 v5** pair-read when authorized · **Ch 16 v3 prose** next on manuscript ladder

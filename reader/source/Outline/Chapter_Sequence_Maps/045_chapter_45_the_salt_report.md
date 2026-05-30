@@ -63,7 +63,7 @@
 
 **Transition:** **Hard cut** Ch 46 · **Dubai** **surface** · **inverse** **beauty**.
 
-**Bridge in:** `Draft/044_chapter_44_ch45_bridge_audit.md` (**PENDING** · map v2)  
+**Bridge in:** `Draft/044_chapter_44_ch45_bridge_audit.md` (**PASS** v4 · Ch 44 v4 DRAFT)  
 **Bridge out:** `Draft/045_chapter_45_ch46_bridge_audit.md` (**PENDING** · map v2)
 
 ---

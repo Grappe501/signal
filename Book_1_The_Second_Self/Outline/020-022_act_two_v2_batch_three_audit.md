@@ -11,9 +11,9 @@
 
 | Ch | Title | POV | Beats | Map status |
 |----|-------|-----|-------|------------|
-| 20 | The Perfect Score | Mara | 9/9 | **v2 FULL DEPTH** |
-| 21 | The Fire | Mara | 9/9 | **v2 FULL DEPTH** · **Legendary #5** |
-| 22 | Vale's Last Interview | Archive | 9/9 | **v2 FULL DEPTH** |
+| 20 | The Perfect Score | Mara | 9/9 | **v4 DRAFT** |
+| 21 | The Fire | Mara | 9/9 | **v4 DRAFT** · **Legendary #5** |
+| 22 | Vale's Last Interview | Archive | 9/9 | **v4 DRAFT** |
 
 ---
 
@@ -52,10 +52,10 @@
 
 | Bridge | Status |
 |--------|--------|
-| Ch 19 → 20 | **PENDING** |
-| Ch 20 → 21 | **PENDING** |
-| Ch 21 → 22 | **PENDING** |
-| Ch 22 → 23 | **PENDING** |
+| Ch 19 → 20 | **PASS** v4 · Ch 20 **v4 DRAFT** |
+| Ch 20 → 21 | **PASS** v4 · Ch 21 **v4 DRAFT** |
+| Ch 21 → 22 | **PASS** v4 · Ch 22 **v4 DRAFT** |
+| Ch 22 → 23 | **PASS** v4 |
 
 ---
 
@@ -76,10 +76,10 @@
 
 ## Prose priority note
 
-Per macro Act II: **Ch 21** (*The Fire* · Legendary #5) remains **HIGH** prose priority when author moves to v3.
+**Ch 21–22** — **v4 DRAFT COMPLETE** (2026-05-29). Batch 3 prose runway closed through Vale interview.
 
 ---
 
 ## Next authorized
 
-**Batch 4:** Ch **23–25** v2 FULL DEPTH — **COMPLETE** · Batch 5: Ch **26–27** · or **Ch 14 v3 prose** when author chooses prose-first.
+**Ch 23 v3 prose** (*Impossible Prediction*) · or **Ch 14–22 v5** pair-read.

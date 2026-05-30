@@ -1,7 +1,7 @@
 # Chapter 20 — The Perfect Score
 
 **Segment:** 054 · Act II v2  
-**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29)  
+**Status:** **v4 DRAFT** — prose · comprehensive audit · **PASS** (2026-05-29)  
 **POV:** Mara Voss · tight third · past tense  
 **Part:** II — **Movement II · Alternative futures**
 
@@ -61,8 +61,8 @@ On-page **HVI failure** — emergency proves high scores **least useful** · low
 
 **Transition:** **Hard cut** Ch 21 · **no** Cass preview · **no** Iona recap.
 
-**Bridge in:** `Draft/019_chapter_19_ch20_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/020_chapter_20_ch21_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/019_chapter_19_ch20_bridge_audit.md` (**PASS** v4)  
+**Bridge out:** `Draft/020_chapter_20_ch21_bridge_audit.md` (**PASS** v4)
 
 ---
 
@@ -284,10 +284,14 @@ On-page **HVI failure** — emergency proves high scores **least useful** · low
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · bridge chain **PENDING**
+**v4 DRAFT** — prose **~1,935 w** · **9/9 beats** · bridge chain **PASS**
+
+**Manuscript:** `Draft/020_chapter_20_the_perfect_score.md`  
+**Publisher:** `Draft/020_chapter_20_the_perfect_score_PUBLISHER.md`  
+**Audits:** v3 + v4 comprehensive **PASS**
 
 ---
 
 ## Next
 
-**Ch 20 v3 prose** when authorized · **Ch 21 v2** batch · **Legendary #5** prose **HIGH priority**
+**Ch 21 v3 prose** when authorized · **Legendary #5** · **HIGH priority**

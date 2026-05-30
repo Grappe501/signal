@@ -62,7 +62,7 @@
 
 **Transition:** **Hard cut** Ch 48 · **Legendary #8** · **personal** **grief** **scale**.
 
-**Bridge in:** `Draft/046_chapter_46_ch47_bridge_audit.md` (**PENDING** · map v2)  
+**Bridge in:** `Draft/046_chapter_46_ch47_bridge_audit.md` (**PASS** v4 · Ch 46 v4 DRAFT)  
 **Bridge out:** `Draft/047_chapter_47_ch48_bridge_audit.md` (**PENDING** · map v2)
 
 ---

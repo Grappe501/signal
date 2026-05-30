@@ -1,7 +1,7 @@
 # Chapter 41 — Mercer's Side
 
 **Segment:** 054 · Part III v2  
-**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29)  
+**Status:** **v2 FULL DEPTH** — sequence map · **v4 DRAFT prose** (2026-05-29)  
 **POV:** Eli Mercer · tight third · past tense  
 **Part:** III — **Movement III · Self & choice**
 
@@ -63,8 +63,8 @@
 
 **Transition:** **Hard cut** Ch 42 · **Mara** **offer** · **inverse** POV.
 
-**Bridge in:** `Draft/040_chapter_40_ch41_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/041_chapter_41_ch42_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/040_chapter_40_ch41_bridge_audit.md` (**PASS** v4)  
+**Bridge out:** `Draft/041_chapter_41_ch42_bridge_audit.md` (**PASS** v4)
 
 ---
 
@@ -294,10 +294,10 @@
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · bridge chain **PENDING**
+**v2 FULL DEPTH** — **v4 DRAFT** · **9/9 beats** · bridge chain **PASS** Ch 41→42
 
 ---
 
 ## Next
 
-**Ch 41 v3 prose** when authorized · **Ch 42 v2** · Part III **finale** next
+**Ch 41 v4 DRAFT** complete · **Ch 42 v3 prose** when authorized · Part III **finale** next

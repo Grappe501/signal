@@ -1,7 +1,7 @@
 # Chapter 22 — Vale's Last Interview
 
 **Segment:** 054 · Act II v2  
-**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29)  
+**Status:** **v4 DRAFT** — prose · publisher MS · audits **PASS** (2026-05-29)  
 **POV:** **Archive** · institutional neutral · past tense  
 **Part:** II — **Movement II · Alternative futures**
 
@@ -62,8 +62,8 @@
 
 **Transition:** **Hard cut** Ch 23 · **no** LATTICE preview · **no** Ch 21 recap.
 
-**Bridge in:** `Draft/021_chapter_21_ch22_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/022_chapter_22_ch23_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/021_chapter_21_ch22_bridge_audit.md` (**PASS** v4)  
+**Bridge out:** `Draft/022_chapter_22_ch23_bridge_audit.md` (**PASS** v4)
 
 ---
 
@@ -298,10 +298,10 @@
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · bridge chain **PENDING**
+**v4 DRAFT** — prose **~1,750 w** · **9/9 beats** · bridge chain **PASS** · publisher MS · v3/v4 comprehensive **PASS**
 
 ---
 
 ## Next
 
-**Ch 22 v3 prose** when authorized · Batch 4: **Ch 23–25 v2** · **Ch 21 v3 prose HIGH priority**
+**Ch 23 v3 prose** (*Impossible Prediction* · Mara POV) · or **Ch 14–22 v5** pair-read

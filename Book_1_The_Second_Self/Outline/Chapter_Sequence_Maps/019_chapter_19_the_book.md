@@ -1,7 +1,7 @@
 # Chapter 19 — The Book
 
 **Segment:** 054 · Act II v2  
-**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29)  
+**Status:** **v4 DRAFT** — prose · comprehensive audit · **PASS** (2026-05-29) · **Movement II opens**  
 **POV:** **Iona Vale** · tight third · past tense · **first child POV in Book One**  
 **Part:** II — **Movement II · Alternative futures** opens
 
@@ -61,8 +61,8 @@
 
 **Transition:** **Hard cut** Ch 20 · **no** HVI preview · **no** Mercer.
 
-**Bridge in:** `Draft/018_chapter_18_ch19_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/019_chapter_19_ch20_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/018_chapter_18_ch19_bridge_audit.md` (**PASS** v4)  
+**Bridge out:** `Draft/019_chapter_19_ch20_bridge_audit.md` (**PASS** v4)
 
 ---
 
@@ -294,10 +294,14 @@
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · bridge chain **PENDING** · **Movement II opens**
+**v4 DRAFT** — prose **~1,744 w** · **9/9 beats** · bridge chain **PASS** · **Movement II opens**
+
+**Manuscript:** `Draft/019_chapter_19_the_book.md`  
+**Publisher:** `Draft/019_chapter_19_the_book_PUBLISHER.md`  
+**Audits:** v3 + v4 comprehensive **PASS**
 
 ---
 
 ## Next
 
-**Ch 19 v3 prose** when authorized · Batch 3: **Ch 20–22 v2** · **Ch 14 v3 prose** when authorized
+**Ch 20 v3 prose** when authorized · Batch 3: **Ch 20–22 v2**

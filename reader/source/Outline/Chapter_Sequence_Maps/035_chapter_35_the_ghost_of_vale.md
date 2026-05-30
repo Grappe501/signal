@@ -63,7 +63,7 @@
 
 **Transition:** **Hard cut** Ch 36 · **no** church preview.
 
-**Bridge in:** `Draft/034_chapter_34_ch35_bridge_audit.md` (**PENDING** · map v2)  
+**Bridge in:** `Draft/034_chapter_34_ch35_bridge_audit.md` (**PASS** v4)  
 **Bridge out:** `Draft/035_chapter_35_ch36_bridge_audit.md` (**PENDING** · map v2)
 
 ---

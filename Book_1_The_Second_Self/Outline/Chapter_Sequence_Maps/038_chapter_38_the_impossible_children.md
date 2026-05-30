@@ -1,7 +1,7 @@
 # Chapter 38 — The Impossible Children
 
 **Segment:** 054 · Part III v2  
-**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29)  
+**Status:** **v4 DRAFT** — sequence map · prose complete (2026-05-29) · **Movement II closes**  
 **POV:** Mara Voss · tight third · past tense  
 **Part:** III — **Movement II · Alternatives & haunts** · **Movement II finale**
 
@@ -62,8 +62,8 @@
 
 **Transition:** **Hard cut** Ch 39 · **personal** spine · **Movement III** opens.
 
-**Bridge in:** `Draft/037_chapter_37_ch38_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/038_chapter_38_ch39_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/037_chapter_37_ch38_bridge_audit.md` (**PASS** v4)  
+**Bridge out:** `Draft/038_chapter_38_ch39_bridge_audit.md` (**PASS** v4)
 
 ---
 
@@ -297,10 +297,10 @@
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · **Movement II closes** · bridge chain **PENDING**
+**v2 FULL DEPTH** — **v4 DRAFT** · **9/9 beats** · **Movement II closes** · bridge chain **PASS** Ch 37→38 · Ch 38→39
 
 ---
 
 ## Next
 
-**Ch 38 v3 prose** when authorized · **Ch 39 v2** batch complete · **Movement III** opens
+**Ch 39 v3 prose** when authorized · **Movement III opens** · prose priority **High**

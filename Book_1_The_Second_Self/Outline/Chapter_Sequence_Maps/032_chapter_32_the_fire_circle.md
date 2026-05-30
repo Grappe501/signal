@@ -1,7 +1,7 @@
 # Chapter 32 — The Fire Circle
 
 **Segment:** 054 · Part III v2  
-**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29)  
+**Status:** **v4 DRAFT** (2026-05-29) · prose complete · **Movement II opens**  
 **POV:** Mara Voss · tight third · past tense  
 **Part:** III — **Movement II · Alternatives & haunts** opens
 
@@ -63,8 +63,8 @@ Mara **returns** to Cass **post-failure** — fire circle **comfort** · **unopt
 
 **Transition:** **Hard cut** Ch 33 · **no** Iona preview.
 
-**Bridge in:** `Draft/031_chapter_31_ch32_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/032_chapter_32_ch33_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/031_chapter_31_ch32_bridge_audit.md` (**PASS** v4)  
+**Bridge out:** `Draft/032_chapter_32_ch33_bridge_audit.md` (**PASS** v4)
 
 ---
 
@@ -282,10 +282,10 @@ Mara **returns** to Cass **post-failure** — fire circle **comfort** · **unopt
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · bridge chain **PENDING**
+**v4 DRAFT** — prose complete · **9/9 beats** · bridge chain **PASS**
 
 ---
 
 ## Next
 
-**Ch 32 v3 prose** when authorized · **Ch 33 v2** batch · **Movement II** continues
+**Ch 33 v3 prose** (*The Children* · Iona POV) · or **Ch 28–32 v5** pair-read.

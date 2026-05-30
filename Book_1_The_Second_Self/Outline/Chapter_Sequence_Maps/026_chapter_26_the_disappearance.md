@@ -1,7 +1,7 @@
 # Chapter 26 — The Disappearance
 
 **Segment:** 054 · Act II v2  
-**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29)  
+**Status:** **v4 DRAFT** — prose complete (2026-05-29)  
 **POV:** Eli Mercer · tight third · past tense  
 **Part:** II — **Movement III · False solve & fracture**
 
@@ -62,8 +62,8 @@ Mercer **off-grid** — **erase trails** · witness **larger mover** · **archit
 
 **Transition:** **Hard cut** Ch 27 · **no** case board preview.
 
-**Bridge in:** `Draft/025_chapter_25_ch26_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/026_chapter_26_ch27_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/025_chapter_25_ch26_bridge_audit.md` (**PASS** v4)  
+**Bridge out:** `Draft/026_chapter_26_ch27_bridge_audit.md` (**PASS** v4)
 
 ---
 
@@ -282,10 +282,10 @@ Mercer **off-grid** — **erase trails** · witness **larger mover** · **archit
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · bridge chain **PENDING**
+**v4 DRAFT** — prose complete · **9/9 beats** · bridge chain **PASS** v4
 
 ---
 
 ## Next
 
-**Ch 26 v3 prose** when authorized · **Ch 27 v2** · Part II **finale**
+**Ch 27 v3 prose** (*The Fracture* · Part II finale) · Batch 5: **Ch 27 v2** · **Act II COMPLETE**

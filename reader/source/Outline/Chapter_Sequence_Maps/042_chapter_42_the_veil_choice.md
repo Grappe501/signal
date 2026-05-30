@@ -63,7 +63,7 @@
 
 **Transition:** **Hard cut** Ch 43 · **public** **horror** · **cannot** **unsee** **inverse**.
 
-**Bridge in:** `Draft/041_chapter_41_ch42_bridge_audit.md` (**PENDING** · map v2)  
+**Bridge in:** `Draft/041_chapter_41_ch42_bridge_audit.md` (**PASS** v4 · Ch 41 v4 DRAFT)  
 **Bridge out:** `Draft/042_chapter_42_ch43_bridge_audit.md` (**PENDING** · map v2)
 
 ---

@@ -62,7 +62,7 @@
 
 **Transition:** **Hard cut** Ch 39 · **personal** spine · **Movement III** opens.
 
-**Bridge in:** `Draft/037_chapter_37_ch38_bridge_audit.md` (**PENDING** · map v2)  
+**Bridge in:** `Draft/037_chapter_37_ch38_bridge_audit.md` (**PASS** v4)  
 **Bridge out:** `Draft/038_chapter_38_ch39_bridge_audit.md` (**PENDING** · map v2)
 
 ---

@@ -11,7 +11,7 @@
 
 | Ch | Title | POV | Beats | Map status |
 |----|-------|-----|-------|------------|
-| 44 | The Broadcast | Noah | 9/9 | **v2 FULL DEPTH** · Iona locked line · Denial Era seed |
+| 44 | The Broadcast | Noah | 9/9 | **v4 DRAFT** · Iona locked line |
 | 45 | The Salt Report | Mara | 9/9 | **v2 FULL DEPTH** · Scene #34 setup · locked memo |
 | 46 | The City of Mirrors | Dubai Artist | 9/9 | **v2 FULL DEPTH** · **Movement I finale** · Ch 58 runway |
 
@@ -65,10 +65,10 @@
 
 | Bridge | Status |
 |--------|--------|
-| Ch 43 → 44 | **PENDING** |
-| Ch 44 → 45 | **PENDING** |
-| Ch 45 → 46 | **PENDING** |
-| Ch 46 → 47 | **PENDING** |
+| Ch 43 → 44 | **PASS** v4 · Ch 44 v4 DRAFT |
+| Ch 44 → 45 | **PASS** v4 |
+| Ch 45 → 46 | **PASS** v4 · Ch 45 v4 DRAFT |
+| Ch 46 → 47 | **PASS** v4 · Ch 46 v4 DRAFT |
 
 ---
 
@@ -85,4 +85,4 @@
 
 ## Next authorized
 
-**Batch 13:** Ch **50–52** v2 · see `047-049_part_four_v2_batch_twelve_audit.md`
+**Ch 50 v3 prose** (*Lena's First Confession* · Mara POV) · or **Ch 28–49 v5** pair-read · or **Batch 13** Ch 51–52 v2.

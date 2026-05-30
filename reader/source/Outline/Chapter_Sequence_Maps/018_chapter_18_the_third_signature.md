@@ -62,7 +62,7 @@ Mercer **reviews** Ch 11 discovery · timeline tools prove third signature **pre
 
 **Transition:** **Hard cut** Ch 19 · **no** Iona preview · **no** Dubai recap.
 
-**Bridge in:** `Draft/017_chapter_17_ch18_bridge_audit.md` (**PENDING** · map v2)  
+**Bridge in:** `Draft/017_chapter_17_ch18_bridge_audit.md` (**PASS** v4)  
 **Bridge out:** `Draft/018_chapter_18_ch19_bridge_audit.md` (**PENDING** · map v2)
 
 ---

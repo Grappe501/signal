@@ -63,7 +63,7 @@
 
 **Transition:** **Hard cut** Ch 42 · **Mara** **offer** · **inverse** POV.
 
-**Bridge in:** `Draft/040_chapter_40_ch41_bridge_audit.md` (**PENDING** · map v2)  
+**Bridge in:** `Draft/040_chapter_40_ch41_bridge_audit.md` (**PASS** v4)  
 **Bridge out:** `Draft/041_chapter_41_ch42_bridge_audit.md` (**PENDING** · map v2)
 
 ---

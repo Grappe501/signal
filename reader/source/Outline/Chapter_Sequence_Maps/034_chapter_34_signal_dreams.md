@@ -62,7 +62,7 @@
 
 **Transition:** **Hard cut** Ch 35 · **no** Vale preview line.
 
-**Bridge in:** `Draft/033_chapter_33_ch34_bridge_audit.md` (**PENDING** · map v2)  
+**Bridge in:** `Draft/033_chapter_33_ch34_bridge_audit.md` (**PASS** v4)  
 **Bridge out:** `Draft/034_chapter_34_ch35_bridge_audit.md` (**PENDING** · map v2)
 
 ---

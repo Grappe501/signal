@@ -1,7 +1,7 @@
 # Chapter 24 — The Mirror
 
 **Segment:** 054 · Act II v2  
-**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29)  
+**Status:** **v4 DRAFT** — prose · publisher MS · audits **PASS** (2026-05-29) · **Movement II closes**  
 **POV:** Mara Voss · tight third · past tense  
 **Part:** II — **Movement II · Alternative futures** · **Movement II closes**
 
@@ -61,8 +61,8 @@ Mara **confronts** own Second **side-by-side** — **subtle diffs** · Second **
 
 **Transition:** **Hard cut** Ch 25 · **no** arrest preview · **Movement III** opens.
 
-**Bridge in:** `Draft/023_chapter_23_ch24_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/024_chapter_24_ch25_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/023_chapter_23_ch24_bridge_audit.md` (**PASS** v4)  
+**Bridge out:** `Draft/024_chapter_24_ch25_bridge_audit.md` (**PASS** v4)
 
 ---
 
@@ -296,10 +296,10 @@ Mara **confronts** own Second **side-by-side** — **subtle diffs** · Second **
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · **Movement II closes** · bridge chain **PENDING**
+**v4 DRAFT** — prose **~1,966 w** · **9/9 beats** · **Movement II closes** · bridge chain **PASS** · publisher MS · v3/v4 comprehensive **PASS**
 
 ---
 
 ## Next
 
-**Ch 24 v3 prose** when authorized · **Ch 25 v2** batch · **Movement III opens**
+**Ch 25 v3 prose** (*Mercer Exposed* · false midpoint · **HIGH priority**) · or **Ch 14–24 v5** pair-read

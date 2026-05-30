@@ -1,7 +1,7 @@
-# Act II / Part III — v2 Batch 5 Audit (Ch 26–28)
+# Act II / Part III — v2 Batch 5 Audit (Ch 26–29)
 
 **Date:** 2026-05-29  
-**Scope:** Ch **26–28** · Act II finale · Part III opens  
+**Scope:** Ch **26–29** · Act II finale · Part III opens  
 **Template:** Ch 13 `v2 FULL DEPTH`  
 **Status:** **COMPLETE**
 
@@ -11,9 +11,10 @@
 
 | Ch | Title | POV | Part | Beats | Map status |
 |----|-------|-----|------|-------|------------|
-| 26 | The Disappearance | Mercer | II | 9/9 | **v2 FULL DEPTH** |
-| 27 | The Fracture | Mara | II **finale** | 9/9 | **v2 FULL DEPTH** · **Act II complete** |
-| 28 | The Failure | Mara | III opens | 9/9 | **v2 FULL DEPTH** · **Legendary #4** |
+| 26 | The Disappearance | Mercer | II | 9/9 | **v4 DRAFT** |
+| 27 | The Fracture | Mara | II **finale** | 9/9 | **v4 DRAFT** · **Act II complete** |
+| 28 | The Failure | Mara | III opens | 9/9 | **v4 DRAFT** · **Legendary #4** |
+| 29 | The Sound of the City | Mara | III | 9/9 | **v4 DRAFT** · Ch 28 continuation |
 
 **Note:** Ch 28 is **first Part III** sequence map at **v2** tier.
 
@@ -54,10 +55,11 @@
 
 | Bridge | Status |
 |--------|--------|
-| Ch 25 → 26 | **PENDING** |
-| Ch 26 → 27 | **PENDING** |
-| Ch 27 → 28 | **PENDING** · **Act II → Part III** |
-| Ch 28 → 29 | **PENDING** |
+| Ch 25 → 26 | **PASS** v4 |
+| Ch 26 → 27 | **PASS** v4 |
+| Ch 27 → 28 | **PASS** v4 · **Act II → Part III** |
+| Ch 28 → 29 | **PASS** v4 · Ch 29 **v4 DRAFT** |
+| Ch 29 → 30 | **PASS** v4 |
 
 ---
 
@@ -74,18 +76,18 @@
 
 | Done | Remaining |
 |------|-----------|
-| **28** | **29–42** (14 chapters) |
+| **28–29** | **30–42** (13 chapters) |
 
 ---
 
 ## Prose priority note
 
-- **Ch 27** — Part II finale · macro **HIGH**
-- **Ch 28** — Legendary #4 · **HIGHEST Part III**
-- **Ch 21** · **Ch 25** — still **HIGH** from prior batches
+- **Ch 28–49** — **v4 DRAFT COMPLETE** (2026-05-29). **Ch 50** (*Lena's First Confession* · Mara POV) **next**.
 
 ---
 
 ## Next authorized
+
+**Ch 50 v3 prose** (*Lena's First Confession* · Mara POV) · or **Ch 28–49 v5** pair-read.
 
 **Part III v2 batches** (suggest **3 at a time**): Ch **29–31** · or **Ch 14 v3 prose** when author chooses prose-first.

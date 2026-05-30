@@ -1,7 +1,7 @@
 # Chapter 31 — The Real Dubai
 
 **Segment:** 054 · Part III v2  
-**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29)  
+**Status:** **v4 DRAFT** (2026-05-29) · prose complete · **Movement I closes**  
 **POV:** Dubai Artist · tight third · past tense · **name withhold OK** `[G-046]`  
 **Part:** III — **Movement I · Floor drops** · **Movement I closes**
 
@@ -62,8 +62,8 @@ Show **dependency** behind wonder — **true Dubai** **still beautiful** · **ma
 
 **Transition:** **Hard cut** Ch 32 · **Cass** return · **post-failure**.
 
-**Bridge in:** `Draft/030_chapter_30_ch31_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/031_chapter_31_ch32_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/030_chapter_30_ch31_bridge_audit.md` (**PASS** v4)  
+**Bridge out:** `Draft/031_chapter_31_ch32_bridge_audit.md` (**PASS** v4)
 
 ---
 
@@ -292,10 +292,10 @@ Show **dependency** behind wonder — **true Dubai** **still beautiful** · **ma
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · **Movement I closes** · bridge chain **PENDING**
+**v4 DRAFT** — prose complete · **9/9 beats** · **Movement I closes** · bridge chain **PASS**
 
 ---
 
 ## Next
 
-**Ch 31 v3 prose** when authorized · **Movement II opens** Ch 32 · Part III v2 batch **32–34** next
+**Ch 32 v3 prose** (*Fire Circle* · Mara POV · Movement II opens) · or **Ch 28–31 v5** pair-read.

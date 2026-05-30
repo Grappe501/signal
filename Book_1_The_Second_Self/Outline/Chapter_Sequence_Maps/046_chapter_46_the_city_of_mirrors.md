@@ -64,8 +64,8 @@
 
 **Transition:** **Hard cut** Ch 47 · **Greenland** **model** · **inverse** POV.
 
-**Bridge in:** `Draft/045_chapter_45_ch46_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/046_chapter_46_ch47_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/045_chapter_45_ch46_bridge_audit.md` (**PASS** v4 · Ch 45 v4 DRAFT)  
+**Bridge out:** `Draft/046_chapter_46_ch47_bridge_audit.md` (**PASS** v4 · Ch 46 v4 DRAFT)
 
 ---
 
@@ -307,10 +307,10 @@
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · **Movement I closes** · bridge chain **PENDING**
+**v4 DRAFT** — prose complete · **9/9 beats** · **Movement I closes** · bridge chain **PASS** Ch 47
 
 ---
 
 ## Next
 
-**Ch 46 v3 prose** when authorized · Batch 12: **Ch 47–49 v2** · **Movement II** opens
+**Ch 47 v3 prose** when authorized · **Movement II opens** · Greenland Researcher POV

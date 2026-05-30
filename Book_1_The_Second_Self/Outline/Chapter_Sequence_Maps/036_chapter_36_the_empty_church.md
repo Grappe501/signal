@@ -1,7 +1,7 @@
 # Chapter 36 — The Empty Church
 
 **Segment:** 054 · Part III v2  
-**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29)  
+**Status:** **v4 DRAFT** — sequence map · prose complete (2026-05-29)  
 **POV:** Mara Voss · tight third · past tense  
 **Part:** III — **Movement II · Alternatives & haunts**
 
@@ -62,8 +62,8 @@
 
 **Transition:** **Hard cut** Ch 37 · **mentor** **session** · **inverse** **warmth**.
 
-**Bridge in:** `Draft/035_chapter_35_ch36_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/036_chapter_36_ch37_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/035_chapter_35_ch36_bridge_audit.md` (**PASS** v4)  
+**Bridge out:** `Draft/036_chapter_36_ch37_bridge_audit.md` (**PASS** v4)
 
 ---
 
@@ -280,10 +280,10 @@
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · bridge chain **PENDING**
+**v2 FULL DEPTH** — **v4 DRAFT** · **9/9 beats** · bridge chain **PASS** Ch 35→36 · Ch 36→37
 
 ---
 
 ## Next
 
-**Ch 36 v3 prose** when authorized · **Ch 37 v2** batch complete · **Movement II** continues
+**Ch 37 v3 prose** when authorized · **Movement II closes** · **Ch 28–36 v5** pair-read

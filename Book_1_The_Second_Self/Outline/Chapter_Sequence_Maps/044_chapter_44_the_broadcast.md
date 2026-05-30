@@ -1,7 +1,7 @@
 # Chapter 44 — The Broadcast
 
 **Segment:** 054 · Part IV v2  
-**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29)  
+**Status:** **v2 FULL DEPTH** — sequence map · **v4 DRAFT prose** (2026-05-29)  
 **POV:** Noah Vale · tight third · past tense  
 **Part:** IV — **Movement I · Public horror**
 
@@ -63,8 +63,8 @@
 
 **Transition:** **Hard cut** Ch 45 · **classified** **dread** · **inverse** register.
 
-**Bridge in:** `Draft/043_chapter_43_ch44_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/044_chapter_44_ch45_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/043_chapter_43_ch44_bridge_audit.md` (**PASS** v4 · Ch 43 v4 DRAFT)  
+**Bridge out:** `Draft/044_chapter_44_ch45_bridge_audit.md` (**PASS** v4)
 
 ---
 
@@ -294,10 +294,10 @@
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · bridge chain **PENDING**
+**v2 FULL DEPTH** — **v4 DRAFT** · **9/9 beats** · bridge chain **PASS** Ch 44→45
 
 ---
 
 ## Next
 
-**Ch 44 v3 prose** when authorized · **Ch 45 v2** batch complete
+**Ch 44 v4 DRAFT** complete · **Ch 45 v3** when authorized

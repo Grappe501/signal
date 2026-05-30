@@ -64,8 +64,8 @@
 
 **Transition:** **Hard cut** Ch 49 · **domestic** **social** horror · **inverse** **scale**.
 
-**Bridge in:** `Draft/047_chapter_47_ch48_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/048_chapter_48_ch49_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/047_chapter_47_ch48_bridge_audit.md` (**PASS** v4 · Ch 47 v4 DRAFT)  
+**Bridge out:** `Draft/048_chapter_48_ch49_bridge_audit.md` (**PASS** v4 · Ch 48 v4 DRAFT)
 
 ---
 
@@ -295,10 +295,10 @@
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · **Legendary #8** · bridge chain **PENDING**
+**v4 DRAFT** — prose complete · **9/9 beats** · **Legendary #8** · bridge chain **PASS** Ch 49
 
 ---
 
 ## Next
 
-**Ch 48 v3 prose** when authorized (**HIGH**) · **Ch 49 v2** batch complete
+**Ch 49 v3 prose** when authorized · Noah POV · Empty Chair echo

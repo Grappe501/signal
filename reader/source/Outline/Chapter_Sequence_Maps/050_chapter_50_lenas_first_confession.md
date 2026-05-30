@@ -62,7 +62,7 @@
 
 **Transition:** **Hard cut** Ch 51 · **Mercer** **dig** · **inverse** POV.
 
-**Bridge in:** `Draft/049_chapter_49_ch50_bridge_audit.md` (**PENDING** · map v2)  
+**Bridge in:** `Draft/049_chapter_49_ch50_bridge_audit.md` (**PASS** v4 · Ch 49 v4 DRAFT)  
 **Bridge out:** `Draft/050_chapter_50_ch51_bridge_audit.md` (**PENDING** · map v2)
 
 ---

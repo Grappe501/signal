@@ -63,7 +63,7 @@
 
 **Transition:** **Hard cut** Ch 50 · **Lena** **crack** **deepens** · **inverse** POV.
 
-**Bridge in:** `Draft/048_chapter_48_ch49_bridge_audit.md` (**PENDING** · map v2)  
+**Bridge in:** `Draft/048_chapter_48_ch49_bridge_audit.md` (**PASS** v4 · Ch 48 v4 DRAFT)  
 **Bridge out:** `Draft/049_chapter_49_ch50_bridge_audit.md` (**PENDING** · map v2)
 
 ---

@@ -62,7 +62,7 @@
 
 **Transition:** **Hard cut** Ch 37 · **mentor** **session** · **inverse** **warmth**.
 
-**Bridge in:** `Draft/035_chapter_35_ch36_bridge_audit.md` (**PENDING** · map v2)  
+**Bridge in:** `Draft/035_chapter_35_ch36_bridge_audit.md` (**PASS** v4)  
 **Bridge out:** `Draft/036_chapter_36_ch37_bridge_audit.md` (**PENDING** · map v2)
 
 ---

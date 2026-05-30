@@ -1,7 +1,7 @@
 # Chapter 21 — The Fire
 
 **Segment:** 054 · Act II v2  
-**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29)  
+**Status:** **v4 DRAFT** — prose · publisher MS · audits **PASS** (2026-05-29)  
 **POV:** Mara Voss · tight third · past tense  
 **Part:** II — **Movement II · Alternative futures** · **Legendary #5**
 
@@ -63,8 +63,8 @@ Deliver **Legendary #5 Rawist Fire** — Mara at settlement · **real fire** · 
 
 **Transition:** **Hard cut** Ch 22 · **no** Vale preview · **no** HVI recap.
 
-**Bridge in:** `Draft/020_chapter_20_ch21_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/021_chapter_21_ch22_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/020_chapter_20_ch21_bridge_audit.md` (**PASS** v4)  
+**Bridge out:** `Draft/021_chapter_21_ch22_bridge_audit.md` (**PASS** v4)
 
 ---
 
@@ -289,10 +289,10 @@ Deliver **Legendary #5 Rawist Fire** — Mara at settlement · **real fire** · 
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · **Legendary #5** · bridge chain **PENDING** · **prose HIGH priority**
+**v4 DRAFT** — prose **~2,175 w** · **9/9 beats** · **Legendary #5** · bridge chain **PASS** · publisher MS · v3/v4 comprehensive **PASS**
 
 ---
 
 ## Next
 
-**Ch 21 v3 prose** · **HIGH priority** when authorized · **Ch 22 v2** batch complete
+**Ch 22 v3 prose** (*Vale's Last Interview* · Archive POV) · or **Ch 14–21 v5** pair-read

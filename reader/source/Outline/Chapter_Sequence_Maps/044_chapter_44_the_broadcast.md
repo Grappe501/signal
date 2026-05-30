@@ -63,7 +63,7 @@
 
 **Transition:** **Hard cut** Ch 45 · **classified** **dread** · **inverse** register.
 
-**Bridge in:** `Draft/043_chapter_43_ch44_bridge_audit.md` (**PENDING** · map v2)  
+**Bridge in:** `Draft/043_chapter_43_ch44_bridge_audit.md` (**PASS** v4 · Ch 43 v4 DRAFT)  
 **Bridge out:** `Draft/044_chapter_44_ch45_bridge_audit.md` (**PENDING** · map v2)
 
 ---

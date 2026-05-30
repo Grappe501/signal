@@ -1,7 +1,7 @@
 # Chapter 23 — The Impossible Prediction
 
 **Segment:** 054 · Act II v2  
-**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29)  
+**Status:** **v4 DRAFT** — prose · publisher MS · audits **PASS** (2026-05-29)  
 **POV:** Mara Voss · tight third · past tense  
 **Part:** II — **Movement II · Alternative futures** closes institutional axis
 
@@ -62,8 +62,8 @@ On-page **LATTICE failure** — prediction **contradicted** by event · **imposs
 
 **Transition:** **Hard cut** Ch 24 · **no** Second preview · **no** Vale recap.
 
-**Bridge in:** `Draft/022_chapter_22_ch23_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/023_chapter_23_ch24_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/022_chapter_22_ch23_bridge_audit.md` (**PASS** v4)  
+**Bridge out:** `Draft/023_chapter_23_ch24_bridge_audit.md` (**PASS** v4)
 
 ---
 
@@ -283,10 +283,10 @@ On-page **LATTICE failure** — prediction **contradicted** by event · **imposs
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · bridge chain **PENDING**
+**v4 DRAFT** — prose **~2,007 w** · **9/9 beats** · bridge chain **PASS** · publisher MS · v3/v4 comprehensive **PASS**
 
 ---
 
 ## Next
 
-**Ch 23 v3 prose** when authorized · **Ch 24 v2** batch · Movement II **closes** Ch 24
+**Ch 24 v3 prose** (*The Mirror* · Movement II closes) · or **Ch 14–23 v5** pair-read

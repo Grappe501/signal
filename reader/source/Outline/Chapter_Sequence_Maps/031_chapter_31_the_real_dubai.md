@@ -62,7 +62,7 @@ Show **dependency** behind wonder — **true Dubai** **still beautiful** · **ma
 
 **Transition:** **Hard cut** Ch 32 · **Cass** return · **post-failure**.
 
-**Bridge in:** `Draft/030_chapter_30_ch31_bridge_audit.md` (**PENDING** · map v2)  
+**Bridge in:** `Draft/030_chapter_30_ch31_bridge_audit.md` (**PASS** v4)  
 **Bridge out:** `Draft/031_chapter_31_ch32_bridge_audit.md` (**PENDING** · map v2)
 
 ---

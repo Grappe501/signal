@@ -62,7 +62,7 @@ Ask **great question** implicitly — *If a lie makes people happier, should it 
 
 **Transition:** **Hard cut** Ch 31 · **no** Dubai preview.
 
-**Bridge in:** `Draft/029_chapter_29_ch30_bridge_audit.md` (**PENDING** · map v2)  
+**Bridge in:** `Draft/029_chapter_29_ch30_bridge_audit.md` (**PASS** v4)  
 **Bridge out:** `Draft/030_chapter_30_ch31_bridge_audit.md` (**PENDING** · map v2)
 
 ---

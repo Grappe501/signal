@@ -62,8 +62,8 @@
 
 **Transition:** **Hard cut** Ch 48 · **Legendary #8** · **personal** **grief** **scale**.
 
-**Bridge in:** `Draft/046_chapter_46_ch47_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/047_chapter_47_ch48_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/046_chapter_46_ch47_bridge_audit.md` (**PASS** v4 · Ch 46 v4 DRAFT)  
+**Bridge out:** `Draft/047_chapter_47_ch48_bridge_audit.md` (**PASS** v4 · Ch 47 v4 DRAFT)
 
 ---
 
@@ -295,10 +295,10 @@
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · **Movement II opens** · bridge chain **PENDING**
+**v4 DRAFT** — prose complete · **9/9 beats** · **Movement II opens** · bridge chain **PASS** Ch 48
 
 ---
 
 ## Next
 
-**Ch 47 v3 prose** when authorized · **Ch 48 v2** batch complete · **Legendary #8** next
+**Ch 48 v3 prose** when authorized · **Legendary #8** · Mara POV

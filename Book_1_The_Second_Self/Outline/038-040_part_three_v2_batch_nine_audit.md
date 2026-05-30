@@ -11,9 +11,9 @@
 
 | Ch | Title | POV | Beats | Map status |
 |----|-------|-----|-------|------------|
-| 38 | The Impossible Children | Mara | 9/9 | **v2 FULL DEPTH** · Scene #24 · **Movement II finale** |
-| 39 | The Other Self | Mara | 9/9 | **v2 FULL DEPTH** · personal spine · **Movement III opens** |
-| 40 | The System Blinks | Mara | 9/9 | **v2 FULL DEPTH** · Ch 23 echo · secret review |
+| 38 | The Impossible Children | Mara | 9/9 | **v4 DRAFT** · Movement II closes · never explain |
+| 39 | The Other Self | Mara | 9/9 | **v4 DRAFT** · Movement III opens · personal spine |
+| 40 | The System Blinks | Mara | 9/9 | **v4 DRAFT** · Ch 23 echo · secret review |
 
 ---
 
@@ -73,10 +73,10 @@
 
 | Bridge | Status |
 |--------|--------|
-| Ch 37 → 38 | **PENDING** |
-| Ch 38 → 39 | **PENDING** |
-| Ch 39 → 40 | **PENDING** |
-| Ch 40 → 41 | **PENDING** |
+| Ch 37 → 38 | **PASS** v4 |
+| Ch 38 → 39 | **PASS** v4 |
+| Ch 39 → 40 | **PASS** v4 |
+| Ch 40 → 41 | **PASS** v4 |
 
 ---
 
@@ -94,4 +94,4 @@
 
 ## Next authorized
 
-**Batch 11:** Ch **44–46** v2 · Part IV Movement I continues
+**Ch 50 v3 prose** (*Lena's First Confession* · Mara POV) · or **Ch 28–49 v5** pair-read.

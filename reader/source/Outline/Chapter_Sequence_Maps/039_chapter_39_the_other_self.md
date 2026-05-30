@@ -64,7 +64,7 @@
 
 **Transition:** **Hard cut** Ch 40 · **institutional** **blink** · **inverse** **register**.
 
-**Bridge in:** `Draft/038_chapter_38_ch39_bridge_audit.md` (**PENDING** · map v2)  
+**Bridge in:** `Draft/038_chapter_38_ch39_bridge_audit.md` (**PASS** v4)  
 **Bridge out:** `Draft/039_chapter_39_ch40_bridge_audit.md` (**PENDING** · map v2)
 
 ---

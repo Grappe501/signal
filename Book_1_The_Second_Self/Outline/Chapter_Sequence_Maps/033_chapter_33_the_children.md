@@ -1,7 +1,7 @@
 # Chapter 33 — The Children
 
 **Segment:** 054 · Part III v2  
-**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29)  
+**Status:** **v4 DRAFT** (2026-05-29) · prose complete  
 **POV:** **Iona Vale** · tight third · past tense · **second child POV in Book One**  
 **Part:** III — **Movement II · Alternatives & haunts**
 
@@ -62,8 +62,8 @@
 
 **Transition:** **Hard cut** Ch 34 · **no** dream preview.
 
-**Bridge in:** `Draft/032_chapter_32_ch33_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/033_chapter_33_ch34_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/032_chapter_32_ch33_bridge_audit.md` (**PASS** v4)  
+**Bridge out:** `Draft/033_chapter_33_ch34_bridge_audit.md` (**PASS** v4)
 
 ---
 
@@ -298,10 +298,10 @@
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · bridge chain **PENDING**
+**v4 DRAFT** — prose complete · **9/9 beats** · bridge chain **PASS**
 
 ---
 
 ## Next
 
-**Ch 33 v3 prose** when authorized · **Ch 34 v2** batch complete
+**Ch 35 v3 prose** (*Ghost of Vale* · Archive POV) · or **Ch 28–34 v5** pair-read.

@@ -62,7 +62,7 @@ On-page **LATTICE failure** — prediction **contradicted** by event · **imposs
 
 **Transition:** **Hard cut** Ch 24 · **no** Second preview · **no** Vale recap.
 
-**Bridge in:** `Draft/022_chapter_22_ch23_bridge_audit.md` (**PENDING** · map v2)  
+**Bridge in:** `Draft/022_chapter_22_ch23_bridge_audit.md` (**PASS** v4)  
 **Bridge out:** `Draft/023_chapter_23_ch24_bridge_audit.md` (**PENDING** · map v2)
 
 ---

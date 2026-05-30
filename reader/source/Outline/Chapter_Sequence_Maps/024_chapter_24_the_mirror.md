@@ -61,7 +61,7 @@ Mara **confronts** own Second **side-by-side** — **subtle diffs** · Second **
 
 **Transition:** **Hard cut** Ch 25 · **no** arrest preview · **Movement III** opens.
 
-**Bridge in:** `Draft/023_chapter_23_ch24_bridge_audit.md` (**PENDING** · map v2)  
+**Bridge in:** `Draft/023_chapter_23_ch24_bridge_audit.md` (**PASS** v4)  
 **Bridge out:** `Draft/024_chapter_24_ch25_bridge_audit.md` (**PENDING** · map v2)
 
 ---

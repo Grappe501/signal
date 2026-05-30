@@ -1,7 +1,7 @@
 # Chapter 27 — The Fracture
 
 **Segment:** 054 · Act II v2  
-**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29) · **Act II complete**  
+**Status:** **v4 DRAFT** — prose complete (2026-05-29) · **Act II complete**  
 **POV:** Mara Voss · tight third · past tense  
 **Part:** II — **Movement III · False solve & fracture** · **Part II finale**
 
@@ -63,8 +63,8 @@ Part II **finale** — case board **nothing fits** · **collage** of Act II frac
 
 **Transition:** **Hard cut** Ch 28 · **normal commute** · **Legendary** **incoming**.
 
-**Bridge in:** `Draft/026_chapter_26_ch27_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/027_chapter_27_ch28_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/026_chapter_26_ch27_bridge_audit.md` (**PASS** v4)  
+**Bridge out:** `Draft/027_chapter_27_ch28_bridge_audit.md` (**PASS** v4)
 
 ---
 
@@ -287,10 +287,10 @@ Part II **finale** — case board **nothing fits** · **collage** of Act II frac
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · **Act II complete** · bridge chain **PENDING** · **prose HIGH priority**
+**v4 DRAFT** — prose complete · **9/9 beats** · **Act II complete** · bridge chain **PASS** v4
 
 ---
 
 ## Next
 
-**Ch 27 v3 prose** · **HIGH priority** when authorized · **Ch 28 v2** · Part III **opens**
+**Ch 28 v3 prose** (*The Failure* · Legendary #4 · Part III opens) · **HIGHEST Part III priority**

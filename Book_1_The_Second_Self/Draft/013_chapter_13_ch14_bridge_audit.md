@@ -2,7 +2,7 @@
 
 **Status:** **PASS** (v5 · 2026-05-29)  
 **Chapter 13:** `013_chapter_13_memory_of_a_thing_that_never_happened.md` · **v5 · LOCKED · PRINT READY (Part II)** (~2,168 w)  
-**Chapter 14:** `014_chapter_14_the_storm.md` · **v1 FULL DEPTH** · pre-prose (~2,000 w target)
+**Chapter 14:** `014_chapter_14_the_storm.md` · **v4 DRAFT** (~1,870 w)
 
 ---
 
@@ -82,5 +82,5 @@
 |------|--------|
 | Bridge audit | **PASS** v5 |
 | Ch 13 reopen | **Not required** |
-| Ch 14 prose | **Next** · v3 when authorized |
+| Ch 14 prose | **COMPLETE** · v4 DRAFT |
 | Ch 13 v5 | **LOCKED · PRINT READY (Part II)** |

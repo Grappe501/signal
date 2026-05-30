@@ -64,7 +64,7 @@
 
 **Transition:** **Hard cut** Ch 44 · **denial** **broadcast** · **inverse** POV.
 
-**Bridge in:** `Draft/042_chapter_42_ch43_bridge_audit.md` (**PENDING** · map v2)  
+**Bridge in:** `Draft/042_chapter_42_ch43_bridge_audit.md` (**PASS** v4 · Ch 42 v4 DRAFT)  
 **Bridge out:** `Draft/043_chapter_43_ch44_bridge_audit.md` (**PENDING** · map v2)
 
 ---

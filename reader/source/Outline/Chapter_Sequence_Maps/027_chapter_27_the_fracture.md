@@ -63,7 +63,7 @@ Part II **finale** — case board **nothing fits** · **collage** of Act II frac
 
 **Transition:** **Hard cut** Ch 28 · **normal commute** · **Legendary** **incoming**.
 
-**Bridge in:** `Draft/026_chapter_26_ch27_bridge_audit.md` (**PENDING** · map v2)  
+**Bridge in:** `Draft/026_chapter_26_ch27_bridge_audit.md` (**PASS** v4)  
 **Bridge out:** `Draft/027_chapter_27_ch28_bridge_audit.md` (**PENDING** · map v2)
 
 ---

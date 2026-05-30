@@ -1,7 +1,7 @@
 # Chapter 29 — The Sound of the City
 
 **Segment:** 054 · Part III v2  
-**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29)  
+**Status:** **v4 DRAFT** — prose complete (2026-05-29)  
 **POV:** Mara Voss · tight third · past tense · **direct continuation Ch 28**  
 **Part:** III — **Movement I · Floor drops**
 
@@ -61,8 +61,8 @@
 
 **Transition:** **Hard cut** Ch 30 · **no** Noah preview · **scale** domestic.
 
-**Bridge in:** `Draft/028_chapter_28_ch29_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/029_chapter_29_ch30_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/028_chapter_28_ch29_bridge_audit.md` (**PASS** v4)  
+**Bridge out:** `Draft/029_chapter_29_ch30_bridge_audit.md` (**PASS** v4)
 
 ---
 
@@ -281,10 +281,10 @@
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · bridge chain **PENDING**
+**v4 DRAFT** — prose complete · **9/9 beats** · bridge chain **PASS** v4
 
 ---
 
 ## Next
 
-**Ch 29 v3 prose** when authorized · **Ch 30 v2** batch · **continues** Ch 28 **direct**
+**Ch 30 v3 prose** (*Beautiful Things* · Noah POV · moral counterpoint)

@@ -64,7 +64,7 @@
 
 **Transition:** **Hard cut** Ch 47 · **Greenland** **model** · **inverse** POV.
 
-**Bridge in:** `Draft/045_chapter_45_ch46_bridge_audit.md` (**PENDING** · map v2)  
+**Bridge in:** `Draft/045_chapter_45_ch46_bridge_audit.md` (**PASS** v4 · Ch 45 v4 DRAFT)  
 **Bridge out:** `Draft/046_chapter_46_ch47_bridge_audit.md` (**PENDING** · map v2)
 
 ---

@@ -1,7 +1,7 @@
 # Chapter 51 — The Third Body
 
 **Segment:** 054 · Part IV v2  
-**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29)  
+**Status:** **v4 DRAFT** — sequence map · prose complete (2026-05-29)  
 **POV:** Eli Mercer · tight third · past tense  
 **Part:** IV — **Movement II · Scale & vault**
 
@@ -62,8 +62,8 @@
 
 **Transition:** **Hard cut** Ch 52 · **vault** **scale** · **inverse** register.
 
-**Bridge in:** `Draft/050_chapter_50_ch51_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/051_chapter_51_ch52_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/050_chapter_50_ch51_bridge_audit.md` (**PASS** v4 · Ch 50 v4 DRAFT)  
+**Bridge out:** `Draft/051_chapter_51_ch52_bridge_audit.md` (**PASS** v4 · Ch 51 v4 DRAFT)
 
 ---
 
@@ -293,10 +293,13 @@
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · bridge chain **PENDING**
+**v4 DRAFT** — prose complete · **9/9 beats** · bridge chain **PASS** (Ch 50→51 · Ch 51→52)
+
+**Prose:** `Draft/051_chapter_51_the_third_body.md` · ~1,845 w  
+**Audits:** v3/v4 comprehensive **PASS**
 
 ---
 
 ## Next
 
-**Ch 51 v3 prose** when authorized · **Ch 52 v2** · **Legendary #7** next
+**Ch 52 v3 prose** (*The Ghosts* · Mara POV · Legendary #7) when authorized

@@ -11,9 +11,11 @@
 
 | Ch | Title | POV | Beats | Map status |
 |----|-------|-----|-------|------------|
-| 23 | The Impossible Prediction | Mara | 9/9 | **v2 FULL DEPTH** |
-| 24 | The Mirror | Mara | 9/9 | **v2 FULL DEPTH** · **Movement II closes** |
-| 25 | Mercer Exposed | Mara | 9/9 | **v2 FULL DEPTH** · **false midpoint** |
+| 23 | The Impossible Prediction | Mara | 9/9 | **v4 DRAFT** |
+| 24 | The Mirror | Mara | 9/9 | **v4 DRAFT** · **Movement II closes** |
+| 25 | Mercer Exposed | Mara | 9/9 | **v4 DRAFT** · **false midpoint** |
+| 26 | The Disappearance | Mercer | 9/9 | **v4 DRAFT** |
+| 27 | The Fracture | Mara | 9/9 | **v4 DRAFT** · **Act II finale** |
 
 ---
 
@@ -52,10 +54,12 @@
 
 | Bridge | Status |
 |--------|--------|
-| Ch 22 → 23 | **PENDING** |
-| Ch 23 → 24 | **PENDING** |
-| Ch 24 → 25 | **PENDING** |
-| Ch 25 → 26 | **PENDING** |
+| Ch 22 → 23 | **PASS** v4 · Ch 23 **v4 DRAFT** |
+| Ch 23 → 24 | **PASS** v4 |
+| Ch 24 → 25 | **PASS** v4 · Ch 25 **v4 DRAFT** |
+| Ch 25 → 26 | **PASS** v4 |
+| Ch 26 → 27 | **PASS** v4 |
+| Ch 27 → 28 | **PASS** v4 · Ch 28 **v4 DRAFT** · **Legendary #4** |
 
 ---
 
@@ -68,18 +72,18 @@
 | 2 | 17–19 | **v2 COMPLETE** |
 | 3 | 20–22 | **v2 COMPLETE** |
 | **4** | **23–25** | **v2 COMPLETE** |
-| 5 | 26–27 | pending |
+| **5** | **26–27** | **v2 COMPLETE** · **v4 DRAFT** |
 
-**Remaining:** 2 chapters (26–27) · Part II **finale batch**
+**Remaining:** 0 chapters in Act II map batch · **Act II prose COMPLETE**
 
 ---
 
 ## Prose priority note
 
-Per macro Act II: **Ch 25** (*Mercer Exposed* · false midpoint) remains **HIGH** prose priority alongside **Ch 21** when author moves to v3.
+**Ch 23–29** — **v4 DRAFT COMPLETE** (2026-05-29). **Act II prose COMPLETE** Ch 27. **Part III** Ch 28–29 **COMPLETE**. **Ch 30** (*Beautiful Things*) **next**.
 
 ---
 
 ## Next authorized
 
-**Batch 5:** Ch **26–28** v2 — **COMPLETE** · **Act II maps done** · Part III opens Ch 28
+**Ch 29 v3 prose** (*The Sound of the City*) · or **Ch 10/28 v5** Veil pair-read · **Act II COMPLETE** · **Part III opens**.

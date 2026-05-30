@@ -1,7 +1,7 @@
 # Chapter 42 — The Veil Choice
 
 **Segment:** 054 · Part III v2  
-**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29)  
+**Status:** **v2 FULL DEPTH** — sequence map · **v4 DRAFT prose** (2026-05-29)  
 **POV:** Mara Voss · tight third · past tense  
 **Part:** III — **Movement III · Self & choice** · **Part III finale** · **Launch Part IV**
 
@@ -63,8 +63,8 @@
 
 **Transition:** **Hard cut** Ch 43 · **public** **horror** · **cannot** **unsee** **inverse**.
 
-**Bridge in:** `Draft/041_chapter_41_ch42_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/042_chapter_42_ch43_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/041_chapter_41_ch42_bridge_audit.md` (**PASS** v4 · Ch 41 v4 DRAFT)  
+**Bridge out:** `Draft/042_chapter_42_ch43_bridge_audit.md` (**PASS** v4)
 
 ---
 
@@ -311,10 +311,10 @@
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · **Part III COMPLETE** · bridge chain **PENDING**
+**v2 FULL DEPTH** — **v4 DRAFT** · **9/9 beats** · **Part III PROSE COMPLETE** · bridge chain **PASS** Ch 42→43
 
 ---
 
 ## Next
 
-**Ch 42 v3 prose** when authorized (**HIGH** · Part III finale) · **Ch 43 v2** · Part IV opens
+**Ch 42 v4 DRAFT** complete · **Part III prose COMPLETE** · **Ch 43 v3** when authorized · Part IV opens

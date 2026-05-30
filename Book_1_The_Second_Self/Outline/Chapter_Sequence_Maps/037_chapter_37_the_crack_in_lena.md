@@ -1,7 +1,7 @@
 # Chapter 37 — The Crack in Lena
 
 **Segment:** 054 · Part III v2  
-**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29)  
+**Status:** **v4 DRAFT** — sequence map · prose complete (2026-05-29) · **Movement II closes**  
 **POV:** Mara Voss · tight third · past tense  
 **Part:** III — **Movement II · Alternatives & haunts** · **Movement II closes**
 
@@ -62,8 +62,8 @@
 
 **Transition:** **Hard cut** Ch 38 · **case** **tangent** · **Movement III** opens next block at Ch 39.
 
-**Bridge in:** `Draft/036_chapter_36_ch37_bridge_audit.md` (**PENDING** · map v2)  
-**Bridge out:** `Draft/037_chapter_37_ch38_bridge_audit.md` (**PENDING** · map v2)
+**Bridge in:** `Draft/036_chapter_36_ch37_bridge_audit.md` (**PASS** v4)  
+**Bridge out:** `Draft/037_chapter_37_ch38_bridge_audit.md` (**PASS** v4)
 
 ---
 
@@ -297,10 +297,10 @@
 
 ## Sequence map status
 
-**v2 FULL DEPTH** — pre-prose · **9/9 beats** · **Movement II closes** · bridge chain **PENDING**
+**v2 FULL DEPTH** — **v4 DRAFT** · **9/9 beats** · **Movement II closes** · bridge chain **PASS** Ch 36→37 · Ch 37→38
 
 ---
 
 ## Next
 
-**Ch 37 v3 prose** when authorized · Batch 9: **Ch 38–40 v2** · **Movement III** opens Ch 39 spine
+**Ch 38 v3 prose** when authorized · Batch 9 **Ch 38–40 v2** · **Movement III** opens Ch 39

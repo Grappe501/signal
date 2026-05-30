@@ -61,7 +61,7 @@
 
 **Transition:** **Hard cut** Ch 20 · **no** HVI preview · **no** Mercer.
 
-**Bridge in:** `Draft/018_chapter_18_ch19_bridge_audit.md` (**PENDING** · map v2)  
+**Bridge in:** `Draft/018_chapter_18_ch19_bridge_audit.md` (**PASS** v4)  
 **Bridge out:** `Draft/019_chapter_19_ch20_bridge_audit.md` (**PENDING** · map v2)
 
 ---

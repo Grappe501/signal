@@ -63,7 +63,7 @@ Mara **returns** to Cass **post-failure** — fire circle **comfort** · **unopt
 
 **Transition:** **Hard cut** Ch 33 · **no** Iona preview.
 
-**Bridge in:** `Draft/031_chapter_31_ch32_bridge_audit.md` (**PENDING** · map v2)  
+**Bridge in:** `Draft/031_chapter_31_ch32_bridge_audit.md` (**PASS** v4)  
 **Bridge out:** `Draft/032_chapter_32_ch33_bridge_audit.md` (**PENDING** · map v2)
 
 ---
