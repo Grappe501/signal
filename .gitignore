@@ -1,0 +1,27 @@
+# Dependencies & caches
+node_modules/
+.npm-cache/
+.pip-cache/
+
+# Local / secrets
+.env
+.env.local
+.env.*
+.gnupg/
+.local/
+
+# OS & editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Temp
+tmp/
+*.tmp
+
+# Netlify local
+reader/.netlify/
+
+# Large or generated local artifacts (keep source in repo)
+# Uncomment if needed:
+# reader/source/

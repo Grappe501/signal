@@ -1,0 +1,12 @@
+{
+  "name": "the-second-self-reader",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "setup": "node scripts/setup-source.mjs",
+    "manifest": "node scripts/build-manifest.mjs",
+    "build": "node scripts/setup-source.mjs && node scripts/build-book.mjs",
+    "dev": "npx serve .",
+    "ingest-key": "node scripts/ingest-api-key.mjs"
+  }
+}

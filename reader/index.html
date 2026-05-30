@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="paper">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="The Second Self — Book 1 of The Signal Cycle. Read or listen online.">
+  <meta name="theme-color" content="#0f1419">
+  <title>The Second Self</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/reader.css">
+</head>
+<body>
+  <div class="ambient-bg" aria-hidden="true"></div>
+
+  <div id="progress-bar" class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+    <div id="progress-fill" class="progress-fill"></div>
+  </div>
+
+  <div id="app">
+    <aside id="sidebar" class="sidebar">
+      <header class="sidebar-header">
+        <a href="#" id="home-link" class="home-link">
+          <span class="book-mark">◈</span>
+          <h1 class="book-title">The Second Self</h1>
+          <p class="book-subtitle">Book 1 · The Signal Cycle</p>
+        </a>
+        <div class="sidebar-actions">
+          <button id="continue-reading" class="btn btn-primary hidden">Continue reading</button>
+          <button id="read-through" class="btn btn-ghost">From the beginning</button>
+          <label class="toggle-row">
+            <input type="checkbox" id="prose-only-sidebar">
+            <span class="toggle-track"><span class="toggle-thumb"></span></span>
+            <span>Prose only</span>
+          </label>
+        </div>
+        <div class="toc-search-wrap">
+          <input type="search" id="toc-search" class="toc-search" placeholder="Find a chapter…" aria-label="Search chapters">
+        </div>
+      </header>
+      <nav id="toc" class="toc" aria-label="Table of contents"></nav>
+      <footer class="sidebar-footer">
+        <div class="legend">
+          <span><i class="dot prose"></i> v8</span>
+          <span><i class="dot v6"></i> v6</span>
+          <span><i class="dot v5"></i> v5</span>
+          <span><i class="dot outline"></i> outline</span>
+        </div>
+      </footer>
+    </aside>
+
+    <div id="sidebar-backdrop" class="sidebar-backdrop"></div>
+
+    <div class="reader-wrap">
+      <header id="toolbar" class="toolbar">
+        <button id="menu-toggle" class="toolbar-btn" aria-label="Table of contents" title="Contents (T)">
+          <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 4h14M2 9h14M2 14h14"/></svg>
+        </button>
+        <span id="toolbar-title" class="toolbar-title"></span>
+        <div class="toolbar-controls">
+          <button id="listen-toggle" class="toolbar-btn toolbar-btn-listen" aria-label="Listen to chapter" title="Listen (L)">
+            <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor"><path d="M8 2a3 3 0 0 0-3 3v3a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3zm-5 6v1a5 5 0 0 0 10 0V8h1.5a.5.5 0 0 1 .5.5v2a6.5 6.5 0 0 1-13 0v-2a.5.5 0 0 1 .5-.5H3z"/></svg>
+          </button>
+          <button id="prose-only-toggle" class="toolbar-btn toolbar-btn-toggle" aria-label="Prose only" title="Prose only (P)">P</button>
+          <button id="font-down" class="toolbar-btn" aria-label="Smaller text" title="A−">A−</button>
+          <button id="font-up" class="toolbar-btn" aria-label="Larger text" title="A+">A+</button>
+          <button id="theme-toggle" class="toolbar-btn" aria-label="Cycle theme" title="Theme">◐</button>
+          <button id="focus-toggle" class="toolbar-btn" aria-label="Focus mode" title="Focus (F)">⛶</button>
+          <button id="print-chapter" class="toolbar-btn" aria-label="Print" title="Print">⎙</button>
+        </div>
+      </header>
+
+      <main id="reader" class="reader">
+        <div id="welcome" class="welcome">
+          <div class="cover">
+            <div class="cover-frame">
+              <p class="cover-series">The Signal Cycle · Book 1</p>
+              <h2 class="cover-title">The Second Self</h2>
+              <div class="cover-rule"></div>
+              <p class="cover-lede">Five years from now, society runs on neural-linked robot duplicates — one legal Second per person. When a hacker activates a second duplicate of himself, two protective replicas tear through the world to save a human who may no longer exist.</p>
+            </div>
+            <div class="cover-glow" aria-hidden="true"></div>
+          </div>
+
+          <div class="welcome-stats" id="stats"></div>
+
+          <div class="welcome-actions">
+            <button id="start-reading" class="btn btn-primary btn-lg">Read · Prologue</button>
+            <button id="start-listen" class="btn btn-accent btn-lg">Listen · Prologue</button>
+            <button id="start-prose" class="btn btn-ghost btn-lg">Prose-only mode</button>
+            <button id="continue-welcome" class="btn btn-ghost btn-lg hidden">Continue where you left off</button>
+          </div>
+
+          <p class="welcome-note">34 chapters of finished prose · 44 outline previews · read or listen with ElevenLabs</p>
+          <div class="part-map" id="part-map"></div>
+        </div>
+
+        <article id="chapter-view" class="chapter-view hidden">
+          <div id="scroll-hint" class="scroll-hint hidden">Resumed where you left off</div>
+          <div class="print-header print-only">
+            <p class="print-book-title">The Second Self · Book 1</p>
+            <p class="print-chapter-label" id="print-chapter-label"></p>
+          </div>
+          <div id="part-banner" class="part-banner hidden"></div>
+          <header class="chapter-header" id="chapter-header">
+            <p class="chapter-meta" id="chapter-meta"></p>
+            <h2 id="chapter-title"></h2>
+            <div class="chapter-meta-row">
+              <span id="phase-badge" class="phase-badge"></span>
+              <span id="read-time" class="read-time"></span>
+            </div>
+          </header>
+          <div id="chapter-body" class="chapter-body"></div>
+          <nav class="chapter-nav" aria-label="Chapter navigation">
+            <a id="nav-prev" class="nav-card nav-prev" href="#">
+              <span class="nav-label">← Previous</span>
+              <span class="nav-title" id="nav-prev-title"></span>
+            </a>
+            <a id="nav-next" class="nav-card nav-next" href="#">
+              <span class="nav-label">Next →</span>
+              <span class="nav-title" id="nav-next-title"></span>
+            </a>
+          </nav>
+        </article>
+      </main>
+    </div>
+  </div>
+
+  <!-- Text-to-speech player -->
+  <aside id="tts-panel" class="tts-panel hidden" aria-label="Audio reader">
+    <div class="tts-inner">
+      <div class="tts-info">
+        <span class="tts-label">Listening</span>
+        <span id="tts-chapter-title" class="tts-chapter"></span>
+      </div>
+      <div class="tts-progress-wrap">
+        <div id="tts-progress" class="tts-progress"><div id="tts-progress-fill" class="tts-progress-fill"></div></div>
+        <span id="tts-segment" class="tts-segment">0 / 0</span>
+      </div>
+      <div class="tts-controls">
+        <button id="tts-prev" class="tts-btn" aria-label="Previous paragraph" title="Previous ¶">⏮</button>
+        <button id="tts-play" class="tts-btn tts-btn-play" aria-label="Play" title="Play / Pause (Space)">▶</button>
+        <button id="tts-next" class="tts-btn" aria-label="Next paragraph" title="Next ¶">⏭</button>
+        <button id="tts-stop" class="tts-btn" aria-label="Stop" title="Stop">■</button>
+      </div>
+      <div class="tts-settings">
+        <label class="tts-setting">
+          <span>Engine</span>
+          <select id="tts-engine" aria-label="TTS engine">
+            <option value="elevenlabs">ElevenLabs</option>
+            <option value="browser">Browser</option>
+          </select>
+        </label>
+        <label class="tts-setting tts-voice-wrap hidden" id="tts-voice-wrap">
+          <span>Voice</span>
+          <select id="tts-voice" aria-label="Voice"></select>
+        </label>
+        <label class="tts-setting">
+          <span>Speed</span>
+          <input type="range" id="tts-rate" min="0.7" max="1.4" step="0.05" value="1">
+          <span id="tts-rate-val">1×</span>
+        </label>
+        <div class="tts-setting tts-api-wrap hidden" id="tts-api-wrap">
+          <span>API key</span>
+          <input type="password" id="tts-api-key" class="tts-api-input" placeholder="xi-…" autocomplete="off" spellcheck="false">
+          <button type="button" id="tts-api-save" class="tts-api-save">Save</button>
+        </div>
+        <label class="tts-setting tts-continuous-wrap">
+          <input type="checkbox" id="tts-continuous" checked>
+          Auto-advance chapters
+        </label>
+        <span id="tts-status" class="tts-status" aria-live="polite"></span>
+      </div>
+      <button id="tts-close" class="tts-close" aria-label="Close audio reader">×</button>
+    </div>
+  </aside>
+
+  <div id="shortcuts" class="shortcuts-panel hidden" role="dialog" aria-label="Keyboard shortcuts">
+    <div class="shortcuts-inner">
+      <h3>Keyboard shortcuts</h3>
+      <dl>
+        <dt>← / →</dt><dd>Previous / next chapter</dd>
+        <dt>J / K</dt><dd>Next / previous chapter</dd>
+        <dt>L</dt><dd>Listen to chapter</dd>
+        <dt>Space</dt><dd>Play / pause audio</dd>
+        <dt>T</dt><dd>Toggle contents</dd>
+        <dt>F</dt><dd>Focus mode</dd>
+        <dt>P</dt><dd>Prose only</dd>
+        <dt>?</dt><dd>This panel</dd>
+      </dl>
+      <button id="shortcuts-close" class="btn btn-ghost">Close</button>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="js/tts.js"></script>
+  <script src="js/reader.js"></script>
+</body>
+</html>

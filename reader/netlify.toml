@@ -1,0 +1,21 @@
+[build]
+  command = "echo Source committed — skip build"
+  publish = "."
+
+[build.environment]
+  NODE_VERSION = "20"
+
+[functions]
+  directory = "netlify/functions"
+
+[[redirects]]
+  from = "/api/tts"
+  to = "/.netlify/functions/elevenlabs-tts"
+  status = 200
+
+[[redirects]]
+  from = "/api/voices"
+  to = "/.netlify/functions/elevenlabs-voices"
+  status = 200
+
+# Hash-based routing — no SPA catch-all needed (it breaks book.json & chapter fetches)
