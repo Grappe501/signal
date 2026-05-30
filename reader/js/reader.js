@@ -29,6 +29,7 @@ function migrateStoredSettings(saved) {
   if (out.fontScale > 1.08) out.fontScale = 1.05;
   if (out.listenDirector === undefined) out.listenDirector = true;
   if (out.listenPacing == null) out.listenPacing = 1;
+  if (!out.listenPreset) out.listenPreset = "standard";
   if (out.scrollPositions) {
     for (const key of Object.keys(out.scrollPositions)) {
       out.scrollPositions[key] = normalizeScrollPosition(out.scrollPositions[key]);
@@ -85,6 +86,7 @@ function defaults() {
     ttsEngine: "browser",
     listenDirector: true,
     listenPacing: 1,
+    listenPreset: "standard",
     elevenLabsVoice: "",
     elevenLabsModel: "eleven_turbo_v2_5",
     elevenLabsApiKey: "",

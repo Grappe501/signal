@@ -226,10 +226,19 @@
           <span>Engine</span>
           <select id="tts-engine" aria-label="TTS engine">
             <option value="browser">Browser (device voice)</option>
+            <option value="hosted">Hosted (Piper MP3)</option>
             <option value="elevenlabs">ElevenLabs (Pro)</option>
           </select>
         </label>
         <p id="tts-upgrade-hint" class="tts-engine-hint"></p>
+        <div class="tts-setting tts-preset-wrap">
+          <span>Mood</span>
+          <div id="tts-preset-group" class="tts-preset-group" role="group" aria-label="Listen mood preset">
+            <button type="button" class="tts-preset-btn" data-preset="calm">Calm</button>
+            <button type="button" class="tts-preset-btn" data-preset="standard">Standard</button>
+            <button type="button" class="tts-preset-btn" data-preset="urgent">Urgent</button>
+          </div>
+        </div>
         <label class="tts-setting tts-voice-wrap hidden" id="tts-voice-wrap">
           <span>Voice</span>
           <select id="tts-voice" aria-label="Voice"></select>
@@ -292,6 +301,8 @@
   <script src="js/share.js"></script>
   <script src="js/touch.js"></script>
   <script src="js/listen-script.js"></script>
+  <script src="js/listen-presets.js"></script>
+  <script src="js/hosted-audio.js"></script>
   <script src="js/tts.js"></script>
   <script src="js/reader.js"></script>
   <script>

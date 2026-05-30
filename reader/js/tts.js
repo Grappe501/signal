@@ -33,6 +33,10 @@ const TTS = (() => {
   let segmentEnding = false;
   let chapterMeta = null;
   let wakeLock = null;
+  let hostedAvailable = false;
+  let hostedTimeline = null;
+  let hostedChapterEntry = null;
+  let hostedFileIndex = 0;
 
   const $ = (id) => document.getElementById(id);
 
@@ -95,7 +99,25 @@ const TTS = (() => {
 
   function supported() {
     if ("speechSynthesis" in window) return true;
+    if (hostedAvailable) return true;
     return proxyAvailable === true || !!getSettings().elevenLabsApiKey;
+  }
+
+  async function refreshHostedAvailability() {
+    if (typeof HostedAudio === "undefined") {
+      hostedAvailable = false;
+    } else {
+      hostedAvailable = await HostedAudio.isAvailable();
+    }
+    const opt = document.querySelector('#tts-engine option[value="hosted"]');
+    if (opt) {
+      opt.disabled = !hostedAvailable;
+      if (!hostedAvailable && engine() === "hosted") {
+        const eng = $("tts-engine");
+        if (eng) eng.value = "browser";
+      }
+    }
+    updateEngineHint();
   }
 
   function engine() {
@@ -122,9 +144,18 @@ const TTS = (() => {
     const s = getSettings();
     if (engine() === "browser") {
       const director = getSettings().listenDirector !== false;
+      const preset = getSettings().listenPreset || "standard";
+      const presetLabel =
+        typeof ListenPresets !== "undefined"
+          ? ListenPresets.get(preset).label
+          : preset;
       hint.textContent = director
-        ? "Smart narration — POV voice, dialogue pacing, pauses (free · device)."
+        ? `Smart narration · ${presetLabel} mood (free · device).`
         : "Plain device voice. Enable Smart narration below for audiobook pacing.";
+    } else if (engine() === "hosted") {
+      hint.textContent = hostedAvailable
+        ? "Self-hosted Piper audio — no API cost; bandwidth only (~2–4 GB full book)."
+        : "No audio/manifest.json yet. Run npm run piper:batch locally, deploy reader/audio/.";
     } else if (proxyAvailable || s.elevenLabsApiKey) {
       hint.textContent = "ElevenLabs narration — high quality, requires API access.";
     } else {
@@ -383,11 +414,17 @@ const TTS = (() => {
     return true;
   }
 
+  function clearHostedSync() {
+    if (audio) audio.ontimeupdate = null;
+    hostedTimeline = null;
+  }
+
   function releaseAudio() {
     if (audio) {
       audio.onended = null;
       audio.onerror = null;
       audio.onstalled = null;
+      audio.ontimeupdate = null;
       audio.pause();
       audio.src = "";
       audio = null;
@@ -833,6 +870,161 @@ const TTS = (() => {
     }
   }
 
+  function hostedSpeechFiles(entry) {
+    return (entry?.segments || []).filter((s) => s.kind === "speech" && s.file);
+  }
+
+  function finishHostedChapter() {
+    speaking = false;
+    paused = false;
+    loading = false;
+    clearHostedSync();
+    updatePlayBtn();
+    if (continuousListen && onEndCallback) {
+      setStatus("Next chapter…");
+      onEndCallback();
+      return;
+    }
+    setStatus("Hosted · paused");
+  }
+
+  async function playHostedChapterFile(entry) {
+    releaseAudio();
+    clearHostedSync();
+    loading = true;
+    updatePlayBtn();
+    setStatus("Loading hosted audio…");
+
+    const url = HostedAudio.audioUrl(entry.file);
+    audio = new Audio(url);
+    audio.preload = "auto";
+    audio.playsInline = true;
+    audio.setAttribute("playsinline", "");
+    audio.playbackRate = getSettings().speechRate || 1;
+    hostedTimeline = HostedAudio.buildTimeline(segments);
+    let lastSeg = -1;
+    let lastCue = -1;
+
+    audio.ontimeupdate = () => {
+      if (!audio.duration || !hostedTimeline) return;
+      const ratio = audio.currentTime / audio.duration;
+      const si = hostedTimeline.segmentAt(ratio);
+      const ci = hostedTimeline.cueAt(si, ratio);
+      if (si !== lastSeg || ci !== lastCue) {
+        lastSeg = si;
+        lastCue = ci;
+        index = si;
+        cueIndex = ci;
+        highlightCue(si, ci);
+      }
+    };
+
+    audio.onended = () => finishHostedChapter();
+    audio.onerror = () => {
+      loading = false;
+      speaking = false;
+      setStatus("Hosted playback error");
+      updatePlayBtn();
+    };
+
+    try {
+      await audio.play();
+      speaking = true;
+      paused = false;
+      loading = false;
+      requestWakeLock();
+      if (chapterMeta) updateMediaSession(chapterMeta);
+      setStatus("Hosted");
+      updatePlayBtn();
+    } catch (e) {
+      loading = false;
+      speaking = false;
+      setStatus("Hosted audio blocked — tap play again");
+      updatePlayBtn();
+    }
+  }
+
+  async function playHostedSegmentFile(fileIdx) {
+    const entry = hostedChapterEntry;
+    const files = hostedSpeechFiles(entry);
+    if (!files.length || fileIdx >= files.length) {
+      finishHostedChapter();
+      return;
+    }
+
+    const segIdx = Math.min(fileIdx, Math.max(0, segments.length - 1));
+    index = segIdx;
+    cueIndex = 0;
+    highlightCue(segIdx, 0);
+
+    releaseAudio();
+    loading = true;
+    updatePlayBtn();
+
+    const url = HostedAudio.audioUrl(files[fileIdx].file);
+    audio = new Audio(url);
+    audio.preload = "auto";
+    audio.playsInline = true;
+    audio.setAttribute("playsinline", "");
+    audio.playbackRate = getSettings().speechRate || 1;
+
+    audio.onended = () => {
+      hostedFileIndex = fileIdx + 1;
+      if (hostedFileIndex < files.length) {
+        const delay = isAppleTouch() ? 100 : 40;
+        setTimeout(() => playHostedSegmentFile(hostedFileIndex), delay);
+        return;
+      }
+      finishHostedChapter();
+    };
+
+    audio.onerror = () => {
+      loading = false;
+      speaking = false;
+      setStatus("Hosted segment error");
+      updatePlayBtn();
+    };
+
+    try {
+      await audio.play();
+      speaking = true;
+      paused = false;
+      loading = false;
+      requestWakeLock();
+      if (chapterMeta) updateMediaSession(chapterMeta);
+      setStatus(`Hosted · ${fileIdx + 1}/${files.length}`);
+      updatePlayBtn();
+    } catch (e) {
+      loading = false;
+      updatePlayBtn();
+    }
+  }
+
+  async function speakHosted() {
+    if (typeof HostedAudio === "undefined") {
+      setStatus("Hosted audio unavailable");
+      if ("speechSynthesis" in window) speakBrowser();
+      return;
+    }
+    const entry = await HostedAudio.chapterEntry(chapterMeta?.id);
+    if (!entry?.file && !hostedSpeechFiles(entry).length) {
+      setStatus("No hosted file — run npm run piper:batch");
+      if ("speechSynthesis" in window) speakBrowser();
+      return;
+    }
+    hostedChapterEntry = entry;
+    if (entry.mode === "segment" && hostedSpeechFiles(entry).length) {
+      hostedFileIndex = Math.min(index, hostedSpeechFiles(entry).length - 1);
+      playHostedSegmentFile(hostedFileIndex);
+      return;
+    }
+    if (entry.file) {
+      playHostedChapterFile(entry);
+      return;
+    }
+    setStatus("Invalid hosted manifest entry");
+  }
+
   async function speakElevenLabs() {
     if (!segments[index]) return;
     if (!(await ensureElevenLabsVoice())) {
@@ -898,6 +1090,10 @@ const TTS = (() => {
       speakBrowser();
       return;
     }
+    if (engine() === "hosted") {
+      await speakHosted();
+      return;
+    }
     if (await elevenLabsAvailable()) {
       speakElevenLabs();
       return;
@@ -927,7 +1123,7 @@ const TTS = (() => {
   function toggle() {
     if (!segments.length) return;
 
-    if (engine() === "elevenlabs" && audio) {
+    if ((engine() === "elevenlabs" || engine() === "hosted") && audio) {
       if (!speaking && !loading) {
         play(index);
         return;
@@ -1008,6 +1204,41 @@ const TTS = (() => {
     return 0;
   }
 
+  function syncPresetUi() {
+    const s = getSettings();
+    const id =
+      typeof ListenPresets !== "undefined"
+        ? ListenPresets.matchesPreset(s.speechRate, s.listenPacing)
+        : "standard";
+    s.listenPreset = id;
+    document.querySelectorAll(".tts-preset-btn").forEach((btn) => {
+      const active = btn.dataset.preset === id;
+      btn.classList.toggle("active", active);
+      btn.setAttribute("aria-pressed", active ? "true" : "false");
+    });
+  }
+
+  function applyListenPreset(presetId) {
+    if (typeof ListenPresets === "undefined") return;
+    const s = getSettings();
+    Object.assign(s, ListenPresets.apply(presetId, s));
+    saveSettings();
+    const rateEl = $("tts-rate");
+    const rateVal = $("tts-rate-val");
+    const pacingEl = $("tts-pacing");
+    const pacingVal = $("tts-pacing-val");
+    if (rateEl) rateEl.value = s.speechRate;
+    if (rateVal) rateVal.textContent = `${(s.speechRate || 1).toFixed(1)}×`;
+    if (pacingEl) pacingEl.value = s.listenPacing;
+    if (pacingVal) pacingVal.textContent = `${(s.listenPacing ?? 1).toFixed(2)}×`;
+    if (typeof ListenScript !== "undefined") {
+      ListenScript.setPacingMultiplier(s.listenPacing ?? 1);
+    }
+    if (audio) audio.playbackRate = s.speechRate || 1;
+    syncPresetUi();
+    updateEngineHint();
+  }
+
   function onEngineChange() {
     const sel = $("tts-engine");
     if (!sel) return;
@@ -1057,19 +1288,29 @@ const TTS = (() => {
         const v = parseFloat(e.target.value);
         const s = getSettings();
         s.listenPacing = v;
+        s.listenPreset = "custom";
         saveSettings();
         if (pacingVal) pacingVal.textContent = `${v.toFixed(2)}×`;
         if (typeof ListenScript !== "undefined") ListenScript.setPacingMultiplier(v);
+        syncPresetUi();
       });
     }
+
+    document.querySelectorAll(".tts-preset-btn").forEach((btn) => {
+      btn.addEventListener("click", () => {
+        applyListenPreset(btn.dataset.preset);
+      });
+    });
 
     $("tts-rate")?.addEventListener("input", (e) => {
       const rate = parseFloat(e.target.value);
       $("tts-rate-val").textContent = `${rate.toFixed(1)}×`;
       const s = getSettings();
       s.speechRate = rate;
+      s.listenPreset = "custom";
       saveSettings();
       if (audio) audio.playbackRate = rate;
+      syncPresetUi();
     });
 
     $("tts-voice")?.addEventListener("change", (e) => {
@@ -1151,12 +1392,24 @@ const TTS = (() => {
         ListenScript.setPacingMultiplier(s.listenPacing ?? 1);
       }
 
+      if (typeof ListenPresets !== "undefined" && s.listenPreset && s.listenPreset !== "custom") {
+        const p = ListenPresets.get(s.listenPreset);
+        if (
+          Math.abs((s.speechRate || 1) - p.speechRate) > 0.05 ||
+          Math.abs((s.listenPacing ?? 1) - p.listenPacing) > 0.05
+        ) {
+          applyListenPreset(s.listenPreset);
+        }
+      }
+      syncPresetUi();
+
       const keyInput = $("tts-api-key");
       if (keyInput && s.elevenLabsApiKey) {
         keyInput.value = s.elevenLabsApiKey;
       }
 
       bootstrapEngine();
+      refreshHostedAvailability();
       updateContinuousUi();
     },
 

@@ -5,3 +5,17 @@ node_modules/
 
 # Local Netlify folder
 .netlify
+
+# Self-hosted Piper output (large)
+audio/*.wav
+audio/*.mp3
+audio/**/*.wav
+audio/**/*.mp3
+audio/manifest.json
+!audio/.gitkeep
+!audio/README.md
+!audio/manifest.example.json
+
+voices/**/*.onnx
+voices/**/*.onnx.json
+!voices/.gitkeep

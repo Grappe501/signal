@@ -1800,6 +1800,41 @@ body.focus-mode .tts-player { left: 0; }
   color: var(--ink-muted);
 }
 
+.tts-preset-wrap {
+  grid-column: 1 / -1;
+}
+
+.tts-preset-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-top: 0.35rem;
+}
+
+.tts-preset-btn {
+  font-family: var(--font-sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.35rem 0.65rem;
+  border-radius: 999px;
+  border: 1px solid var(--line);
+  background: var(--surface-elevated);
+  color: var(--ink-muted);
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+}
+
+.tts-preset-btn:hover {
+  color: var(--ink);
+  border-color: var(--line-strong);
+}
+
+.tts-preset-btn.active {
+  background: var(--signal-dim);
+  border-color: var(--signal);
+  color: var(--signal-bright);
+}
+
 .tts-settings-inner h3 {
   font-family: var(--font-sans);
   font-size: 0.78rem;

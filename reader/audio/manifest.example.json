@@ -1,0 +1,21 @@
+{
+  "version": 1,
+  "generatedAt": "2026-01-01T00:00:00.000Z",
+  "voice": "en_US-lessac-medium",
+  "format": "mp3",
+  "mode": "chapter",
+  "chapters": {
+    "prologue": {
+      "mode": "chapter",
+      "file": "prologue.mp3",
+      "bytes": 0,
+      "charCount": 0
+    },
+    "ch-01": {
+      "mode": "chapter",
+      "file": "ch-01.mp3",
+      "bytes": 0,
+      "charCount": 0
+    }
+  }
+}

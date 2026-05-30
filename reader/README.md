@@ -69,6 +69,10 @@ Settings key: `signal-reader-v3.3` (includes `bookmarks` array).
 
 **Pacing** slider in audio settings (0.6×–1.4×) adjusts pauses between lines and scene breaks (`---` in the manuscript).
 
+**Mood presets** — **Calm / Standard / Urgent** set speech speed and pause pacing together (custom if you move the sliders).
+
+**Hosted (Piper MP3)** — optional self-hosted narration (`npm run piper:batch`); see `audio/README.md`. No API cost; deploy `reader/audio/` with your site (~2–4 GB full book).
+
 **Character dialogue** — attributed lines (`Mara said`, etc.) use distinct rate/pitch (and a second device voice when available).
 
 **Lock screen** — Media Session shows chapter title; play/pause from Control Center on supported devices.

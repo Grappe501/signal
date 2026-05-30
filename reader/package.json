@@ -7,6 +7,9 @@
     "vendor": "node scripts/vendor-marked.mjs",
     "manifest": "node scripts/build-manifest.mjs",
     "build": "node scripts/vendor-marked.mjs && node scripts/setup-source.mjs && node scripts/build-book.mjs",
+    "piper:check": "node scripts/piper-batch.mjs --check",
+    "piper:batch": "node scripts/piper-batch.mjs",
+    "piper:batch:dry": "node scripts/piper-batch.mjs --dry-run --limit 2",
     "dev": "npx serve . -c serve.json",
     "ingest-key": "node scripts/ingest-api-key.mjs"
   },
