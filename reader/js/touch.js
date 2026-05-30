@@ -61,6 +61,8 @@ const TouchNav = (() => {
   }
 
   function handleTap(clientX) {
+    if (isScrollLayout()) return;
+
     const surface = readingSurface();
     if (!surface || surface.classList.contains("hidden")) return;
 
@@ -87,6 +89,18 @@ const TouchNav = (() => {
     const t = e.changedTouches[0];
     const dx = t.clientX - startX;
     const dy = t.clientY - startY;
+
+    if (isScrollLayout()) {
+      if (Math.abs(dx) < SWIPE_MIN || Math.abs(dx) <= Math.abs(dy) * 1.25) return;
+      const sc = getScrollEl();
+      if (!sc) return;
+      if (dx < 0 && !scrollAtEnd(sc)) return;
+      if (dx > 0 && !scrollAtStart(sc)) return;
+      e.preventDefault();
+      if (dx < 0) navForward();
+      else navBack();
+      return;
+    }
 
     if (Math.abs(dy) > SWIPE_MAX_VERTICAL && Math.abs(dy) > Math.abs(dx)) return;
 

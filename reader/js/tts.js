@@ -25,8 +25,69 @@ const TTS = (() => {
   let voices = [];
   let proxyAvailable = null;
   let elevenLabsReady = null;
+  let textChunks = [];
+  let chunkIndex = 0;
+  let iosKeepAlive = null;
+  let segmentEnding = false;
 
   const $ = (id) => document.getElementById(id);
+
+  function isAppleTouch() {
+    return (
+      /iPad|iPhone|iPod/.test(navigator.userAgent) ||
+      (navigator.platform === "MacIntel" && navigator.maxTouchPoints > 1)
+    );
+  }
+
+  function chunkMaxLen() {
+    if (isAppleTouch()) return 200;
+    return engine() === "elevenlabs" ? 1800 : 900;
+  }
+
+  function splitTextChunks(text, maxLen) {
+    const trimmed = text.replace(/\s+/g, " ").trim();
+    if (!trimmed) return [];
+    if (trimmed.length <= maxLen) return [trimmed];
+
+    const parts = trimmed.split(/(?<=[.!?…])\s+/);
+    const chunks = [];
+    let buf = "";
+
+    for (const part of parts) {
+      const next = buf ? `${buf} ${part}` : part;
+      if (next.length > maxLen && buf) {
+        chunks.push(buf.trim());
+        buf = part;
+      } else {
+        buf = next;
+      }
+    }
+    if (buf.trim()) chunks.push(buf.trim());
+
+    if (!chunks.length) {
+      for (let i = 0; i < trimmed.length; i += maxLen) {
+        chunks.push(trimmed.slice(i, i + maxLen));
+      }
+    }
+    return chunks;
+  }
+
+  function startIosKeepAlive() {
+    stopIosKeepAlive();
+    if (!isAppleTouch() || !("speechSynthesis" in window)) return;
+    iosKeepAlive = setInterval(() => {
+      if (!speechSynthesis.speaking || speechSynthesis.paused) return;
+      speechSynthesis.pause();
+      speechSynthesis.resume();
+    }, 7000);
+  }
+
+  function stopIosKeepAlive() {
+    if (iosKeepAlive) {
+      clearInterval(iosKeepAlive);
+      iosKeepAlive = null;
+    }
+  }
 
   function supported() {
     if ("speechSynthesis" in window) return true;
@@ -95,7 +156,10 @@ const TTS = (() => {
     if (segments[i]?.el) {
       segments[i].el.classList.add("tts-active");
       if (document.body.classList.contains("layout-scroll")) {
-        segments[i].el.scrollIntoView({ block: "center", behavior: "smooth" });
+        segments[i].el.scrollIntoView({
+          block: "center",
+          behavior: isAppleTouch() ? "auto" : "smooth",
+        });
       } else if (window.BookPages) {
         BookPages.showSpreadContaining(segments[i].el);
       }
@@ -181,7 +245,9 @@ const TTS = (() => {
     if (audio) {
       audio.onended = null;
       audio.onerror = null;
+      audio.onstalled = null;
       audio.pause();
+      audio.src = "";
       audio = null;
     }
     if (audioUrl) {
@@ -190,9 +256,23 @@ const TTS = (() => {
     }
   }
 
+  function setupAudioElement(blob) {
+    audioUrl = URL.createObjectURL(blob);
+    audio = new Audio(audioUrl);
+    audio.preload = "auto";
+    audio.playsInline = true;
+    audio.setAttribute("playsinline", "");
+    audio.playbackRate = getSettings().speechRate || 1;
+    return audio;
+  }
+
   function stop(clearContinuous = true) {
     abortCtrl?.abort();
     abortCtrl = null;
+    segmentEnding = false;
+    textChunks = [];
+    chunkIndex = 0;
+    stopIosKeepAlive();
     if (engine() === "browser") speechSynthesis.cancel();
     releaseAudio();
     speaking = false;
@@ -243,10 +323,16 @@ const TTS = (() => {
     if (saved) select.value = saved;
   }
 
-  function speakBrowser() {
-    if (!segments[index]) return;
+  function speakBrowserChunk() {
+    if (!segments[index] || !textChunks[chunkIndex]) {
+      textChunks = [];
+      chunkIndex = 0;
+      finishSegment();
+      return;
+    }
+
     speechSynthesis.cancel();
-    const utt = new SpeechSynthesisUtterance(segments[index].text);
+    const utt = new SpeechSynthesisUtterance(textChunks[chunkIndex]);
     const settings = getSettings();
     utt.rate = settings.speechRate || 1;
     utt.pitch = 1;
@@ -259,16 +345,52 @@ const TTS = (() => {
       loading = false;
       updatePlayBtn();
       highlight(index);
-      setStatus("Device voice");
+      const tag = isAppleTouch() ? "Device voice · iPad" : "Device voice";
+      setStatus(
+        textChunks.length > 1
+          ? `${tag} · ${chunkIndex + 1}/${textChunks.length}`
+          : tag
+      );
+      startIosKeepAlive();
     };
 
-    utt.onend = () => onSegmentEnd();
-    utt.onerror = () => {
-      speaking = false;
-      updatePlayBtn();
+    utt.onend = () => {
+      chunkIndex++;
+      if (chunkIndex < textChunks.length) {
+        setTimeout(speakBrowserChunk, isAppleTouch() ? 120 : 30);
+        return;
+      }
+      textChunks = [];
+      chunkIndex = 0;
+      stopIosKeepAlive();
+      finishSegment();
+    };
+
+    utt.onerror = (ev) => {
+      console.warn("Browser TTS error:", ev?.error || ev);
+      stopIosKeepAlive();
+      chunkIndex++;
+      if (chunkIndex < textChunks.length) {
+        setTimeout(speakBrowserChunk, 150);
+        return;
+      }
+      textChunks = [];
+      chunkIndex = 0;
+      finishSegment();
     };
 
     speechSynthesis.speak(utt);
+  }
+
+  function speakBrowser() {
+    if (!segments[index]) return;
+    textChunks = splitTextChunks(segments[index].text, chunkMaxLen());
+    chunkIndex = 0;
+    if (!textChunks.length) {
+      finishSegment();
+      return;
+    }
+    speakBrowserChunk();
   }
 
   // ── ElevenLabs engine ──
@@ -278,6 +400,9 @@ const TTS = (() => {
     try {
       const res = await fetch("/api/voices", { method: "GET" });
       proxyAvailable = res.ok;
+      if (!res.ok && res.status === 503) {
+        setStatus("ElevenLabs not configured on server — use Browser voice");
+      }
     } catch {
       proxyAvailable = false;
     }
@@ -285,6 +410,18 @@ const TTS = (() => {
     updateApiKeyVisibility();
     updateEngineHint();
     return proxyAvailable;
+  }
+
+  async function ensureElevenLabsVoice() {
+    const s = getSettings();
+    if (s.elevenLabsVoice) return true;
+    if (!voices.length) await fetchVoices();
+    if (!voices.length) return false;
+    s.elevenLabsVoice = voices[0].id;
+    saveSettings();
+    const sel = $("tts-voice");
+    if (sel) sel.value = s.elevenLabsVoice;
+    return true;
   }
 
   function updateApiKeyVisibility() {
@@ -408,8 +545,13 @@ const TTS = (() => {
     synthesize(next.text, AbortSignal.timeout(30000)).catch(() => {});
   }
 
-  async function speakElevenLabs() {
-    if (!segments[index]) return;
+  async function playElevenLabsChunk() {
+    if (!segments[index] || !textChunks[chunkIndex]) {
+      textChunks = [];
+      chunkIndex = 0;
+      finishSegment();
+      return;
+    }
 
     abortCtrl?.abort();
     abortCtrl = new AbortController();
@@ -417,23 +559,42 @@ const TTS = (() => {
 
     loading = true;
     updatePlayBtn();
-    setStatus("Generating…");
+    setStatus(
+      textChunks.length > 1
+        ? `Generating… ${chunkIndex + 1}/${textChunks.length}`
+        : "Generating…"
+    );
     highlight(index);
 
     try {
-      const blob = await synthesize(segments[index].text, abortCtrl.signal);
+      const blob = await synthesize(textChunks[chunkIndex], abortCtrl.signal);
       if (abortCtrl.signal.aborted) return;
 
-      audioUrl = URL.createObjectURL(blob);
-      audio = new Audio(audioUrl);
-      audio.playbackRate = getSettings().speechRate || 1;
+      setupAudioElement(blob);
 
-      audio.onended = () => onSegmentEnd();
+      audio.onended = () => {
+        chunkIndex++;
+        if (chunkIndex < textChunks.length) {
+          playElevenLabsChunk();
+          return;
+        }
+        textChunks = [];
+        chunkIndex = 0;
+        finishSegment();
+      };
+
       audio.onerror = () => {
         speaking = false;
         loading = false;
-        setStatus("Playback error");
+        setStatus("Playback error — retrying…");
         updatePlayBtn();
+        chunkIndex++;
+        if (chunkIndex < textChunks.length) playElevenLabsChunk();
+        else finishSegment();
+      };
+
+      audio.onstalled = () => {
+        if (audio && !audio.paused) audio.play().catch(() => {});
       };
 
       await audio.play();
@@ -448,32 +609,59 @@ const TTS = (() => {
       loading = false;
       speaking = false;
       updatePlayBtn();
+      console.error("ElevenLabs TTS:", e);
       if ("speechSynthesis" in window) {
-        setStatus("ElevenLabs error — using device voice");
+        setStatus("ElevenLabs failed — device voice");
         speakBrowser();
       } else {
-        setStatus("TTS error — check API key");
+        setStatus("TTS error — check API / Netlify key");
       }
-      console.error("ElevenLabs TTS:", e);
     }
   }
 
-  function onSegmentEnd() {
-    if (index < segments.length - 1) {
-      index++;
-      speakCurrent();
+  async function speakElevenLabs() {
+    if (!segments[index]) return;
+    if (!(await ensureElevenLabsVoice())) {
+      setStatus("No ElevenLabs voice — add key or use Browser");
+      if ("speechSynthesis" in window) speakBrowser();
       return;
     }
+
+    textChunks = splitTextChunks(segments[index].text, chunkMaxLen());
+    chunkIndex = 0;
+    if (!textChunks.length) {
+      finishSegment();
+      return;
+    }
+    playElevenLabsChunk();
+  }
+
+  function finishSegment() {
+    if (segmentEnding) return;
+    segmentEnding = true;
+    releaseAudio();
+    stopIosKeepAlive();
+
+    if (index < segments.length - 1) {
+      index++;
+      segmentEnding = false;
+      const delay = isAppleTouch() ? 100 : 0;
+      setTimeout(() => speakCurrent(), delay);
+      return;
+    }
+
     speaking = false;
     paused = false;
     loading = false;
+    segmentEnding = false;
     updatePlayBtn();
+
     if (continuousListen && onEndCallback) {
       setStatus("Next chapter…");
       onEndCallback();
       return;
     }
-    setStatus("");
+    setStatus(engine() === "elevenlabs" ? "ElevenLabs · paused" : "");
   }
 
   async function speakCurrent() {
@@ -681,12 +869,13 @@ const TTS = (() => {
   }
 
   async function bootstrapEngine() {
+    await checkProxy();
     if (engine() === "browser") {
       populateBrowserVoices();
     } else {
       await refreshVoiceList();
+      await ensureElevenLabsVoice();
     }
-    await checkProxy();
     updateEngineHint();
   }
 

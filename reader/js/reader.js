@@ -26,6 +26,7 @@ function loadSettings() {
 
 function migrateStoredSettings(saved) {
   const out = { ...defaults(), ...saved };
+  if (out.fontScale > 1.08) out.fontScale = 1.05;
   if (out.scrollPositions) {
     for (const key of Object.keys(out.scrollPositions)) {
       out.scrollPositions[key] = normalizeScrollPosition(out.scrollPositions[key]);
@@ -68,7 +69,7 @@ function hasResumePosition(pos) {
 function defaults() {
   return {
     theme: "paper",
-    fontScale: 1.12,
+    fontScale: 1.05,
     focusMode: false,
     proseOnly: false,
     readingLayout: "scroll",
