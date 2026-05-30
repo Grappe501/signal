@@ -3577,8 +3577,25 @@
       "source": "source/Book2/Notes/024_trilogy_reader_test_and_scene_design_gate.md",
       "noteFile": "024_trilogy_reader_test_and_scene_design_gate.md",
       "prev": "b2-note-024-trilogy_reader_test_and_book_two_scene_priority",
-      "next": "b2-note-025-settings_evolution",
+      "next": "b2-note-025-legendary_scene_design_phase_a",
       "file": "b2-note-024-trilogy_reader_test_and_scene_design_gate.md"
+    },
+    {
+      "id": "b2-note-025-legendary_scene_design_phase_a",
+      "num": null,
+      "title": "THE SIGNAL CYCLE",
+      "pov": "Architecture",
+      "phase": "b2-arch",
+      "phaseLabel": "Architecture note",
+      "part": "b2-architecture",
+      "prose": false,
+      "book": 2,
+      "kind": "architecture",
+      "source": "source/Book2/Notes/025_legendary_scene_design_phase_a.md",
+      "noteFile": "025_legendary_scene_design_phase_a.md",
+      "prev": "b2-note-024-trilogy_reader_test_and_scene_design_gate",
+      "next": "b2-note-025-settings_evolution",
+      "file": "b2-note-025-legendary_scene_design_phase_a.md"
     },
     {
       "id": "b2-note-025-settings_evolution",
@@ -3593,7 +3610,7 @@
       "kind": "architecture",
       "source": "source/Book2/Notes/025_settings_evolution.md",
       "noteFile": "025_settings_evolution.md",
-      "prev": "b2-note-024-trilogy_reader_test_and_scene_design_gate",
+      "prev": "b2-note-025-legendary_scene_design_phase_a",
       "next": "b2-note-026-the_fall_of_dubai",
       "file": "b2-note-025-settings_evolution.md"
     },
