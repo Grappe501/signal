@@ -73,6 +73,8 @@ Settings key: `signal-reader-v3.3` (includes `bookmarks` array).
 
 **Lock screen** — Media Session shows chapter title; play/pause from Control Center on supported devices.
 
+**Read-along** — while listening, the active line (narration or quoted dialogue) is highlighted inside the paragraph, not just the whole block.
+
 **MP3 pre-render** is optional later — hosting ~78 chapters is roughly **2–4 GB** bandwidth if you self-generate with free tools (Piper); no API cost. Smart device voice is the zero-cost path.
 
 **ElevenLabs (Pro)** — requires `ELEVENLABS_API_KEY` on Netlify (Site → Environment variables). Without it, the reader falls back to Browser voice. Audio settings shows proxy status when you open the panel.

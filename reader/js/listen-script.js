@@ -338,6 +338,72 @@ const ListenScript = (() => {
     return resolveCastVoice(cast);
   }
 
+  function escapeHtml(text) {
+    return text
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;")
+      .replace(/"/g, "&quot;");
+  }
+
+  /** Wrap each speakable cue in a span for read-along highlighting. */
+  function annotateCuesInElement(el, cues) {
+    if (!el || el.dataset.ttsAnnotated === "1") return;
+
+    const speakable = cues.filter((c) => c.role !== "sceneBreak" && c.text?.trim());
+    if (!speakable.length) return;
+
+    if (el.dataset.ttsOriginalHtml == null) {
+      el.dataset.ttsOriginalHtml = el.innerHTML;
+    }
+
+    const html = cues
+      .map((c, cueIdx) => {
+        if (c.role === "sceneBreak" || !c.text?.trim()) return "";
+        const role = c.role || "narration";
+        const speakerAttr = c.speakerLabel
+          ? ` data-tts-speaker="${escapeHtml(c.speakerLabel)}"`
+          : "";
+        return `<span class="tts-cue" data-tts-cue="${cueIdx}" data-tts-role="${role}"${speakerAttr}>${escapeHtml(c.text)}</span>`;
+      })
+      .filter(Boolean)
+      .join(" ");
+
+    el.innerHTML = html;
+    el.dataset.ttsAnnotated = "1";
+
+    cues.forEach((c, cueIdx) => {
+      if (c.role === "sceneBreak" || !c.text?.trim()) return;
+      c.spanEl = el.querySelector(`[data-tts-cue="${cueIdx}"]`);
+    });
+  }
+
+  function restoreElementMarkup(el) {
+    if (!el?.dataset?.ttsAnnotated) return;
+    if (el.dataset.ttsOriginalHtml != null) {
+      el.innerHTML = el.dataset.ttsOriginalHtml;
+      delete el.dataset.ttsOriginalHtml;
+    }
+    delete el.dataset.ttsAnnotated;
+    delete el.dataset.ttsIndex;
+    el.classList.remove("tts-segment", "tts-scene-break", "tts-active", "tts-cue-active");
+    el.querySelectorAll?.(".tts-cue")?.forEach((span) => {
+      span.classList.remove("tts-cue-active");
+    });
+  }
+
+  function restoreChapterMarkup(root) {
+    const scope =
+      root ||
+      document.getElementById("chapter-view") ||
+      document.getElementById("chapter-scroll-inner");
+    if (!scope) return;
+    scope.querySelectorAll("[data-tts-annotated]").forEach(restoreElementMarkup);
+    scope.querySelectorAll(".tts-cue-active, .tts-active").forEach((el) => {
+      el.classList.remove("tts-cue-active", "tts-active");
+    });
+  }
+
   function collectBlocks(bodyEl) {
     if (window.BookPages?.allBlocks?.().length) {
       return window.BookPages.allBlocks().filter((el) => !el.matches("table"));
@@ -405,6 +471,7 @@ const ListenScript = (() => {
       el.dataset.ttsIndex = segments.length;
       el.classList.add("tts-segment");
       if (blockKind === "sceneBreak") el.classList.add("tts-scene-break");
+      else annotateCuesInElement(el, cues);
 
       const flatText = cues.map((c) => c.text).filter(Boolean).join(" ");
       segments.push({
@@ -435,6 +502,8 @@ const ListenScript = (() => {
 
   return {
     buildSegments,
+    annotateCuesInElement,
+    restoreChapterMarkup,
     normalizeText,
     flattenSegmentText,
     refreshVoiceCache,

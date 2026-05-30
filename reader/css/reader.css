@@ -1530,10 +1530,32 @@ body.layout-spread .tap-zone-right { flex: 0 0 18%; max-width: 18%; }
 .phase-badge.v5 { background: var(--badge-v5); }
 .phase-badge.outline { background: var(--badge-outline); }
 
-/* TTS highlight */
-.tts-segment { transition: background 0.3s ease; border-radius: 2px; }
+/* TTS read-along */
+.tts-segment { transition: background 0.25s ease; border-radius: 2px; }
 
-.tts-active {
+.tts-cue {
+  border-radius: 2px;
+  transition: background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tts-cue[data-tts-role="dialogue"] {
+  font-style: normal;
+}
+
+.tts-cue-active {
+  background: var(--signal-dim) !important;
+  box-shadow: inset 3px 0 0 var(--signal-bright);
+  border-radius: 3px;
+}
+
+/* Block container: subtle frame; active line is the .tts-cue span */
+.tts-segment.tts-active:not(.tts-scene-break) {
+  background: color-mix(in srgb, var(--signal-dim) 35%, transparent) !important;
+  box-shadow: none;
+}
+
+.tts-active.tts-scene-break,
+.tts-segment.tts-active:not(:has(.tts-cue-active)) {
   background: var(--signal-dim) !important;
   box-shadow: inset 4px 0 0 var(--signal-bright);
   border-radius: 3px;
@@ -2040,7 +2062,8 @@ body.focus-mode .tts-player { left: 0; }
     color: #000;
   }
 
-  .tts-active { background: none !important; box-shadow: none !important; }
+  .tts-active,
+  .tts-cue-active { background: none !important; box-shadow: none !important; }
 
   @page { margin: 2cm 2.2cm; }
 }
