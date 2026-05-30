@@ -27,8 +27,11 @@ const TTS = (() => {
   let elevenLabsReady = null;
   let textChunks = [];
   let chunkIndex = 0;
+  let cueIndex = 0;
+  let currentCue = null;
   let iosKeepAlive = null;
   let segmentEnding = false;
+  let chapterMeta = null;
 
   const $ = (id) => document.getElementById(id);
 
@@ -117,8 +120,10 @@ const TTS = (() => {
     if (!hint) return;
     const s = getSettings();
     if (engine() === "browser") {
-      hint.textContent =
-        "Using your device voice — free and instant. Choose ElevenLabs (Pro) for studio narration.";
+      const director = getSettings().listenDirector !== false;
+      hint.textContent = director
+        ? "Smart narration — POV voice, dialogue pacing, pauses (free · device)."
+        : "Plain device voice. Enable Smart narration below for audiobook pacing.";
     } else if (proxyAvailable || s.elevenLabsApiKey) {
       hint.textContent = "ElevenLabs narration — high quality, requires API access.";
     } else {
@@ -134,21 +139,56 @@ const TTS = (() => {
     return tmp;
   }
 
-  function prepareSegments(bodyEl) {
-    const blocks = window.BookPages?.allBlocks?.().length
-      ? window.BookPages.allBlocks()
-      : Array.from(bodyEl.querySelectorAll("p, li, blockquote, h2, h3, h4, pre, table, .chapter-opener, .part-banner-inline"));
+  function prepareSegments(bodyEl, chapter) {
+    chapterMeta = chapter || null;
+    const useDirector =
+      engine() === "browser" &&
+      getSettings().listenDirector !== false &&
+      typeof ListenScript !== "undefined";
 
-    segments = [];
-    blocks.forEach((el) => {
-      const text = el.textContent.replace(/\s+/g, " ").trim();
-      if (text.length < 2) return;
-      el.dataset.ttsIndex = segments.length;
-      el.classList.add("tts-segment");
-      segments.push({ el, text });
-    });
+    if (useDirector) {
+      segments = ListenScript.buildSegments(bodyEl, chapter, {
+        listenDirector: true,
+      });
+    } else {
+      const blocks = window.BookPages?.allBlocks?.().length
+        ? window.BookPages.allBlocks()
+        : Array.from(
+            bodyEl.querySelectorAll(
+              "p, li, blockquote, h2, h3, h4, pre, .chapter-opener, .part-banner-inline"
+            )
+          );
+
+      segments = [];
+      blocks.forEach((el) => {
+        if (el.matches("table")) return;
+        const text = (ListenScript?.normalizeText?.(el.textContent) || el.textContent)
+          .replace(/\s+/g, " ")
+          .trim();
+        if (text.length < 2) return;
+        el.dataset.ttsIndex = segments.length;
+        el.classList.add("tts-segment");
+        segments.push({
+          el,
+          text,
+          cues: [{ text, role: "narration", rate: 1, pitch: 1, pauseAfter: 200, voiceURI: null }],
+        });
+      });
+    }
 
     return segments.length;
+  }
+
+  function statusLabel() {
+    const seg = segments[index];
+    if (!seg) return "Device voice";
+    const pov = seg.pov || chapterMeta?.pov;
+    const role = currentCue?.role || "narration";
+    const shortPov = pov ? pov.split("/")[0].trim().split(" ").pop() : "";
+    const director = getSettings().listenDirector !== false && engine() === "browser";
+    if (!director) return isAppleTouch() ? "Device voice · iPad" : "Device voice";
+    const roleTag = role !== "narration" ? ` · ${role}` : "";
+    return `${shortPov || "Listen"}${roleTag}`;
   }
 
   function highlight(i) {
@@ -272,6 +312,8 @@ const TTS = (() => {
     segmentEnding = false;
     textChunks = [];
     chunkIndex = 0;
+    cueIndex = 0;
+    currentCue = null;
     stopIosKeepAlive();
     if (engine() === "browser") speechSynthesis.cancel();
     releaseAudio();
@@ -323,20 +365,62 @@ const TTS = (() => {
     if (saved) select.value = saved;
   }
 
-  function speakBrowserChunk() {
-    if (!segments[index] || !textChunks[chunkIndex]) {
-      textChunks = [];
-      chunkIndex = 0;
+  function beginCue(cue) {
+    currentCue = cue;
+    textChunks = splitTextChunks(cue.text, chunkMaxLen());
+    chunkIndex = 0;
+  }
+
+  function advanceAfterCue() {
+    const seg = segments[index];
+    if (!seg?.cues?.length) {
       finishSegment();
+      return;
+    }
+    const pause = currentCue?.pauseAfter ?? 200;
+    cueIndex++;
+    if (cueIndex < seg.cues.length) {
+      beginCue(seg.cues[cueIndex]);
+      setTimeout(speakBrowserChunk, pause);
+      return;
+    }
+    cueIndex = 0;
+    currentCue = null;
+    textChunks = [];
+    chunkIndex = 0;
+    stopIosKeepAlive();
+    finishSegment();
+  }
+
+  function speakBrowserChunk() {
+    const seg = segments[index];
+    if (!seg?.cues?.length) {
+      finishSegment();
+      return;
+    }
+
+    if (!currentCue || cueIndex >= seg.cues.length) {
+      cueIndex = 0;
+      beginCue(seg.cues[0]);
+    }
+
+    if (!textChunks[chunkIndex]) {
+      advanceAfterCue();
       return;
     }
 
     speechSynthesis.cancel();
     const utt = new SpeechSynthesisUtterance(textChunks[chunkIndex]);
     const settings = getSettings();
-    utt.rate = settings.speechRate || 1;
-    utt.pitch = 1;
-    const voice = pickBrowserVoice(settings.speechVoice || $("tts-voice")?.value);
+    const userRate = settings.speechRate || 1;
+    utt.rate = Math.min(1.45, Math.max(0.72, (currentCue.rate || 1) * userRate));
+    utt.pitch = Math.min(1.35, Math.max(0.75, currentCue.pitch || 1));
+    const voiceUri =
+      currentCue.voiceURI ||
+      settings.speechVoice ||
+      $("tts-voice")?.value ||
+      null;
+    const voice = pickBrowserVoice(voiceUri);
     if (voice) utt.voice = voice;
 
     utt.onstart = () => {
@@ -345,12 +429,14 @@ const TTS = (() => {
       loading = false;
       updatePlayBtn();
       highlight(index);
-      const tag = isAppleTouch() ? "Device voice · iPad" : "Device voice";
-      setStatus(
-        textChunks.length > 1
-          ? `${tag} · ${chunkIndex + 1}/${textChunks.length}`
-          : tag
-      );
+      const tag = statusLabel();
+      const progress =
+        seg.cues.length > 1 || textChunks.length > 1
+          ? ` · ¶${index + 1}/${segments.length}${
+              textChunks.length > 1 ? ` · ${chunkIndex + 1}/${textChunks.length}` : ""
+            }`
+          : "";
+      setStatus(tag + progress);
       startIosKeepAlive();
     };
 
@@ -363,7 +449,7 @@ const TTS = (() => {
       textChunks = [];
       chunkIndex = 0;
       stopIosKeepAlive();
-      finishSegment();
+      advanceAfterCue();
     };
 
     utt.onerror = (ev) => {
@@ -376,7 +462,7 @@ const TTS = (() => {
       }
       textChunks = [];
       chunkIndex = 0;
-      finishSegment();
+      advanceAfterCue();
     };
 
     speechSynthesis.speak(utt);
@@ -384,10 +470,16 @@ const TTS = (() => {
 
   function speakBrowser() {
     if (!segments[index]) return;
-    textChunks = splitTextChunks(segments[index].text, chunkMaxLen());
-    chunkIndex = 0;
-    if (!textChunks.length) {
+    cueIndex = 0;
+    currentCue = null;
+    const seg = segments[index];
+    if (!seg.cues?.length) {
       finishSegment();
+      return;
+    }
+    beginCue(seg.cues[0]);
+    if (!textChunks.length) {
+      advanceAfterCue();
       return;
     }
     speakBrowserChunk();
@@ -627,7 +719,14 @@ const TTS = (() => {
       return;
     }
 
-    textChunks = splitTextChunks(segments[index].text, chunkMaxLen());
+    const flat =
+      typeof ListenScript !== "undefined"
+        ? ListenScript.flattenSegmentText(segments[index])
+        : segments[index].text;
+    textChunks = splitTextChunks(
+      ListenScript?.normalizeText?.(flat) || flat,
+      chunkMaxLen()
+    );
     chunkIndex = 0;
     if (!textChunks.length) {
       finishSegment();
@@ -644,6 +743,10 @@ const TTS = (() => {
 
     if (index < segments.length - 1) {
       index++;
+      cueIndex = 0;
+      currentCue = null;
+      textChunks = [];
+      chunkIndex = 0;
       segmentEnding = false;
       const delay = isAppleTouch() ? 100 : 0;
       setTimeout(() => speakCurrent(), delay);
@@ -815,6 +918,14 @@ const TTS = (() => {
       setContinuousListen(e.target.checked);
     });
 
+    $("tts-director")?.addEventListener("change", (e) => {
+      const s = getSettings();
+      s.listenDirector = e.target.checked;
+      saveSettings();
+      updateEngineHint();
+      if (typeof ListenScript !== "undefined") ListenScript.refreshVoiceCache();
+    });
+
     $("tts-rate")?.addEventListener("input", (e) => {
       const rate = parseFloat(e.target.value);
       $("tts-rate-val").textContent = `${rate.toFixed(1)}×`;
@@ -890,6 +1001,9 @@ const TTS = (() => {
       const eng = $("tts-engine");
       if (eng) eng.value = s.ttsEngine || "browser";
 
+      const directorToggle = $("tts-director");
+      if (directorToggle) directorToggle.checked = s.listenDirector !== false;
+
       const keyInput = $("tts-api-key");
       if (keyInput && s.elevenLabsApiKey) {
         keyInput.value = s.elevenLabsApiKey;
@@ -911,7 +1025,7 @@ const TTS = (() => {
       chapterTitle = ch.title;
       $("tts-chapter-title").textContent = ch.title;
 
-      const count = prepareSegments(bodyEl);
+      const count = prepareSegments(bodyEl, ch);
       const listenBtn = $("listen-toggle");
       if (listenBtn) {
         listenBtn.disabled = count === 0;

@@ -9,6 +9,7 @@ const SHELL = [
   "/js/routes.js",
   "/js/prefetch.js",
   "/js/touch.js",
+  "/js/listen-script.js",
   "/js/bookmarks.js",
   "/js/search.js",
   "/js/share.js",

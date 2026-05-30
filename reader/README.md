@@ -65,7 +65,9 @@ Settings key: `signal-reader-v3.3` (includes `bookmarks` array).
 - **Auto-advance chapters** — continuous whole-book listen (toggle in audio panel; on by default)
 - Prefetches the next paragraph while the current one plays
 
-**Browser voice** (default) — free device TTS. On **iPad/iPhone**, long paragraphs are split into short chunks (~200 chars) so playback does not stop after ~1 minute (Safari limitation).
+**Browser voice** (default) — free device TTS with **Smart narration** (on by default): chapter POV picks a device voice, quoted dialogue gets a slightly different delivery, blockquotes slow down, and pauses land between beats. On **iPad/iPhone**, lines are also split into ~200-character chunks so Safari does not cut off after ~1 minute.
+
+**MP3 pre-render** is optional later — hosting ~78 chapters of audio is roughly **2–4 GB** storage/bandwidth (not API cost). Smart device voice avoids that until you want studio quality.
 
 **ElevenLabs (Pro)** — requires `ELEVENLABS_API_KEY` on Netlify (Site → Environment variables). Without it, the reader falls back to Browser voice. Audio settings shows proxy status when you open the panel.
 

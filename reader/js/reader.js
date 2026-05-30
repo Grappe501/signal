@@ -27,6 +27,7 @@ function loadSettings() {
 function migrateStoredSettings(saved) {
   const out = { ...defaults(), ...saved };
   if (out.fontScale > 1.08) out.fontScale = 1.05;
+  if (out.listenDirector === undefined) out.listenDirector = true;
   if (out.scrollPositions) {
     for (const key of Object.keys(out.scrollPositions)) {
       out.scrollPositions[key] = normalizeScrollPosition(out.scrollPositions[key]);
@@ -81,6 +82,7 @@ function defaults() {
     speechRate: 1,
     speechVoice: "",
     ttsEngine: "browser",
+    listenDirector: true,
     elevenLabsVoice: "",
     elevenLabsModel: "eleven_turbo_v2_5",
     elevenLabsApiKey: "",
