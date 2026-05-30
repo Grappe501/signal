@@ -1,9 +1,8 @@
-import { cpSync, mkdirSync, existsSync } from "fs";
+import { cpSync, mkdirSync, existsSync, readdirSync, writeFileSync } from "fs";
 import { join, dirname } from "path";
 import { fileURLToPath } from "url";
 import { CHAPTERS } from "./chapters.mjs";
 import { buildManifest } from "./build-manifest.mjs";
-import { writeFileSync } from "fs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -14,6 +13,7 @@ const BOOK_CANDIDATES = [
 ];
 
 const BOOK = BOOK_CANDIDATES.find((p) => existsSync(join(p, "Draft")));
+const B2_NOTES = join(ROOT, "..", "Book_2_The_Great_Disconnection", "Notes");
 const SRC = join(ROOT, "source");
 
 const draftOut = join(SRC, "Draft");
@@ -37,6 +37,19 @@ if (!BOOK) {
     }
   }
   console.log(`Copied ${copied} source files to source/`);
+}
+
+if (existsSync(B2_NOTES)) {
+  const b2Out = join(SRC, "Book2", "Notes");
+  mkdirSync(b2Out, { recursive: true });
+  let b2Copied = 0;
+  for (const f of readdirSync(B2_NOTES)) {
+    if (f.endsWith(".md")) {
+      cpSync(join(B2_NOTES, f), join(b2Out, f));
+      b2Copied++;
+    }
+  }
+  console.log(`Copied ${b2Copied} Book Two architecture notes to source/Book2/Notes/`);
 }
 
 writeFileSync(join(ROOT, "book.json"), JSON.stringify(buildManifest(), null, 2));

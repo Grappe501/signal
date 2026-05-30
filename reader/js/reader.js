@@ -33,6 +33,9 @@ function migrateStoredSettings(saved) {
   if (out.audioVolume == null) out.audioVolume = 1;
   if (out.listenSleepMin == null) out.listenSleepMin = 0;
   if (!out.ttsEngine) out.ttsEngine = "auto";
+  if (out.listenStudio === undefined) out.listenStudio = true;
+  if (out.audioCache === undefined) out.audioCache = true;
+  if (out.bookListen === undefined) out.bookListen = true;
   if (out.scrollPositions) {
     for (const key of Object.keys(out.scrollPositions)) {
       out.scrollPositions[key] = normalizeScrollPosition(out.scrollPositions[key]);
@@ -92,6 +95,9 @@ function defaults() {
     listenDirector: true,
     listenPacing: 1,
     listenPreset: "standard",
+    listenStudio: true,
+    audioCache: true,
+    bookListen: true,
     elevenLabsVoice: "",
     elevenLabsModel: "eleven_turbo_v2_5",
     elevenLabsApiKey: "",
@@ -871,6 +877,11 @@ async function init() {
     partIndex[p.id] = p;
   });
 
+  const titleEl = $(".book-title");
+  const subEl = $(".book-subtitle");
+  if (titleEl) titleEl.textContent = book.title || "The Signal Cycle";
+  if (subEl) subEl.textContent = book.subtitle || "Read online";
+
   renderStats();
   renderPartMap();
   renderToc();
@@ -979,9 +990,28 @@ function renderToc() {
       a.dataset.title = ch.title.toLowerCase();
       a.dataset.prose = ch.prose;
 
-      const num = ch.num != null ? ch.num : "P";
+      const num =
+        ch.num != null
+          ? ch.book === 2 && ch.kind === "micro-outline"
+            ? `2·${String(ch.num).padStart(2, "0")}`
+            : ch.num
+          : ch.kind === "architecture"
+            ? "◆"
+            : ch.kind === "divider"
+              ? "→"
+              : "P";
       const dotClass =
-        ch.phase === "v8" ? "prose" : ch.phase === "v6" ? "v6" : ch.phase === "v5" ? "v5" : "outline";
+        ch.phase === "v8"
+          ? "prose"
+          : ch.phase === "v6"
+            ? "v6"
+            : ch.phase === "v5"
+              ? "v5"
+              : ch.phase === "b2-outline"
+                ? "b2-outline"
+                : ch.phase === "b2-arch"
+                  ? "b2-arch"
+                  : "outline";
       const dotHtml = isReaderMode()
         ? ""
         : `<span class="dot ${dotClass}"></span>`;
@@ -1055,6 +1085,10 @@ function bindEvents() {
   });
 
   $("#start-listen").addEventListener("click", () => {
+    if (typeof TTS.startBookListen === "function") {
+      TTS.startBookListen(false);
+      return;
+    }
     TTS.setContinuousListen(true);
     Routes.navigateToChapter(book.chapters[0].id);
     sessionStorage.setItem("signal-autoplay", "1");
@@ -1393,14 +1427,25 @@ async function showChapter(id) {
   renderStats();
   updateProgress(ch);
 
-  const label = ch.num != null ? `Chapter ${ch.num}` : "Prologue";
+  const label =
+    ch.kind === "divider"
+      ? "Book Two"
+      : ch.kind === "architecture"
+        ? "Architecture"
+        : ch.num != null
+          ? ch.book === 2
+            ? `Book 2 · Chapter ${ch.num}`
+            : `Chapter ${ch.num}`
+          : "Prologue";
   $("#toolbar-title").textContent = `${label} — ${ch.title}`;
   $("#toolbar-title").classList.add("visible");
   $("#tts-chapter-title").textContent = `${label} — ${ch.title}`;
 
   const badge = $("#phase-badge");
   if (badge) {
-    badge.textContent = ch.prose ? ch.phaseLabel : "Outline preview";
+    badge.textContent = ch.prose
+      ? ch.phaseLabel
+      : ch.phaseLabel || (ch.book === 2 ? "Book Two · outline" : "Outline preview");
     badge.className = `phase-badge dev-only ${ch.phase}`;
   }
 

@@ -3,15 +3,15 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="The Second Self — Book 1 of The Signal Cycle. Read or listen online.">
+  <meta name="description" content="The Signal Cycle — Book 1: The Second Self (complete prose). Book 2: The Great Disconnection (micro outlines). Read or listen online.">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="The Second Self — Read online">
-  <meta property="og:description" content="Book 1 of The Signal Cycle. Read or listen in your browser.">
+  <meta property="og:title" content="The Signal Cycle — Read online">
+  <meta property="og:description" content="Book 1 prose + Book 2 micro outlines. Read or listen in your browser.">
   <meta name="twitter:card" content="summary">
   <link id="canonical-link" rel="canonical" href="/">
   <link rel="manifest" href="/manifest.json">
   <meta name="theme-color" content="#070b10">
-  <title>The Second Self</title>
+  <title>The Signal Cycle</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -31,8 +31,8 @@
       <header class="sidebar-header">
         <a href="/" id="home-link" class="home-link">
           <span class="book-mark" aria-hidden="true"><span class="book-mark-ring"></span></span>
-          <h1 class="book-title">The Second Self</h1>
-          <p class="book-subtitle">Book 1 · The Signal Cycle</p>
+          <h1 class="book-title">The Signal Cycle</h1>
+          <p class="book-subtitle">Books 1–2 · Read online</p>
         </a>
         <div class="sidebar-actions">
           <button id="continue-reading" class="btn btn-primary hidden">Continue reading</button>
@@ -228,6 +228,27 @@
     </div>
   </div>
 
+  <!-- Listen Studio — immersive audiobook layer -->
+  <div id="listen-studio" class="listen-studio hidden" aria-hidden="true">
+    <div class="listen-studio-backdrop"></div>
+    <div class="listen-studio-panel">
+      <header class="listen-studio-header">
+        <div>
+          <p class="listen-studio-kicker">Listen Studio</p>
+          <h2 id="listen-studio-title" class="listen-studio-heading">—</h2>
+          <p id="listen-studio-meta" class="listen-studio-meta"></p>
+        </div>
+        <button type="button" id="listen-studio-close" class="btn btn-ghost">Exit studio</button>
+      </header>
+      <canvas id="listen-studio-wave" class="listen-studio-wave" width="1200" height="48" aria-label="Chapter waveform"></canvas>
+      <blockquote id="listen-studio-quote" class="listen-studio-quote"></blockquote>
+      <footer class="listen-studio-footer">
+        <button type="button" id="listen-studio-prev-ch" class="btn btn-ghost">← Chapter</button>
+        <button type="button" id="listen-studio-next-ch" class="btn btn-ghost">Chapter →</button>
+      </footer>
+    </div>
+  </div>
+
   <!-- Audio settings drawer -->
   <aside id="tts-settings-panel" class="tts-settings-panel hidden" aria-label="Audio settings">
     <div class="tts-settings-inner">
@@ -288,6 +309,18 @@
           <input type="checkbox" id="tts-continuous" checked>
           Auto-advance chapters
         </label>
+        <label class="tts-setting">
+          <input type="checkbox" id="tts-book-mode" checked>
+          Book listen (continuous from here)
+        </label>
+        <label class="tts-setting">
+          <input type="checkbox" id="tts-studio" checked>
+          Listen Studio (immersive)
+        </label>
+        <label class="tts-setting">
+          <input type="checkbox" id="tts-audio-cache" checked>
+          Cache audio offline (IndexedDB)
+        </label>
         <label class="tts-setting tts-director-wrap">
           <input type="checkbox" id="tts-director" checked>
           Smart narration (POV · characters · scene breaks)
@@ -333,9 +366,12 @@
   <script src="js/touch.js"></script>
   <script src="js/listen-script.js"></script>
   <script src="js/listen-presets.js"></script>
+  <script src="js/audio-sync.js"></script>
+  <script src="js/audio-cache.js"></script>
   <script src="js/audio-timeline.js"></script>
   <script src="js/hosted-audio.js"></script>
   <script src="js/audio-session.js"></script>
+  <script src="js/listen-studio.js"></script>
   <script src="js/tts.js"></script>
   <script src="js/reader.js"></script>
   <script>
