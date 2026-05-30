@@ -250,7 +250,11 @@
         </label>
         <label class="tts-setting tts-director-wrap">
           <input type="checkbox" id="tts-director" checked>
-          Smart narration (POV voice · dialogue · pauses)
+          Smart narration (POV · characters · scene breaks)
+        </label>
+        <label class="tts-setting">
+          <span>Pacing <output id="tts-pacing-val">1×</output></span>
+          <input type="range" id="tts-pacing" min="0.6" max="1.4" step="0.05" value="1" aria-label="Listen pacing">
         </label>
       </div>
       <span id="tts-status" class="tts-status" aria-live="polite"></span>

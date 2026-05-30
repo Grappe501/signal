@@ -1,6 +1,8 @@
-# ⚠ Push required before Netlify
+# Deploy to Netlify
 
-GitHub repo is empty: https://github.com/Grappe501/signal
+GitHub: https://github.com/Grappe501/signal (branch `main`)
+
+Netlify builds from `reader/` via root `netlify.toml` (`npm run build` → 78 chapters).
 
 **Run ONE of these** (in PowerShell or Terminal):
 

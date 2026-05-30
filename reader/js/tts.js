@@ -32,6 +32,7 @@ const TTS = (() => {
   let iosKeepAlive = null;
   let segmentEnding = false;
   let chapterMeta = null;
+  let wakeLock = null;
 
   const $ = (id) => document.getElementById(id);
 
@@ -149,6 +150,7 @@ const TTS = (() => {
     if (useDirector) {
       segments = ListenScript.buildSegments(bodyEl, chapter, {
         listenDirector: true,
+        listenPacing: getSettings().listenPacing ?? 1,
       });
     } else {
       const blocks = window.BookPages?.allBlocks?.().length
@@ -187,8 +189,73 @@ const TTS = (() => {
     const shortPov = pov ? pov.split("/")[0].trim().split(" ").pop() : "";
     const director = getSettings().listenDirector !== false && engine() === "browser";
     if (!director) return isAppleTouch() ? "Device voice · iPad" : "Device voice";
-    const roleTag = role !== "narration" ? ` · ${role}` : "";
+    const roleTag =
+      currentCue?.speakerLabel
+        ? ` · ${currentCue.speakerLabel}`
+        : role === "sceneBreak"
+          ? " · break"
+          : role !== "narration"
+            ? ` · ${role}`
+            : "";
     return `${shortPov || "Listen"}${roleTag}`;
+  }
+
+  async function requestWakeLock() {
+    try {
+      if ("wakeLock" in navigator && !wakeLock) {
+        wakeLock = await navigator.wakeLock.request("screen");
+      }
+    } catch {
+      /* unsupported or denied */
+    }
+  }
+
+  function releaseWakeLock() {
+    wakeLock?.release?.();
+    wakeLock = null;
+  }
+
+  function updateMediaSession(ch) {
+    if (!ch || !("mediaSession" in navigator)) return;
+    const label = ch.num != null ? `Chapter ${ch.num}` : "Prologue";
+    try {
+      navigator.mediaSession.metadata = new MediaMetadata({
+        title: ch.title,
+        artist: `${label} · ${ch.pov}`,
+        album: "The Second Self",
+      });
+      navigator.mediaSession.playbackState = speaking && !paused ? "playing" : "paused";
+    } catch {
+      /* MediaMetadata unsupported */
+    }
+
+    const safeHandler = (fn) => {
+      try {
+        navigator.mediaSession.setActionHandler(fn, () => {
+          if (fn === "play") toggle();
+          if (fn === "pause") toggle();
+          if (fn === "previoustrack") prev();
+          if (fn === "nexttrack") next();
+        });
+      } catch {
+        /* handler not supported */
+      }
+    };
+
+    safeHandler("play");
+    safeHandler("pause");
+    safeHandler("previoustrack");
+    safeHandler("nexttrack");
+  }
+
+  function clearMediaSession() {
+    if (!("mediaSession" in navigator)) return;
+    try {
+      navigator.mediaSession.metadata = null;
+      navigator.mediaSession.playbackState = "none";
+    } catch {
+      /* ignore */
+    }
   }
 
   function highlight(i) {
@@ -315,6 +382,8 @@ const TTS = (() => {
     cueIndex = 0;
     currentCue = null;
     stopIosKeepAlive();
+    releaseWakeLock();
+    clearMediaSession();
     if (engine() === "browser") speechSynthesis.cancel();
     releaseAudio();
     speaking = false;
@@ -367,6 +436,11 @@ const TTS = (() => {
 
   function beginCue(cue) {
     currentCue = cue;
+    if (cue?.role === "sceneBreak" || !cue?.text?.trim()) {
+      textChunks = [];
+      chunkIndex = 0;
+      return;
+    }
     textChunks = splitTextChunks(cue.text, chunkMaxLen());
     chunkIndex = 0;
   }
@@ -404,7 +478,7 @@ const TTS = (() => {
       beginCue(seg.cues[0]);
     }
 
-    if (!textChunks[chunkIndex]) {
+    if (!textChunks.length || !textChunks[chunkIndex]) {
       advanceAfterCue();
       return;
     }
@@ -438,6 +512,8 @@ const TTS = (() => {
           : "";
       setStatus(tag + progress);
       startIosKeepAlive();
+      requestWakeLock();
+      if (chapterMeta) updateMediaSession(chapterMeta);
     };
 
     utt.onend = () => {
@@ -693,6 +769,8 @@ const TTS = (() => {
       speaking = true;
       paused = false;
       loading = false;
+      requestWakeLock();
+      if (chapterMeta) updateMediaSession(chapterMeta);
       setStatus("ElevenLabs");
       updatePlayBtn();
       prefetchNext();
@@ -926,6 +1004,21 @@ const TTS = (() => {
       if (typeof ListenScript !== "undefined") ListenScript.refreshVoiceCache();
     });
 
+    const pacingEl = $("tts-pacing");
+    const pacingVal = $("tts-pacing-val");
+    if (pacingEl) {
+      pacingEl.value = getSettings().listenPacing ?? 1;
+      if (pacingVal) pacingVal.textContent = `${parseFloat(pacingEl.value).toFixed(2)}×`;
+      pacingEl.addEventListener("input", (e) => {
+        const v = parseFloat(e.target.value);
+        const s = getSettings();
+        s.listenPacing = v;
+        saveSettings();
+        if (pacingVal) pacingVal.textContent = `${v.toFixed(2)}×`;
+        if (typeof ListenScript !== "undefined") ListenScript.setPacingMultiplier(v);
+      });
+    }
+
     $("tts-rate")?.addEventListener("input", (e) => {
       const rate = parseFloat(e.target.value);
       $("tts-rate-val").textContent = `${rate.toFixed(1)}×`;
@@ -1004,6 +1097,16 @@ const TTS = (() => {
       const directorToggle = $("tts-director");
       if (directorToggle) directorToggle.checked = s.listenDirector !== false;
 
+      const pacingEl = $("tts-pacing");
+      const pacingVal = $("tts-pacing-val");
+      if (pacingEl) {
+        pacingEl.value = s.listenPacing ?? 1;
+        if (pacingVal) pacingVal.textContent = `${(s.listenPacing ?? 1).toFixed(2)}×`;
+      }
+      if (typeof ListenScript !== "undefined") {
+        ListenScript.setPacingMultiplier(s.listenPacing ?? 1);
+      }
+
       const keyInput = $("tts-api-key");
       if (keyInput && s.elevenLabsApiKey) {
         keyInput.value = s.elevenLabsApiKey;
@@ -1023,9 +1126,11 @@ const TTS = (() => {
       prefetchCache.clear();
       index = 0;
       chapterTitle = ch.title;
+      chapterMeta = ch;
       $("tts-chapter-title").textContent = ch.title;
 
       const count = prepareSegments(bodyEl, ch);
+      updateMediaSession(ch);
       const listenBtn = $("listen-toggle");
       if (listenBtn) {
         listenBtn.disabled = count === 0;
@@ -1038,6 +1143,7 @@ const TTS = (() => {
     onChapterLeave() {
       stop();
       prefetchCache.clear();
+      clearMediaSession();
     },
 
     startListening(fromScroll = true) {

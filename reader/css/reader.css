@@ -1198,6 +1198,15 @@ body.layout-scroll .book-stage { display: none !important; }
   text-indent: 0;
 }
 
+.chapter-scroll-inner.is-prose hr,
+.page-inner.is-prose hr {
+  border: none;
+  height: 1px;
+  margin: 2.25rem auto;
+  max-width: 6rem;
+  background: linear-gradient(90deg, transparent, var(--line-strong), transparent);
+}
+
 .chapter-scroll-inner.is-prose > p:first-of-type::first-letter {
   float: left;
   font-family: var(--font-display);
@@ -1528,6 +1537,19 @@ body.layout-spread .tap-zone-right { flex: 0 0 18%; max-width: 18%; }
   background: var(--signal-dim) !important;
   box-shadow: inset 4px 0 0 var(--signal-bright);
   border-radius: 3px;
+}
+
+.tts-scene-break {
+  border: none;
+  height: 1px;
+  margin: 2rem auto;
+  max-width: 6rem;
+  background: linear-gradient(90deg, transparent, var(--line-strong), transparent);
+}
+
+.tts-scene-break.tts-active {
+  box-shadow: none;
+  background: linear-gradient(90deg, transparent, var(--signal-bright), transparent);
 }
 
 /* ── Bottom nav (chapter / page only) ── */

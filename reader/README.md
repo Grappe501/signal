@@ -67,7 +67,13 @@ Settings key: `signal-reader-v3.3` (includes `bookmarks` array).
 
 **Browser voice** (default) — free device TTS with **Smart narration** (on by default): chapter POV picks a device voice, quoted dialogue gets a slightly different delivery, blockquotes slow down, and pauses land between beats. On **iPad/iPhone**, lines are also split into ~200-character chunks so Safari does not cut off after ~1 minute.
 
-**MP3 pre-render** is optional later — hosting ~78 chapters of audio is roughly **2–4 GB** storage/bandwidth (not API cost). Smart device voice avoids that until you want studio quality.
+**Pacing** slider in audio settings (0.6×–1.4×) adjusts pauses between lines and scene breaks (`---` in the manuscript).
+
+**Character dialogue** — attributed lines (`Mara said`, etc.) use distinct rate/pitch (and a second device voice when available).
+
+**Lock screen** — Media Session shows chapter title; play/pause from Control Center on supported devices.
+
+**MP3 pre-render** is optional later — hosting ~78 chapters is roughly **2–4 GB** bandwidth if you self-generate with free tools (Piper); no API cost. Smart device voice is the zero-cost path.
 
 **ElevenLabs (Pro)** — requires `ELEVENLABS_API_KEY` on Netlify (Site → Environment variables). Without it, the reader falls back to Browser voice. Audio settings shows proxy status when you open the panel.
 

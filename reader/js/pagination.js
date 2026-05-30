@@ -10,7 +10,7 @@ const BookPages = (() => {
   let lastSpread = 0;
 
   const BLOCK_SEL =
-    "p, li, blockquote, h2, h3, h4, pre, table, .part-banner-inline, .chapter-opener";
+    "p, li, blockquote, h2, h3, h4, pre, hr, table, .part-banner-inline, .chapter-opener";
 
   function $(id) {
     return document.getElementById(id);
