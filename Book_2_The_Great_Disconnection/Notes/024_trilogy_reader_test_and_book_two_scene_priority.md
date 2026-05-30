@@ -1,6 +1,3 @@
-> **Book Two · Architecture reference**
-> Development document — not narrative prose.
-
 # THE SIGNAL CYCLE
 
 # TRILOGY READER TEST · BOOK TWO SCENE PRIORITY
@@ -372,7 +369,3 @@ Not Act I orderly. Not prose test. Not full 82-chapter scene pass.
 *Trilogy Reader Test · Book Two Scene Priority · 024 · 2026-05-30 · The Signal Cycle*
 
 *Next deliverable when requested: **Scene design · Ch 24 · 35 · 36** (Legendary Tier Phase A)*
-
----
-
-*Source: `Book_2_The_Great_Disconnection/Notes/024_trilogy_reader_test_and_book_two_scene_priority.md`*

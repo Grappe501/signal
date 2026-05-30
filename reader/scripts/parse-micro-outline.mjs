@@ -139,8 +139,10 @@ export function loadArchitectureNotes() {
     const titleMatch = md.match(/^#\s+BOOK TWO[^\n]*\n+#\s+\*?([^*\n]+)\*?/m) || md.match(/^#\s+(.+)/m);
     const title = titleMatch ? titleMatch[1].replace(/\*/g, "").trim() : file;
     const num = file.match(/^(\d+)/)?.[1] || "000";
+    const stem = file.replace(/\.md$/i, "").replace(/^\d+_/, "");
+    const idSuffix = slug(stem).slice(0, 48) || num.padStart(3, "0");
     return {
-      id: `b2-note-${num.padStart(3, "0")}`,
+      id: `b2-note-${num.padStart(3, "0")}-${idSuffix}`,
       file,
       title,
       md,

@@ -3135,11 +3135,11 @@
       "targetWords": "2,600",
       "register": "Memory · longing sustained · handoff",
       "prev": "b2-ch-81",
-      "next": "b2-note-000",
+      "next": "b2-note-000-book_two_pre_architecture_pressure_map",
       "file": "b2-ch-82.md"
     },
     {
-      "id": "b2-note-000",
+      "id": "b2-note-000-book_two_pre_architecture_pressure_map",
       "num": null,
       "title": "THE SIGNAL CYCLE",
       "pov": "Architecture",
@@ -3152,11 +3152,11 @@
       "source": "source/Book2/Notes/000_book_two_pre_architecture_pressure_map.md",
       "noteFile": "000_book_two_pre_architecture_pressure_map.md",
       "prev": "b2-ch-82",
-      "next": "b2-note-001",
-      "file": "b2-note-000.md"
+      "next": "b2-note-001-book_two_contradiction_engine",
+      "file": "b2-note-000-book_two_pre_architecture_pressure_map.md"
     },
     {
-      "id": "b2-note-001",
+      "id": "b2-note-001-book_two_contradiction_engine",
       "num": null,
       "title": "THE SIGNAL CYCLE",
       "pov": "Architecture",
@@ -3168,12 +3168,12 @@
       "kind": "architecture",
       "source": "source/Book2/Notes/001_book_two_contradiction_engine.md",
       "noteFile": "001_book_two_contradiction_engine.md",
-      "prev": "b2-note-000",
-      "next": "b2-note-002",
-      "file": "b2-note-001.md"
+      "prev": "b2-note-000-book_two_pre_architecture_pressure_map",
+      "next": "b2-note-002-book_two_failure_cascade_map",
+      "file": "b2-note-001-book_two_contradiction_engine.md"
     },
     {
-      "id": "b2-note-002",
+      "id": "b2-note-002-book_two_failure_cascade_map",
       "num": null,
       "title": "THE SIGNAL CYCLE",
       "pov": "Architecture",
@@ -3185,12 +3185,12 @@
       "kind": "architecture",
       "source": "source/Book2/Notes/002_book_two_failure_cascade_map.md",
       "noteFile": "002_book_two_failure_cascade_map.md",
-      "prev": "b2-note-001",
-      "next": "b2-note-002",
-      "file": "b2-note-002.md"
+      "prev": "b2-note-001-book_two_contradiction_engine",
+      "next": "b2-note-002-the_human_authority_overview",
+      "file": "b2-note-002-book_two_failure_cascade_map.md"
     },
     {
-      "id": "b2-note-002",
+      "id": "b2-note-002-the_human_authority_overview",
       "num": null,
       "title": "Book 2: The Human Authority — Overview",
       "pov": "Architecture",
@@ -3202,12 +3202,12 @@
       "kind": "architecture",
       "source": "source/Book2/Notes/002_the_human_authority_overview.md",
       "noteFile": "002_the_human_authority_overview.md",
-      "prev": "b2-note-002",
-      "next": "b2-note-003",
-      "file": "b2-note-002.md"
+      "prev": "b2-note-002-book_two_failure_cascade_map",
+      "next": "b2-note-003-book_two_civilizational_phase_map",
+      "file": "b2-note-002-the_human_authority_overview.md"
     },
     {
-      "id": "b2-note-003",
+      "id": "b2-note-003-book_two_civilizational_phase_map",
       "num": null,
       "title": "THE SIGNAL CYCLE",
       "pov": "Architecture",
@@ -3219,12 +3219,12 @@
       "kind": "architecture",
       "source": "source/Book2/Notes/003_book_two_civilizational_phase_map.md",
       "noteFile": "003_book_two_civilizational_phase_map.md",
-      "prev": "b2-note-002",
-      "next": "b2-note-004",
-      "file": "b2-note-003.md"
+      "prev": "b2-note-002-the_human_authority_overview",
+      "next": "b2-note-004-book_two_character_gravity_map",
+      "file": "b2-note-003-book_two_civilizational_phase_map.md"
     },
     {
-      "id": "b2-note-004",
+      "id": "b2-note-004-book_two_character_gravity_map",
       "num": null,
       "title": "THE SIGNAL CYCLE",
       "pov": "Architecture",
@@ -3236,12 +3236,12 @@
       "kind": "architecture",
       "source": "source/Book2/Notes/004_book_two_character_gravity_map.md",
       "noteFile": "004_book_two_character_gravity_map.md",
-      "prev": "b2-note-003",
-      "next": "b2-note-005",
-      "file": "b2-note-004.md"
+      "prev": "b2-note-003-book_two_civilizational_phase_map",
+      "next": "b2-note-005-book_two_narrative_spine",
+      "file": "b2-note-004-book_two_character_gravity_map.md"
     },
     {
-      "id": "b2-note-005",
+      "id": "b2-note-005-book_two_narrative_spine",
       "num": null,
       "title": "THE SIGNAL CYCLE",
       "pov": "Architecture",
@@ -3253,12 +3253,12 @@
       "kind": "architecture",
       "source": "source/Book2/Notes/005_book_two_narrative_spine.md",
       "noteFile": "005_book_two_narrative_spine.md",
-      "prev": "b2-note-004",
-      "next": "b2-note-006",
-      "file": "b2-note-005.md"
+      "prev": "b2-note-004-book_two_character_gravity_map",
+      "next": "b2-note-006-book_two_macro_act_architecture",
+      "file": "b2-note-005-book_two_narrative_spine.md"
     },
     {
-      "id": "b2-note-006",
+      "id": "b2-note-006-book_two_macro_act_architecture",
       "num": null,
       "title": "THE SIGNAL CYCLE",
       "pov": "Architecture",
@@ -3270,12 +3270,12 @@
       "kind": "architecture",
       "source": "source/Book2/Notes/006_book_two_macro_act_architecture.md",
       "noteFile": "006_book_two_macro_act_architecture.md",
-      "prev": "b2-note-005",
-      "next": "b2-note-008",
-      "file": "b2-note-006.md"
+      "prev": "b2-note-005-book_two_narrative_spine",
+      "next": "b2-note-008-book_two_signature_set_piece_architecture",
+      "file": "b2-note-006-book_two_macro_act_architecture.md"
     },
     {
-      "id": "b2-note-008",
+      "id": "b2-note-008-book_two_signature_set_piece_architecture",
       "num": null,
       "title": "THE SIGNAL CYCLE",
       "pov": "Architecture",
@@ -3287,12 +3287,12 @@
       "kind": "architecture",
       "source": "source/Book2/Notes/008_book_two_signature_set_piece_architecture.md",
       "noteFile": "008_book_two_signature_set_piece_architecture.md",
-      "prev": "b2-note-006",
-      "next": "b2-note-009",
-      "file": "b2-note-008.md"
+      "prev": "b2-note-006-book_two_macro_act_architecture",
+      "next": "b2-note-009-book_two_movement_architecture",
+      "file": "b2-note-008-book_two_signature_set_piece_architecture.md"
     },
     {
-      "id": "b2-note-009",
+      "id": "b2-note-009-book_two_movement_architecture",
       "num": null,
       "title": "THE SIGNAL CYCLE",
       "pov": "Architecture",
@@ -3304,12 +3304,12 @@
       "kind": "architecture",
       "source": "source/Book2/Notes/009_book_two_movement_architecture.md",
       "noteFile": "009_book_two_movement_architecture.md",
-      "prev": "b2-note-008",
-      "next": "b2-note-010",
-      "file": "b2-note-009.md"
+      "prev": "b2-note-008-book_two_signature_set_piece_architecture",
+      "next": "b2-note-010-book_two_chapter_architecture",
+      "file": "b2-note-009-book_two_movement_architecture.md"
     },
     {
-      "id": "b2-note-010",
+      "id": "b2-note-010-book_two_chapter_architecture",
       "num": null,
       "title": "THE SIGNAL CYCLE",
       "pov": "Architecture",
@@ -3321,12 +3321,12 @@
       "kind": "architecture",
       "source": "source/Book2/Notes/010_book_two_chapter_architecture.md",
       "noteFile": "010_book_two_chapter_architecture.md",
-      "prev": "b2-note-009",
-      "next": "b2-note-011",
-      "file": "b2-note-010.md"
+      "prev": "b2-note-009-book_two_movement_architecture",
+      "next": "b2-note-011-book_two_emotional_rhythm_architecture",
+      "file": "b2-note-010-book_two_chapter_architecture.md"
     },
     {
-      "id": "b2-note-011",
+      "id": "b2-note-011-book_two_emotional_rhythm_architecture",
       "num": null,
       "title": "THE SIGNAL CYCLE",
       "pov": "Architecture",
@@ -3338,12 +3338,12 @@
       "kind": "architecture",
       "source": "source/Book2/Notes/011_book_two_emotional_rhythm_architecture.md",
       "noteFile": "011_book_two_emotional_rhythm_architecture.md",
-      "prev": "b2-note-010",
-      "next": "b2-note-012",
-      "file": "b2-note-011.md"
+      "prev": "b2-note-010-book_two_chapter_architecture",
+      "next": "b2-note-012-book_two_act_one_chapter_purpose_architecture",
+      "file": "b2-note-011-book_two_emotional_rhythm_architecture.md"
     },
     {
-      "id": "b2-note-012",
+      "id": "b2-note-012-book_two_act_one_chapter_purpose_architecture",
       "num": null,
       "title": "THE SIGNAL CYCLE",
       "pov": "Architecture",
@@ -3355,12 +3355,12 @@
       "kind": "architecture",
       "source": "source/Book2/Notes/012_book_two_act_one_chapter_purpose_architecture.md",
       "noteFile": "012_book_two_act_one_chapter_purpose_architecture.md",
-      "prev": "b2-note-011",
-      "next": "b2-note-013",
-      "file": "b2-note-012.md"
+      "prev": "b2-note-011-book_two_emotional_rhythm_architecture",
+      "next": "b2-note-013-book_two_act_two_chapter_purpose_architecture",
+      "file": "b2-note-012-book_two_act_one_chapter_purpose_architecture.md"
     },
     {
-      "id": "b2-note-013",
+      "id": "b2-note-013-book_two_act_two_chapter_purpose_architecture",
       "num": null,
       "title": "THE SIGNAL CYCLE",
       "pov": "Architecture",
@@ -3372,12 +3372,12 @@
       "kind": "architecture",
       "source": "source/Book2/Notes/013_book_two_act_two_chapter_purpose_architecture.md",
       "noteFile": "013_book_two_act_two_chapter_purpose_architecture.md",
-      "prev": "b2-note-012",
-      "next": "b2-note-014",
-      "file": "b2-note-013.md"
+      "prev": "b2-note-012-book_two_act_one_chapter_purpose_architecture",
+      "next": "b2-note-014-book_two_act_three_chapter_purpose_architecture",
+      "file": "b2-note-013-book_two_act_two_chapter_purpose_architecture.md"
     },
     {
-      "id": "b2-note-014",
+      "id": "b2-note-014-book_two_act_three_chapter_purpose_architecture",
       "num": null,
       "title": "THE SIGNAL CYCLE",
       "pov": "Architecture",
@@ -3389,12 +3389,12 @@
       "kind": "architecture",
       "source": "source/Book2/Notes/014_book_two_act_three_chapter_purpose_architecture.md",
       "noteFile": "014_book_two_act_three_chapter_purpose_architecture.md",
-      "prev": "b2-note-013",
-      "next": "b2-note-015",
-      "file": "b2-note-014.md"
+      "prev": "b2-note-013-book_two_act_two_chapter_purpose_architecture",
+      "next": "b2-note-015-book_two_act_four_chapter_purpose_architecture",
+      "file": "b2-note-014-book_two_act_three_chapter_purpose_architecture.md"
     },
     {
-      "id": "b2-note-015",
+      "id": "b2-note-015-book_two_act_four_chapter_purpose_architecture",
       "num": null,
       "title": "THE SIGNAL CYCLE",
       "pov": "Architecture",
@@ -3406,12 +3406,12 @@
       "kind": "architecture",
       "source": "source/Book2/Notes/015_book_two_act_four_chapter_purpose_architecture.md",
       "noteFile": "015_book_two_act_four_chapter_purpose_architecture.md",
-      "prev": "b2-note-014",
-      "next": "b2-note-016",
-      "file": "b2-note-015.md"
+      "prev": "b2-note-014-book_two_act_three_chapter_purpose_architecture",
+      "next": "b2-note-016-book_two_act_five_chapter_purpose_architecture",
+      "file": "b2-note-015-book_two_act_four_chapter_purpose_architecture.md"
     },
     {
-      "id": "b2-note-016",
+      "id": "b2-note-016-book_two_act_five_chapter_purpose_architecture",
       "num": null,
       "title": "THE SIGNAL CYCLE",
       "pov": "Architecture",
@@ -3423,12 +3423,12 @@
       "kind": "architecture",
       "source": "source/Book2/Notes/016_book_two_act_five_chapter_purpose_architecture.md",
       "noteFile": "016_book_two_act_five_chapter_purpose_architecture.md",
-      "prev": "b2-note-015",
-      "next": "b2-note-017",
-      "file": "b2-note-016.md"
+      "prev": "b2-note-015-book_two_act_four_chapter_purpose_architecture",
+      "next": "b2-note-017-book_two_act_six_chapter_purpose_architecture",
+      "file": "b2-note-016-book_two_act_five_chapter_purpose_architecture.md"
     },
     {
-      "id": "b2-note-017",
+      "id": "b2-note-017-book_two_act_six_chapter_purpose_architecture",
       "num": null,
       "title": "THE SIGNAL CYCLE",
       "pov": "Architecture",
@@ -3440,12 +3440,12 @@
       "kind": "architecture",
       "source": "source/Book2/Notes/017_book_two_act_six_chapter_purpose_architecture.md",
       "noteFile": "017_book_two_act_six_chapter_purpose_architecture.md",
-      "prev": "b2-note-016",
-      "next": "b2-note-018",
-      "file": "b2-note-017.md"
+      "prev": "b2-note-016-book_two_act_five_chapter_purpose_architecture",
+      "next": "b2-note-018-book_two_act_one_micro_outline",
+      "file": "b2-note-017-book_two_act_six_chapter_purpose_architecture.md"
     },
     {
-      "id": "b2-note-018",
+      "id": "b2-note-018-book_two_act_one_micro_outline",
       "num": null,
       "title": "THE SIGNAL CYCLE",
       "pov": "Architecture",
@@ -3457,12 +3457,12 @@
       "kind": "architecture",
       "source": "source/Book2/Notes/018_book_two_act_one_micro_outline.md",
       "noteFile": "018_book_two_act_one_micro_outline.md",
-      "prev": "b2-note-017",
-      "next": "b2-note-019",
-      "file": "b2-note-018.md"
+      "prev": "b2-note-017-book_two_act_six_chapter_purpose_architecture",
+      "next": "b2-note-019-book_two_act_two_micro_outline",
+      "file": "b2-note-018-book_two_act_one_micro_outline.md"
     },
     {
-      "id": "b2-note-019",
+      "id": "b2-note-019-book_two_act_two_micro_outline",
       "num": null,
       "title": "THE SIGNAL CYCLE",
       "pov": "Architecture",
@@ -3474,12 +3474,12 @@
       "kind": "architecture",
       "source": "source/Book2/Notes/019_book_two_act_two_micro_outline.md",
       "noteFile": "019_book_two_act_two_micro_outline.md",
-      "prev": "b2-note-018",
-      "next": "b2-note-020",
-      "file": "b2-note-019.md"
+      "prev": "b2-note-018-book_two_act_one_micro_outline",
+      "next": "b2-note-020-book_two_act_three_micro_outline",
+      "file": "b2-note-019-book_two_act_two_micro_outline.md"
     },
     {
-      "id": "b2-note-020",
+      "id": "b2-note-020-book_two_act_three_micro_outline",
       "num": null,
       "title": "THE SIGNAL CYCLE",
       "pov": "Architecture",
@@ -3491,12 +3491,12 @@
       "kind": "architecture",
       "source": "source/Book2/Notes/020_book_two_act_three_micro_outline.md",
       "noteFile": "020_book_two_act_three_micro_outline.md",
-      "prev": "b2-note-019",
-      "next": "b2-note-021",
-      "file": "b2-note-020.md"
+      "prev": "b2-note-019-book_two_act_two_micro_outline",
+      "next": "b2-note-021-book_two_act_four_micro_outline",
+      "file": "b2-note-020-book_two_act_three_micro_outline.md"
     },
     {
-      "id": "b2-note-021",
+      "id": "b2-note-021-book_two_act_four_micro_outline",
       "num": null,
       "title": "THE SIGNAL CYCLE",
       "pov": "Architecture",
@@ -3508,12 +3508,12 @@
       "kind": "architecture",
       "source": "source/Book2/Notes/021_book_two_act_four_micro_outline.md",
       "noteFile": "021_book_two_act_four_micro_outline.md",
-      "prev": "b2-note-020",
-      "next": "b2-note-022",
-      "file": "b2-note-021.md"
+      "prev": "b2-note-020-book_two_act_three_micro_outline",
+      "next": "b2-note-022-book_two_act_five_micro_outline",
+      "file": "b2-note-021-book_two_act_four_micro_outline.md"
     },
     {
-      "id": "b2-note-022",
+      "id": "b2-note-022-book_two_act_five_micro_outline",
       "num": null,
       "title": "THE SIGNAL CYCLE",
       "pov": "Architecture",
@@ -3525,12 +3525,12 @@
       "kind": "architecture",
       "source": "source/Book2/Notes/022_book_two_act_five_micro_outline.md",
       "noteFile": "022_book_two_act_five_micro_outline.md",
-      "prev": "b2-note-021",
-      "next": "b2-note-023",
-      "file": "b2-note-022.md"
+      "prev": "b2-note-021-book_two_act_four_micro_outline",
+      "next": "b2-note-023-book_two_act_six_micro_outline",
+      "file": "b2-note-022-book_two_act_five_micro_outline.md"
     },
     {
-      "id": "b2-note-023",
+      "id": "b2-note-023-book_two_act_six_micro_outline",
       "num": null,
       "title": "THE SIGNAL CYCLE",
       "pov": "Architecture",
@@ -3542,12 +3542,29 @@
       "kind": "architecture",
       "source": "source/Book2/Notes/023_book_two_act_six_micro_outline.md",
       "noteFile": "023_book_two_act_six_micro_outline.md",
-      "prev": "b2-note-022",
-      "next": "b2-note-024",
-      "file": "b2-note-023.md"
+      "prev": "b2-note-022-book_two_act_five_micro_outline",
+      "next": "b2-note-024-trilogy_reader_test_and_book_two_scene_priority",
+      "file": "b2-note-023-book_two_act_six_micro_outline.md"
     },
     {
-      "id": "b2-note-024",
+      "id": "b2-note-024-trilogy_reader_test_and_book_two_scene_priority",
+      "num": null,
+      "title": "THE SIGNAL CYCLE",
+      "pov": "Architecture",
+      "phase": "b2-arch",
+      "phaseLabel": "Architecture note",
+      "part": "b2-architecture",
+      "prose": false,
+      "book": 2,
+      "kind": "architecture",
+      "source": "source/Book2/Notes/024_trilogy_reader_test_and_book_two_scene_priority.md",
+      "noteFile": "024_trilogy_reader_test_and_book_two_scene_priority.md",
+      "prev": "b2-note-023-book_two_act_six_micro_outline",
+      "next": "b2-note-024-trilogy_reader_test_and_scene_design_gate",
+      "file": "b2-note-024-trilogy_reader_test_and_book_two_scene_priority.md"
+    },
+    {
+      "id": "b2-note-024-trilogy_reader_test_and_scene_design_gate",
       "num": null,
       "title": "THE SIGNAL CYCLE",
       "pov": "Architecture",
@@ -3559,12 +3576,12 @@
       "kind": "architecture",
       "source": "source/Book2/Notes/024_trilogy_reader_test_and_scene_design_gate.md",
       "noteFile": "024_trilogy_reader_test_and_scene_design_gate.md",
-      "prev": "b2-note-023",
-      "next": "b2-note-025",
-      "file": "b2-note-024.md"
+      "prev": "b2-note-024-trilogy_reader_test_and_book_two_scene_priority",
+      "next": "b2-note-025-settings_evolution",
+      "file": "b2-note-024-trilogy_reader_test_and_scene_design_gate.md"
     },
     {
-      "id": "b2-note-025",
+      "id": "b2-note-025-settings_evolution",
       "num": null,
       "title": "Book Two — Settings Evolution",
       "pov": "Architecture",
@@ -3576,12 +3593,12 @@
       "kind": "architecture",
       "source": "source/Book2/Notes/025_settings_evolution.md",
       "noteFile": "025_settings_evolution.md",
-      "prev": "b2-note-024",
-      "next": "b2-note-026",
-      "file": "b2-note-025.md"
+      "prev": "b2-note-024-trilogy_reader_test_and_scene_design_gate",
+      "next": "b2-note-026-the_fall_of_dubai",
+      "file": "b2-note-025-settings_evolution.md"
     },
     {
-      "id": "b2-note-026",
+      "id": "b2-note-026-the_fall_of_dubai",
       "num": null,
       "title": "Book Two — The Fall of Dubai",
       "pov": "Architecture",
@@ -3593,12 +3610,12 @@
       "kind": "architecture",
       "source": "source/Book2/Notes/026_the_fall_of_dubai.md",
       "noteFile": "026_the_fall_of_dubai.md",
-      "prev": "b2-note-025",
-      "next": "b2-note-027",
-      "file": "b2-note-026.md"
+      "prev": "b2-note-025-settings_evolution",
+      "next": "b2-note-027-the_salt_plague",
+      "file": "b2-note-026-the_fall_of_dubai.md"
     },
     {
-      "id": "b2-note-027",
+      "id": "b2-note-027-the_salt_plague",
       "num": null,
       "title": "Book Two — The Salt Plague & Great Disconnection",
       "pov": "Architecture",
@@ -3610,12 +3627,12 @@
       "kind": "architecture",
       "source": "source/Book2/Notes/027_the_salt_plague.md",
       "noteFile": "027_the_salt_plague.md",
-      "prev": "b2-note-026",
-      "next": "b2-note-042",
-      "file": "b2-note-027.md"
+      "prev": "b2-note-026-the_fall_of_dubai",
+      "next": "b2-note-042-collapse_map",
+      "file": "b2-note-027-the_salt_plague.md"
     },
     {
-      "id": "b2-note-042",
+      "id": "b2-note-042-collapse_map",
       "num": null,
       "title": "Book Two — Collapse Map (Segment 042)",
       "pov": "Architecture",
@@ -3627,12 +3644,12 @@
       "kind": "architecture",
       "source": "source/Book2/Notes/042_collapse_map.md",
       "noteFile": "042_collapse_map.md",
-      "prev": "b2-note-027",
-      "next": "b2-note-048",
-      "file": "b2-note-042.md"
+      "prev": "b2-note-027-the_salt_plague",
+      "next": "b2-note-048-realignment_war_structure",
+      "file": "b2-note-042-collapse_map.md"
     },
     {
-      "id": "b2-note-048",
+      "id": "b2-note-048-realignment_war_structure",
       "num": null,
       "title": "Book Two — Realignment War Structure (Segment 048)",
       "pov": "Architecture",
@@ -3644,9 +3661,9 @@
       "kind": "architecture",
       "source": "source/Book2/Notes/048_realignment_war_structure.md",
       "noteFile": "048_realignment_war_structure.md",
-      "prev": "b2-note-042",
+      "prev": "b2-note-042-collapse_map",
       "next": null,
-      "file": "b2-note-048.md"
+      "file": "b2-note-048-realignment_war_structure.md"
     }
   ]
 }
