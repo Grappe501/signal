@@ -172,4 +172,4 @@ Deliver the **first mass-audience proof** that the dream city can stop mid-breat
 **Emotional exit:** Public panic **un narrated** · Artist **hollow**  
 **Plant payoffs:** Ch 59 denial · Ch 60 Salt · B2 Trust/City  
 **Conflicts flagged:** C-040 · C-051  
-**Sequence map status:** **v1 FULL DEPTH** · **LOCKED · PRINT READY v5** (2026-05-29) · Ch 59 next
+**Sequence map status:** **v1 FULL DEPTH** · **LOCKED · PRINT READY v8** (2026-05-29) · Ch 59 next

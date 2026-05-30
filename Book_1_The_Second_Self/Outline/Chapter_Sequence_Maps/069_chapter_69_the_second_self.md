@@ -80,4 +80,4 @@ Mara confronts **own Second** — temptation peak — threshold to Convergence/D
 ## Chapter footer
 
 **Plant payoffs:** Ch 71 Legendary #9 · Seg 038 trilogy symmetry  
-**Status:** **v1 FULL DEPTH** · **PRINT READY v5** · Ch 70 next
+**Status:** **v1 FULL DEPTH** · **PRINT READY v8** · Ch 70 next

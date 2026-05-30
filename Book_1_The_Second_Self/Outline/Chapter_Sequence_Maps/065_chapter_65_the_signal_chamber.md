@@ -69,4 +69,4 @@ Mara exits **shaken** · cannot explain · runway **Convergence**.
 ## Chapter footer
 
 **Conflicts:** Seg 022 never answer rule  
-**Status:** **v1 FULL DEPTH** · **PRINT READY v5** · Ch 66 next
+**Status:** **v1 FULL DEPTH** · **PRINT READY v8** · Ch 66 next

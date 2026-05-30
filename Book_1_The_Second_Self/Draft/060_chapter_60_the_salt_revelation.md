@@ -1,7 +1,8 @@
 # Chapter 60 — The Salt Revelation
 
-**Status:** **LOCKED · PRINT READY v5** (2026-05-29)  
+**Status:** **PRINT READY v8** (2026-05-29)
 **Prior:** v3 FIRST PROSE · `060_chapter_60_v3_change_log.md`  
+**Unified:** `000-077_written_full_v8_unified_pass_audit.md` (**PASS**)
 **POV:** Mara Voss · tight third · past tense  
 **Part:** V — Convergence · **Movement I · Mechanism named**  
 **Case:** **8841-A** · Still One biochemistry convergence  
@@ -9,7 +10,7 @@
 **Beat sheet:** `058-071_act_three_beat_sheet.md` · **8/8**  
 **Bridge in:** `059_chapter_59_ch60_bridge_audit.md` (**PASS** v5)  
 **Bridge out:** `060_chapter_60_ch61_bridge_audit.md` (**PASS** v5)  
-**Change log:** `060_chapter_60_v5_change_log.md`  
+**Change log:** `058-071_part_v_v8_unified_change_log.md` · prior v5/v6/v7 logs retained
 **Audits:** `060_chapter_60_v5_final_polish_audit.md` (**PASS**) · `060_chapter_60_v5_pair_read_audit.md` (**PASS**)  
 **Publisher MS:** `060_chapter_60_the_salt_revelation_PUBLISHER.md`  
 **Scene bible:** #34 — The Salt Revelation  

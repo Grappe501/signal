@@ -58,52 +58,67 @@
 | — | Ch 13→14 bridge | — | `Draft/013_chapter_13_ch14_bridge_audit.md` | **PASS** v5 |
 | — | **Written continuous v8** | — | `Draft/000-013_written_continuous_v8_PUBLISHER.md` | **ASSEMBLY v8** · P–13 · ~23,400 w |
 | — | **Written full v8 audit** | — | `Draft/000-077_written_full_v8_unified_pass_audit.md` | **PASS** |
-| 14 | The Storm | Noah | `014_chapter_14_the_storm.md` | **v1 FULL DEPTH** · Iona |
-| 15 | Signal Theory | Mara | `015_chapter_15_signal_theory.md` | **v1 FULL DEPTH** |
-| 16 | Cass Ren | Mara | `016_chapter_16_cass_ren.md` | **v1 FULL DEPTH** |
-| 17 | City Under the City | Dubai Artist | `017_chapter_17_the_city_under_the_city.md` | **v1 FULL DEPTH** |
-| 18 | Third Signature | Mercer | `018_chapter_18_the_third_signature.md` | **v1 FULL DEPTH** |
-| 19 | The Book | Iona | `019_chapter_19_the_book.md` | **v1 FULL DEPTH** · child POV |
-| 20 | Perfect Score | Mara | `020_chapter_20_the_perfect_score.md` | **v1 FULL DEPTH** |
-| 21 | The Fire | Mara | `021_chapter_21_the_fire.md` | **v1 FULL DEPTH** · Legendary #5 |
-| 22 | Vale Last Interview | Archive | `022_chapter_22_vales_last_interview.md` | **v1 FULL DEPTH** |
-| 23 | Impossible Prediction | Mara | `023_chapter_23_the_impossible_prediction.md` | **v1 FULL DEPTH** |
-| 24 | The Mirror | Mara | `024_chapter_24_the_mirror.md` | **v1 FULL DEPTH** |
-| 25 | Mercer Exposed | Mara | `025_chapter_25_mercer_exposed.md` | **v1 FULL DEPTH** · false midpoint |
-| 26 | Disappearance | Mercer | `026_chapter_26_the_disappearance.md` | **v1 FULL DEPTH** |
-| 27 | The Fracture | Mara | `027_chapter_27_the_fracture.md` | **v1 FULL DEPTH** · **Part III door** |
+| 14 | The Storm | Noah | `014_chapter_14_the_storm.md` | **v2 FULL DEPTH** · Iona |
+| 15 | Signal Theory | Mara | `015_chapter_15_signal_theory.md` | **v2 FULL DEPTH** |
+| 16 | Cass Ren | Mara | `016_chapter_16_cass_ren.md` | **v2 FULL DEPTH** |
+| — | Act II v2 Batch 1 | — | `../014-016_act_two_v2_batch_one_audit.md` | **COMPLETE** · Ch 14–16 |
+| 17 | City Under the City | Dubai Artist | `017_chapter_17_the_city_under_the_city.md` | **v2 FULL DEPTH** |
+| 18 | Third Signature | Mercer | `018_chapter_18_the_third_signature.md` | **v2 FULL DEPTH** |
+| 19 | The Book | Iona | `019_chapter_19_the_book.md` | **v2 FULL DEPTH** · child POV |
+| — | Act II v2 Batch 2 | — | `../017-019_act_two_v2_batch_two_audit.md` | **COMPLETE** · Ch 17–19 |
+| 20 | Perfect Score | Mara | `020_chapter_20_the_perfect_score.md` | **v2 FULL DEPTH** |
+| 21 | The Fire | Mara | `021_chapter_21_the_fire.md` | **v2 FULL DEPTH** · Legendary #5 |
+| 22 | Vale Last Interview | Archive | `022_chapter_22_vales_last_interview.md` | **v2 FULL DEPTH** |
+| — | Act II v2 Batch 3 | — | `../020-022_act_two_v2_batch_three_audit.md` | **COMPLETE** · Ch 20–22 |
+| 23 | Impossible Prediction | Mara | `023_chapter_23_the_impossible_prediction.md` | **v2 FULL DEPTH** |
+| 24 | The Mirror | Mara | `024_chapter_24_the_mirror.md` | **v2 FULL DEPTH** |
+| 25 | Mercer Exposed | Mara | `025_chapter_25_mercer_exposed.md` | **v2 FULL DEPTH** · false midpoint |
+| — | Act II v2 Batch 4 | — | `../023-025_act_two_v2_batch_four_audit.md` | **COMPLETE** · Ch 23–25 |
+| 26 | Disappearance | Mercer | `026_chapter_26_the_disappearance.md` | **v2 FULL DEPTH** |
+| 27 | The Fracture | Mara | `027_chapter_27_the_fracture.md` | **v2 FULL DEPTH** · **Act II finale** |
+| — | Act II v2 Batch 5 | — | `../026-028_act_two_part_three_v2_batch_five_audit.md` | **COMPLETE** · Ch 26–28 · **Act II done** |
+| 28 | The Failure | Mara | `028_chapter_28_the_failure.md` | **v2 FULL DEPTH** · **Legendary #4** · Part III opens |
 | — | **Part III macro + beats** | — | `../028-042_part_three_veil_v1_macro_outline.md` | **v1 FULL DEPTH** · Ch 28–42 |
 | — | Part III beat sheet | — | `../028-042_part_three_veil_beat_sheet.md` | **135 beats · ~30,000 w** |
-| 28 | The Failure | Mara | `028_chapter_28_the_failure.md` | **v1 FULL DEPTH** · **Legendary #4** |
-| 29 | Sound of the City | Mara | `029_chapter_29_the_sound_of_the_city.md` | **v1 FULL DEPTH** |
-| 30 | Beautiful Things | Noah | `030_chapter_30_beautiful_things.md` | **v1 FULL DEPTH** |
-| 31 | Real Dubai | Dubai Artist | `031_chapter_31_the_real_dubai.md` | **v1 FULL DEPTH** |
-| 32 | Fire Circle | Mara | `032_chapter_32_the_fire_circle.md` | **v1 FULL DEPTH** |
-| 33 | The Children | Iona | `033_chapter_33_the_children.md` | **v1 FULL DEPTH** |
-| 34 | Signal Dreams | Mara | `034_chapter_34_signal_dreams.md` | **v1 FULL DEPTH** |
-| 35 | Ghost of Vale | Archive | `035_chapter_35_the_ghost_of_vale.md` | **v1 FULL DEPTH** |
-| 36 | Empty Church | Mara | `036_chapter_36_the_empty_church.md` | **v1 FULL DEPTH** |
-| 37 | Crack in Lena | Mara | `037_chapter_37_the_crack_in_lena.md` | **v1 FULL DEPTH** |
-| 38 | Impossible Children | Mara | `038_chapter_38_the_impossible_children.md` | **v1 FULL DEPTH** |
-| 39 | Other Self | Mara | `039_chapter_39_the_other_self.md` | **v1 FULL DEPTH** |
-| 40 | System Blinks | Mara | `040_chapter_40_the_system_blinks.md` | **v1 FULL DEPTH** |
-| 41 | Mercer's Side | Mercer | `041_chapter_41_mercers_side.md` | **v1 FULL DEPTH** |
-| 42 | Veil Choice | Mara | `042_chapter_42_the_veil_choice.md` | **v1 FULL DEPTH** · **Part IV door** |
+| 29 | Sound of the City | Mara | `029_chapter_29_the_sound_of_the_city.md` | **v2 FULL DEPTH** · continues Ch 28 |
+| 30 | Beautiful Things | Noah | `030_chapter_30_beautiful_things.md` | **v2 FULL DEPTH** |
+| 31 | Real Dubai | Dubai Artist | `031_chapter_31_the_real_dubai.md` | **v2 FULL DEPTH** · Movement I closes |
+| — | Part III v2 Batch 6 | — | `../029-031_part_three_v2_batch_six_audit.md` | **COMPLETE** · Ch 29–31 |
+| 32 | Fire Circle | Mara | `032_chapter_32_the_fire_circle.md` | **v2 FULL DEPTH** · post-Veil |
+| 33 | The Children | Iona | `033_chapter_33_the_children.md` | **v2 FULL DEPTH** · child POV |
+| 34 | Signal Dreams | Mara | `034_chapter_34_signal_dreams.md` | **v2 FULL DEPTH** |
+| — | Part III v2 Batch 7 | — | `../032-034_part_three_v2_batch_seven_audit.md` | **COMPLETE** · Ch 32–34 |
+| 35 | Ghost of Vale | Archive | `035_chapter_35_the_ghost_of_vale.md` | **v2 FULL DEPTH** |
+| 36 | Empty Church | Mara | `036_chapter_36_the_empty_church.md` | **v2 FULL DEPTH** |
+| 37 | Crack in Lena | Mara | `037_chapter_37_the_crack_in_lena.md` | **v2 FULL DEPTH** |
+| — | Part III v2 Batch 8 | — | `../035-037_part_three_v2_batch_eight_audit.md` | **COMPLETE** · Ch 35–37 |
+| 38 | Impossible Children | Mara | `038_chapter_38_the_impossible_children.md` | **v2 FULL DEPTH** |
+| 39 | Other Self | Mara | `039_chapter_39_the_other_self.md` | **v2 FULL DEPTH** |
+| 40 | System Blinks | Mara | `040_chapter_40_the_system_blinks.md` | **v2 FULL DEPTH** |
+| — | Part III v2 Batch 9 | — | `../038-040_part_three_v2_batch_nine_audit.md` | **COMPLETE** · Ch 38–40 |
+| 41 | Mercer's Side | Mercer | `041_chapter_41_mercers_side.md` | **v2 FULL DEPTH** |
+| 42 | Veil Choice | Mara | `042_chapter_42_the_veil_choice.md` | **v2 FULL DEPTH** · **Part III complete** |
+| — | Part III v2 Batch 10 | — | `../041-043_part_three_four_v2_batch_ten_audit.md` | **COMPLETE** · Ch 41–42 · **Part III DONE** |
 | — | **Part IV macro + beats** | — | `../043-057_part_four_ghost_v1_macro_outline.md` | **v1 FULL DEPTH** · Ch 43–57 |
 | — | Part IV beat sheet | — | `../043-057_part_four_ghost_beat_sheet.md` | **135 beats · ~28,000 w** |
-| 43 | Still One | Mara | `043_chapter_43_the_still_one.md` | **v1 FULL DEPTH** |
-| 44 | Broadcast | Noah | `044_chapter_44_the_broadcast.md` | **v1 FULL DEPTH** · Iona |
-| 45 | Salt Report | Mara | `045_chapter_45_the_salt_report.md` | **v1 FULL DEPTH** |
-| 46 | City of Mirrors | Dubai Artist | `046_chapter_46_the_city_of_mirrors.md` | **v1 FULL DEPTH** |
-| 47 | Prediction Gap | Greenland Researcher | `047_chapter_47_the_prediction_gap.md` | **v1 FULL DEPTH** |
-| 48 | Empty Man | Mara | `048_chapter_48_the_empty_man.md` | **v1 FULL DEPTH** · Legendary #8 |
-| 49 | Dinner | Noah | `049_chapter_49_the_dinner.md` | **v1 FULL DEPTH** |
-| 50 | Lena First Confession | Mara | `050_chapter_50_lenas_first_confession.md` | **v1 FULL DEPTH** |
-| 51 | Third Body | Mercer | `051_chapter_51_the_third_body.md` | **v1 FULL DEPTH** |
-| 52 | Ghosts | Mara | `052_chapter_52_the_ghosts.md` | **v1 FULL DEPTH** · Legendary #7 |
-| 53 | Greenland Files | Mara | `053_chapter_53_the_greenland_files.md` | **v1 FULL DEPTH** |
-| 54 | Second War | Greenland Researcher | `054_chapter_54_the_second_war.md` | **v1 FULL DEPTH** · B2 seed |
-| 55 | Real Confession | Mara | `055_chapter_55_the_real_confession.md` | **v1 FULL DEPTH** |
+| 43 | Still One | Mara | `043_chapter_43_the_still_one.md` | **v2 FULL DEPTH** · **Part IV opens** |
+| — | Part IV v2 Batch 10 | — | `../041-043_part_three_four_v2_batch_ten_audit.md` | **COMPLETE** · Ch 43 · Part IV start |
+| 44 | Broadcast | Noah | `044_chapter_44_the_broadcast.md` | **v2 FULL DEPTH** · Iona locked line |
+| 45 | Salt Report | Mara | `045_chapter_45_the_salt_report.md` | **v2 FULL DEPTH** |
+| 46 | City of Mirrors | Dubai Artist | `046_chapter_46_the_city_of_mirrors.md` | **v2 FULL DEPTH** · Movement I closes |
+| — | Part IV v2 Batch 11 | — | `../044-046_part_four_v2_batch_eleven_audit.md` | **COMPLETE** · Ch 44–46 |
+| 47 | Prediction Gap | Greenland Researcher | `047_chapter_47_the_prediction_gap.md` | **v2 FULL DEPTH** · C-059 · first Greenland POV |
+| 48 | Empty Man | Mara | `048_chapter_48_the_empty_man.md` | **v2 FULL DEPTH** · **Legendary #8** |
+| 49 | Dinner | Noah | `049_chapter_49_the_dinner.md` | **v2 FULL DEPTH** · Iona voluntary |
+| — | Part IV v2 Batch 12 | — | `../047-049_part_four_v2_batch_twelve_audit.md` | **COMPLETE** · Ch 47–49 |
+| 50 | Lena First Confession | Mara | `050_chapter_50_lenas_first_confession.md` | **v2 FULL DEPTH** |
+| 51 | Third Body | Mercer | `051_chapter_51_the_third_body.md` | **v2 FULL DEPTH** |
+| 52 | Ghosts | Mara | `052_chapter_52_the_ghosts.md` | **v2 FULL DEPTH** · **Legendary #7** |
+| — | Part IV v2 Batch 13 | — | `../050-052_part_four_v2_batch_thirteen_audit.md` | **COMPLETE** · Ch 50–52 |
+| 53 | Greenland Files | Mara | `053_chapter_53_the_greenland_files.md` | **v2 FULL DEPTH** · Movement II closes |
+| 54 | Second War | Greenland Researcher | `054_chapter_54_the_second_war.md` | **v2 FULL DEPTH** · B2 seed |
+| 55 | Real Confession | Mara | `055_chapter_55_the_real_confession.md` | **v2 FULL DEPTH** · Lena locked line |
+| — | Part IV v2 Batch 14 | — | `../050-055_part_four_v2_batch_fourteen_audit.md` | **COMPLETE** · Ch 53–55 |
 | 56 | Mercer Warning | Mercer | `056_chapter_56_mercers_warning.md` | **v1 FULL DEPTH** |
 | 57 | Ghost in the System | Mara | `057_chapter_57_the_ghost_in_the_system.md` | **v1 FULL DEPTH** · **Part V door** |
 | — | **Act III macro + beats** | — | `../058-071_act_three_v1_macro_outline.md` | **v1 FULL DEPTH** · Ch 58–71 |
@@ -163,8 +178,9 @@
 | 71 | Disconnection | Mara | `071_chapter_71_disconnection.md` | **v1 FULL DEPTH** · **PRINT READY v5** · Legendary #9 |
 | — | Ch 71 manuscript | Mara | `Draft/071_chapter_71_disconnection.md` | **v5 LOCKED** · ~2,105 w · link **dead** |
 | — | Ch 71 v5 audit | — | `Draft/071_chapter_71_v5_final_polish_audit.md` | **PASS** |
-| — | Ch 71→72 bridge | — | `Draft/071_chapter_71_ch72_bridge_audit.md` | **PASS** v5 |
-| — | **Act III prose complete** | 58–71 | — | **PRINT READY mixed tier** ✅ |
+| — | Ch 71→72 bridge | — | `Draft/071_chapter_71_ch72_bridge_audit.md` | **PASS** v8 |
+| — | **Act III v8 unified** | 58–71 | `Draft/058-071_part_v_v8_unified_pass_audit.md` | **PASS** |
+| — | **Act III prose complete** | 58–71 | — | **PRINT READY v8 unified** ✅ |
 | 72 | The Release | Mercer | `072_chapter_72_the_release.md` | **PRINT READY v8** |
 | 73 | False Peace | Noah | `073_chapter_73_false_peace.md` | **PRINT READY v8** · Iona |
 | 74 | Breakfast | Noah | `074_chapter_74_breakfast.md` | **PRINT READY v8** · Iona |
@@ -175,7 +191,7 @@
 
 ## Progress
 
-**78 / 78** sequence maps · **FULL BOOK OUTLINE COMPLETE** (P · 1–77) · prose PRINT READY v8 (P · 1 · 2 · 72–77)
+**78 / 78** sequence maps · **FULL BOOK OUTLINE COMPLETE** (P · 1–77) · prose **PRINT READY v8** (P · 1–13 · 58–77)
 
 ---
 
@@ -183,11 +199,12 @@
 
 | Queue | Next |
 |-------|------|
-| **Written prose** | P–13 **PRINT READY v8** · 72–77 **v8** · **~28,360 w** |
-| **v8 unified** | `000-077_written_full_v8_unified_pass_audit.md` | **PASS** |
-| **Continuous MS** | `000-013_written_continuous_v8_PUBLISHER.md` | **ASSEMBLY v8** |
+| **Written prose** | P–13 · 58–71 · 72–77 **PRINT READY v8** · **~47,554 w** |
+| **v8 unified** | `000-077_written_full_v8_unified_pass_audit.md` | **PASS** · **34 units** |
+| **Symbol continuity** | `055_symbol_metaphor_chapter_continuity_map.md` | **v1 FULL DEPTH** · all 78 units |
+| **Color continuity** | `056_color_symbolism_chapter_continuity_map.md` | **v1 FULL DEPTH** · palette + matrix |
 | **Part II prose** | Ch 14 v3 next (sequential) |
 | **Part III prose** | Ch 28 (Legendary #4) · priority Ch 39 |
 | **Part IV prose** | Ch 43 · priority Ch 52 · 48 |
-| **Part V prose** | **Act III complete (58–71)** ✅ · Movement I **v5** (58–61) · Movement II **complete** (62–67) · Movement III **v5** (68–71) · Ch 72–77 **v8** exists
+| **Part V prose** | **Act III v8 unified (58–71)** ✅ · Ch 72–77 **v8** · gap **14–57** sequential |
 | **Epilogue maps** | ✅ **complete** (75–77) |

@@ -1,7 +1,7 @@
 # Chapter 71 → Chapter 72 Bridge Audit
 
-**Status:** **PASS** (v5 · 2026-05-29)  
-**Chapter 71:** `071_chapter_71_disconnection.md` · **LOCKED · PRINT READY v5** (~2,105 w)  
+**Status:** **PASS** (v8 · 2026-05-29)  
+**Chapter 71:** `071_chapter_71_disconnection.md` · **PRINT READY v8** (~1,185 w)  
 **Chapter 72:** `072_chapter_72_the_release.md` · **PRINT READY v8** (~900 w)  
 **Pair read:** `071_chapter_71_v5_pair_read_audit.md` (**PASS**)
 
@@ -51,4 +51,4 @@
 
 ## Sign-off
 
-**Bridge:** **PASS** v5 · Ch 72 v8 **PRINT READY** · **Act III prose complete (58–71)** ✅
+**Bridge:** **PASS** v8 · Ch 72 v8 **PRINT READY** · **Act III v8 unified (58–71)** ✅

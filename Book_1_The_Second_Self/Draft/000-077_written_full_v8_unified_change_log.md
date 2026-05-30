@@ -3,18 +3,17 @@
 **Date:** 2026-05-29  
 **Pass:** v8 — full written span · unify · polish · **PRINT READY v8**  
 **Audit:** `000-077_written_full_v8_unified_pass_audit.md` (**PASS**)  
-**Supersedes:** `000-077_written_full_v7_unified_change_log.md` · ring-only v8 log
+**Supersedes:** prior v8 log (20 units only) · `058-071_part_v_v7_unified_change_log.md`
 
 ---
 
 ## Summary
 
-| Metric | v7 unified | v8 full written |
-|--------|------------|-----------------|
-| Written units | 20 (mixed v7/v8) | **20 · all PRINT READY v8** |
-| Words | ~28,360 | **~28,360** |
+| Metric | Prior v8 | v8 full written |
+|--------|----------|-----------------|
+| Written units | 20 (P–13 · 72–77) | **34 · all PRINT READY v8** |
+| Words | ~28,360 | **~47,554** |
 | Prose edits | 0 | **0** |
-| Continuous assembly | v7 script | **v8 script** |
 
 ---
 
@@ -22,9 +21,8 @@
 
 | Block | Change |
 |-------|--------|
-| Ch 3–12 | PRINT READY v7 → **PRINT READY v8** |
-| Ch 13 | PRINT READY v7 → **PRINT READY v8** |
-| P · 1 · 2 · 72–77 | Already **PRINT READY v8** |
+| Ch 58–71 | PRINT READY v7 → **PRINT READY v8** |
+| P · 1–13 · 72–77 | Already **PRINT READY v8** (unchanged) |
 
 ---
 
@@ -32,13 +30,14 @@
 
 | File | Role |
 |------|------|
-| `000-077_written_full_v8_unified_pass_audit.md` | Master audit |
-| `000-013_written_continuous_v8_unified_pass_audit.md` | P–13 audit |
-| `000-013_written_continuous_v8.md` | Craft assembly header |
-| `build_written_continuous_v8.ps1` | Publisher concat |
-| `058-071_part_v_v8_prose_roadmap.md` | **Part V completion queue** |
-| Ch 3–13 manuscripts | Headers → **PRINT READY v8** |
-| `_INDEX.md` | v8 written tier |
+| `058-071_part_v_v8_unified_pass_audit.md` | Act III v8 audit |
+| `058-071_part_v_v8_unified_change_log.md` | Act III v8 log |
+| `058-071_part_v_continuous_v8.md` | Assembly header |
+| `build_part_v_continuous_v8.ps1` | Publisher concat |
+| `000-077_written_full_v8_unified_pass_audit.md` | Master · **34 units** |
+| Ch 58–71 manuscripts | Headers → **PRINT READY v8** |
+| `reader/scripts/chapters.mjs` | All prose → **v8** |
+| `_INDEX.md` | Full written tier |
 
 ---
 
@@ -50,4 +49,4 @@
 
 ## Sign-off
 
-**PRINT READY v8** — all written prose · **PASS** · ready for **Part V (Ch 58–71)** prose build
+**PRINT READY v8** — all **34** written units · **PASS** · ready for **Ch 14 v3** sequential

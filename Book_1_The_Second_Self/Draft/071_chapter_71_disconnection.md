@@ -1,7 +1,8 @@
 # Chapter 71 — Disconnection
 
-**Status:** **LOCKED · PRINT READY v5** (2026-05-29)  
+**Status:** **PRINT READY v8** (2026-05-29)
 **Prior:** v3 FIRST PROSE → v5 polish same session  
+**Unified:** `000-077_written_full_v8_unified_pass_audit.md` (**PASS**)
 **POV:** Mara Voss · tight third · past tense  
 **Part:** V — Convergence · **Movement III · Legendary #9 · Character climax**  
 **Location:** CIB-7 · Second interface chamber · `[GAP confirm]`  
@@ -9,7 +10,7 @@
 **Beat sheet:** `058-071_act_three_beat_sheet.md` · **10/10**  
 **Bridge in:** `070_chapter_70_ch71_bridge_audit.md` (**PASS** v5)  
 **Bridge out:** `071_chapter_71_ch72_bridge_audit.md` (**PASS** v5)  
-**Change log:** `071_chapter_71_v5_change_log.md`  
+**Change log:** `058-071_part_v_v8_unified_change_log.md` · prior v5/v6/v7 logs retained
 **v5 audit:** `071_chapter_71_v5_final_polish_audit.md` · `071_chapter_71_v5_pair_read_audit.md`  
 **Publisher MS:** `071_chapter_71_disconnection_PUBLISHER.md`  
 **Scene bible:** #45 · **Mara Disconnects**  

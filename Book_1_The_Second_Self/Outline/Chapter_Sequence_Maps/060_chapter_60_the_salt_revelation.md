@@ -94,4 +94,4 @@ Mara decides she **must witness** vault — runway Ch 61.
 
 **Plant payoffs:** Ch 61 · 64 · STATIC motif · B2 horror fuel  
 **Conflicts:** C-073 (distinct from Ch 52)  
-**Status:** **v1 FULL DEPTH** · **LOCKED · PRINT READY v5** (2026-05-29) · Ch 61 next
+**Status:** **v1 FULL DEPTH** · **LOCKED · PRINT READY v8** (2026-05-29) · Ch 61 next

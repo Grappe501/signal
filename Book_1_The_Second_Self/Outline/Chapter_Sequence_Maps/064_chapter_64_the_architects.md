@@ -82,4 +82,4 @@ Lena contained · theme **sealed** · Mara **witness**.
 ## Chapter footer
 
 **Plant payoffs:** Theme · B2 · Ch 73 institutional lie  
-**Status:** **v1 FULL DEPTH** · **PRINT READY v5** · Ch 65 next
+**Status:** **v1 FULL DEPTH** · **PRINT READY v8** · Ch 65 next

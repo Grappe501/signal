@@ -68,7 +68,8 @@
       "prose": true,
       "source": "source/Draft/000_prologue_the_martian_walk_PUBLISHER.md",
       "prev": null,
-      "next": "ch-01"
+      "next": "ch-01",
+      "file": "prologue.md"
     },
     {
       "id": "ch-01",
@@ -81,7 +82,8 @@
       "prose": true,
       "source": "source/Draft/001_chapter_01_the_frozen_man_PUBLISHER.md",
       "prev": "prologue",
-      "next": "ch-02"
+      "next": "ch-02",
+      "file": "ch-01.md"
     },
     {
       "id": "ch-02",
@@ -94,7 +96,8 @@
       "prose": true,
       "source": "source/Draft/002_chapter_02_running_double_PUBLISHER.md",
       "prev": "ch-01",
-      "next": "ch-03"
+      "next": "ch-03",
+      "file": "ch-02.md"
     },
     {
       "id": "ch-03",
@@ -107,7 +110,8 @@
       "prose": true,
       "source": "source/Draft/003_chapter_03_the_score_PUBLISHER.md",
       "prev": "ch-02",
-      "next": "ch-04"
+      "next": "ch-04",
+      "file": "ch-03.md"
     },
     {
       "id": "ch-04",
@@ -120,7 +124,8 @@
       "prose": true,
       "source": "source/Draft/004_chapter_04_the_city_of_tomorrow_PUBLISHER.md",
       "prev": "ch-03",
-      "next": "ch-05"
+      "next": "ch-05",
+      "file": "ch-04.md"
     },
     {
       "id": "ch-05",
@@ -133,7 +138,8 @@
       "prose": true,
       "source": "source/Draft/005_chapter_05_the_hero_of_mars_PUBLISHER.md",
       "prev": "ch-04",
-      "next": "ch-06"
+      "next": "ch-06",
+      "file": "ch-05.md"
     },
     {
       "id": "ch-06",
@@ -146,7 +152,8 @@
       "prose": true,
       "source": "source/Draft/006_chapter_06_the_school_of_everything_PUBLISHER.md",
       "prev": "ch-05",
-      "next": "ch-07"
+      "next": "ch-07",
+      "file": "ch-06.md"
     },
     {
       "id": "ch-07",
@@ -159,7 +166,8 @@
       "prose": true,
       "source": "source/Draft/007_chapter_07_mercer_PUBLISHER.md",
       "prev": "ch-06",
-      "next": "ch-08"
+      "next": "ch-08",
+      "file": "ch-07.md"
     },
     {
       "id": "ch-08",
@@ -172,7 +180,8 @@
       "prose": true,
       "source": "source/Draft/008_chapter_08_the_empty_chair_PUBLISHER.md",
       "prev": "ch-07",
-      "next": "ch-09"
+      "next": "ch-09",
+      "file": "ch-08.md"
     },
     {
       "id": "ch-09",
@@ -185,7 +194,8 @@
       "prose": true,
       "source": "source/Draft/009_chapter_09_the_second_crime_PUBLISHER.md",
       "prev": "ch-08",
-      "next": "ch-10"
+      "next": "ch-10",
+      "file": "ch-09.md"
     },
     {
       "id": "ch-10",
@@ -198,7 +208,8 @@
       "prose": true,
       "source": "source/Draft/010_chapter_10_the_veiled_city_PUBLISHER.md",
       "prev": "ch-09",
-      "next": "ch-11"
+      "next": "ch-11",
+      "file": "ch-10.md"
     },
     {
       "id": "ch-11",
@@ -211,7 +222,8 @@
       "prose": true,
       "source": "source/Draft/011_chapter_11_the_third_question_PUBLISHER.md",
       "prev": "ch-10",
-      "next": "ch-12"
+      "next": "ch-12",
+      "file": "ch-11.md"
     },
     {
       "id": "ch-12",
@@ -224,7 +236,8 @@
       "prose": true,
       "source": "source/Draft/012_chapter_12_impossible_PUBLISHER.md",
       "prev": "ch-11",
-      "next": "ch-13"
+      "next": "ch-13",
+      "file": "ch-12.md"
     },
     {
       "id": "ch-13",
@@ -237,7 +250,8 @@
       "prose": true,
       "source": "source/Draft/013_chapter_13_memory_of_a_thing_that_never_happened_PUBLISHER.md",
       "prev": "ch-12",
-      "next": "ch-14"
+      "next": "ch-14",
+      "file": "ch-13.md"
     },
     {
       "id": "ch-14",
@@ -250,7 +264,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/014_chapter_14_the_storm.md",
       "prev": "ch-13",
-      "next": "ch-15"
+      "next": "ch-15",
+      "file": "ch-14.md"
     },
     {
       "id": "ch-15",
@@ -263,7 +278,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/015_chapter_15_signal_theory.md",
       "prev": "ch-14",
-      "next": "ch-16"
+      "next": "ch-16",
+      "file": "ch-15.md"
     },
     {
       "id": "ch-16",
@@ -276,7 +292,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/016_chapter_16_cass_ren.md",
       "prev": "ch-15",
-      "next": "ch-17"
+      "next": "ch-17",
+      "file": "ch-16.md"
     },
     {
       "id": "ch-17",
@@ -289,7 +306,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/017_chapter_17_the_city_under_the_city.md",
       "prev": "ch-16",
-      "next": "ch-18"
+      "next": "ch-18",
+      "file": "ch-17.md"
     },
     {
       "id": "ch-18",
@@ -302,7 +320,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/018_chapter_18_the_third_signature.md",
       "prev": "ch-17",
-      "next": "ch-19"
+      "next": "ch-19",
+      "file": "ch-18.md"
     },
     {
       "id": "ch-19",
@@ -315,7 +334,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/019_chapter_19_the_book.md",
       "prev": "ch-18",
-      "next": "ch-20"
+      "next": "ch-20",
+      "file": "ch-19.md"
     },
     {
       "id": "ch-20",
@@ -328,7 +348,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/020_chapter_20_the_perfect_score.md",
       "prev": "ch-19",
-      "next": "ch-21"
+      "next": "ch-21",
+      "file": "ch-20.md"
     },
     {
       "id": "ch-21",
@@ -341,7 +362,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/021_chapter_21_the_fire.md",
       "prev": "ch-20",
-      "next": "ch-22"
+      "next": "ch-22",
+      "file": "ch-21.md"
     },
     {
       "id": "ch-22",
@@ -354,7 +376,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/022_chapter_22_vales_last_interview.md",
       "prev": "ch-21",
-      "next": "ch-23"
+      "next": "ch-23",
+      "file": "ch-22.md"
     },
     {
       "id": "ch-23",
@@ -367,7 +390,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/023_chapter_23_the_impossible_prediction.md",
       "prev": "ch-22",
-      "next": "ch-24"
+      "next": "ch-24",
+      "file": "ch-23.md"
     },
     {
       "id": "ch-24",
@@ -380,7 +404,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/024_chapter_24_the_mirror.md",
       "prev": "ch-23",
-      "next": "ch-25"
+      "next": "ch-25",
+      "file": "ch-24.md"
     },
     {
       "id": "ch-25",
@@ -393,7 +418,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/025_chapter_25_mercer_exposed.md",
       "prev": "ch-24",
-      "next": "ch-26"
+      "next": "ch-26",
+      "file": "ch-25.md"
     },
     {
       "id": "ch-26",
@@ -406,7 +432,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/026_chapter_26_the_disappearance.md",
       "prev": "ch-25",
-      "next": "ch-27"
+      "next": "ch-27",
+      "file": "ch-26.md"
     },
     {
       "id": "ch-27",
@@ -419,7 +446,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/027_chapter_27_the_fracture.md",
       "prev": "ch-26",
-      "next": "ch-28"
+      "next": "ch-28",
+      "file": "ch-27.md"
     },
     {
       "id": "ch-28",
@@ -432,7 +460,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/028_chapter_28_the_failure.md",
       "prev": "ch-27",
-      "next": "ch-29"
+      "next": "ch-29",
+      "file": "ch-28.md"
     },
     {
       "id": "ch-29",
@@ -445,7 +474,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/029_chapter_29_the_sound_of_the_city.md",
       "prev": "ch-28",
-      "next": "ch-30"
+      "next": "ch-30",
+      "file": "ch-29.md"
     },
     {
       "id": "ch-30",
@@ -458,7 +488,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/030_chapter_30_beautiful_things.md",
       "prev": "ch-29",
-      "next": "ch-31"
+      "next": "ch-31",
+      "file": "ch-30.md"
     },
     {
       "id": "ch-31",
@@ -471,7 +502,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/031_chapter_31_the_real_dubai.md",
       "prev": "ch-30",
-      "next": "ch-32"
+      "next": "ch-32",
+      "file": "ch-31.md"
     },
     {
       "id": "ch-32",
@@ -484,7 +516,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/032_chapter_32_the_fire_circle.md",
       "prev": "ch-31",
-      "next": "ch-33"
+      "next": "ch-33",
+      "file": "ch-32.md"
     },
     {
       "id": "ch-33",
@@ -497,7 +530,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/033_chapter_33_the_children.md",
       "prev": "ch-32",
-      "next": "ch-34"
+      "next": "ch-34",
+      "file": "ch-33.md"
     },
     {
       "id": "ch-34",
@@ -510,7 +544,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/034_chapter_34_signal_dreams.md",
       "prev": "ch-33",
-      "next": "ch-35"
+      "next": "ch-35",
+      "file": "ch-34.md"
     },
     {
       "id": "ch-35",
@@ -523,7 +558,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/035_chapter_35_the_ghost_of_vale.md",
       "prev": "ch-34",
-      "next": "ch-36"
+      "next": "ch-36",
+      "file": "ch-35.md"
     },
     {
       "id": "ch-36",
@@ -536,7 +572,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/036_chapter_36_the_empty_church.md",
       "prev": "ch-35",
-      "next": "ch-37"
+      "next": "ch-37",
+      "file": "ch-36.md"
     },
     {
       "id": "ch-37",
@@ -549,7 +586,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/037_chapter_37_the_crack_in_lena.md",
       "prev": "ch-36",
-      "next": "ch-38"
+      "next": "ch-38",
+      "file": "ch-37.md"
     },
     {
       "id": "ch-38",
@@ -562,7 +600,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/038_chapter_38_the_impossible_children.md",
       "prev": "ch-37",
-      "next": "ch-39"
+      "next": "ch-39",
+      "file": "ch-38.md"
     },
     {
       "id": "ch-39",
@@ -575,7 +614,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/039_chapter_39_the_other_self.md",
       "prev": "ch-38",
-      "next": "ch-40"
+      "next": "ch-40",
+      "file": "ch-39.md"
     },
     {
       "id": "ch-40",
@@ -588,7 +628,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/040_chapter_40_the_system_blinks.md",
       "prev": "ch-39",
-      "next": "ch-41"
+      "next": "ch-41",
+      "file": "ch-40.md"
     },
     {
       "id": "ch-41",
@@ -601,7 +642,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/041_chapter_41_mercers_side.md",
       "prev": "ch-40",
-      "next": "ch-42"
+      "next": "ch-42",
+      "file": "ch-41.md"
     },
     {
       "id": "ch-42",
@@ -614,7 +656,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/042_chapter_42_the_veil_choice.md",
       "prev": "ch-41",
-      "next": "ch-43"
+      "next": "ch-43",
+      "file": "ch-42.md"
     },
     {
       "id": "ch-43",
@@ -627,7 +670,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/043_chapter_43_the_still_one.md",
       "prev": "ch-42",
-      "next": "ch-44"
+      "next": "ch-44",
+      "file": "ch-43.md"
     },
     {
       "id": "ch-44",
@@ -640,7 +684,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/044_chapter_44_the_broadcast.md",
       "prev": "ch-43",
-      "next": "ch-45"
+      "next": "ch-45",
+      "file": "ch-44.md"
     },
     {
       "id": "ch-45",
@@ -653,7 +698,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/045_chapter_45_the_salt_report.md",
       "prev": "ch-44",
-      "next": "ch-46"
+      "next": "ch-46",
+      "file": "ch-45.md"
     },
     {
       "id": "ch-46",
@@ -666,7 +712,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/046_chapter_46_the_city_of_mirrors.md",
       "prev": "ch-45",
-      "next": "ch-47"
+      "next": "ch-47",
+      "file": "ch-46.md"
     },
     {
       "id": "ch-47",
@@ -679,7 +726,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/047_chapter_47_the_prediction_gap.md",
       "prev": "ch-46",
-      "next": "ch-48"
+      "next": "ch-48",
+      "file": "ch-47.md"
     },
     {
       "id": "ch-48",
@@ -692,7 +740,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/048_chapter_48_the_empty_man.md",
       "prev": "ch-47",
-      "next": "ch-49"
+      "next": "ch-49",
+      "file": "ch-48.md"
     },
     {
       "id": "ch-49",
@@ -705,7 +754,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/049_chapter_49_the_dinner.md",
       "prev": "ch-48",
-      "next": "ch-50"
+      "next": "ch-50",
+      "file": "ch-49.md"
     },
     {
       "id": "ch-50",
@@ -718,7 +768,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/050_chapter_50_lenas_first_confession.md",
       "prev": "ch-49",
-      "next": "ch-51"
+      "next": "ch-51",
+      "file": "ch-50.md"
     },
     {
       "id": "ch-51",
@@ -731,7 +782,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/051_chapter_51_the_third_body.md",
       "prev": "ch-50",
-      "next": "ch-52"
+      "next": "ch-52",
+      "file": "ch-51.md"
     },
     {
       "id": "ch-52",
@@ -744,7 +796,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/052_chapter_52_the_ghosts.md",
       "prev": "ch-51",
-      "next": "ch-53"
+      "next": "ch-53",
+      "file": "ch-52.md"
     },
     {
       "id": "ch-53",
@@ -757,7 +810,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/053_chapter_53_the_greenland_files.md",
       "prev": "ch-52",
-      "next": "ch-54"
+      "next": "ch-54",
+      "file": "ch-53.md"
     },
     {
       "id": "ch-54",
@@ -770,7 +824,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/054_chapter_54_the_second_war.md",
       "prev": "ch-53",
-      "next": "ch-55"
+      "next": "ch-55",
+      "file": "ch-54.md"
     },
     {
       "id": "ch-55",
@@ -783,7 +838,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/055_chapter_55_the_real_confession.md",
       "prev": "ch-54",
-      "next": "ch-56"
+      "next": "ch-56",
+      "file": "ch-55.md"
     },
     {
       "id": "ch-56",
@@ -796,7 +852,8 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/056_chapter_56_mercers_warning.md",
       "prev": "ch-55",
-      "next": "ch-57"
+      "next": "ch-57",
+      "file": "ch-56.md"
     },
     {
       "id": "ch-57",
@@ -809,189 +866,204 @@
       "prose": false,
       "source": "source/Outline/Chapter_Sequence_Maps/057_chapter_57_the_ghost_in_the_system.md",
       "prev": "ch-56",
-      "next": "ch-58"
+      "next": "ch-58",
+      "file": "ch-57.md"
     },
     {
       "id": "ch-58",
       "num": 58,
       "title": "The First Fall",
       "pov": "Dubai Artist",
-      "phase": "v5",
-      "phaseLabel": "PRINT READY v5",
+      "phase": "v8",
+      "phaseLabel": "PRINT READY v8",
       "part": "part-v",
       "prose": true,
       "source": "source/Draft/058_chapter_58_the_first_fall_PUBLISHER.md",
       "prev": "ch-57",
-      "next": "ch-59"
+      "next": "ch-59",
+      "file": "ch-58.md"
     },
     {
       "id": "ch-59",
       "num": 59,
       "title": "Denial",
       "pov": "Noah Vale",
-      "phase": "v5",
-      "phaseLabel": "PRINT READY v5",
+      "phase": "v8",
+      "phaseLabel": "PRINT READY v8",
       "part": "part-v",
       "prose": true,
       "source": "source/Draft/059_chapter_59_denial_PUBLISHER.md",
       "prev": "ch-58",
-      "next": "ch-60"
+      "next": "ch-60",
+      "file": "ch-59.md"
     },
     {
       "id": "ch-60",
       "num": 60,
       "title": "The Salt Revelation",
       "pov": "Mara Voss",
-      "phase": "v5",
-      "phaseLabel": "PRINT READY v5",
+      "phase": "v8",
+      "phaseLabel": "PRINT READY v8",
       "part": "part-v",
       "prose": true,
       "source": "source/Draft/060_chapter_60_the_salt_revelation_PUBLISHER.md",
       "prev": "ch-59",
-      "next": "ch-61"
+      "next": "ch-61",
+      "file": "ch-60.md"
     },
     {
       "id": "ch-61",
       "num": 61,
       "title": "Static",
       "pov": "Mara Voss",
-      "phase": "v5",
-      "phaseLabel": "PRINT READY v5",
+      "phase": "v8",
+      "phaseLabel": "PRINT READY v8",
       "part": "part-v",
       "prose": true,
       "source": "source/Draft/061_chapter_61_static_PUBLISHER.md",
       "prev": "ch-60",
-      "next": "ch-62"
+      "next": "ch-62",
+      "file": "ch-61.md"
     },
     {
       "id": "ch-62",
       "num": 62,
       "title": "The Empty Man Speaks",
       "pov": "Adrian Vale",
-      "phase": "v6",
-      "phaseLabel": "PRINT READY v6",
+      "phase": "v8",
+      "phaseLabel": "PRINT READY v8",
       "part": "part-v",
       "prose": true,
       "source": "source/Draft/062_chapter_62_the_empty_man_speaks_PUBLISHER.md",
       "prev": "ch-61",
-      "next": "ch-63"
+      "next": "ch-63",
+      "file": "ch-62.md"
     },
     {
       "id": "ch-63",
       "num": 63,
       "title": "Greenland",
       "pov": "Mara Voss",
-      "phase": "v5",
-      "phaseLabel": "PRINT READY v5",
+      "phase": "v8",
+      "phaseLabel": "PRINT READY v8",
       "part": "part-v",
       "prose": true,
       "source": "source/Draft/063_chapter_63_greenland_PUBLISHER.md",
       "prev": "ch-62",
-      "next": "ch-64"
+      "next": "ch-64",
+      "file": "ch-63.md"
     },
     {
       "id": "ch-64",
       "num": 64,
       "title": "The Architects",
       "pov": "Lena Orra",
-      "phase": "v5",
-      "phaseLabel": "PRINT READY v5",
+      "phase": "v8",
+      "phaseLabel": "PRINT READY v8",
       "part": "part-v",
       "prose": true,
       "source": "source/Draft/064_chapter_64_the_architects_PUBLISHER.md",
       "prev": "ch-63",
-      "next": "ch-65"
+      "next": "ch-65",
+      "file": "ch-64.md"
     },
     {
       "id": "ch-65",
       "num": 65,
       "title": "The Signal Chamber",
       "pov": "Mara Voss",
-      "phase": "v5",
-      "phaseLabel": "PRINT READY v5",
+      "phase": "v8",
+      "phaseLabel": "PRINT READY v8",
       "part": "part-v",
       "prose": true,
       "source": "source/Draft/065_chapter_65_the_signal_chamber_PUBLISHER.md",
       "prev": "ch-64",
-      "next": "ch-66"
+      "next": "ch-66",
+      "file": "ch-65.md"
     },
     {
       "id": "ch-66",
       "num": 66,
       "title": "The Blind Spot",
       "pov": "Greenland Researcher",
-      "phase": "v6",
-      "phaseLabel": "PRINT READY v6",
+      "phase": "v8",
+      "phaseLabel": "PRINT READY v8",
       "part": "part-v",
       "prose": true,
       "source": "source/Draft/066_chapter_66_the_blind_spot_PUBLISHER.md",
       "prev": "ch-65",
-      "next": "ch-67"
+      "next": "ch-67",
+      "file": "ch-66.md"
     },
     {
       "id": "ch-67",
       "num": 67,
       "title": "Mercer's Truth",
       "pov": "Eli Mercer",
-      "phase": "v5",
-      "phaseLabel": "PRINT READY v5",
+      "phase": "v8",
+      "phaseLabel": "PRINT READY v8",
       "part": "part-v",
       "prose": true,
       "source": "source/Draft/067_chapter_67_mercers_truth_PUBLISHER.md",
       "prev": "ch-66",
-      "next": "ch-68"
+      "next": "ch-68",
+      "file": "ch-67.md"
     },
     {
       "id": "ch-68",
       "num": 68,
       "title": "The Choice",
       "pov": "Noah Vale",
-      "phase": "v5",
-      "phaseLabel": "PRINT READY v5",
+      "phase": "v8",
+      "phaseLabel": "PRINT READY v8",
       "part": "part-v",
       "prose": true,
       "source": "source/Draft/068_chapter_68_the_choice_PUBLISHER.md",
       "prev": "ch-67",
-      "next": "ch-69"
+      "next": "ch-69",
+      "file": "ch-68.md"
     },
     {
       "id": "ch-69",
       "num": 69,
       "title": "The Second Self",
       "pov": "Mara Voss",
-      "phase": "v5",
-      "phaseLabel": "PRINT READY v5",
+      "phase": "v8",
+      "phaseLabel": "PRINT READY v8",
       "part": "part-v",
       "prose": true,
       "source": "source/Draft/069_chapter_69_the_second_self_PUBLISHER.md",
       "prev": "ch-68",
-      "next": "ch-70"
+      "next": "ch-70",
+      "file": "ch-69.md"
     },
     {
       "id": "ch-70",
       "num": 70,
       "title": "Convergence",
       "pov": "Mara Voss",
-      "phase": "v5",
-      "phaseLabel": "PRINT READY v5",
+      "phase": "v8",
+      "phaseLabel": "PRINT READY v8",
       "part": "part-v",
       "prose": true,
       "source": "source/Draft/070_chapter_70_convergence_PUBLISHER.md",
       "prev": "ch-69",
-      "next": "ch-71"
+      "next": "ch-71",
+      "file": "ch-70.md"
     },
     {
       "id": "ch-71",
       "num": 71,
       "title": "Disconnection",
       "pov": "Mara Voss",
-      "phase": "v5",
-      "phaseLabel": "PRINT READY v5",
+      "phase": "v8",
+      "phaseLabel": "PRINT READY v8",
       "part": "part-v",
       "prose": true,
       "source": "source/Draft/071_chapter_71_disconnection_PUBLISHER.md",
       "prev": "ch-70",
-      "next": "ch-72"
+      "next": "ch-72",
+      "file": "ch-71.md"
     },
     {
       "id": "ch-72",
@@ -1004,7 +1076,8 @@
       "prose": true,
       "source": "source/Draft/072_chapter_72_the_release_PUBLISHER.md",
       "prev": "ch-71",
-      "next": "ch-73"
+      "next": "ch-73",
+      "file": "ch-72.md"
     },
     {
       "id": "ch-73",
@@ -1017,7 +1090,8 @@
       "prose": true,
       "source": "source/Draft/073_chapter_73_false_peace_PUBLISHER.md",
       "prev": "ch-72",
-      "next": "ch-74"
+      "next": "ch-74",
+      "file": "ch-73.md"
     },
     {
       "id": "ch-74",
@@ -1030,7 +1104,8 @@
       "prose": true,
       "source": "source/Draft/074_chapter_74_breakfast_PUBLISHER.md",
       "prev": "ch-73",
-      "next": "ch-75"
+      "next": "ch-75",
+      "file": "ch-74.md"
     },
     {
       "id": "ch-75",
@@ -1043,7 +1118,8 @@
       "prose": true,
       "source": "source/Draft/075_chapter_75_the_birth_PUBLISHER.md",
       "prev": "ch-74",
-      "next": "ch-76"
+      "next": "ch-76",
+      "file": "ch-75.md"
     },
     {
       "id": "ch-76",
@@ -1056,7 +1132,8 @@
       "prose": true,
       "source": "source/Draft/076_chapter_76_the_vault_PUBLISHER.md",
       "prev": "ch-75",
-      "next": "ch-77"
+      "next": "ch-77",
+      "file": "ch-76.md"
     },
     {
       "id": "ch-77",
@@ -1069,7 +1146,8 @@
       "prose": true,
       "source": "source/Draft/077_chapter_77_connection_established_PUBLISHER.md",
       "prev": "ch-76",
-      "next": null
+      "next": null,
+      "file": "ch-77.md"
     }
   ]
 }

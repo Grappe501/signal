@@ -1,7 +1,8 @@
 # Chapter 61 — Static
 
-**Status:** **LOCKED · PRINT READY v5** (2026-05-29)  
+**Status:** **PRINT READY v8** (2026-05-29)
 **Prior:** v3 FIRST PROSE · `061_chapter_61_v3_change_log.md`  
+**Unified:** `000-077_written_full_v8_unified_pass_audit.md` (**PASS**)
 **POV:** Mara Voss · tight third · past tense  
 **Part:** V — Convergence · **Movement I · Legendary #7**  
 **Case thread:** **8841-A** · Still One vault · `[C-073]` distinct from Ch 52  
@@ -9,7 +10,7 @@
 **Beat sheet:** `058-071_act_three_beat_sheet.md` · **10/10**  
 **Bridge in:** `060_chapter_60_ch61_bridge_audit.md` (**PASS** v5)  
 **Bridge out:** `061_chapter_61_ch62_bridge_audit.md` (**PASS** v5)  
-**Change log:** `061_chapter_61_v5_change_log.md`  
+**Change log:** `058-071_part_v_v8_unified_change_log.md` · prior v5/v6/v7 logs retained
 **Audits:** `061_chapter_61_v5_final_polish_audit.md` (**PASS**) · `061_chapter_61_v5_pair_read_audit.md` (**PASS**)  
 **Publisher MS:** `061_chapter_61_static_PUBLISHER.md`  
 **Scene bible:** #35 — The Static Room  

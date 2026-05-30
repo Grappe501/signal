@@ -22,6 +22,8 @@ Complete **Part V climax block** (Act III on-page · Seg 053) — civilization v
 | **v4** | Close-read · rhythm · bridge bump |
 | **v5** | Pair-read · LOCKED · PRINT READY (Part V) |
 | **v6** | Enneagram/symbol arc when v5 complete |
+| **v7** | Unified harmonization · PRINT READY (Part V) |
+| **v8** | Ring lock · opening/closing tier |
 
 ---
 
@@ -63,4 +65,4 @@ Complete **Part V climax block** (Act III on-page · Seg 053) — civilization v
 | Milestone | Status |
 |-----------|--------|
 | Written block v8 | **COMPLETE** |
-| Part V prose | **Act III complete (58–71)** ✅ · Ch 72–77 **PRINT READY v8** · gap **14–57** sequential
+| Part V prose | **Act III v8 unified (58–71)** ✅ · Ch 72–77 **PRINT READY v8** · gap **14–57** sequential |

@@ -7,7 +7,7 @@
 **Beat sheet:** `028-042_part_three_veil_beat_sheet.md`  
 **Handoff in:** Part II Ch 27 *The Fracture* · systems doubt · Veil **still on**  
 **Handoff out:** Part IV Ch 43 *The Still One* · see `043-057_part_four_ghost_v1_macro_outline.md`  
-**Sequence maps:** `Chapter_Sequence_Maps/028`–`042` · **v1 FULL DEPTH**
+**Sequence maps:** `Chapter_Sequence_Maps/028`–`042` · **Ch 28–42 v2 COMPLETE** · Part IV Ch **43 v2** · Ch 44–57 **v1**
 
 ---
 
@@ -295,6 +295,6 @@ Ch 43 Still One           Month 4 open → Part IV
 |-------|--------|
 | Macro Part III | **v1 FULL DEPTH** |
 | Beat sheet | `028-042_part_three_veil_beat_sheet.md` |
-| Sequence maps | **In build** |
+| Sequence maps | **Ch 28–42 v2 COMPLETE** · **Part III maps DONE** |
 
-**Next:** Part IV (Ch 43–57) or Ch 28 prose (Legendary #4)
+**Next:** Part IV v2 batch Ch **44–46** · Ch **28 v3 prose** (Legendary #4) · Ch **42 v3** (Part III finale) when authorized

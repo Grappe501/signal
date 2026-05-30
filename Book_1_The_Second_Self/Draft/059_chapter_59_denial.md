@@ -1,14 +1,15 @@
 # Chapter 59 — Denial
 
-**Status:** **LOCKED · PRINT READY v5** (2026-05-29)  
+**Status:** **PRINT READY v8** (2026-05-29)
 **Prior:** v3 FIRST PROSE · `059_chapter_59_v3_change_log.md`  
+**Unified:** `000-077_written_full_v8_unified_pass_audit.md` (**PASS**)
 **POV:** Noah Vale · tight third · past tense  
 **Part:** V — Convergence · **Movement I · Public fracture**  
 **Word count:** ~1,605 (target ~1,600)  
 **Beat sheet:** `058-071_act_three_beat_sheet.md` · **10/10**  
 **Bridge in:** `058_chapter_58_ch59_bridge_audit.md` (**PASS** v5)  
 **Bridge out:** `059_chapter_59_ch60_bridge_audit.md` (**PASS** v5)  
-**Change log:** `059_chapter_59_v5_change_log.md`  
+**Change log:** `058-071_part_v_v8_unified_change_log.md` · prior v5/v6/v7 logs retained
 **Audits:** `059_chapter_59_v5_final_polish_audit.md` (**PASS**) · `059_chapter_59_v5_pair_read_audit.md` (**PASS**)  
 **Publisher MS:** `059_chapter_59_denial_PUBLISHER.md`  
 **Character bible:** **Iona Vale** · G-009 **LOCKED**  

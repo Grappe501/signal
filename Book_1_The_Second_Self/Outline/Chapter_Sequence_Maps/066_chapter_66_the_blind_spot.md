@@ -59,4 +59,4 @@ Report **sent anyway** · prediction confidence **collapsed**.
 ## Chapter footer
 
 **Plant payoffs:** Ch 70 LATTICE stutter · B2 Phase 8  
-**Status:** **v1 FULL DEPTH** · **PRINT READY v6** · Ch 67 next
+**Status:** **v1 FULL DEPTH** · **PRINT READY v8** · Ch 67 next

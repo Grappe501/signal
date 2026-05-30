@@ -90,4 +90,4 @@ Exit door · sunlight **obscene** · Mara **broken professional composure**.
 ## Chapter footer
 
 **Emotional exit:** Horror **personalized** · Mara **changed**  
-**Status:** **v1 FULL DEPTH** · **LOCKED · PRINT READY v5** (2026-05-29) · **END MOVEMENT I**
+**Status:** **v1 FULL DEPTH** · **LOCKED · PRINT READY v8** (2026-05-29) · **END MOVEMENT I**

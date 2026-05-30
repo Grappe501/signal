@@ -7,7 +7,7 @@
 **Beat sheet:** `043-057_part_four_ghost_beat_sheet.md`  
 **Handoff in:** Part III Ch 42 *Veil Choice* · Mara refused filters · raw reality  
 **Handoff out:** Part V Ch 58 *First Fall* · `058-071_act_three_v1_macro_outline.md`  
-**Sequence maps:** `Chapter_Sequence_Maps/043`–`057` · **v1 FULL DEPTH**
+**Sequence maps:** `Chapter_Sequence_Maps/043`–`057` · Ch **43–55 v2** · Ch 56–57 **v1**
 
 ---
 
@@ -288,6 +288,6 @@ Ch 57 Ghost in System        Week 20   ┘ → Part V Ch 58 Month 5
 |-------|--------|
 | Macro Part IV | **v1 FULL DEPTH** |
 | Beat sheet | `043-057_part_four_ghost_beat_sheet.md` |
-| Sequence maps | **In build** |
+| Sequence maps | Ch **43–55 v2** · Ch 56–57 **v1** · **In build** |
 
-**Next:** Part V prose Month 5 block · or Ch 43 prose
+**Next:** Part IV v2 batch Ch **56–57** · **Part IV maps COMPLETE** · Ch **52 v3 prose** when authorized

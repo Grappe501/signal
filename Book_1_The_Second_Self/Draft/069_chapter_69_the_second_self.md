@@ -1,7 +1,8 @@
 # Chapter 69 — The Second Self
 
-**Status:** **LOCKED · PRINT READY v5** (2026-05-29)  
+**Status:** **PRINT READY v8** (2026-05-29)
 **Prior:** v3 FIRST PROSE → v5 polish same session  
+**Unified:** `000-077_written_full_v8_unified_pass_audit.md` (**PASS**)
 **POV:** Mara Voss · tight third · past tense  
 **Part:** V — Convergence · **Movement III · Personal climax**  
 **Location:** CIB-7 · Relay-adjacent · Second interface chamber · `[GAP confirm]`  
@@ -9,7 +10,7 @@
 **Beat sheet:** `058-071_act_three_beat_sheet.md` · **10/10**  
 **Bridge in:** `068_chapter_68_ch69_bridge_audit.md` (**PASS** v5)  
 **Bridge out:** `069_chapter_69_ch70_bridge_audit.md` (**PASS** v5)  
-**Change log:** `069_chapter_69_v5_change_log.md`  
+**Change log:** `058-071_part_v_v8_unified_change_log.md` · prior v5/v6/v7 logs retained
 **v5 audit:** `069_chapter_69_v5_final_polish_audit.md` · `069_chapter_69_v5_pair_read_audit.md`  
 **Publisher MS:** `069_chapter_69_the_second_self_PUBLISHER.md`  
 **Scene bible:** #45 setup · Scene 15 Mirror Room **deepened**  

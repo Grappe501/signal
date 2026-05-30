@@ -81,4 +81,4 @@ Overload **peak** · overhang to Ch 71 · **no rescue**.
 
 **Emotional exit:** Awe · dread · **spent**  
 **Handoff:** Ch 71 Disconnection  
-**Status:** **v1 FULL DEPTH** · **PRINT READY v5** · Ch 71 next
+**Status:** **v1 FULL DEPTH** · **PRINT READY v8** · Ch 71 next

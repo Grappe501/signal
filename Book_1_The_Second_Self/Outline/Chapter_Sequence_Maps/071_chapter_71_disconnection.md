@@ -87,4 +87,4 @@ Deliver **Legendary #9** — sever link — grief without montage — **Act III 
 
 **Emotional exit:** Grief · relief · **human scale restored**  
 **Plant payoffs:** Ch 72 parallel release · Ch 73 Mara text  
-**Status:** **v1 FULL DEPTH** · **PRINT READY v5** · **Act III ends here**
+**Status:** **v1 FULL DEPTH** · **PRINT READY v8** · **Act III ends here**

@@ -1,30 +1,302 @@
 # Chapter 51 — The Third Body
 
-**Segment:** 054 · Part IV v1  
-**Status:** **v1 FULL DEPTH** — pre-prose (2026-05-29)  
+**Segment:** 054 · Part IV v2  
+**Status:** **v2 FULL DEPTH** — sequence map · pre-prose (2026-05-29)  
 **POV:** Eli Mercer · tight third · past tense  
+**Part:** IV — **Movement II · Scale & vault**
 
 | | |
 |--|--|
 | **Word target** | **~2,200** |
-| **Beats** | **9** — 51.1–51.9 |
+| **Screen est.** | **~7 min** |
+| **Beats (Layer 2)** | **9** — `043-057_part_four_ghost_beat_sheet.md` · 51.1–51.9 |
+| **Scene bible** | #18 carry · hidden network · Ch 41 echo |
+| **Macro §** | `043-057_part_four_ghost_v1_macro_outline.md` · Movement II |
+| **Timeline** | Month 4 · **Week 18** · Seg 046 copied architecture |
+| **Echo pair** | **Ch 18** Third Signature · **Ch 41** Not First · **Ch 67** Mercer Truth |
+| **Registry** | `052_part_four_chapter_registry.md` |
+| **Character bible** | Eli Mercer **7w8** · `Notes/038_character_dossiers_six_major.md` |
 
 ---
 
 ## Author lock
 
-**Locked line:** *"Who started this?"*  
-**Network:** Older · hidden · **not his**  
-**Purpose:** Reverse suspicion · Seg 046 copied architecture
+| Decision | Locked |
+|----------|--------|
+| **Function** | Reverse suspicion · Mercer **not origin** · **network older** · **hidden** |
+| **Locked line** | Mercer — *"Who started this?"* — **verbatim** |
+| **Network** | **Older** · **hidden** · **not his** · **evidence chain** |
+| **Architecture** | **Copied** hint · Seg 046 · Ch 41 **payoff** |
+| **Tone** | **Fear not triumph** · **dig alone** · **7w8** spent |
+| **Ending** | **No answer** · **locked** |
+| **Rule** | **No manifesto** · **no** Mara contact · **behaviour** primary |
+| **Transition** | **Cut** Ch 52 *The Ghosts* · Mara POV · **no bridge line** |
+
+---
+
+## Character state entering
+
+| | |
+|--|--|
+| **Mercer** | **Hiding** · Month 4 · Ch 41 **not first** · **7w8** · **dig** **continues** |
+| **Mara** | **Off-page** · Ch 50 **Lena** session · **parallel** **unknowing** |
+| **Reader** | Post Ch 41 · expects **network** **wider** than Mercer |
+| **World** | **Embodiment** **architecture** **leaking** · **older** **layer** **visible** |
 
 ---
 
 ## Chapter objective
 
-Mercer discovers he is **not origin**.
+**Third body** — network discovery **not his** · **older hidden** · **copied architecture** · **fear not triumph** · **locked line** · **no answer** · widen threat.
 
 ---
 
-## Chapter footer
+## Chapter ending (locked)
 
-**Status:** **v1 FULL DEPTH**
+1. **Locked line:** *"Who started this?"* — **verbatim** · **quiet**.  
+2. **No answer** · **locked** · **silence** after.  
+3. **Evidence chain** · **stored** · **alone**.  
+4. **Cut** → Ch 52 *The Ghosts* · Mara POV · **no bridge line**.
+
+**Chapter button:** *Who started this?* — **no** **reply**.
+
+**Transition:** **Hard cut** Ch 52 · **vault** **scale** · **inverse** register.
+
+**Bridge in:** `Draft/050_chapter_50_ch51_bridge_audit.md` (**PENDING** · map v2)  
+**Bridge out:** `Draft/051_chapter_51_ch52_bridge_audit.md` (**PENDING** · map v2)
+
+---
+
+## Sequence overview
+
+| Scene | Title | Beats | Function |
+|-------|-------|-------|----------|
+| **51.1** | Network | 51.1–51.3 | Discovery not his · older hidden · copied hint |
+| **51.2** | Dig | 51.4–51.6 | Fear not triumph · dig alone · evidence chain |
+| **51.3** | Who | 51.7–51.9 | Locked line · no answer · cut vault |
+
+---
+
+### Scene 51.1 — Network
+
+| | |
+|--|--|
+| **Location** | **Off-grid** hide · **manual** · **network** map · Ch 26 grammar |
+| **POV** | Mercer |
+| **Time** | Month 4 · week eighteen |
+| **Duration est.** | ~2.5 min |
+
+**Scene objective (story):** **Network discovery** · **not his** · **older** · **hidden** · **architecture copied** hint.
+
+**Scene objective (character):** **7w8** **fear** · **not** **ownership** **pride**.
+
+**Reveals:**
+- **Network discovery** · **third body** grammar · **not** **his** **origin** · **show** **map** **or** **chain**
+- **Older** · **hidden** · **predates** Mercer · Ch 18 **payoff** **deepens**
+- **Architecture copied** hint · Seg 046 · Ch 41 **rhyme** **worse**
+- **Not triumph** · **terror** · **witness** mode · **not** **villain** **reversal** **complete**
+- **Mara** **off-page** · **Lena** **off-page**
+
+**Withholds:** Who started · zip · LATTICE
+
+**Visual motifs:** **Paper** · **timeline** **predates** · **cables** · **dim** light
+
+**Character beats:**
+- Mercer: **searching** · **frightened** · **7w8** spent
+
+**Foreshadowing:** Ch 67 · 72 · Part V · B2 grid
+
+**Connection theme:** **Node** **not** **root** · trilogy **conspiracy** **widens**.
+
+**End image / transition:** **Map** **wrong** · push **dig**.
+
+**Beat map:** 51.1 · 51.2 · 51.3
+
+**Camera grammar:** **Close** manual desk · **insert** **third** node · **hold**
+
+**Sound:** **Fan** · **quiet**
+
+**Canon refs:** Ch 18 · Ch 41 · Seg 046
+
+---
+
+### Scene 51.2 — Dig
+
+| | |
+|--|--|
+| **Location** | Same hide · **evidence** **chain** build |
+| **POV** | Mercer |
+| **Time** | Continuous · **hours compressed** |
+| **Duration est.** | ~2.5 min |
+
+**Scene objective (story):** **Fear not triumph** · **dig alone** · **evidence chain** · build to **locked line**.
+
+**Scene objective (character):** **Behaviour** · **no** **speech** **essay** · **7w8** → **1** micro optional.
+
+**Reveals:**
+- **Fear not triumph** · **locked** tone · **not** **smirk** · **not** **guilt** **performance**
+- **Dig alone** · **manual** · **no** **call** police · **no** Mara · Ch 18 **rhyme**
+- **Evidence chain** · **specific** beats · **not** **montage** **only** · **third** **signature** **family**
+- **Reverse suspicion** · reader **reframe** · **Mercer** **not** **origin** · **show**
+- Build to **question** · **not** **answer** yet
+
+**Withholds:** Locked line delivery · Ch 52 · identity of starter
+
+**Visual motifs:** **Chain** printout · **red** **before** Mercer · **go-bag** edge
+
+**Character beats:**
+- Mercer: **alone** · **stores** · **cannot** **unsee**
+
+**Foreshadowing:** Ch 52 scale · Ch 56 warning · Ch 67
+
+**Connection theme:** **Copied** **architecture** **escaped**.
+
+**Locked dialogue:** *(none until scene 51.3)*
+
+**End image / transition:** **Chain** **complete** · push **line**.
+
+**Beat map:** 51.4 · 51.5 · 51.6
+
+**Camera grammar:** **Insert** chain · **close** Mercer **face**
+
+**Sound:** **Silence** · **keyboard** **sparse**
+
+**Craft priority:** **Fear** must **pair** Ch 41 · **different** **question**.
+
+---
+
+### Scene 51.3 — Who
+
+| | |
+|--|--|
+| **Location** | Hide **still** · **empty** room · **witness** |
+| **POV** | Mercer |
+| **Time** | **End** dig |
+| **Duration est.** | ~1.5 min |
+
+**Scene objective (story):** **Locked line** · **no answer** · cut Ch 52 vault.
+
+**Scene objective (character):** **Suspect → warning signal** · macro **character** movement.
+
+**Reveals:**
+- **Locked line:** *"Who started this?"* — **verbatim** · **quiet** · **to himself** or **empty** room
+- **No answer** · **locked** · **silence** **after** · **not** **plot** **convenience** **fake-out**
+- **Cut** prep: Mara **authorized** vault · **thousands** · **Please.**
+- **No manifesto** · **pack** or **still** · **behaviour** only after
+
+**Withholds:** Ch 52 horror · starter identity
+
+**Visual motifs:** **Dark** · **city** smooth **distance** · **evidence** **glow**
+
+**Character beats:**
+- Mercer: **alone** · **question** **unanswerable** **on-page**
+
+**Foreshadowing:** Ch 52 · 56 · 67 · climax grid
+
+**Connection theme:** **Origin** **question** **before** **scale** **horror**.
+
+**Locked dialogue:** **"Who started this?"** — Mercer only.
+
+**End image / transition:** **Silence** · **cut** Ch 52 · **no swell**.
+
+**Beat map:** 51.7 · 51.8 · 51.9
+
+**Camera grammar:** **Close** mouth at line · **cut** black
+
+**Sound:** **One line** · **silence**
+
+---
+
+## Beat index (Layer 2 → scenes)
+
+| Beat | Scene | One-line |
+|------|-------|----------|
+| 51.1 | 51.1 | Network discovery · **not his** |
+| 51.2 | 51.1 | **Older** · hidden |
+| 51.3 | 51.1 | Architecture **copied** hint |
+| 51.4 | 51.2 | Fear not triumph |
+| 51.5 | 51.2 | Dig alone |
+| 51.6 | 51.2 | Evidence chain |
+| 51.7 | 51.3 | **Locked:** *Who started this?* |
+| 51.8 | 51.3 | No answer |
+| 51.9 | 51.3 | Cut Mara vault 52 |
+
+---
+
+## Upstream / downstream alignment
+
+| Ch | Connection |
+|----|------------|
+| **18** | Third signature predates |
+| **41** | Not the first · **pair** |
+| **50** | Lena parallel · **off-page** |
+| **52** | Vault scale · **Mara** witness |
+| **67** | Mercer truth payoff |
+
+---
+
+## Ch 41 vs Ch 51 distinction (locked)
+
+| Ch 41 | Ch 51 |
+|-------|-------|
+| *I'm not the first.* | *Who started this?* |
+| **Witness** hiding | **Network** dig |
+| Month 3 week 14 | Month 4 week 18 |
+| Architecture leak | **Third body** chain |
+
+---
+
+## Ch 50 → Ch 51 handoff (design)
+
+| Ch 50 exit | Ch 51 entry | Design job |
+|------------|-------------|------------|
+| Lena **timeline** wrong | Mercer **origin** question | **Institutional** vs **grid** |
+| Mara **silent** | Mercer **alone** | POV **shift** |
+| **Hard cut** | Hide **cold open** OK | **Parallel** **dread** |
+
+---
+
+## Plants / payoffs
+
+| Planted (Ch 51) | Payoff |
+|-----------------|--------|
+| Who started this? | Ch 67 · trilogy |
+| Older network | B2 · climax |
+| Copied architecture | Ch 56 · 57 |
+| No answer | Nobody in charge Ch 57 |
+| Evidence chain | Ch 72 release |
+
+---
+
+## Exposition rules (Ch 51)
+
+| Rule | Method |
+|------|--------|
+| **Manifesto** | **Forbidden** |
+| **Triumph** | **Forbidden** |
+| **Mara contact** | **Forbidden** |
+| **Starter identity** | **Withheld** |
+| **Ch 41 recap** | **Payoff** · **not** replay |
+| **Who started answer** | **Forbidden** on-page |
+
+---
+
+## Conflicts flagged
+
+| ID | Status |
+|----|--------|
+| Ch 41 vs Ch 51 lines | **Pair** · **both** Mercer · **different** |
+| Ch 18 third signature | **Harmonize** chain · **same** family |
+| Scene bible #18 carry | **Network** chapter · **not** duplicate Ch 18 |
+
+---
+
+## Sequence map status
+
+**v2 FULL DEPTH** — pre-prose · **9/9 beats** · bridge chain **PENDING**
+
+---
+
+## Next
+
+**Ch 51 v3 prose** when authorized · **Ch 52 v2** · **Legendary #7** next

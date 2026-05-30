@@ -1,7 +1,7 @@
 # Book One — Written Full v7 Unified Pass Audit
 
 **Status:** **PASS** (v7 · 2026-05-29)  
-**Scope:** **All prose written to date** — Prologue · Ch 1–13 · Ch 72–77  
+**Scope:** **All prose written to date** — Prologue · Ch 1–13 · Ch 58–71 · Ch 72–77  
 **Supersedes:** `000-077_v8_unified_pass_audit.md` (opening/closing block only) · `000-013_written_manuscript_v6_unified_audit.md`  
 **Companion:** `000-013_written_continuous_v7_unified_pass_audit.md` · `000-077_v8_unified_pass_audit.md`
 
@@ -30,7 +30,8 @@
 |-------|----------|--------|-------|
 | **A · Continuous** | `000-013_written_continuous_v7_PUBLISHER.md` | ~23,398 | P + 1–13 |
 | **B · Epilogue** | `000-077_opening_closing_v8_PUBLISHER.md` (P+1+2+72–77) · `077_epilogue_full_v8_PUBLISHER.md` | ~12,583 / ~4,961 | P+1+2+72–77 / 72–77 only |
-| **Gap (unsigned)** | Ch 14–71 | — | not drafted |
+| **C · Act III** | `058-071_part_v_continuous_v7_PUBLISHER.md` | ~19,194 | 58–71 |
+| **Gap (unsigned)** | Ch 14–57 | — | not drafted |
 
 *Block B overlaps P+1+2 with Block A by design — epilogue ring assembly retained from v8.*
 
@@ -43,6 +44,7 @@
 | Prologue · Ch 1–2 | **PRINT READY v8** | Opening ring · unchanged |
 | Ch 3–12 | **PRINT READY v7** | Act I remainder · unified middle |
 | Ch 13 | **PRINT READY v7** | Part II opens · in continuous assembly |
+| Ch 58–71 | **PRINT READY v7** | Act III unified · `058-071_part_v_v7_unified_pass_audit.md` |
 | Ch 72–77 | **PRINT READY v8** | Closing ring · unchanged |
 
 **Rule:** v8 = opening/closing **ring lock** · v7 = **full written span** harmonization including middle book.

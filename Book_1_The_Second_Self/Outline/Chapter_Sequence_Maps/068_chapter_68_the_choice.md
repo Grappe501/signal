@@ -84,4 +84,4 @@ Link **dead** · harder morning **coming** · Iona notices father **present**.
 ## Chapter footer
 
 **Plant payoffs:** Ch 73 · 74 · Ch 2 echo  
-**Status:** **v1 FULL DEPTH** · **PRINT READY v5** · Ch 69 next
+**Status:** **v1 FULL DEPTH** · **PRINT READY v8** · Ch 69 next

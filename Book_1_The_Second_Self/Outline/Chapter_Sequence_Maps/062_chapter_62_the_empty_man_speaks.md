@@ -84,4 +84,4 @@ Vale line delivered · Mara **cannot fix** · myth **dead gently**.
 ## Chapter footer
 
 **Plant payoffs:** Prologue · Ch 76 · Vale B2 thread  
-**Status:** **v1 FULL DEPTH** · **PRINT READY v6** · Ch 63 next
+**Status:** **v1 FULL DEPTH** · **PRINT READY v8** · Ch 63 next

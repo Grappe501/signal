@@ -1,7 +1,8 @@
 # Chapter 66 — The Blind Spot
 
-**Status:** **LOCKED · PRINT READY v6** (2026-05-29)  
+**Status:** **PRINT READY v8** (2026-05-29)
 **Prior:** v3 FIRST PROSE → v5 LOCKED  
+**Unified:** `000-077_written_full_v8_unified_pass_audit.md` (**PASS**)
 **POV:** Greenland Researcher · tight third · past tense · **no name**  
 **Part:** V — Convergence · **Movement II · Truth at scale**  
 **Location:** Arctic Core · LATTICE ops · fracture analytics wing · `[GAP confirm]`  
@@ -9,7 +10,7 @@
 **Beat sheet:** `058-071_act_three_beat_sheet.md` · **6/6**  
 **Bridge in:** `065_chapter_65_ch66_bridge_audit.md` (**PASS** v5)  
 **Bridge out:** `066_chapter_66_ch67_bridge_audit.md` (**PASS** v5)  
-**Change log:** `066_chapter_66_v6_change_log.md`  
+**Change log:** `058-071_part_v_v8_unified_change_log.md` · prior v5/v6/v7 logs retained
 **v6 audit:** `066_chapter_66_v6_enneagram_symbol_arc_audit.md`  
 **v5 audit:** `066_chapter_66_v5_final_polish_audit.md` · `066_chapter_66_v5_pair_read_audit.md`  
 **Publisher MS:** `066_chapter_66_the_blind_spot_PUBLISHER.md`  

@@ -1,7 +1,8 @@
 # Chapter 67 — Mercer's Truth
 
-**Status:** **LOCKED · PRINT READY v5** (2026-05-29)  
+**Status:** **PRINT READY v8** (2026-05-29)
 **Prior:** v3 FIRST PROSE  
+**Unified:** `000-077_written_full_v8_unified_pass_audit.md` (**PASS**)
 **POV:** Eli Mercer · tight third · past tense  
 **Part:** V — Convergence · **Movement II · Villain reversal complete**  
 **Location:** CIB transit safe room · Tier-2 Underways band · `[GAP confirm]`  
@@ -9,7 +10,7 @@
 **Beat sheet:** `058-071_act_three_beat_sheet.md` · **8/8**  
 **Bridge in:** `066_chapter_66_ch67_bridge_audit.md` (**PASS** v5)  
 **Bridge out:** `067_chapter_67_ch68_bridge_audit.md` (**PASS** v5)  
-**Change log:** `067_chapter_67_v5_change_log.md`  
+**Change log:** `058-071_part_v_v8_unified_change_log.md` · prior v5/v6/v7 logs retained
 **v5 audit:** `067_chapter_67_v5_final_polish_audit.md` · `067_chapter_67_v5_pair_read_audit.md`  
 **Publisher MS:** `067_chapter_67_mercers_truth_PUBLISHER.md`  
 **Scene bible:** #37 — Mercer's Confession  

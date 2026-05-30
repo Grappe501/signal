@@ -79,4 +79,4 @@ Mercer **witness** · release **inevitable** · interior toward Ch 72.
 ## Chapter footer
 
 **Plant payoffs:** Ch 72 · 77 zip circuit  
-**Status:** **v1 FULL DEPTH** · **PRINT READY v5** · Movement II close · Ch 68 next
+**Status:** **v1 FULL DEPTH** · **PRINT READY v8** · Movement II close · Ch 68 next

@@ -1,7 +1,8 @@
 # Chapter 68 — The Choice
 
-**Status:** **LOCKED · PRINT READY v5** (2026-05-29)  
+**Status:** **PRINT READY v8** (2026-05-29)
 **Prior:** v3 FIRST PROSE → v5 polish same session  
+**Unified:** `000-077_written_full_v8_unified_pass_audit.md` (**PASS**)
 **POV:** Noah Vale · tight third · past tense  
 **Part:** V — Convergence · **Movement III · Personal climax opens**  
 **Location:** Apartment · Second dock alcove · New Manhattan tier  
@@ -9,7 +10,7 @@
 **Beat sheet:** `058-071_act_three_beat_sheet.md` · **8/8**  
 **Bridge in:** `067_chapter_67_ch68_bridge_audit.md` (**PASS** v5)  
 **Bridge out:** `068_chapter_68_ch69_bridge_audit.md` (**PASS** v5)  
-**Change log:** `068_chapter_68_v5_change_log.md`  
+**Change log:** `058-071_part_v_v8_unified_change_log.md` · prior v5/v6/v7 logs retained
 **v5 audit:** `068_chapter_68_v5_final_polish_audit.md` · `068_chapter_68_v5_pair_read_audit.md`  
 **Publisher MS:** `068_chapter_68_the_choice_PUBLISHER.md`  
 **Scene bible:** #44 · **G-009 Iona Vale**  

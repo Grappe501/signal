@@ -1,7 +1,8 @@
 # Chapter 65 — The Signal Chamber
 
-**Status:** **LOCKED · PRINT READY v5** (2026-05-29)  
+**Status:** **PRINT READY v8** (2026-05-29)
 **Prior:** v3 FIRST PROSE  
+**Unified:** `000-077_written_full_v8_unified_pass_audit.md` (**PASS**)
 **POV:** Mara Voss · tight third · past tense  
 **Part:** V — Convergence · **Movement II · Truth at scale**  
 **Location:** CIB-7 · deepest Relay band · signal chamber approach · `[GAP confirm]`  
@@ -9,7 +10,7 @@
 **Beat sheet:** `058-071_act_three_beat_sheet.md` · **8/8**  
 **Bridge in:** `064_chapter_64_ch65_bridge_audit.md` (**PASS** v5)  
 **Bridge out:** `065_chapter_65_ch66_bridge_audit.md` (**PASS** v5)  
-**Change log:** `065_chapter_65_v5_change_log.md`  
+**Change log:** `058-071_part_v_v8_unified_change_log.md` · prior v5/v6/v7 logs retained
 **v5 audit:** `065_chapter_65_v5_final_polish_audit.md` · `065_chapter_65_v5_pair_read_audit.md`  
 **Publisher MS:** `065_chapter_65_the_signal_chamber_PUBLISHER.md`  
 **Scene bible:** #41 — The Signal Chamber  

@@ -1,7 +1,8 @@
 # Chapter 64 — The Architects
 
-**Status:** **LOCKED · PRINT READY v5** (2026-05-29)  
+**Status:** **PRINT READY v8** (2026-05-29)
 **Prior:** v3 FIRST PROSE  
+**Unified:** `000-077_written_full_v8_unified_pass_audit.md` (**PASS**)
 **POV:** Lena Orra · tight third · past tense · **C-072** only Lena POV in B1  
 **Part:** V — Convergence · **Movement II · Truth at scale**  
 **Location:** CIB-7 containment interview · `[GAP confirm]`  
@@ -9,7 +10,7 @@
 **Beat sheet:** `058-071_act_three_beat_sheet.md` · **8/8**  
 **Bridge in:** `063_chapter_63_ch64_bridge_audit.md` (**PASS** v5)  
 **Bridge out:** `064_chapter_64_ch65_bridge_audit.md` (**PASS** v5)  
-**Change log:** `064_chapter_64_v5_change_log.md`  
+**Change log:** `058-071_part_v_v8_unified_change_log.md` · prior v5/v6/v7 logs retained
 **v5 audit:** `064_chapter_64_v5_final_polish_audit.md` · `064_chapter_64_v5_pair_read_audit.md`  
 **Publisher MS:** `064_chapter_64_the_architects_PUBLISHER.md`  
 **Scene bible:** #42 — Lena's Truth  

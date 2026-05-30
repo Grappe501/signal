@@ -152,4 +152,4 @@ Noah **cannot answer** · holds question · night news **too smooth**.
 ## Chapter footer
 
 **Plant payoffs:** Ch 68 · 73 · 74 · Denial Era  
-**Sequence map status:** **v1 FULL DEPTH** · **LOCKED · PRINT READY v5** (2026-05-29) · Ch 60 next
+**Sequence map status:** **v1 FULL DEPTH** · **LOCKED · PRINT READY v8** (2026-05-29) · Ch 60 next

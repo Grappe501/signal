@@ -71,4 +71,4 @@ Mara sees scale — humanity **more dependent** than imagined.
 ## Chapter footer
 
 **Conflicts:** C-041 Greenland governs climax location  
-**Status:** **v1 FULL DEPTH** · **PRINT READY v5** · Ch 64 next
+**Status:** **v1 FULL DEPTH** · **PRINT READY v8** · Ch 64 next

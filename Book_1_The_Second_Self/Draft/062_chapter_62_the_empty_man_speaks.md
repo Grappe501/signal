@@ -1,7 +1,8 @@
 # Chapter 62 — The Empty Man Speaks
 
-**Status:** **LOCKED · PRINT READY v6** (2026-05-29)  
+**Status:** **PRINT READY v8** (2026-05-29)
 **Prior:** v3 FIRST PROSE → v5 polish absorbed in v6 pass  
+**Unified:** `000-077_written_full_v8_unified_pass_audit.md` (**PASS**)
 **POV:** Adrian Vale · tight third · past tense · **C-074** only dedicated Vale chapter B1  
 **Part:** V — Convergence · **Movement II · Truth at scale**  
 **Location:** Relay Continuity Archive · Long-Term Suite 3 · `[GAP confirm]`  
@@ -9,7 +10,7 @@
 **Beat sheet:** `058-071_act_three_beat_sheet.md` · **8/8**  
 **Bridge in:** `061_chapter_61_ch62_bridge_audit.md` (**PASS** v6)  
 **Bridge out:** `062_chapter_62_ch63_bridge_audit.md` (**PASS** v6)  
-**Change log:** `062_chapter_62_v6_change_log.md`  
+**Change log:** `058-071_part_v_v8_unified_change_log.md` · prior v5/v6/v7 logs retained
 **v6 audit:** `062_chapter_62_v6_enneagram_symbol_arc_audit.md`  
 **Publisher MS:** `062_chapter_62_the_empty_man_speaks_PUBLISHER.md`  
 **Scene bible:** #36 · **Legendary #8**

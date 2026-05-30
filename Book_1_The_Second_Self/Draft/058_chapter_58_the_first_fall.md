@@ -1,14 +1,15 @@
 # Chapter 58 — The First Fall
 
-**Status:** **LOCKED · PRINT READY v5** (2026-05-29)  
+**Status:** **PRINT READY v8** (2026-05-29)
 **Prior:** v3 FIRST PROSE · `058_chapter_58_v3_change_log.md`  
+**Unified:** `000-077_written_full_v8_unified_pass_audit.md` (**PASS**)
 **POV:** Dubai Artist · tight third · past tense · **name withheld** `[G-046]`  
 **Part:** V — Convergence · **Movement I · Public fracture**  
 **Word count:** ~1,835 (target ~1,800)  
 **Beat sheet:** `058-071_act_three_beat_sheet.md` · **8/8**  
 **Bridge in:** `057_chapter_57_ch58_bridge_audit.md` (**PASS** v5)  
 **Bridge out:** `058_chapter_58_ch59_bridge_audit.md` (**PASS** v5)  
-**Change log:** `058_chapter_58_v5_change_log.md`  
+**Change log:** `058-071_part_v_v8_unified_change_log.md` · prior v5/v6/v7 logs retained
 **Audits:** `058_chapter_58_v5_final_polish_audit.md` (**PASS**) · `058_chapter_58_v5_pair_read_audit.md` (**PASS**)  
 **Publisher MS:** `058_chapter_58_the_first_fall_PUBLISHER.md`  
 **Scene bible:** #33 Performance Freeze · #38 Dubai Blackout  

@@ -314,6 +314,6 @@ Ch 27 The Fracture          Week 8–9    ┘ → Part III Ch 28 Veil Failure
 |-------|--------|
 | Macro Act II | **v1 FULL DEPTH** |
 | Beat sheet | `013-027_act_two_beat_sheet.md` |
-| Sequence maps | Ch 13 **v2 FULL DEPTH** · Ch 14–27 v1 · **In build** |
+| Sequence maps | Ch 13 **v2 FULL DEPTH** · Ch **14–27 v2** · **Act II maps COMPLETE** |
 
-**Next:** Ch 13 **v4 polish** · Ch 14 prose when authorized · Part III remainder outline (Ch 28–42) optional
+**Next:** Part III v2 · Ch **29–31** batch · Ch **14 v3 prose** when authorized · Part III remainder (Ch 29–42) optional

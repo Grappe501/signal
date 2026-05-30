@@ -12,7 +12,8 @@
 | Part I P + 1–2 | **PRINT READY v8** |
 | Part I Ch 3–12 | **v5 LOCKED** · assembly `000-012_part_one_full_v5_PUBLISHER.md` |
 | **Ch 13** | **v6 · LOCKED · PRINT READY (Part II)** |
-| Ch 14–27 | map v1 · pre-prose |
+| Ch 14–27 | map **v2 FULL DEPTH** · pre-prose · **Act II COMPLETE** |
+| Ch 28 | map **v2 FULL DEPTH** · pre-prose · Part III opens |
 | **Act I v6** | `000-012_act_one_v6_enneagram_symbol_arc_audit.md` (**COMPLETE**) |
 
 ---
