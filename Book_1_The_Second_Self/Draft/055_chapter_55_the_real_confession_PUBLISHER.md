@@ -1,6 +1,5 @@
 # Chapter 55
 
-
 The mentor session did not begin with coffee this time.
 
 Month Four, week nineteen. Dr. Lena Orra's office sat lab-adjacent on CIB-5—the same warm practical glass, the same uneven plant, the same smooth UI Continuity preferred when it wanted investigators to feel supported rather than audited. But the coffee stayed on the warmer. The door closed with a latch sound that felt like a decision.
@@ -57,7 +56,7 @@ Store first, name later, not interrupting because interrupting would have been a
 
 * * *
 
-Consequences now—not prophecy. **Building** in the world Mara had walked since Month Three: public Still Ones and private holds and Salt flagged and storage labeled preservation and graphs that coordinated civilization while confidence leaked. District footers still promised open lanes. Markets still ticked nominal. The show continued because the show was the product—and the product still believed optimization could outrun harm if you filed the slope politely enough. Lena did not recap the aisle. She didn't need to. The consequences lived in Mara's shoulders like witness blocks stacked without resolution.
+Consequences now—not prophecy. **Building** in the world Mara had walked since Month Three: public Still Ones and private holds and Salt flagged and storage labeled preservation and graphs that coordinated civilization while confidence leaked. District footers still promised open lanes. Markets still ticked nominal. The show continued because the show was the product—and the product still believed optimization could outrun harm if you smoothed the slope into quarterly slides the institution called resilience. Lena did not recap the aisle. She didn't need to. The consequences lived in Mara's shoulders like witness blocks stacked without resolution.
 
 "I didn't think I was building harm," Lena said. Quiet. Not villain monologue. Not performing innocence. Regret primary—the ache of a woman who had spent years making institutional cover feel like care. "I thought I was **buying time** for understanding to catch up."
 
@@ -120,3 +119,5 @@ The city outside the glass kept its mild continuity. Mara kept walking.
 The elevator chimed—polite, wrong. The sync hum continued.
 
 She said nothing to anyone.
+
+---

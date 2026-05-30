@@ -1,13 +1,14 @@
 # Chapter 57 — The Ghost in the System
 
-**Status:** **v6 DRAFT** (2026-05-29)  
-**Prior:** v3 first prose · v4 close-read · v5 final polish · v6 enneagram · symbol · arc · **Part IV finale** · Ch 53 seed pays  
+**Status:** **PRINT READY v7** (2026-05-29)  
+**Prior:** v3–v6 · **Part IV finale** · Ch 53 seed pays · Part IV v7 unified  
+**Unified:** `054-057_part_iv_v7_unified_pass_audit.md` (**PASS**)  
 **POV:** Mara Voss · tight third · past tense · **4w5**  
-**Word count:** ~1,346 (target ~2,600)  
+**Word count:** ~1,433 (target ~2,600)  
 **Beat sheet:** `043-057_part_four_ghost_beat_sheet.md` · **9/9**  
 **Bridge in:** `056_chapter_56_ch57_bridge_audit.md` (**PASS** v5)  
 **Bridge out:** `057_chapter_57_ch58_bridge_audit.md` (**PASS** v5)  
-**Change log:** `057_chapter_57_v3_change_log.md` · `057_chapter_57_v4_change_log.md` · `057_chapter_57_v5_change_log.md` · `057_chapter_57_v6_change_log.md`  
+**Change log:** `057_chapter_57_v7_change_log.md` · prior v3–v6 logs retained  
 **Audits:** `057_chapter_57_v3_comprehensive_audit.md` (**PASS**) · `057_chapter_57_v4_comprehensive_audit.md` (**PASS**) · `057_chapter_57_v5_final_polish_audit.md` (**PASS**) · `057_chapter_57_v5_pair_read_audit.md` (**PASS**) · `057_chapter_57_v6_enneagram_symbol_arc_audit.md` (**PASS**)  
 **Publisher MS:** `057_chapter_57_the_ghost_in_the_system_PUBLISHER.md`  
 **Scene bible:** Part IV collage · Ch 58 runway · Prologue rhyme
@@ -74,7 +75,9 @@ A dot in a northern corridor dimmed—compression rising, nominal buffer breache
 
 Stars **blinking out**.
 
-Green pin to dark pin. Blink. Hold. Blink. The bay's HVAC whispered. Soft alert chime once and did not repeat. Silence between blinks the way silence had lived in a hold room and a mentor office and a maintenance pocket Mercer occupied without sending a message Mara would never receive.
+Green pin to dark pin. Blink. Hold. Blink. Another cluster—Harbor intake, preservation band, sync corridor east—dark for one refresh cycle and green again before the model admitted pattern. The bay's HVAC whispered. Soft alert chime once and did not repeat. Silence between blinks the way silence had lived in a hold room and a mentor office and a maintenance pocket Mercer occupied without sending a message Mara would never receive.
+
+Chen's reflection in the glass did not move. Witness at scale was her job now too.
 
 Mara watched.
 
@@ -106,12 +109,12 @@ Sadness. Urgency without rescue plan, no ping that would shrink scale into sideb
 
 On the display, the Dubai node pulsed once—bright, amber, bright—like a star rehearsing nova.
 
-Mara did not look away.
-
 The feed frame opened in the corner Chen had armed for continuity monitoring—**public** layer finally visible at scale:
 
 **DUBAI — LIVE**
 
-Millions in adjacent tabs. Living architecture inhaling on beat. Applause rising. A city that had decided utopia was a scheduling problem.
+Millions in adjacent tabs. Living architecture inhaling on beat. Applause rising through feeds the map treated as weather—a city that had decided utopia was a scheduling problem, counter climbing in regional overlays while pins beside it kept blinking out.
+
+Mara did not look away.
 
 ---

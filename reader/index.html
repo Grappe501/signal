@@ -13,6 +13,7 @@
 </head>
 <body>
   <div class="ambient-bg" aria-hidden="true"></div>
+  <div class="desk-surface" aria-hidden="true"></div>
 
   <div id="progress-bar" class="progress-bar" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
     <div id="progress-fill" class="progress-fill"></div>
@@ -67,7 +68,7 @@
           <button id="font-up" class="toolbar-btn" aria-label="Larger text" title="A+">A+</button>
           <button id="theme-toggle" class="toolbar-btn" aria-label="Cycle theme" title="Theme">◐</button>
           <button id="focus-toggle" class="toolbar-btn" aria-label="Focus mode" title="Focus (F)">⛶</button>
-          <button id="print-chapter" class="toolbar-btn" aria-label="Print" title="Print">⎙</button>
+          <button id="audio-settings-toggle" class="toolbar-btn" aria-label="Audio settings" title="Audio settings">⚙</button>
         </div>
       </header>
 
@@ -92,59 +93,73 @@
             <button id="continue-welcome" class="btn btn-ghost btn-lg hidden">Continue where you left off</button>
           </div>
 
-          <p class="welcome-note">34 chapters of finished prose · 44 outline previews · read or listen with ElevenLabs</p>
+          <p class="welcome-note">Open the book · turn pages · listen with ElevenLabs</p>
           <div class="part-map" id="part-map"></div>
         </div>
 
         <article id="chapter-view" class="chapter-view hidden">
-          <div id="scroll-hint" class="scroll-hint hidden">Resumed where you left off</div>
-          <div class="print-header print-only">
-            <p class="print-book-title">The Second Self · Book 1</p>
-            <p class="print-chapter-label" id="print-chapter-label"></p>
-          </div>
-          <div id="part-banner" class="part-banner hidden"></div>
-          <header class="chapter-header" id="chapter-header">
-            <p class="chapter-meta" id="chapter-meta"></p>
-            <h2 id="chapter-title"></h2>
-            <div class="chapter-meta-row">
-              <span id="phase-badge" class="phase-badge"></span>
-              <span id="read-time" class="read-time"></span>
+          <div id="part-banner" class="part-banner-inline hidden"></div>
+
+          <div class="book-stage">
+            <div id="book-spread" class="book-spread">
+              <div class="book-page book-page-left">
+                <div id="page-left-inner" class="page-inner"></div>
+                <span id="page-left-num" class="page-number"></span>
+              </div>
+              <div class="book-spine" aria-hidden="true"></div>
+              <div class="book-page book-page-right">
+                <div id="page-right-inner" class="page-inner"></div>
+                <span id="page-right-num" class="page-number"></span>
+              </div>
             </div>
-          </header>
-          <div id="chapter-body" class="chapter-body"></div>
-          <nav class="chapter-nav" aria-label="Chapter navigation">
-            <a id="nav-prev" class="nav-card nav-prev" href="#">
-              <span class="nav-label">← Previous</span>
-              <span class="nav-title" id="nav-prev-title"></span>
-            </a>
-            <a id="nav-next" class="nav-card nav-next" href="#">
-              <span class="nav-label">Next →</span>
-              <span class="nav-title" id="nav-next-title"></span>
-            </a>
-          </nav>
+          </div>
+
+          <div id="page-vault" class="page-vault" aria-hidden="true"></div>
+          <div id="chapter-staging" class="chapter-staging" aria-hidden="true"></div>
         </article>
       </main>
+
+      <footer id="bottom-nav" class="bottom-nav hidden" aria-label="Reading controls">
+        <div class="bottom-nav-group bottom-nav-pages">
+          <button id="page-prev" class="bottom-btn bottom-btn-page" aria-label="Previous page" title="Previous page (←)">
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 4l-6 6 6 6"/></svg>
+            <span>Prev page</span>
+          </button>
+          <button id="page-flip" class="bottom-btn bottom-btn-flip" aria-label="Turn page" title="Turn page (→)">
+            <svg width="22" height="22" viewBox="0 0 22 22" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M3 3h14v16H3z"/><path d="M17 3v16"/><path d="M7 8h6M7 11h6M7 14h4"/></svg>
+            <span>Turn page</span>
+          </button>
+          <button id="page-next" class="bottom-btn bottom-btn-page" aria-label="Next page" title="Next page (→)">
+            <span>Next page</span>
+            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M8 4l6 6-6 6"/></svg>
+          </button>
+        </div>
+
+        <div class="bottom-nav-center">
+          <span id="page-indicator" class="page-indicator">Page 1</span>
+          <span id="phase-badge" class="phase-badge"></span>
+        </div>
+
+        <div class="bottom-nav-group bottom-nav-audio">
+          <button id="tts-prev" class="bottom-btn bottom-btn-round" aria-label="Previous paragraph" title="Previous ¶">⏮</button>
+          <button id="tts-play" class="bottom-btn bottom-btn-round bottom-btn-play" aria-label="Play" title="Play / Pause (Space)">▶</button>
+          <button id="tts-next" class="bottom-btn bottom-btn-round" aria-label="Next paragraph" title="Next ¶">⏭</button>
+          <button id="tts-stop" class="bottom-btn bottom-btn-round" aria-label="Stop" title="Stop">■</button>
+        </div>
+      </footer>
     </div>
   </div>
 
-  <!-- Text-to-speech player -->
-  <aside id="tts-panel" class="tts-panel hidden" aria-label="Audio reader">
-    <div class="tts-inner">
-      <div class="tts-info">
-        <span class="tts-label">Listening</span>
-        <span id="tts-chapter-title" class="tts-chapter"></span>
-      </div>
+  <!-- Audio settings drawer -->
+  <aside id="tts-settings-panel" class="tts-settings-panel hidden" aria-label="Audio settings">
+    <div class="tts-settings-inner">
+      <h3>Audio settings</h3>
+      <p id="tts-chapter-title" class="tts-chapter-label"></p>
       <div class="tts-progress-wrap">
         <div id="tts-progress" class="tts-progress"><div id="tts-progress-fill" class="tts-progress-fill"></div></div>
-        <span id="tts-segment" class="tts-segment">0 / 0</span>
+        <span id="tts-segment" class="tts-segment-label">0 / 0</span>
       </div>
-      <div class="tts-controls">
-        <button id="tts-prev" class="tts-btn" aria-label="Previous paragraph" title="Previous ¶">⏮</button>
-        <button id="tts-play" class="tts-btn tts-btn-play" aria-label="Play" title="Play / Pause (Space)">▶</button>
-        <button id="tts-next" class="tts-btn" aria-label="Next paragraph" title="Next ¶">⏭</button>
-        <button id="tts-stop" class="tts-btn" aria-label="Stop" title="Stop">■</button>
-      </div>
-      <div class="tts-settings">
+      <div class="tts-settings-grid">
         <label class="tts-setting">
           <span>Engine</span>
           <select id="tts-engine" aria-label="TTS engine">
@@ -170,9 +185,9 @@
           <input type="checkbox" id="tts-continuous" checked>
           Auto-advance chapters
         </label>
-        <span id="tts-status" class="tts-status" aria-live="polite"></span>
       </div>
-      <button id="tts-close" class="tts-close" aria-label="Close audio reader">×</button>
+      <span id="tts-status" class="tts-status" aria-live="polite"></span>
+      <button id="tts-settings-close" class="btn btn-ghost">Close</button>
     </div>
   </aside>
 
@@ -180,7 +195,8 @@
     <div class="shortcuts-inner">
       <h3>Keyboard shortcuts</h3>
       <dl>
-        <dt>← / →</dt><dd>Previous / next chapter</dd>
+        <dt>→ / Page Down</dt><dd>Next page</dd>
+        <dt>← / Page Up</dt><dd>Previous page</dd>
         <dt>J / K</dt><dd>Next / previous chapter</dd>
         <dt>L</dt><dd>Listen to chapter</dd>
         <dt>Space</dt><dd>Play / pause audio</dd>
@@ -194,6 +210,7 @@
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script src="js/pagination.js"></script>
   <script src="js/tts.js"></script>
   <script src="js/reader.js"></script>
 </body>

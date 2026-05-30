@@ -1,13 +1,14 @@
 # Chapter 54 — The Second War
 
-**Status:** **v6 DRAFT** (2026-05-29)  
-**Prior:** v3 revision · v4 close-read · v5 final polish · v6 enneagram · symbol · arc · B2 seed · **Movement III opens**  
+**Status:** **PRINT READY v7** (2026-05-29)  
+**Prior:** v3–v6 · B2 seed · **Movement III opens** · Part IV v7 unified  
+**Unified:** `054-057_part_iv_v7_unified_pass_audit.md` (**PASS**)  
 **POV:** Greenland Researcher · tight third · past tense · **no name**  
-**Word count:** ~1,429 (target ~2,000)  
+**Word count:** ~1,470 (target ~2,000)  
 **Beat sheet:** `043-057_part_four_ghost_beat_sheet.md` · **9/9**  
 **Bridge in:** `053_chapter_53_ch54_bridge_audit.md` (**PASS** v5)  
 **Bridge out:** `054_chapter_54_ch55_bridge_audit.md` (**PASS** v5)  
-**Change log:** `054_chapter_54_v3_change_log.md` · `054_chapter_54_v4_change_log.md` · `054_chapter_54_v5_change_log.md` · `054_chapter_54_v6_change_log.md`  
+**Change log:** `054_chapter_54_v7_change_log.md` · prior v3–v6 logs retained  
 **Audits:** `054_chapter_54_v3_comprehensive_audit.md` (**PASS**) · `054_chapter_54_v4_comprehensive_audit.md` (**PASS**) · `054_chapter_54_v5_final_polish_audit.md` (**PASS**) · `054_chapter_54_v5_pair_read_audit.md` (**PASS**) · `054_chapter_54_v6_enneagram_symbol_arc_audit.md` (**PASS**)  
 **Publisher MS:** `054_chapter_54_the_second_war_PUBLISHER.md`  
 **Scene bible:** B2 Realignment War seed · Seg 048 · Ch 47 echo
@@ -80,6 +81,8 @@ Resource fragility at civilization scale—dependency visible in curves before s
 
 She zoomed one overlay once. Western defensive band. Iranian regional tick. ChiRussia strategic posture shifting a half-degree in simulation—the kind of half-degree that wouldn't make feeds and would make classified reports. Realignment seed, not live engagement. Curves rising while posture maps pretended to be neutral.
 
+The lead watched the refresh complete and did not comment. Comment was what you offered when the institution still believed surprise could be scheduled.
+
 The lead closed the overlay stack without ceremony. "Posture complete. Fragility confirmed. File as scheduled." Scheduled meant classified. Scheduled meant contained. Scheduled meant the world above could keep performing peace while the stack below kept performing preparation.
 
 * * *
@@ -108,7 +111,7 @@ Not fighting.
 
 Curve up.
 
-The suite fans whirred. The posture maps refreshed green at the edges where green still meant continue. Outside this white room, districts still performed recovery and markets still ticked nominal and the show continued because the show was the product and the product still believed confidence bands could rise again if you filed the slope politely enough.
+The suite fans whirred. The posture maps refreshed green at the edges where green still meant continue. Outside this white room, districts still performed recovery and markets still ticked nominal and the show continued because the show was the product and the product still believed confidence bands could rise again if you reclassified the slope as variance before the next quarterly read.
 
 She badged out into a corridor where the light stayed white and the air stayed cold and the hum beneath the floor continued.
 

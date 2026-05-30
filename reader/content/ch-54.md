@@ -1,6 +1,5 @@
 # Chapter 54
 
-
 The simulation suite did not perform awe.
 
 Month Four, week nineteen. Greenland LATTICE annex—deeper in the stack than the model floor where quarterly reviews filed human volatility in clinical font, behind bands the public layer never learned to read. White light. Filtered air cold enough to feel like honesty. Not the Arctic Core pit investigators would eventually stand inside with witness tags and Relay hum beneath their boots. **Simulations** only—the grammar internal continuity enforced: seeds allowed, engagement forbidden on public channels.
@@ -63,6 +62,8 @@ Resource fragility at civilization scale—dependency visible in curves before s
 
 She zoomed one overlay once. Western defensive band. Iranian regional tick. ChiRussia strategic posture shifting a half-degree in simulation—the kind of half-degree that wouldn't make feeds and would make classified reports. Realignment seed, not live engagement. Curves rising while posture maps pretended to be neutral.
 
+The lead watched the refresh complete and did not comment. Comment was what you offered when the institution still believed surprise could be scheduled.
+
 The lead closed the overlay stack without ceremony. "Posture complete. Fragility confirmed. File as scheduled." Scheduled meant classified. Scheduled meant contained. Scheduled meant the world above could keep performing peace while the stack below kept performing preparation.
 
 * * *
@@ -91,6 +92,8 @@ Not fighting.
 
 Curve up.
 
-The suite fans whirred. The posture maps refreshed green at the edges where green still meant continue. Outside this white room, districts still performed recovery and markets still ticked nominal and the show continued because the show was the product and the product still believed confidence bands could rise again if you filed the slope politely enough.
+The suite fans whirred. The posture maps refreshed green at the edges where green still meant continue. Outside this white room, districts still performed recovery and markets still ticked nominal and the show continued because the show was the product and the product still believed confidence bands could rise again if you reclassified the slope as variance before the next quarterly read.
 
 She badged out into a corridor where the light stayed white and the air stayed cold and the hum beneath the floor continued.
+
+---

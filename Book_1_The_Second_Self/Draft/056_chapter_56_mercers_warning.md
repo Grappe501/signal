@@ -1,13 +1,14 @@
 # Chapter 56 — Mercer's Warning
 
-**Status:** **v6 DRAFT** (2026-05-29)  
-**Prior:** v3 first prose · v4 close-read · v5 final polish · v6 enneagram · symbol · arc · Scene #37 continues · Ch 41 · Ch 51 escalation  
+**Status:** **PRINT READY v7** (2026-05-29)  
+**Prior:** v3–v6 · Scene #37 continues · Ch 67 runway · Part IV v7 unified  
+**Unified:** `054-057_part_iv_v7_unified_pass_audit.md` (**PASS**)  
 **POV:** Eli Mercer · tight third · past tense · **7w8**  
 **Word count:** ~1,371 (target ~2,200)  
 **Beat sheet:** `043-057_part_four_ghost_beat_sheet.md` · **9/9**  
 **Bridge in:** `055_chapter_55_ch56_bridge_audit.md` (**PASS** v5)  
 **Bridge out:** `056_chapter_56_ch57_bridge_audit.md` (**PASS** v5)  
-**Change log:** `056_chapter_56_v3_change_log.md` · `056_chapter_56_v4_change_log.md` · `056_chapter_56_v5_change_log.md` · `056_chapter_56_v6_change_log.md`  
+**Change log:** `056_chapter_56_v7_change_log.md` · prior v3–v6 logs retained  
 **Audits:** `056_chapter_56_v3_comprehensive_audit.md` (**PASS**) · `056_chapter_56_v4_comprehensive_audit.md` (**PASS**) · `056_chapter_56_v5_final_polish_audit.md` (**PASS**) · `056_chapter_56_v5_pair_read_audit.md` (**PASS**) · `056_chapter_56_v6_enneagram_symbol_arc_audit.md` (**PASS**)  
 **Publisher MS:** `056_chapter_56_mercers_warning_PUBLISHER.md`  
 **Scene bible:** #37 · Seg 046 · Ch 67 runway
@@ -94,7 +95,7 @@ He pulled printouts from tape, folded wrong, slid them into the go-bag beside ca
 
 He did not call Investigator Voss. He did not call anyone.
 
-The radio murmured **CONTINUITY REASSURED** from the corner where radios lied slower than feeds. City smooth at a distance through the narrow window—Spine polish, open lanes, mild weather, the product still believing confidence bands could rise again if you filed the slope politely enough.
+The radio murmured **CONTINUITY REASSURED** from the corner where radios lied slower than feeds. City smooth at a distance through the narrow window—Spine polish, open lanes, mild weather, the product still believing confidence bands could rise again if you renamed the curve as recovery in footers people had stopped reading.
 
 Mercer crossed to the door and listened again.
 

@@ -1,7 +1,7 @@
 # Chapter 54 — The Second War
 
 **Segment:** 054 · Part IV v2  
-**Status:** **v6 DRAFT** — sequence map · prose complete (2026-05-29) · **Movement III opens**  
+**Status:** **PRINT READY v7** — sequence map · prose complete (2026-05-29) · **Movement III opens**  
 **POV:** Greenland Researcher · tight third · past tense · **no name**  
 **Part:** IV — **Movement III · Inevitability** opens
 

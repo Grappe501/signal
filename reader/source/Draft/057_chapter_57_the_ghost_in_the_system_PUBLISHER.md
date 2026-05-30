@@ -1,6 +1,5 @@
 # Chapter 57
 
-
 The map room did not perform welcome.
 
 Month Four, week twenty—the edge where the institution's calendar still said recovery and the files Mara had carried for weeks said otherwise. CIB analysis bay, two levels below policy light: white board, green status pins, paper edges curling in honest humidity, a terminal bank that pretended green was the same thing as safe. Not the archive pit. Not the aisle. Not Lena's warm practical glass. **Synthesis**—the room where cases became walls when walls were the only grammar left.
@@ -57,7 +56,9 @@ A dot in a northern corridor dimmed—compression rising, nominal buffer breache
 
 Stars **blinking out**.
 
-Green pin to dark pin. Blink. Hold. Blink. The bay's HVAC whispered. Soft alert chime once and did not repeat. Silence between blinks the way silence had lived in a hold room and a mentor office and a maintenance pocket Mercer occupied without sending a message Mara would never receive.
+Green pin to dark pin. Blink. Hold. Blink. Another cluster—Harbor intake, preservation band, sync corridor east—dark for one refresh cycle and green again before the model admitted pattern. The bay's HVAC whispered. Soft alert chime once and did not repeat. Silence between blinks the way silence had lived in a hold room and a mentor office and a maintenance pocket Mercer occupied without sending a message Mara would never receive.
+
+Chen's reflection in the glass did not move. Witness at scale was her job now too.
 
 Mara watched.
 
@@ -89,10 +90,12 @@ Sadness. Urgency without rescue plan, no ping that would shrink scale into sideb
 
 On the display, the Dubai node pulsed once—bright, amber, bright—like a star rehearsing nova.
 
-Mara did not look away.
-
 The feed frame opened in the corner Chen had armed for continuity monitoring—**public** layer finally visible at scale:
 
 **DUBAI — LIVE**
 
-Millions in adjacent tabs. Living architecture inhaling on beat. Applause rising. A city that had decided utopia was a scheduling problem.
+Millions in adjacent tabs. Living architecture inhaling on beat. Applause rising through feeds the map treated as weather—a city that had decided utopia was a scheduling problem, counter climbing in regional overlays while pins beside it kept blinking out.
+
+Mara did not look away.
+
+---

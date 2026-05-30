@@ -7,7 +7,6 @@ let partIndex = {};
 let cache = {};
 let settings = loadSettings();
 let currentChapterId = null;
-let scrollSaveTimer = null;
 
 const $ = (sel) => document.querySelector(sel);
 const $$ = (sel) => document.querySelectorAll(sel);
@@ -27,12 +26,13 @@ function loadSettings() {
 function defaults() {
   return {
     theme: "paper",
-    fontScale: 1,
+    fontScale: 1.12,
     focusMode: false,
     proseOnly: false,
     lastChapter: null,
     visited: [],
     scrollPositions: {},
+    pageSpreads: {},
     speechRate: 1,
     speechVoice: "",
     ttsEngine: "elevenlabs",
@@ -56,24 +56,48 @@ function applySettings() {
   if (sidebarToggle) sidebarToggle.checked = settings.proseOnly;
 }
 
-function saveScrollPosition() {
+function savePageSpread() {
   if (!currentChapterId) return;
-  if (!settings.scrollPositions) settings.scrollPositions = {};
-  settings.scrollPositions[currentChapterId] = window.scrollY;
+  if (!settings.pageSpreads) settings.pageSpreads = {};
+  settings.pageSpreads[currentChapterId] = BookPages.getSpreadIndex();
   saveSettings();
 }
 
-function restoreScrollPosition(id) {
-  const y = settings.scrollPositions?.[id];
-  if (y && y > 80) {
-    window.scrollTo(0, y);
-    const hint = $("#scroll-hint");
-    hint.classList.remove("hidden");
-    setTimeout(() => hint.classList.add("hidden"), 2600);
-    return true;
+function updatePageIndicator(spreadIdx, spreadTotal, pageTotal) {
+  const el = $("#page-indicator");
+  if (!el) return;
+  const pps = window.innerWidth <= 900 ? 1 : 2;
+  const pageNum = spreadIdx * pps + 1;
+  const endPage = pps > 1 ? Math.min(pageNum + 1, pageTotal) : pageNum;
+  el.textContent =
+    pageTotal > 1
+      ? `Page ${pageNum}${endPage > pageNum ? `–${endPage}` : ""} of ${pageTotal}`
+      : "Page 1";
+}
+
+function flipPage(direction = 1) {
+  if (!$("#chapter-view")?.classList.contains("hidden")) {
+    if (direction > 0) {
+      if (BookPages.nextSpread()) {
+        savePageSpread();
+        return;
+      }
+      const ch = currentChapterId ? chapterIndex[currentChapterId] : null;
+      const next = ch ? getNavChapter(ch, "next") : null;
+      if (next) location.hash = next.id;
+    } else {
+      if (BookPages.prevSpread()) {
+        savePageSpread();
+        return;
+      }
+      const ch = currentChapterId ? chapterIndex[currentChapterId] : null;
+      const prev = ch ? getNavChapter(ch, "prev") : null;
+      if (prev) {
+        sessionStorage.setItem("signal-open-last-spread", "1");
+        location.hash = prev.id;
+      }
+    }
   }
-  window.scrollTo(0, 0);
-  return false;
 }
 
 function getNavChapter(ch, direction) {
@@ -233,10 +257,6 @@ function toggleProseOnly() {
   applySettings();
   saveSettings();
   if (currentChapterId) {
-    const prev = getNavChapter(chapterIndex[currentChapterId], "prev");
-    const next = getNavChapter(chapterIndex[currentChapterId], "next");
-    setupNav($("#nav-prev"), prev, "prev");
-    setupNav($("#nav-next"), next, "next");
     updateProgress(chapterIndex[currentChapterId]);
   }
 }
@@ -277,12 +297,27 @@ async function init() {
   renderToc();
   updateContinueButtons();
   bindEvents();
-  bindScroll();
+  BookPages.setOnSpreadChange((spreadIdx, spreadTotal, pageTotal) => {
+    updatePageIndicator(spreadIdx, spreadTotal, pageTotal);
+  });
+
+  let resizeTimer = null;
+  window.addEventListener("resize", () => {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(() => {
+      if (currentChapterId && !$("#chapter-view").classList.contains("hidden")) {
+        const ch = chapterIndex[currentChapterId];
+        BookPages.repaginateFromVisible(ch.prose);
+        savePageSpread();
+      }
+    }, 200);
+  });
+
   route();
 
   window.addEventListener("hashchange", route);
   window.addEventListener("keydown", onKey);
-  window.addEventListener("beforeunload", saveScrollPosition);
+  window.addEventListener("beforeunload", savePageSpread);
 }
 
 function renderStats() {
@@ -392,8 +427,8 @@ function updateContinueButtons() {
   if (hasLast) {
     const ch = chapterIndex[settings.lastChapter];
     const label = ch.num != null ? `Ch ${ch.num}: ${ch.title}` : ch.title;
-    const scrollY = settings.scrollPositions?.[settings.lastChapter];
-    const midChapter = scrollY && scrollY > 80 ? " · mid-chapter" : "";
+    const spread = settings.pageSpreads?.[settings.lastChapter];
+    const midChapter = spread && spread > 0 ? " · mid-chapter" : "";
     $("#continue-reading").textContent = `Continue · ${label}${midChapter}`;
     $("#continue-welcome").textContent = `Continue · ${label}${midChapter}`;
   }
@@ -402,7 +437,7 @@ function updateContinueButtons() {
 function bindEvents() {
   $("#home-link").addEventListener("click", (e) => {
     e.preventDefault();
-    saveScrollPosition();
+    savePageSpread();
     location.hash = "";
   });
 
@@ -443,22 +478,28 @@ function bindEvents() {
     applySettings();
     saveSettings();
     if (currentChapterId) {
-      setupNav($("#nav-prev"), getNavChapter(chapterIndex[currentChapterId], "prev"), "prev");
-      setupNav($("#nav-next"), getNavChapter(chapterIndex[currentChapterId], "next"), "next");
       updateProgress(chapterIndex[currentChapterId]);
     }
   });
 
   $("#font-down").addEventListener("click", () => {
-    settings.fontScale = Math.max(0.85, +(settings.fontScale - 0.05).toFixed(2));
+    settings.fontScale = Math.max(0.9, +(settings.fontScale - 0.05).toFixed(2));
     applySettings();
     saveSettings();
+    if (currentChapterId) {
+      const ch = chapterIndex[currentChapterId];
+      BookPages.repaginateFromVisible(ch.prose);
+    }
   });
 
   $("#font-up").addEventListener("click", () => {
-    settings.fontScale = Math.min(1.3, +(settings.fontScale + 0.05).toFixed(2));
+    settings.fontScale = Math.min(1.35, +(settings.fontScale + 0.05).toFixed(2));
     applySettings();
     saveSettings();
+    if (currentChapterId) {
+      const ch = chapterIndex[currentChapterId];
+      BookPages.repaginateFromVisible(ch.prose);
+    }
   });
 
   $("#theme-toggle").addEventListener("click", () => {
@@ -469,7 +510,17 @@ function bindEvents() {
   });
 
   $("#focus-toggle").addEventListener("click", toggleFocus);
-  $("#print-chapter").addEventListener("click", () => window.print());
+
+  $("#audio-settings-toggle").addEventListener("click", () => {
+    $("#tts-settings-panel").classList.toggle("hidden");
+  });
+  $("#tts-settings-close").addEventListener("click", () => {
+    $("#tts-settings-panel").classList.add("hidden");
+  });
+
+  $("#page-prev").addEventListener("click", () => flipPage(-1));
+  $("#page-next").addEventListener("click", () => flipPage(1));
+  $("#page-flip").addEventListener("click", () => flipPage(1));
 
   $("#listen-toggle").addEventListener("click", () => {
     if (TTS.isActive()) {
@@ -495,23 +546,6 @@ function bindEvents() {
   });
 }
 
-function bindScroll() {
-  window.addEventListener(
-    "scroll",
-    () => {
-      const header = $("#chapter-header");
-      if (header && !$("#chapter-view").classList.contains("hidden")) {
-        const toolbarTitle = $("#toolbar-title");
-        toolbarTitle.classList.toggle("visible", window.scrollY > header.offsetHeight + 80);
-      }
-
-      clearTimeout(scrollSaveTimer);
-      scrollSaveTimer = setTimeout(saveScrollPosition, 250);
-    },
-    { passive: true }
-  );
-}
-
 function toggleSidebar() {
   const open = $("#sidebar").classList.toggle("open");
   $("#sidebar-backdrop").classList.toggle("visible", open);
@@ -531,9 +565,8 @@ function toggleFocus() {
 async function route() {
   const id = location.hash.slice(1);
   if (!id || !chapterIndex[id]) {
-    saveScrollPosition();
+    savePageSpread();
     TTS.onChapterLeave();
-    TTS.hidePanel();
     currentChapterId = null;
     showWelcome();
     return;
@@ -542,8 +575,11 @@ async function route() {
 }
 
 function showWelcome() {
+  document.body.classList.remove("reading-mode");
+  $("#bottom-nav").classList.add("hidden");
   $("#welcome").classList.remove("hidden");
   $("#chapter-view").classList.add("hidden");
+  BookPages.reset();
   $("#toolbar-title").textContent = "";
   $("#toolbar-title").classList.remove("visible");
   const total = settings.proseOnly
@@ -564,7 +600,7 @@ function showWelcome() {
 
 async function showChapter(id) {
   if (currentChapterId && currentChapterId !== id) {
-    saveScrollPosition();
+    savePageSpread();
     if (!TTS.consumeChapterAdvancing()) {
       TTS.onChapterLeave();
       TTS.setContinuousListen(false);
@@ -575,10 +611,13 @@ async function showChapter(id) {
   currentChapterId = id;
   const autoPlay = sessionStorage.getItem("signal-autoplay") === "1";
   if (autoPlay) sessionStorage.removeItem("signal-autoplay");
+  const openLastSpread = sessionStorage.getItem("signal-open-last-spread") === "1";
+  if (openLastSpread) sessionStorage.removeItem("signal-open-last-spread");
 
+  document.body.classList.add("reading-mode");
   $("#welcome").classList.add("hidden");
   $("#chapter-view").classList.remove("hidden");
-  $("#scroll-hint").classList.add("hidden");
+  $("#bottom-nav").classList.remove("hidden");
 
   settings.lastChapter = id;
   markVisited(id);
@@ -588,51 +627,74 @@ async function showChapter(id) {
   updateProgress(ch);
 
   const label = ch.num != null ? `Chapter ${ch.num}` : "Prologue";
-  $("#chapter-meta").textContent = `${label} · ${ch.pov}`;
-  $("#chapter-title").textContent = ch.title;
   $("#toolbar-title").textContent = `${label} — ${ch.title}`;
-  $("#print-chapter-label").textContent = `${label} — ${ch.title}`;
+  $("#toolbar-title").classList.add("visible");
+  $("#tts-chapter-title").textContent = `${label} — ${ch.title}`;
 
   const badge = $("#phase-badge");
   badge.textContent = ch.prose ? ch.phaseLabel : "Outline preview";
   badge.className = `phase-badge ${ch.phase}`;
 
   const partBanner = $("#part-banner");
-  if (isFirstInPart(ch) && ch.part !== "prologue") {
-    partBanner.classList.remove("hidden");
-    partBanner.innerHTML = `
-      <p class="part-banner-kicker">${partLabel(ch.part).split(" — ")[0]}</p>
-      <h3>${partLabel(ch.part).split(" — ").slice(1).join(" — ") || partLabel(ch.part)}</h3>
-    `;
-  } else if (ch.id === "prologue") {
-    partBanner.classList.remove("hidden");
-    partBanner.innerHTML = `<p class="part-banner-kicker">The Signal Cycle · Book 1</p><h3>Prologue</h3>`;
-  } else {
-    partBanner.classList.add("hidden");
-  }
+  partBanner.classList.add("hidden");
+  partBanner.innerHTML = "";
 
-  const body = $("#chapter-body");
-  body.className = "chapter-body loading";
-  body.innerHTML = "<p class='loading'>Loading…</p>";
-  $("#read-time").textContent = "";
+  BookPages.setPageClasses(ch.prose);
+  const staging = $("#chapter-staging");
+  staging.className = ch.prose ? "chapter-staging is-prose" : "chapter-staging is-outline";
+  staging.innerHTML = "<p class='loading'>Loading…</p>";
 
   try {
     const md = await loadChapterMarkdown(ch);
-    body.className = `chapter-body ${ch.prose ? "is-prose" : "is-outline"}`;
-    body.innerHTML = marked.parse(md);
-    $("#read-time").textContent = estimateReadTime(md, ch.prose);
-    TTS.onChapterLoaded(ch, body, autoPlay);
-    $("#listen-toggle")?.classList.toggle("active", autoPlay || TTS.isContinuousListen());
-    const nextNav = getNavChapter(ch, "next");
-    if (nextNav) prefetchChapter(nextNav.id);
+    staging.innerHTML = marked.parse(md);
+
+    const opener = document.createElement("div");
+    opener.className = "chapter-opener";
+    opener.innerHTML = `
+      <p class="chapter-meta">${label} · ${ch.pov}</p>
+      <h2>${ch.title}</h2>
+    `;
+    staging.insertBefore(opener, staging.firstChild);
+
+    if (isFirstInPart(ch) && ch.part !== "prologue") {
+      const banner = document.createElement("div");
+      banner.className = "part-banner-inline";
+      banner.innerHTML = `
+        <p class="part-banner-kicker">${partLabel(ch.part).split(" — ")[0]}</p>
+        <h3>${partLabel(ch.part).split(" — ").slice(1).join(" — ") || partLabel(ch.part)}</h3>
+      `;
+      staging.insertBefore(banner, staging.firstChild);
+    } else if (ch.id === "prologue") {
+      const banner = document.createElement("div");
+      banner.className = "part-banner-inline";
+      banner.innerHTML = `<p class="part-banner-kicker">The Signal Cycle · Book 1</p><h3>Prologue</h3>`;
+      staging.insertBefore(banner, staging.firstChild);
+    }
+
+    requestAnimationFrame(() => {
+      requestAnimationFrame(() => {
+        BookPages.paginate(staging, ch.prose);
+        TTS.onChapterLoaded(ch, $("#page-left-inner"), autoPlay);
+
+        let spread = settings.pageSpreads?.[id] ?? 0;
+        if (openLastSpread) spread = BookPages.spreadCount() - 1;
+        BookPages.goToSpread(spread);
+        updatePageIndicator(
+          BookPages.getSpreadIndex(),
+          BookPages.spreadCount(),
+          BookPages.totalPages()
+        );
+
+        $("#listen-toggle")?.classList.toggle("active", autoPlay || TTS.isContinuousListen());
+        const nextNav = getNavChapter(ch, "next");
+        if (nextNav) prefetchChapter(nextNav.id);
+      });
+    });
   } catch (err) {
-    body.className = "chapter-body";
-    body.innerHTML = `<p class="error">Could not load this chapter. Run <code>npm run setup</code> to copy manuscript files.</p>`;
+    staging.innerHTML = `<p class="error">Could not load this chapter. Run <code>npm run setup</code> to copy manuscript files.</p>`;
+    BookPages.paginate(staging, false);
     console.error(err);
   }
-
-  setupNav($("#nav-prev"), getNavChapter(ch, "prev"), "prev");
-  setupNav($("#nav-next"), getNavChapter(ch, "next"), "next");
 
   document.title = `${ch.title} — ${book.title}`;
   $$(".toc-link").forEach((a) => {
@@ -640,28 +702,7 @@ async function showChapter(id) {
     if (a.dataset.id === id) a.scrollIntoView({ block: "nearest" });
   });
 
-  requestAnimationFrame(() => restoreScrollPosition(id));
   closeSidebar();
-}
-
-function setupNav(el, ch, dir) {
-  const titleEl = el.querySelector(".nav-title");
-  if (ch) {
-    el.href = `#${ch.id}`;
-    titleEl.textContent = ch.num != null ? `${ch.num}. ${ch.title}` : ch.title;
-    el.classList.remove("disabled");
-  } else {
-    el.href = "#";
-    titleEl.textContent =
-      dir === "prev"
-        ? settings.proseOnly
-          ? "Start of prose"
-          : "Beginning of book"
-        : settings.proseOnly
-          ? "End of prose"
-          : "End of book";
-    el.classList.add("disabled");
-  }
 }
 
 function onKey(e) {
@@ -717,12 +758,24 @@ function onKey(e) {
   const next = getNavChapter(ch, "next");
   const prev = getNavChapter(ch, "prev");
 
-  if ((e.key === "ArrowRight" || e.key === "j" || e.key === "J") && next) {
+  if (e.key === "ArrowRight" || e.key === "PageDown") {
+    e.preventDefault();
+    flipPage(1);
+    return;
+  }
+  if (e.key === "ArrowLeft" || e.key === "PageUp") {
+    e.preventDefault();
+    flipPage(-1);
+    return;
+  }
+
+  if ((e.key === "j" || e.key === "J") && next) {
     e.preventDefault();
     location.hash = next.id;
   }
-  if ((e.key === "ArrowLeft" || e.key === "k" || e.key === "K") && prev) {
+  if ((e.key === "k" || e.key === "K") && prev) {
     e.preventDefault();
+    sessionStorage.setItem("signal-open-last-spread", "1");
     location.hash = prev.id;
   }
 }

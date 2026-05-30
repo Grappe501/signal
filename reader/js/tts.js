@@ -43,12 +43,11 @@ const TTS = (() => {
   }
 
   function prepareSegments(bodyEl) {
-    const root = stripMarkdown(bodyEl.innerHTML);
-    bodyEl.innerHTML = root.innerHTML;
+    const blocks = window.BookPages?.allBlocks?.().length
+      ? window.BookPages.allBlocks()
+      : Array.from(bodyEl.querySelectorAll("p, li, blockquote, h2, h3, h4, pre, table, .chapter-opener, .part-banner-inline"));
 
     segments = [];
-    const blocks = bodyEl.querySelectorAll("p, li, blockquote, h2, h3");
-
     blocks.forEach((el) => {
       const text = el.textContent.replace(/\s+/g, " ").trim();
       if (text.length < 2) return;
@@ -64,7 +63,7 @@ const TTS = (() => {
     document.querySelectorAll(".tts-active").forEach((el) => el.classList.remove("tts-active"));
     if (segments[i]?.el) {
       segments[i].el.classList.add("tts-active");
-      segments[i].el.scrollIntoView({ behavior: "smooth", block: "center" });
+      if (window.BookPages) BookPages.showSpreadContaining(segments[i].el);
     }
     const seg = $("tts-segment");
     if (seg) seg.textContent = segments.length ? `${i + 1} / ${segments.length}` : "0 / 0";
@@ -93,13 +92,11 @@ const TTS = (() => {
   }
 
   function showPanel() {
-    $("tts-panel")?.classList.remove("hidden");
     document.body.classList.add("tts-active");
   }
 
   function hidePanel() {
     stop(true);
-    $("tts-panel")?.classList.add("hidden");
     document.body.classList.remove("tts-active");
     document.getElementById("listen-toggle")?.classList.remove("active");
   }
@@ -107,10 +104,6 @@ const TTS = (() => {
   function updateContinuousUi() {
     const toggle = $("tts-continuous");
     if (toggle) toggle.checked = continuousListen;
-    const label = $("tts-label");
-    if (label) {
-      label.textContent = continuousListen ? "Listening · whole book" : "Listening";
-    }
   }
 
   function setContinuousListen(on) {
@@ -497,14 +490,15 @@ const TTS = (() => {
   }
 
   function findSegmentFromScroll() {
-    const y = window.scrollY + window.innerHeight * 0.3;
     for (let i = 0; i < segments.length; i++) {
-      const rect = segments[i].el.getBoundingClientRect();
-      const top = rect.top + window.scrollY;
-      if (top <= y && top + rect.height >= y) return i;
+      const el = segments[i].el;
+      if (!el?.isConnected) continue;
+      const rect = el.getBoundingClientRect();
+      if (rect.top >= 0 && rect.top < window.innerHeight * 0.5) return i;
     }
-    for (let i = segments.length - 1; i >= 0; i--) {
-      if (segments[i].el.getBoundingClientRect().top + window.scrollY < y) return i;
+    const spread = BookPages?.getSpreadIndex?.() ?? 0;
+    for (let i = 0; i < segments.length; i++) {
+      if (BookPages.findSpreadForElement(segments[i].el) === spread) return i;
     }
     return 0;
   }
@@ -531,10 +525,13 @@ const TTS = (() => {
 
   function bindControls() {
     $("tts-play")?.addEventListener("click", toggle);
-    $("tts-stop")?.addEventListener("click", stop);
+    $("tts-stop")?.addEventListener("click", () => stop());
     $("tts-prev")?.addEventListener("click", prev);
     $("tts-next")?.addEventListener("click", next);
-    $("tts-close")?.addEventListener("click", hidePanel);
+
+    $("tts-continuous")?.addEventListener("change", (e) => {
+      setContinuousListen(e.target.checked);
+    });
 
     $("tts-rate")?.addEventListener("input", (e) => {
       const rate = parseFloat(e.target.value);
@@ -650,7 +647,7 @@ const TTS = (() => {
     consumeChapterAdvancing,
 
     isActive() {
-      return speaking || loading || !$("tts-panel")?.classList.contains("hidden");
+      return speaking || loading || continuousListen;
     },
   };
 })();

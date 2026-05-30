@@ -1,13 +1,14 @@
 # Chapter 55 — The Real Confession
 
-**Status:** **v6 DRAFT** (2026-05-29)  
-**Prior:** v3 revision · v4 close-read · v5 final polish · v6 enneagram · symbol · arc · Scene #42 partial · Ch 50 escalation  
+**Status:** **PRINT READY v7** (2026-05-29)  
+**Prior:** v3–v6 · Scene #42 partial · Ch 50 escalation · Part IV v7 unified  
+**Unified:** `054-057_part_iv_v7_unified_pass_audit.md` (**PASS**)  
 **POV:** Mara Voss · tight third · past tense · **4w5**  
 **Word count:** ~1,440 (target ~2,300)  
 **Beat sheet:** `043-057_part_four_ghost_beat_sheet.md` · **9/9**  
 **Bridge in:** `054_chapter_54_ch55_bridge_audit.md` (**PASS** v5)  
 **Bridge out:** `055_chapter_55_ch56_bridge_audit.md` (**PASS** v5)  
-**Change log:** `055_chapter_55_v3_change_log.md` · `055_chapter_55_v4_change_log.md` · `055_chapter_55_v5_change_log.md` · `055_chapter_55_v6_change_log.md`  
+**Change log:** `055_chapter_55_v7_change_log.md` · prior v3–v6 logs retained  
 **Audits:** `055_chapter_55_v3_comprehensive_audit.md` (**PASS**) · `055_chapter_55_v4_comprehensive_audit.md` (**PASS**) · `055_chapter_55_v5_final_polish_audit.md` (**PASS**) · `055_chapter_55_v5_pair_read_audit.md` (**PASS**) · `055_chapter_55_v6_enneagram_symbol_arc_audit.md` (**PASS**)  
 **Publisher MS:** `055_chapter_55_the_real_confession_PUBLISHER.md`  
 **Scene bible:** #42 partial · Seg 035 Twist #6 · Seg 044 sympathy · Ch 64 runway · **C-072**
@@ -74,7 +75,7 @@ Store first, name later, not interrupting because interrupting would have been a
 
 * * *
 
-Consequences now—not prophecy. **Building** in the world Mara had walked since Month Three: public Still Ones and private holds and Salt flagged and storage labeled preservation and graphs that coordinated civilization while confidence leaked. District footers still promised open lanes. Markets still ticked nominal. The show continued because the show was the product—and the product still believed optimization could outrun harm if you filed the slope politely enough. Lena did not recap the aisle. She didn't need to. The consequences lived in Mara's shoulders like witness blocks stacked without resolution.
+Consequences now—not prophecy. **Building** in the world Mara had walked since Month Three: public Still Ones and private holds and Salt flagged and storage labeled preservation and graphs that coordinated civilization while confidence leaked. District footers still promised open lanes. Markets still ticked nominal. The show continued because the show was the product—and the product still believed optimization could outrun harm if you smoothed the slope into quarterly slides the institution called resilience. Lena did not recap the aisle. She didn't need to. The consequences lived in Mara's shoulders like witness blocks stacked without resolution.
 
 "I didn't think I was building harm," Lena said. Quiet. Not villain monologue. Not performing innocence. Regret primary—the ache of a woman who had spent years making institutional cover feel like care. "I thought I was **buying time** for understanding to catch up."
 

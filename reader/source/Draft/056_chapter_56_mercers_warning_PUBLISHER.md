@@ -1,6 +1,5 @@
 # Chapter 56
 
-
 The stairwell knew him before the room did.
 
 Month Four, week twenty. Another rotation—not Cord Junction, not the Month Four week eighteen pocket where the third body had pulsed on paper patient as weather, but the same grammar: dead relay, manual switch, dictionary under a stripped laptop, paper that did not sync. Mercer had learned to rent fear by the week in buildings the Spine forgot to polish. Four months off-grid had not made him heroic. It had made him **hunted**—charm spent, public brilliance archived in channels he no longer touched, reduced to maintenance, listening, and the particular exhaustion of a man who had asked a question the map refused to answer and received silence that was **answer enough**.
@@ -77,7 +76,7 @@ He pulled printouts from tape, folded wrong, slid them into the go-bag beside ca
 
 He did not call Investigator Voss. He did not call anyone.
 
-The radio murmured **CONTINUITY REASSURED** from the corner where radios lied slower than feeds. City smooth at a distance through the narrow window—Spine polish, open lanes, mild weather, the product still believing confidence bands could rise again if you filed the slope politely enough.
+The radio murmured **CONTINUITY REASSURED** from the corner where radios lied slower than feeds. City smooth at a distance through the narrow window—Spine polish, open lanes, mild weather, the product still believing confidence bands could rise again if you renamed the curve as recovery in footers people had stopped reading.
 
 Mercer crossed to the door and listened again.
 
@@ -96,3 +95,5 @@ Warning without delivery.
 He did not look back at the desk where the deleted message was already memory.
 
 Dark held. The city did not reply.
+
+---

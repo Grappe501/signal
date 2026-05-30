@@ -1,7 +1,7 @@
 # Chapter 56 — Mercer's Warning
 
 **Segment:** 054 · Part IV v2  
-**Status:** **v6 DRAFT** — sequence map · prose complete (2026-05-29)  
+**Status:** **PRINT READY v7** — sequence map · prose complete (2026-05-29)  
 **POV:** Eli Mercer · tight third · past tense  
 **Part:** IV — **Movement III · Inevitability**
 

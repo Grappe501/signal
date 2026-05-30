@@ -1,8 +1,9 @@
 # Chapter 57 → Chapter 58 Bridge Audit
 
-**Status:** **PASS** (v5 · 2026-05-29)  
-**Chapter 57:** `057_chapter_57_the_ghost_in_the_system.md` · **v6 DRAFT** (~1,346 w)  
-**Chapter 58:** `058_chapter_58_the_first_fall.md` · **PRINT READY v8** (~1,835 w)
+**Status:** **PASS** (v7 re-sign · 2026-05-29)  
+**Chapter 57:** `057_chapter_57_the_ghost_in_the_system.md` · **PRINT READY v7** (~1,433 w)  
+**Chapter 58:** `058_chapter_58_the_first_fall.md` · **PRINT READY v8** (~1,835 w)  
+**Unified:** `054-057_part_iv_v7_unified_pass_audit.md` · Ch 57 v7 handoff expansion
 
 ---
 

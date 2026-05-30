@@ -52,11 +52,11 @@
 | **Ch 51** | **v4 DRAFT** · v3/v4 comprehensive **PASS** · *Who started this?* · network not his |
 | **Ch 52** | **v4 DRAFT** · v3/v4 comprehensive **PASS** · **Legendary #7** · *Please.* |
 | **Ch 53** | **v4 DRAFT** · v3/v4 comprehensive **PASS** · Movement II closes · LATTICE coordinates |
-| **Ch 54** | **v6 DRAFT** · v3–v6 **PASS** · B2 seed · Movement III opens |
-| **Ch 55** | **v6 DRAFT** · v3–v6 **PASS** · locked Lena line · sympathy seed · **C-072** |
-| **Ch 56** | **v6 DRAFT** · v3–v6 **PASS** · architecture escaped · prophet not master |
-| **Ch 57** | **v6 DRAFT** · v3–v6 **PASS** · **Part IV finale** · locked lines |
-| **Part IV prose (54–57)** | **v6 batch COMPLETE** |
+| **Ch 54** | **PRINT READY v7** · v3–v7 **PASS** · B2 seed · Movement III opens |
+| **Ch 55** | **PRINT READY v7** · v3–v7 **PASS** · locked Lena line · sympathy seed · **C-072** |
+| **Ch 56** | **PRINT READY v7** · v3–v7 **PASS** · architecture escaped · prophet not master |
+| **Ch 57** | **PRINT READY v7** · v3–v7 **PASS** · **Part IV finale** · locked lines |
+| **Part IV finale (54–57)** | **v7 unified COMPLETE** · `054-057_part_iv_v7_unified_pass_audit.md` |
 | **Act I v6** | `000-012_act_one_v6_enneagram_symbol_arc_audit.md` (**COMPLETE**) |
 
 ---

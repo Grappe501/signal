@@ -1,7 +1,7 @@
 # Chapter 57 — The Ghost in the System
 
 **Segment:** 054 · Part IV v2  
-**Status:** **v6 DRAFT** — sequence map · prose complete (2026-05-29) · **Part IV finale**  
+**Status:** **PRINT READY v7** — sequence map · prose complete (2026-05-29) · **Part IV finale**  
 **POV:** Mara Voss · tight third · past tense · **Part IV finale**  
 **Part:** IV — **Movement III · Inevitability** · **Part IV closes**
 
@@ -16,7 +16,7 @@
 | **Echo pair** | **Ch 53** nobody in charge seed · **Ch 58** First Fall · **Prologue** billions watch |
 | **Registry** | `052_part_four_chapter_registry.md` · Part IV **finale** |
 | **Character bible** | Mara **4w5** · `056_color_symbolism_chapter_continuity_map.md` Ch 57 palette |
-| **Handoff out** | Ch 58 *The First Fall* · **LOCKED · PRINT READY v5** |
+| **Handoff out** | Ch 58 *The First Fall* · **PRINT READY v8** · v7 bridge re-sign |
 
 ---
 
