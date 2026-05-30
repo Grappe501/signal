@@ -1,5 +1,5 @@
 /* Service worker — offline app shell + cache visited chapters */
-const CACHE_VERSION = "signal-reader-v5";
+const CACHE_VERSION = "signal-reader-v6";
 const SHELL = [
   "/",
   "/index.html",

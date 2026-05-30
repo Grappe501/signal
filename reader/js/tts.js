@@ -37,6 +37,10 @@ const TTS = (() => {
   let hostedTimeline = null;
   let hostedChapterEntry = null;
   let hostedFileIndex = 0;
+  let cuePlaylist = null;
+  let cuePlaylistIndex = 0;
+  let currentPlaylistItem = null;
+  let cueSpokenWordOffset = 0;
   let onPrevChapter = null;
   let onNextChapter = null;
   let onPrefetchChapter = null;
@@ -155,6 +159,9 @@ const TTS = (() => {
     document.querySelectorAll(".tts-sentence-active").forEach((el) => {
       el.classList.remove("tts-sentence-active");
     });
+    document.querySelectorAll(".tts-word-active").forEach((el) => {
+      el.classList.remove("tts-word-active");
+    });
   }
 
   function estimateUtteranceMs(text, rate = 1) {
@@ -162,22 +169,22 @@ const TTS = (() => {
     return Math.max(400, (text.length / charsPerSec) * 1000);
   }
 
-  function startSentencePulse(cue, chunkText) {
+  function startWordPulse(cue, chunkText) {
     stopSentencePulse();
     if (engine() !== "browser" || !cue?.spanEl || typeof ListenScript === "undefined") return;
-    const sents = cue.spanEl.querySelectorAll(".tts-sentence");
-    if (sents.length < 2) return;
+    const chunkWords = ListenScript.tokenizeWords(chunkText);
+    if (!chunkWords.length) return;
     const rate = getSettings().speechRate || 1;
-    const ms = estimateUtteranceMs(chunkText, rate) / sents.length;
-    let si = 0;
-    ListenScript.highlightSentence(cue.spanEl, 0);
+    const ms = estimateUtteranceMs(chunkText, rate) / chunkWords.length;
+    let wi = 0;
+    ListenScript.highlightWord(cue.spanEl, cueSpokenWordOffset);
     sentencePulseTimer = setInterval(() => {
-      si++;
-      if (si >= sents.length) {
+      if (wi >= chunkWords.length) {
         stopSentencePulse();
         return;
       }
-      ListenScript.highlightSentence(cue.spanEl, si);
+      ListenScript.highlightWord(cue.spanEl, cueSpokenWordOffset + wi);
+      wi++;
     }, ms);
   }
 
@@ -211,19 +218,27 @@ const TTS = (() => {
 
     if (inline) inline.textContent = statusLabel();
 
-    if (audio && audio.duration > 0 && isFilePlayback()) {
+    const cueMode = cuePlaylist?.length > 0;
+    const totalDur = cueMode
+      ? HostedAudio.playlistDuration(cuePlaylist)
+      : audio?.duration || 0;
+    const curPos = cueMode
+      ? HostedAudio.playlistPosition(cuePlaylist, cuePlaylistIndex, audio?.currentTime || 0)
+      : audio?.currentTime || 0;
+
+    if (totalDur > 0 && (isFilePlayback() || cueMode)) {
       if (scrub && !scrubbing) {
-        scrub.disabled = false;
-        scrub.value = String(Math.round((audio.currentTime / audio.duration) * 1000));
+        scrub.disabled = totalDur <= 0;
+        scrub.value = String(Math.round((curPos / totalDur) * 1000));
       }
       if (elapsed) {
         elapsed.textContent =
           typeof AudioTimeline !== "undefined"
-            ? AudioTimeline.formatTime(audio.currentTime)
+            ? AudioTimeline.formatTime(curPos)
             : "0:00";
       }
       if (remaining) {
-        const left = Math.max(0, audio.duration - audio.currentTime);
+        const left = Math.max(0, totalDur - curPos);
         remaining.textContent =
           typeof AudioTimeline !== "undefined"
             ? `−${AudioTimeline.formatTime(left)}`
@@ -271,7 +286,112 @@ const TTS = (() => {
     highlightCue(pos.segment, pos.cue);
     const cue = segments[pos.segment]?.cues?.[pos.cue];
     if (cue?.spanEl && typeof ListenScript !== "undefined") {
-      ListenScript.highlightSentence(cue.spanEl, pos.sentence || 0);
+      if (pos.word != null) {
+        ListenScript.highlightWord(cue.spanEl, pos.word);
+      } else {
+        ListenScript.highlightSentence(cue.spanEl, pos.sentence || 0);
+      }
+    }
+  }
+
+  function onCueFileTimeUpdate() {
+    if (!audio || !currentPlaylistItem?.words?.length) return;
+    const wi =
+      typeof ListenScript !== "undefined"
+        ? ListenScript.locateWordIndex(currentPlaylistItem.words, audio.currentTime)
+        : 0;
+    const cue = segments[index]?.cues?.[cueIndex];
+    if (cue?.spanEl) {
+      ListenScript.highlightWord(cue.spanEl, wi);
+    }
+    updatePlaybackUi();
+    if (typeof AudioSession !== "undefined" && cuePlaylist?.length) {
+      const total = HostedAudio.playlistDuration(cuePlaylist);
+      const pos = HostedAudio.playlistPosition(
+        cuePlaylist,
+        cuePlaylistIndex,
+        audio.currentTime
+      );
+      AudioSession.setPositionState(total, pos, audio.playbackRate || 1);
+    }
+  }
+
+  function findPlaylistIndex(seg, cue) {
+    if (!cuePlaylist) return 0;
+    const idx = cuePlaylist.findIndex(
+      (item) => item.segment === seg && item.cue === cue && item.type === "speech"
+    );
+    if (idx >= 0) return idx;
+    const fallback = cuePlaylist.findIndex((item) => item.type === "speech");
+    return fallback >= 0 ? fallback : 0;
+  }
+
+  async function playCuePlaylistItem(pi) {
+    if (!cuePlaylist || pi >= cuePlaylist.length) {
+      finishHostedChapter();
+      return;
+    }
+
+    const item = cuePlaylist[pi];
+    cuePlaylistIndex = pi;
+    currentPlaylistItem = item;
+    index = item.segment ?? index;
+    cueIndex = item.cue ?? cueIndex;
+
+    if (item.type === "pause") {
+      highlightCue(index, cueIndex);
+      setStatus("Scene break");
+      const delay = Math.round((item.pauseAfter || 0.85) * 1000);
+      setTimeout(() => playCuePlaylistItem(pi + 1), delay);
+      return;
+    }
+
+    highlightCue(index, cueIndex, 0);
+    releaseAudio();
+    loading = true;
+    updatePlayBtn();
+
+    const url = HostedAudio.audioUrl(item.file);
+    audio = new Audio(url);
+    audio.preload = "auto";
+    audio.playsInline = true;
+    audio.setAttribute("playsinline", "");
+    audio.playbackRate = getSettings().speechRate || 1;
+    applyAudioVolume();
+    chapterTimeline = null;
+
+    audio.ontimeupdate = onCueFileTimeUpdate;
+    audio.onended = () => {
+      stopSentencePulse();
+      const gap = Math.round((item.pauseAfter || 0.15) * 1000);
+      setTimeout(() => playCuePlaylistItem(pi + 1), gap);
+    };
+    audio.onerror = () => {
+      speaking = false;
+      loading = false;
+      setStatus("Cue audio error");
+      updatePlayBtn();
+      playCuePlaylistItem(pi + 1);
+    };
+
+    try {
+      await audio.play();
+      speaking = true;
+      paused = false;
+      loading = false;
+      requestWakeLock();
+      if (chapterMeta) updateMediaSession(chapterMeta);
+      setStatus(
+        item.speakerLabel
+          ? `Hosted · ${item.speakerLabel}`
+          : `Hosted · cue ${pi + 1}/${cuePlaylist.length}`
+      );
+      updatePlayBtn();
+      updatePlaybackUi();
+      armSleepTimer();
+    } catch {
+      loading = false;
+      updatePlayBtn();
     }
   }
 
@@ -293,8 +413,30 @@ const TTS = (() => {
   }
 
   function seekToRatio(ratio) {
+    const r = Math.max(0, Math.min(1, ratio));
+    if (cuePlaylist?.length) {
+      const total = HostedAudio.playlistDuration(cuePlaylist);
+      const target = r * total;
+      let acc = 0;
+      for (let i = 0; i < cuePlaylist.length; i++) {
+        const item = cuePlaylist[i];
+        const span =
+          item.type === "pause" ? item.pauseAfter || 0 : item.duration || 0;
+        if (acc + span >= target) {
+          playCuePlaylistItem(i);
+          if (item.type === "speech" && audio?.duration) {
+            audio.currentTime = Math.max(0, target - acc);
+            onCueFileTimeUpdate();
+          }
+          return;
+        }
+        acc += span;
+      }
+      playCuePlaylistItem(cuePlaylist.length - 1);
+      return;
+    }
     if (!audio?.duration) return;
-    audio.currentTime = Math.max(0, Math.min(1, ratio)) * audio.duration;
+    audio.currentTime = r * audio.duration;
     onFileTimeUpdate();
   }
 
@@ -328,8 +470,8 @@ const TTS = (() => {
         : "Plain device voice. Enable Smart narration below for audiobook pacing.";
     } else if (engine() === "hosted") {
       hint.textContent = hostedAvailable
-        ? "Self-hosted Piper · timing sidecar sync when present · prefetch next chapter."
-        : "No audio/manifest.json yet. Run npm run piper:batch locally, deploy reader/audio/.";
+        ? "Hosted Piper · per-cue dialogue (--mode cue) + word-level read-along."
+        : "No audio/manifest.json yet. Run npm run piper:batch -- --mode cue";
     } else if ((getSettings().ttsEngine || "auto") === "auto") {
       hint.textContent = hostedAvailable
         ? "Auto → Hosted Piper (deployed). Falls back to device voice."
@@ -444,7 +586,7 @@ const TTS = (() => {
     if (typeof AudioSession !== "undefined") AudioSession.clear();
   }
 
-  function highlightCue(segIndex, cueIdx = 0) {
+  function highlightCue(segIndex, cueIdx = 0, wordIdx = null) {
     document.querySelectorAll(".tts-cue-active").forEach((el) => el.classList.remove("tts-cue-active"));
     document.querySelectorAll(".tts-active").forEach((el) => el.classList.remove("tts-active"));
 
@@ -458,6 +600,9 @@ const TTS = (() => {
     if (cue?.spanEl?.isConnected) {
       cue.spanEl.classList.add("tts-cue-active");
       focusEl = cue.spanEl;
+      if (wordIdx != null && typeof ListenScript !== "undefined") {
+        ListenScript.highlightWord(cue.spanEl, wordIdx);
+      }
     } else if (cue?.role !== "sceneBreak") {
       const span = blockEl.querySelector(`[data-tts-cue="${cueIdx}"]`);
       if (span) {
@@ -612,6 +757,10 @@ const TTS = (() => {
     clearMediaSession();
     lastTimelinePos = { segment: -1, cue: -1, sentence: -1 };
     chapterTimeline = null;
+    cuePlaylist = null;
+    cuePlaylistIndex = 0;
+    currentPlaylistItem = null;
+    cueSpokenWordOffset = 0;
     updatePlaybackUi();
     if (engine() === "browser") speechSynthesis.cancel();
     releaseAudio();
@@ -667,6 +816,7 @@ const TTS = (() => {
 
   function beginCue(cue) {
     currentCue = cue;
+    cueSpokenWordOffset = 0;
     const seg = segments[index];
     if (seg?.cues?.length) {
       const idx = seg.cues.indexOf(cue);
@@ -739,7 +889,7 @@ const TTS = (() => {
       loading = false;
       updatePlayBtn();
       highlightCue(index, cueIndex);
-      startSentencePulse(currentCue, textChunks[chunkIndex]);
+      startWordPulse(currentCue, textChunks[chunkIndex]);
       const tag = statusLabel();
       const progress =
         seg.cues.length > 1 || textChunks.length > 1
@@ -754,6 +904,9 @@ const TTS = (() => {
     };
 
     utt.onend = () => {
+      if (typeof ListenScript !== "undefined" && currentCue) {
+        cueSpokenWordOffset += ListenScript.tokenizeWords(textChunks[chunkIndex]).length;
+      }
       chunkIndex++;
       if (chunkIndex < textChunks.length) {
         setTimeout(speakBrowserChunk, isAppleTouch() ? 120 : 30);
@@ -1165,12 +1318,27 @@ const TTS = (() => {
       return;
     }
     const entry = await HostedAudio.chapterEntry(chapterMeta?.id);
-    if (!entry?.file && !hostedSpeechFiles(entry).length) {
-      setStatus("No hosted file — run npm run piper:batch");
+    if (!entry?.file && !hostedSpeechFiles(entry).length && !entry?.cues?.length) {
+      setStatus("No hosted audio — npm run piper:batch -- --mode cue");
       if ("speechSynthesis" in window) speakBrowser();
       return;
     }
     hostedChapterEntry = entry;
+
+    if (entry.mode === "cue" && entry.cues?.length) {
+      cuePlaylist = HostedAudio.buildCuePlaylist(entry, segments);
+      if (!cuePlaylist?.length) {
+        setStatus("Cue manifest mismatch — rebatch or use browser");
+        if ("speechSynthesis" in window) speakBrowser();
+        return;
+      }
+      const startIdx = findPlaylistIndex(index, cueIndex);
+      playCuePlaylistItem(startIdx);
+      return;
+    }
+
+    cuePlaylist = null;
+
     if (entry.mode === "segment" && hostedSpeechFiles(entry).length) {
       const files = hostedSpeechFiles(entry);
       if (typeof AudioTimeline !== "undefined") {
@@ -1325,6 +1493,10 @@ const TTS = (() => {
   }
 
   function prev() {
+    if (cuePlaylist?.length && cuePlaylistIndex > 0) {
+      playCuePlaylistItem(cuePlaylistIndex - 1);
+      return;
+    }
     if (index > 0) {
       index--;
       play(index);
@@ -1332,6 +1504,10 @@ const TTS = (() => {
   }
 
   function next() {
+    if (cuePlaylist?.length && cuePlaylistIndex < cuePlaylist.length - 1) {
+      playCuePlaylistItem(cuePlaylistIndex + 1);
+      return;
+    }
     if (index < segments.length - 1) {
       index++;
       play(index);

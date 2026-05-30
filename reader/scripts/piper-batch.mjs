@@ -5,6 +5,7 @@
  *   npm run piper:check
  *   npm run piper:batch
  *   npm run piper:batch -- --chapter ch-01
+ *   npm run piper:batch -- --mode cue
  *   npm run piper:batch -- --mode segment --limit 3
  *
  * Requires: piper on PATH, voice .onnx + .onnx.json in reader/voices/ or PIPER_MODEL
@@ -23,7 +24,8 @@ import { join, dirname, basename } from "path";
 import { fileURLToPath } from "url";
 import { CHAPTERS } from "./chapters.mjs";
 import { chapterSpeechPayload } from "./speech-text.mjs";
-import { probeDuration, buildChapterTimingSidecar } from "./audio-timing.mjs";
+import { buildChapterCuePlan } from "./listen-director.mjs";
+import { probeDuration, buildChapterTimingSidecar, buildWordTimings } from "./audio-timing.mjs";
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, "..");
@@ -174,9 +176,80 @@ function main() {
 
   let built = 0;
   for (const ch of chapters) {
-    const payload = chapterSpeechPayload(ch.id);
+    const payload = chapterSpeechPayload(ch.id, ch.pov);
     if (!payload?.fullText) {
       console.warn(`skip ${ch.id}: no content`);
+      continue;
+    }
+
+    if (args.mode === "cue") {
+      const plan = buildChapterCuePlan(ch.pov, payload.blocks);
+      const cueDir = join(AUDIO_DIR, ch.id, "cues");
+      if (!args.dryRun) mkdirSync(cueDir, { recursive: true });
+      const manifestCues = [];
+      let totalDur = 0;
+
+      for (const block of plan) {
+        for (let ci = 0; ci < block.cues.length; ci++) {
+          const cue = block.cues[ci];
+          if (cue.role === "sceneBreak") {
+            const pause = cue.pauseAfter / 1000;
+            manifestCues.push({
+              segment: block.segment,
+              cue: ci,
+              kind: "break",
+              pauseAfter: pause,
+              text: "",
+            });
+            totalDur += pause;
+            continue;
+          }
+
+          const fname = `s${String(block.segment).padStart(4, "0")}-c${String(ci).padStart(2, "0")}.${ext}`;
+          const rel = `${ch.id}/cues/${fname}`;
+          const outPath = join(AUDIO_DIR, rel);
+          let dur = 0;
+          let words = [];
+
+          if (!args.dryRun) {
+            const wavPath = outPath.replace(/\.mp3$/, ".wav");
+            runPiper(args.piper, model, cue.text, wavPath.endsWith(".wav") ? wavPath : outPath);
+            if (useMp3) {
+              wavToMp3(args.ffmpeg, wavPath, outPath);
+              rmSync(wavPath, { force: true });
+            }
+            dur = probeDuration(args.ffprobe, outPath);
+            words = buildWordTimings(cue.text, dur);
+          }
+
+          totalDur += dur + cue.pauseAfter / 1000;
+          manifestCues.push({
+            segment: block.segment,
+            cue: ci,
+            kind: "speech",
+            role: cue.role,
+            file: rel,
+            duration: dur,
+            bytes: args.dryRun ? 0 : fileSize(outPath),
+            text: cue.text,
+            speakerLabel: cue.speakerLabel || null,
+            words,
+            pauseAfter: cue.pauseAfter / 1000,
+          });
+          built++;
+          console.log(
+            `  ${ch.id} s${block.segment} c${ci} [${cue.role}] ${cue.text.slice(0, 44)}…`
+          );
+        }
+      }
+
+      manifest.version = 3;
+      manifest.chapters[ch.id] = {
+        mode: "cue",
+        cues: manifestCues,
+        duration: totalDur,
+        cueCount: manifestCues.filter((c) => c.file).length,
+      };
       continue;
     }
 

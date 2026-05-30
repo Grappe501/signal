@@ -13,6 +13,27 @@ export function probeDuration(ffprobe, filePath) {
   }
 }
 
+export function tokenizeWords(text) {
+  if (!text?.trim()) return [];
+  return text.trim().match(/\S+/g) || [];
+}
+
+/** Proportional word timings from measured cue duration (ffprobe). */
+export function buildWordTimings(text, duration) {
+  const words = tokenizeWords(text);
+  if (!words.length) return [];
+  const weights = words.map((w) => Math.max(1, w.replace(/[^\w]/g, "").length || 1));
+  const total = weights.reduce((a, b) => a + b, 0) || 1;
+  const usable = Math.max(0.05, duration * 0.98);
+  let t = 0;
+  return words.map((word, i) => {
+    const dur = (weights[i] / total) * usable;
+    const start = t;
+    t += dur;
+    return { word, start, end: t };
+  });
+}
+
 export function buildChapterTimingSidecar(blocks, duration) {
   const speech = blocks.filter((b) => b.kind === "speech" && b.text);
   const totalChars = speech.reduce((s, b) => s + b.text.length, 0) || 1;

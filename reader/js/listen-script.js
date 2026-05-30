@@ -346,13 +346,29 @@ const ListenScript = (() => {
       .replace(/"/g, "&quot;");
   }
 
+  function tokenizeWords(text) {
+    if (!text?.trim()) return [];
+    return text.trim().match(/\S+/g) || [];
+  }
+
+  function wordsHtml(text) {
+    const words = tokenizeWords(text);
+    if (!words.length) return escapeHtml(text);
+    return words
+      .map(
+        (w, i) =>
+          `<span class="tts-word" data-tts-word="${i}">${escapeHtml(w)}</span>`
+      )
+      .join(" ");
+  }
+
   function sentencesHtml(text) {
     const parts = text.split(/(?<=[.!?…])\s+/).filter((p) => p.trim().length > 1);
-    if (parts.length < 2) return escapeHtml(text);
+    if (parts.length < 2) return wordsHtml(text);
     return parts
       .map(
         (s, i) =>
-          `<span class="tts-sentence" data-tts-sent="${i}">${escapeHtml(s.trim())}</span>`
+          `<span class="tts-sentence" data-tts-sent="${i}">${wordsHtml(s.trim())}</span>`
       )
       .join(" ");
   }
@@ -388,6 +404,13 @@ const ListenScript = (() => {
       c.spanEl = el.querySelector(`[data-tts-cue="${cueIdx}"]`);
       const sentences = c.spanEl?.querySelectorAll(".tts-sentence");
       c.sentenceCount = sentences?.length || 1;
+      c.wordCount = c.spanEl?.querySelectorAll(".tts-word").length || tokenizeWords(c.text).length;
+    });
+  }
+
+  function clearWordHighlights(root) {
+    (root || document).querySelectorAll(".tts-word-active").forEach((n) => {
+      n.classList.remove("tts-word-active");
     });
   }
 
@@ -396,11 +419,41 @@ const ListenScript = (() => {
     cueSpan.querySelectorAll(".tts-sentence-active").forEach((n) => {
       n.classList.remove("tts-sentence-active");
     });
+    clearWordHighlights(cueSpan);
     const sent = cueSpan.querySelector(`[data-tts-sent="${sentenceIdx}"]`);
     if (sent) {
       sent.classList.add("tts-sentence-active");
       sent.scrollIntoView({ block: "nearest", behavior: "smooth" });
     }
+  }
+
+  function highlightWord(cueSpan, wordIdx, sentenceIdx = null) {
+    if (!cueSpan) return;
+    clearWordHighlights(cueSpan);
+    cueSpan.querySelectorAll(".tts-sentence-active").forEach((n) => {
+      n.classList.remove("tts-sentence-active");
+    });
+    let word = null;
+    if (sentenceIdx != null) {
+      word = cueSpan.querySelector(
+        `[data-tts-sent="${sentenceIdx}"] [data-tts-word="${wordIdx}"]`
+      );
+    }
+    if (!word) {
+      word = cueSpan.querySelector(`[data-tts-word="${wordIdx}"]`);
+    }
+    if (word) {
+      word.classList.add("tts-word-active");
+      word.scrollIntoView({ block: "nearest", behavior: "smooth" });
+    }
+  }
+
+  function locateWordIndex(words, time) {
+    if (!words?.length) return 0;
+    for (let i = words.length - 1; i >= 0; i--) {
+      if (time >= (words[i].start ?? 0)) return i;
+    }
+    return 0;
   }
 
   function restoreElementMarkup(el) {
@@ -415,6 +468,7 @@ const ListenScript = (() => {
     el.querySelectorAll?.(".tts-cue")?.forEach((span) => {
       span.classList.remove("tts-cue-active");
     });
+    clearWordHighlights(el);
   }
 
   function restoreChapterMarkup(root) {
@@ -529,6 +583,9 @@ const ListenScript = (() => {
     buildSegments,
     annotateCuesInElement,
     highlightSentence,
+    highlightWord,
+    locateWordIndex,
+    tokenizeWords,
     restoreChapterMarkup,
     normalizeText,
     flattenSegmentText,

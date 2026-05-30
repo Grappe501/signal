@@ -23,6 +23,25 @@ export function stripDraftMeta(md) {
   return lines.slice(i).join("\n").trim();
 }
 
+/** Same normalization as browser ListenScript (for text matching). */
+export function normalizeSpeechText(raw) {
+  let t = raw.replace(/\s+/g, " ").trim();
+  if (!t) return "";
+  t = t.replace(/\s*—\s*/g, ", ");
+  t = t.replace(/\s*–\s*/g, ", ");
+  t = t.replace(/\*\*([^*]+)\*\*/g, "$1");
+  t = t.replace(/\*([^*]+)\*/g, "$1");
+  const abbrevs = [
+    [/\bCIB\b/gi, "C I B"],
+    [/\bSTA\b/gi, "S T A"],
+    [/\bHVI\b/gi, "H V I"],
+    [/\bPOV\b/gi, "point of view"],
+    [/\bAI\b/g, "A I"],
+  ];
+  for (const [re, rep] of abbrevs) t = t.replace(re, rep);
+  return t.trim();
+}
+
 export function markdownToPlainText(md) {
   let text = stripDraftMeta(md);
   text = text.replace(/```[\s\S]*?```/g, " ");
@@ -80,11 +99,12 @@ export function readChapterMarkdown(chapterId) {
   return readFileSync(path, "utf8");
 }
 
-export function chapterSpeechPayload(chapterId) {
+export function chapterSpeechPayload(chapterId, pov = "Mara Voss") {
   const md = readChapterMarkdown(chapterId);
   if (!md) return null;
   return {
     id: chapterId,
+    pov,
     fullText: markdownToPlainText(md),
     blocks: blocksFromMarkdown(md),
   };

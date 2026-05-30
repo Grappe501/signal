@@ -17,14 +17,17 @@ npm run piper:batch    # one file per chapter → audio/ch-01.mp3, …
 
 4. Deploy the `reader/` folder including `audio/manifest.json` and the audio files (Netlify, S3, etc.).
 
-## Modes
+## Modes (best → good)
 
 | Mode | Command | Output | Reader sync |
 |------|---------|--------|-------------|
-| **chapter** (default) | `npm run piper:batch` | `audio/ch-01.mp3` + `ch-01.timing.json` | Read-along via **timing sidecar** (ffprobe duration) |
-| **segment** | `npm run piper:batch -- --mode segment` | `audio/ch-01/0000.mp3` per paragraph | Per-file duration in manifest; scrub + ¶ advance |
+| **cue** (recommended) | `npm run piper:batch` or `npm run piper:batch:cues` | `audio/ch-01/cues/s0000-c00.mp3` per narration/dialogue cue | **Dialogue-perfect** + **word-level** highlight |
+| **chapter** | `npm run piper:batch:chapter` | `audio/ch-01.mp3` + `ch-01.timing.json` | Chapter scrubber + timing sidecar |
+| **segment** | `npm run piper:batch -- --mode segment` | `audio/ch-01/0000.mp3` per paragraph | Paragraph-level |
 
-After batch, manifest is **v2** with `duration` and `timing` paths. Re-run batch when prose changes.
+**Cue mode** uses the same dialogue splitter as the reader (`listen-director.mjs` ↔ `listen-script.js`). Each quoted line and narration beat gets its own Piper file. `words` in the manifest carry per-word timings (from ffprobe duration).
+
+Manifest **v3** for cue mode. Re-run batch when prose changes.
 
 ## Useful flags
 

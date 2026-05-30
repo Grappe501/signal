@@ -73,6 +73,13 @@ Settings key: `signal-reader-v3.3` (includes `bookmarks` array).
 
 **Hosted (Piper MP3)** — optional self-hosted narration (`npm run piper:batch`); see `audio/README.md`. No API cost; deploy `reader/audio/` with your site (~2–4 GB full book).
 
+## v6 — Dialogue-perfect audio (cue + word sync)
+
+- **Piper per-cue** — `npm run piper:batch:cues` renders every narration/dialogue beat (`--mode cue`, manifest v3)
+- **Word-level read-along** — active word highlights during hosted cues and device voice
+- **Text-matched alignment** — manifest cues align to DOM by spoken text (handles chapter opener offset)
+- **Chapter scrubber** works across cue playlists (seek jumps to the right cue)
+
 ## v5 — Major audio upgrade
 
 - **Auto engine** — picks Hosted Piper when deployed, else smart device voice

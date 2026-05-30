@@ -1555,6 +1555,18 @@ body.layout-spread .tap-zone-right { flex: 0 0 18%; max-width: 18%; }
   -webkit-box-decoration-break: clone;
 }
 
+.tts-word {
+  border-radius: 2px;
+  transition: background 0.08s ease, color 0.08s ease;
+}
+
+.tts-word-active {
+  background: var(--signal-bright) !important;
+  color: var(--page-bg, #070b10) !important;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
 /* Block container: subtle frame; active line is the .tts-cue span */
 .tts-segment.tts-active:not(.tts-scene-break) {
   background: color-mix(in srgb, var(--signal-dim) 35%, transparent) !important;
